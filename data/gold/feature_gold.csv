@@ -1,0 +1,841 @@
+,city,latitude,longitude,date,weather_code,temperature_max,temperature_min,precipitation_sum,precipitation_probability,wind_speed_max,wind_gusts_max,temperature_category,precipitation_category,wind_category,risk_score,risk_level
+0,Casablanca,33.5992,-7.62,2026-09-15,45,28.7,21.7,0.0,0,11.0,31.0,Normal,None,Moderate,11.399999999999999,Very Low
+1,Casablanca,33.5992,-7.62,2026-09-16,45,25.9,21.0,0.0,0,14.0,36.4,Normal,None,Moderate,11.399999999999999,Very Low
+2,Casablanca,33.5992,-7.62,2026-09-17,3,25.8,19.9,0.0,0,11.7,33.5,Normal,None,Moderate,6.3999999999999995,Very Low
+3,Casablanca,33.5992,-7.62,2026-09-18,45,26.3,18.6,0.0,3,14.0,36.4,Normal,None,Moderate,11.715,Very Low
+4,Casablanca,33.5992,-7.62,2026-09-19,45,27.0,19.9,0.0,0,12.4,33.5,Normal,None,Moderate,11.399999999999999,Very Low
+5,Casablanca,33.5992,-7.62,2026-09-20,2,31.8,21.5,0.0,0,11.6,29.9,Hot,None,Moderate,5.5,Very Low
+6,Casablanca,33.5992,-7.62,2026-09-21,2,30.3,21.6,0.0,0,13.6,36.0,Hot,None,Moderate,10.899999999999999,Very Low
+7,Tangier,35.7767,-5.8039000000000005,2026-09-15,0,30.2,21.5,0.0,0,13.2,31.3,Hot,None,Moderate,9.899999999999999,Very Low
+8,Tangier,35.7767,-5.8039000000000005,2026-09-16,3,26.7,18.2,0.0,0,19.0,44.6,Normal,None,Moderate,6.3999999999999995,Very Low
+9,Tangier,35.7767,-5.8039000000000005,2026-09-17,3,26.1,16.6,0.0,0,12.0,28.8,Normal,None,Moderate,1.0,Very Low
+10,Tangier,35.7767,-5.8039000000000005,2026-09-18,3,28.4,20.3,0.0,8,18.3,44.3,Normal,None,Moderate,7.239999999999999,Very Low
+11,Tangier,35.7767,-5.8039000000000005,2026-09-19,1,27.7,21.9,0.0,0,31.1,73.8,Normal,None,Strong,22.599999999999998,Low
+12,Tangier,35.7767,-5.8039000000000005,2026-09-20,2,25.5,22.6,0.0,0,45.7,88.2,Normal,None,Very Strong,27.4,Low
+13,Tangier,35.7767,-5.8039000000000005,2026-09-21,2,25.6,21.9,0.0,0,42.9,80.6,Normal,None,Very Strong,27.4,Low
+14,Fès,34.0433,-5.0033,2026-09-15,1,34.5,23.8,0.0,0,14.7,37.8,Hot,None,Moderate,10.899999999999999,Very Low
+15,Fès,34.0433,-5.0033,2026-09-16,1,31.1,20.7,0.0,0,16.9,40.7,Hot,None,Moderate,10.899999999999999,Very Low
+16,Fès,34.0433,-5.0033,2026-09-17,3,29.5,18.7,0.0,5,11.7,31.3,Normal,None,Moderate,6.924999999999999,Very Low
+17,Fès,34.0433,-5.0033,2026-09-18,3,31.2,18.3,0.0,5,9.1,24.5,Hot,None,Low,6.025,Very Low
+18,Fès,34.0433,-5.0033,2026-09-19,1,33.7,21.0,0.0,0,16.9,44.6,Hot,None,Moderate,10.899999999999999,Very Low
+19,Fès,34.0433,-5.0033,2026-09-20,1,33.9,21.9,0.0,0,20.0,48.6,Hot,None,Moderate,14.5,Very Low
+20,Fès,34.0433,-5.0033,2026-09-21,0,33.8,21.5,0.0,0,14.4,37.4,Hot,None,Moderate,9.899999999999999,Very Low
+21,Marrakech,31.6295,-7.9811,2026-09-15,3,37.1,25.6,0.0,3,11.9,39.6,Extreme Heat,None,Moderate,17.215,Very Low
+22,Marrakech,31.6295,-7.9811,2026-09-16,0,34.6,21.7,0.0,0,12.7,34.6,Hot,None,Moderate,9.899999999999999,Very Low
+23,Marrakech,31.6295,-7.9811,2026-09-17,3,30.5,19.1,0.0,0,9.6,27.7,Hot,None,Low,5.5,Very Low
+24,Marrakech,31.6295,-7.9811,2026-09-18,1,31.7,19.2,0.0,8,7.3,25.6,Hot,None,Low,6.34,Very Low
+25,Marrakech,31.6295,-7.9811,2026-09-19,2,36.3,20.8,0.0,3,7.5,23.8,Extreme Heat,None,Low,11.815,Very Low
+26,Marrakech,31.6295,-7.9811,2026-09-20,3,39.0,23.7,0.0,3,14.7,24.8,Extreme Heat,None,Low,11.815,Very Low
+27,Marrakech,31.6295,-7.9811,2026-09-21,3,34.5,23.6,0.0,5,17.0,31.3,Hot,None,Moderate,11.424999999999999,Very Low
+28,Sale,34.05,-6.8167,2026-09-15,45,28.1,21.6,0.0,0,12.1,31.7,Normal,None,Moderate,11.399999999999999,Very Low
+29,Sale,34.05,-6.8167,2026-09-16,3,26.1,20.8,0.0,0,15.0,37.4,Normal,None,Moderate,6.3999999999999995,Very Low
+30,Sale,34.05,-6.8167,2026-09-17,3,26.3,19.6,0.0,0,12.0,31.7,Normal,None,Moderate,6.3999999999999995,Very Low
+31,Sale,34.05,-6.8167,2026-09-18,45,26.9,16.3,0.0,3,12.0,31.7,Normal,None,Moderate,11.715,Very Low
+32,Sale,34.05,-6.8167,2026-09-19,45,29.4,17.3,0.0,0,12.4,32.0,Normal,None,Moderate,11.399999999999999,Very Low
+33,Sale,34.05,-6.8167,2026-09-20,1,33.5,19.4,0.0,0,13.6,32.0,Hot,None,Moderate,10.899999999999999,Very Low
+34,Sale,34.05,-6.8167,2026-09-21,0,28.4,20.3,0.0,0,11.8,27.7,Normal,None,Low,0.0,Very Low
+35,Meknès,33.8833,-5.55,2026-09-15,2,33.4,21.8,0.0,0,16.1,41.4,Hot,None,Moderate,10.899999999999999,Very Low
+36,Meknès,33.8833,-5.55,2026-09-16,2,30.0,18.8,0.0,0,16.1,40.0,Normal,None,Moderate,10.899999999999999,Very Low
+37,Meknès,33.8833,-5.55,2026-09-17,3,27.8,17.5,0.0,3,13.2,33.8,Normal,None,Moderate,6.715,Very Low
+38,Meknès,33.8833,-5.55,2026-09-18,2,29.7,16.3,0.0,18,12.0,30.6,Normal,None,Moderate,8.29,Very Low
+39,Meknès,33.8833,-5.55,2026-09-19,1,33.5,18.6,0.0,5,11.6,34.9,Hot,None,Moderate,11.424999999999999,Very Low
+40,Meknès,33.8833,-5.55,2026-09-20,2,34.9,21.1,0.0,1,18.6,40.7,Hot,None,Moderate,11.004999999999999,Very Low
+41,Meknès,33.8833,-5.55,2026-09-21,0,34.2,20.3,0.0,0,11.6,26.6,Hot,None,Low,4.5,Very Low
+42,Rabat,34.0211,-6.8414,2026-09-15,45,28.1,21.6,0.0,0,12.1,31.7,Normal,None,Moderate,11.399999999999999,Very Low
+43,Rabat,34.0211,-6.8414,2026-09-16,3,26.2,20.9,0.0,0,15.0,37.4,Normal,None,Moderate,6.3999999999999995,Very Low
+44,Rabat,34.0211,-6.8414,2026-09-17,3,26.3,19.6,0.0,0,12.0,31.7,Normal,None,Moderate,6.3999999999999995,Very Low
+45,Rabat,34.0211,-6.8414,2026-09-18,45,27.0,16.4,0.0,3,12.0,31.7,Normal,None,Moderate,11.715,Very Low
+46,Rabat,34.0211,-6.8414,2026-09-19,45,29.5,17.4,0.0,0,12.4,32.0,Normal,None,Moderate,11.399999999999999,Very Low
+47,Rabat,34.0211,-6.8414,2026-09-20,1,33.6,19.5,0.0,0,13.6,32.0,Hot,None,Moderate,10.899999999999999,Very Low
+48,Rabat,34.0211,-6.8414,2026-09-21,0,28.4,20.3,0.0,0,11.8,27.7,Normal,None,Low,0.0,Very Low
+49,Agadir,30.4214,-9.5831,2026-09-15,3,35.6,27.5,0.0,5,10.8,34.9,Extreme Heat,None,Moderate,17.424999999999997,Very Low
+50,Agadir,30.4214,-9.5831,2026-09-16,1,38.1,23.9,0.0,0,20.4,49.0,Extreme Heat,None,Moderate,20.5,Low
+51,Agadir,30.4214,-9.5831,2026-09-17,2,28.3,20.9,0.0,0,14.7,40.7,Normal,None,Moderate,6.3999999999999995,Very Low
+52,Agadir,30.4214,-9.5831,2026-09-18,2,27.1,20.2,0.0,3,13.3,36.7,Normal,None,Moderate,6.715,Very Low
+53,Agadir,30.4214,-9.5831,2026-09-19,2,27.7,21.4,0.0,0,12.6,38.2,Normal,None,Moderate,6.3999999999999995,Very Low
+54,Agadir,30.4214,-9.5831,2026-09-20,2,28.5,21.0,0.0,0,15.0,30.6,Normal,None,Moderate,6.3999999999999995,Very Low
+55,Agadir,30.4214,-9.5831,2026-09-21,45,33.3,21.3,0.0,0,12.8,27.0,Hot,None,Low,10.5,Very Low
+56,Kenitra,34.25,-6.5833,2026-09-15,45,29.0,21.2,0.0,0,13.2,33.1,Normal,None,Moderate,11.399999999999999,Very Low
+57,Kenitra,34.25,-6.5833,2026-09-16,2,26.9,20.8,0.0,0,16.3,40.3,Normal,None,Moderate,6.3999999999999995,Very Low
+58,Kenitra,34.25,-6.5833,2026-09-17,3,26.9,19.0,0.0,0,12.8,31.7,Normal,None,Moderate,6.3999999999999995,Very Low
+59,Kenitra,34.25,-6.5833,2026-09-18,45,28.1,16.9,0.0,5,13.3,33.5,Normal,None,Moderate,11.924999999999999,Very Low
+60,Kenitra,34.25,-6.5833,2026-09-19,45,32.6,17.1,0.0,0,17.1,41.0,Hot,None,Moderate,15.899999999999999,Very Low
+61,Kenitra,34.25,-6.5833,2026-09-20,1,36.7,22.4,0.0,0,17.3,40.3,Extreme Heat,None,Moderate,16.9,Very Low
+62,Kenitra,34.25,-6.5833,2026-09-21,0,33.1,22.1,0.0,0,14.3,33.1,Hot,None,Moderate,9.899999999999999,Very Low
+63,Oujda-Angad,34.6867,-1.9114,2026-09-15,3,30.9,16.2,0.0,0,17.8,37.4,Hot,None,Moderate,10.899999999999999,Very Low
+64,Oujda-Angad,34.6867,-1.9114,2026-09-16,0,32.2,15.8,0.0,0,19.1,39.6,Hot,None,Moderate,9.899999999999999,Very Low
+65,Oujda-Angad,34.6867,-1.9114,2026-09-17,3,27.6,16.1,0.2,9,18.4,39.2,Normal,Light,Moderate,7.344999999999999,Very Low
+66,Oujda-Angad,34.6867,-1.9114,2026-09-18,3,27.0,18.0,0.0,20,18.4,39.6,Normal,None,Moderate,8.5,Very Low
+67,Oujda-Angad,34.6867,-1.9114,2026-09-19,45,27.9,18.2,0.0,30,19.5,42.8,Normal,None,Moderate,14.549999999999999,Very Low
+68,Oujda-Angad,34.6867,-1.9114,2026-09-20,45,28.1,17.4,0.0,13,20.3,40.0,Normal,None,Moderate,16.365000000000002,Very Low
+69,Oujda-Angad,34.6867,-1.9114,2026-09-21,3,27.8,18.4,0.3,13,15.6,32.4,Normal,Light,Moderate,7.765,Very Low
+70,Tétouan,35.5667,-5.3667,2026-09-15,2,29.2,21.2,0.0,0,12.2,32.0,Normal,None,Moderate,6.3999999999999995,Very Low
+71,Tétouan,35.5667,-5.3667,2026-09-16,2,33.4,19.7,0.0,0,25.8,59.8,Hot,None,Strong,21.7,Low
+72,Tétouan,35.5667,-5.3667,2026-09-17,3,27.5,14.8,0.0,0,11.6,29.5,Normal,None,Moderate,4.0,Very Low
+73,Tétouan,35.5667,-5.3667,2026-09-18,3,26.6,20.2,0.0,5,15.7,40.7,Normal,None,Moderate,6.924999999999999,Very Low
+74,Tétouan,35.5667,-5.3667,2026-09-19,2,26.5,21.9,0.0,8,32.4,75.2,Normal,None,Strong,23.439999999999998,Low
+75,Tétouan,35.5667,-5.3667,2026-09-20,2,25.3,22.4,0.0,0,40.4,84.2,Normal,None,Very Strong,27.4,Low
+76,Tétouan,35.5667,-5.3667,2026-09-21,2,25.4,21.8,0.0,0,36.8,76.3,Normal,None,Strong,22.599999999999998,Low
+77,Safi,32.2833,-9.2333,2026-09-15,3,33.8,22.8,0.0,0,22.8,42.5,Hot,None,Moderate,14.5,Very Low
+78,Safi,32.2833,-9.2333,2026-09-16,2,27.5,20.8,0.0,0,27.5,49.7,Normal,None,Moderate,10.0,Very Low
+79,Safi,32.2833,-9.2333,2026-09-17,3,25.3,19.2,0.0,0,20.4,36.7,Normal,None,Moderate,10.0,Very Low
+80,Safi,32.2833,-9.2333,2026-09-18,2,26.4,19.5,0.0,0,22.7,40.3,Normal,None,Moderate,10.0,Very Low
+81,Safi,32.2833,-9.2333,2026-09-19,2,28.2,18.8,0.0,0,20.4,37.1,Normal,None,Moderate,10.0,Very Low
+82,Safi,32.2833,-9.2333,2026-09-20,2,30.9,21.6,0.0,0,17.0,32.0,Hot,None,Moderate,10.899999999999999,Very Low
+83,Safi,32.2833,-9.2333,2026-09-21,45,26.1,19.4,0.0,0,14.6,28.4,Normal,None,Moderate,6.0,Very Low
+84,Taourirt,34.41,-2.89,2026-09-15,3,32.3,19.0,0.0,0,23.0,37.1,Hot,None,Moderate,14.5,Very Low
+85,Taourirt,34.41,-2.89,2026-09-16,1,34.4,18.9,0.0,0,22.9,36.7,Hot,None,Moderate,14.5,Very Low
+86,Taourirt,34.41,-2.89,2026-09-17,3,29.6,19.2,0.0,8,26.2,43.6,Normal,None,Moderate,10.84,Very Low
+87,Taourirt,34.41,-2.89,2026-09-18,45,29.3,19.7,0.0,8,26.7,45.7,Normal,None,Moderate,15.84,Very Low
+88,Taourirt,34.41,-2.89,2026-09-19,3,29.6,19.1,0.0,15,29.0,55.1,Normal,None,Strong,18.775,Very Low
+89,Taourirt,34.41,-2.89,2026-09-20,3,30.1,19.9,0.0,6,28.4,48.6,Hot,None,Moderate,15.129999999999999,Very Low
+90,Taourirt,34.41,-2.89,2026-09-21,3,30.2,19.6,0.0,3,26.3,45.0,Hot,None,Moderate,14.815,Very Low
+91,Temara,33.9234,-6.9076,2026-09-15,45,28.1,21.4,0.0,0,11.6,31.7,Normal,None,Moderate,11.399999999999999,Very Low
+92,Temara,33.9234,-6.9076,2026-09-16,2,25.9,20.3,0.0,0,15.5,39.2,Normal,None,Moderate,6.3999999999999995,Very Low
+93,Temara,33.9234,-6.9076,2026-09-17,3,26.0,19.2,0.0,0,12.5,33.5,Normal,None,Moderate,6.3999999999999995,Very Low
+94,Temara,33.9234,-6.9076,2026-09-18,45,26.7,15.7,0.0,3,11.5,32.0,Normal,None,Moderate,11.715,Very Low
+95,Temara,33.9234,-6.9076,2026-09-19,1,29.4,16.6,0.0,0,11.8,32.4,Normal,None,Moderate,6.3999999999999995,Very Low
+96,Temara,33.9234,-6.9076,2026-09-20,1,31.2,19.6,0.0,0,12.8,27.7,Hot,None,Moderate,5.5,Very Low
+97,Temara,33.9234,-6.9076,2026-09-21,0,26.2,20.7,0.0,0,12.4,25.2,Normal,None,Low,0.0,Very Low
+98,Laâyoune,27.15,-13.2,2026-09-15,0,40.5,25.1,0.0,0,25.3,49.3,Extreme Heat,None,Moderate,24.0,Low
+99,Laâyoune,27.15,-13.2,2026-09-16,0,36.1,21.7,0.0,0,26.3,51.1,Extreme Heat,None,Moderate,26.7,Low
+100,Laâyoune,27.15,-13.2,2026-09-17,3,28.4,21.5,0.0,0,31.5,58.3,Normal,None,Strong,17.2,Very Low
+101,Laâyoune,27.15,-13.2,2026-09-18,3,27.9,20.1,0.0,2,27.9,54.4,Normal,None,Strong,17.41,Very Low
+102,Laâyoune,27.15,-13.2,2026-09-19,0,28.8,18.1,0.0,0,24.7,48.6,Normal,None,Moderate,9.0,Very Low
+103,Laâyoune,27.15,-13.2,2026-09-20,3,32.8,19.3,0.0,0,22.7,46.4,Hot,None,Moderate,14.5,Very Low
+104,Laâyoune,27.15,-13.2,2026-09-21,0,35.3,19.3,0.0,8,26.3,50.8,Extreme Heat,None,Moderate,27.54,Low
+105,El Jadid,33.2566,-8.5025,2026-09-15,45,26.6,21.5,0.0,0,17.1,30.6,Normal,None,Moderate,11.399999999999999,Very Low
+106,El Jadid,33.2566,-8.5025,2026-09-16,2,24.9,21.0,0.0,0,19.1,33.5,Normal,None,Moderate,6.3999999999999995,Very Low
+107,El Jadid,33.2566,-8.5025,2026-09-17,3,25.4,20.0,0.0,0,15.2,27.7,Normal,None,Moderate,1.0,Very Low
+108,El Jadid,33.2566,-8.5025,2026-09-18,45,25.3,20.3,0.0,0,18.5,33.5,Normal,None,Moderate,11.399999999999999,Very Low
+109,El Jadid,33.2566,-8.5025,2026-09-19,2,25.5,20.4,0.0,0,18.2,32.4,Normal,None,Moderate,6.3999999999999995,Very Low
+110,El Jadid,33.2566,-8.5025,2026-09-20,2,28.6,21.2,0.0,0,15.5,30.2,Normal,None,Moderate,6.3999999999999995,Very Low
+111,El Jadid,33.2566,-8.5025,2026-09-21,45,27.5,20.3,0.0,0,16.8,33.1,Normal,None,Moderate,11.399999999999999,Very Low
+112,Ait Melloul,30.3342,-9.4972,2026-09-15,3,36.8,25.6,0.0,8,17.0,34.2,Extreme Heat,None,Moderate,17.74,Very Low
+113,Ait Melloul,30.3342,-9.4972,2026-09-16,2,30.3,21.6,0.0,0,19.1,35.6,Hot,None,Moderate,10.899999999999999,Very Low
+114,Ait Melloul,30.3342,-9.4972,2026-09-17,2,27.3,21.5,0.0,0,18.8,37.1,Normal,None,Moderate,6.3999999999999995,Very Low
+115,Ait Melloul,30.3342,-9.4972,2026-09-18,2,27.1,20.4,0.0,0,18.8,36.7,Normal,None,Moderate,6.3999999999999995,Very Low
+116,Ait Melloul,30.3342,-9.4972,2026-09-19,45,26.8,20.5,0.0,0,21.3,41.4,Normal,None,Moderate,15.0,Very Low
+117,Ait Melloul,30.3342,-9.4972,2026-09-20,2,28.7,21.2,0.0,0,15.0,30.6,Normal,None,Moderate,6.3999999999999995,Very Low
+118,Ait Melloul,30.3342,-9.4972,2026-09-21,45,33.5,21.6,0.0,0,12.8,27.0,Hot,None,Low,10.5,Very Low
+119,Béni Mellal,32.3394,-6.3608,2026-09-15,3,36.5,25.9,0.0,5,21.9,44.6,Extreme Heat,None,Moderate,21.025,Low
+120,Béni Mellal,32.3394,-6.3608,2026-09-16,0,32.8,21.8,0.0,0,17.3,36.0,Hot,None,Moderate,9.899999999999999,Very Low
+121,Béni Mellal,32.3394,-6.3608,2026-09-17,3,29.9,18.7,0.0,5,11.8,24.1,Normal,None,Low,1.525,Very Low
+122,Béni Mellal,32.3394,-6.3608,2026-09-18,1,31.3,19.3,0.0,5,9.7,21.2,Hot,None,Low,6.025,Very Low
+123,Béni Mellal,32.3394,-6.3608,2026-09-19,3,35.3,21.9,0.0,3,13.9,28.1,Extreme Heat,None,Moderate,11.815,Very Low
+124,Béni Mellal,32.3394,-6.3608,2026-09-20,2,38.1,26.2,0.3,0,16.1,29.5,Extreme Heat,Light,Moderate,11.5,Very Low
+125,Béni Mellal,32.3394,-6.3608,2026-09-21,80,36.8,28.0,0.9,8,18.6,37.1,Extreme Heat,Light,Moderate,28.74,Low
+126,Bouskoura,33.4489,-7.6486,2026-09-15,45,32.6,21.0,0.0,0,15.3,37.1,Hot,None,Moderate,15.899999999999999,Very Low
+127,Bouskoura,33.4489,-7.6486,2026-09-16,45,27.0,19.7,0.0,0,15.9,39.2,Normal,None,Moderate,11.399999999999999,Very Low
+128,Bouskoura,33.4489,-7.6486,2026-09-17,3,26.9,19.1,0.0,0,15.3,37.4,Normal,None,Moderate,6.3999999999999995,Very Low
+129,Bouskoura,33.4489,-7.6486,2026-09-18,45,28.1,17.5,0.0,3,16.7,40.7,Normal,None,Moderate,11.715,Very Low
+130,Bouskoura,33.4489,-7.6486,2026-09-19,45,30.5,18.6,0.0,0,14.0,34.9,Hot,None,Moderate,15.899999999999999,Very Low
+131,Bouskoura,33.4489,-7.6486,2026-09-20,2,31.0,21.1,0.0,0,11.6,29.9,Hot,None,Moderate,5.5,Very Low
+132,Bouskoura,33.4489,-7.6486,2026-09-21,2,29.5,20.8,0.0,0,13.6,36.0,Normal,None,Moderate,6.3999999999999995,Very Low
+133,Tiznit,29.7,-9.7269,2026-09-15,1,36.3,26.7,0.0,0,21.7,34.9,Extreme Heat,None,Moderate,20.5,Low
+134,Tiznit,29.7,-9.7269,2026-09-16,1,32.2,22.1,0.0,0,21.7,35.6,Hot,None,Moderate,14.5,Very Low
+135,Tiznit,29.7,-9.7269,2026-09-17,3,23.7,19.6,0.0,0,23.7,38.5,Normal,None,Moderate,10.0,Very Low
+136,Tiznit,29.7,-9.7269,2026-09-18,3,26.5,19.6,0.0,0,19.8,32.8,Normal,None,Moderate,6.3999999999999995,Very Low
+137,Tiznit,29.7,-9.7269,2026-09-19,1,27.5,20.2,0.0,0,14.7,24.5,Normal,None,Low,1.0,Very Low
+138,Tiznit,29.7,-9.7269,2026-09-20,1,25.8,20.2,0.0,0,19.0,30.6,Normal,None,Moderate,6.3999999999999995,Very Low
+139,Tiznit,29.7,-9.7269,2026-09-21,45,27.6,19.8,0.0,0,12.3,20.9,Normal,None,Low,6.0,Very Low
+140,Mohammedia,33.6833,-7.3833,2026-09-15,45,27.5,21.2,0.0,0,12.6,29.9,Normal,None,Moderate,6.0,Very Low
+141,Mohammedia,33.6833,-7.3833,2026-09-16,2,25.7,20.8,0.0,0,15.6,37.4,Normal,None,Moderate,6.3999999999999995,Very Low
+142,Mohammedia,33.6833,-7.3833,2026-09-17,3,25.4,20.0,0.0,0,13.3,31.0,Normal,None,Moderate,6.3999999999999995,Very Low
+143,Mohammedia,33.6833,-7.3833,2026-09-18,3,25.8,17.5,0.0,5,14.6,34.2,Normal,None,Moderate,6.924999999999999,Very Low
+144,Mohammedia,33.6833,-7.3833,2026-09-19,45,26.7,18.2,0.0,0,13.0,32.0,Normal,None,Moderate,11.399999999999999,Very Low
+145,Mohammedia,33.6833,-7.3833,2026-09-20,2,33.9,20.3,0.0,0,16.2,30.2,Hot,None,Moderate,10.899999999999999,Very Low
+146,Mohammedia,33.6833,-7.3833,2026-09-21,1,32.5,20.3,0.0,0,16.9,33.5,Hot,None,Moderate,10.899999999999999,Very Low
+147,Kouribga,32.88,-6.9,2026-09-15,3,34.6,22.7,0.0,3,24.9,49.0,Hot,None,Moderate,14.815,Very Low
+148,Kouribga,32.88,-6.9,2026-09-16,2,31.0,17.4,0.0,0,18.9,36.4,Hot,None,Moderate,10.899999999999999,Very Low
+149,Kouribga,32.88,-6.9,2026-09-17,2,28.6,13.9,0.0,0,19.2,36.0,Normal,None,Moderate,9.399999999999999,Very Low
+150,Kouribga,32.88,-6.9,2026-09-18,3,29.5,15.5,0.0,10,16.9,33.5,Normal,None,Moderate,7.449999999999999,Very Low
+151,Kouribga,32.88,-6.9,2026-09-19,2,33.9,17.2,0.0,4,14.4,28.1,Hot,None,Moderate,5.92,Very Low
+152,Kouribga,32.88,-6.9,2026-09-20,2,35.9,22.5,0.0,5,18.4,37.8,Extreme Heat,None,Moderate,17.424999999999997,Very Low
+153,Kouribga,32.88,-6.9,2026-09-21,2,34.6,21.3,0.0,5,20.0,42.5,Hot,None,Moderate,15.025,Very Low
+154,Settat,33.0023,-7.6198,2026-09-15,2,36.0,23.3,0.0,0,24.2,51.1,Extreme Heat,None,Moderate,27.7,Low
+155,Settat,33.0023,-7.6198,2026-09-16,2,29.6,19.3,0.0,0,19.0,39.2,Normal,None,Moderate,6.3999999999999995,Very Low
+156,Settat,33.0023,-7.6198,2026-09-17,45,28.1,17.2,0.0,0,17.5,36.7,Normal,None,Moderate,11.399999999999999,Very Low
+157,Settat,33.0023,-7.6198,2026-09-18,45,30.0,16.3,0.0,3,18.4,40.0,Normal,None,Moderate,16.215,Very Low
+158,Settat,33.0023,-7.6198,2026-09-19,2,34.5,16.6,0.0,3,15.1,35.6,Hot,None,Moderate,11.215,Very Low
+159,Settat,33.0023,-7.6198,2026-09-20,2,37.8,22.1,0.0,3,18.7,37.4,Extreme Heat,None,Moderate,17.215,Very Low
+160,Settat,33.0023,-7.6198,2026-09-21,1,34.6,21.0,0.0,3,19.4,37.8,Hot,None,Moderate,11.215,Very Low
+161,Barrechid,33.27,-7.5872,2026-09-15,2,35.7,21.4,0.0,0,22.4,40.0,Extreme Heat,None,Moderate,20.5,Low
+162,Barrechid,33.27,-7.5872,2026-09-16,45,29.0,19.1,0.0,0,19.7,35.3,Normal,None,Moderate,11.399999999999999,Very Low
+163,Barrechid,33.27,-7.5872,2026-09-17,3,28.1,18.4,0.0,0,17.9,32.8,Normal,None,Moderate,6.3999999999999995,Very Low
+164,Barrechid,33.27,-7.5872,2026-09-18,45,29.6,16.3,0.0,3,18.6,34.6,Normal,None,Moderate,11.715,Very Low
+165,Barrechid,33.27,-7.5872,2026-09-19,45,33.5,16.6,0.0,2,16.2,30.6,Hot,None,Moderate,16.11,Very Low
+166,Barrechid,33.27,-7.5872,2026-09-20,2,36.4,21.0,0.0,3,19.2,34.9,Extreme Heat,None,Moderate,17.215,Very Low
+167,Barrechid,33.27,-7.5872,2026-09-21,2,33.3,19.9,0.0,0,20.5,36.0,Hot,None,Moderate,14.5,Very Low
+168,Ad Dakhla,23.7167,-15.95,2026-09-15,1,24.8,21.7,0.0,12,36.0,45.0,Normal,None,Strong,11.26,Very Low
+169,Ad Dakhla,23.7167,-15.95,2026-09-16,0,23.5,22.1,0.0,3,36.7,45.7,Normal,None,Strong,9.315,Very Low
+170,Ad Dakhla,23.7167,-15.95,2026-09-17,2,22.2,20.0,0.0,0,40.5,52.2,Normal,None,Strong,22.0,Low
+171,Ad Dakhla,23.7167,-15.95,2026-09-18,0,21.1,20.2,0.0,0,39.2,49.0,Normal,None,Strong,9.0,Very Low
+172,Ad Dakhla,23.7167,-15.95,2026-09-19,0,20.9,19.8,0.0,0,30.4,38.9,Normal,None,Moderate,9.0,Very Low
+173,Ad Dakhla,23.7167,-15.95,2026-09-20,3,21.3,19.5,0.0,0,31.2,40.7,Normal,None,Moderate,10.0,Very Low
+174,Ad Dakhla,23.7167,-15.95,2026-09-21,0,21.6,19.1,0.0,11,24.5,38.2,Normal,None,Moderate,10.155,Very Low
+175,Nador,35.1667,-2.9333,2026-09-15,3,26.6,21.7,0.0,0,11.2,26.6,Normal,None,Low,1.0,Very Low
+176,Nador,35.1667,-2.9333,2026-09-16,2,29.9,21.8,0.0,0,10.5,26.3,Normal,None,Low,1.0,Very Low
+177,Nador,35.1667,-2.9333,2026-09-17,3,26.0,21.4,0.2,1,13.6,30.6,Normal,Light,Moderate,6.505,Very Low
+178,Nador,35.1667,-2.9333,2026-09-18,3,25.1,22.2,0.6000000000000001,8,13.3,29.9,Normal,Light,Moderate,1.8399999999999999,Very Low
+179,Nador,35.1667,-2.9333,2026-09-19,3,25.1,22.4,0.6000000000000001,15,22.3,47.2,Normal,Light,Moderate,11.575,Very Low
+180,Nador,35.1667,-2.9333,2026-09-20,3,26.2,22.5,0.15,13,28.8,50.0,Normal,Light,Moderate,18.564999999999998,Very Low
+181,Nador,35.1667,-2.9333,2026-09-21,3,26.1,22.6,0.0,5,25.0,43.9,Normal,None,Moderate,10.525,Very Low
+182,Taza,34.2144,-4.0088,2026-09-15,3,33.5,19.5,0.0,0,13.0,27.0,Hot,None,Low,5.5,Very Low
+183,Taza,34.2144,-4.0088,2026-09-16,2,30.8,21.0,0.0,0,24.1,49.7,Hot,None,Moderate,14.5,Very Low
+184,Taza,34.2144,-4.0088,2026-09-17,3,30.3,17.6,0.0,8,11.8,25.2,Hot,None,Low,6.34,Very Low
+185,Taza,34.2144,-4.0088,2026-09-18,3,28.8,18.6,0.0,5,17.3,36.4,Normal,None,Moderate,6.924999999999999,Very Low
+186,Taza,34.2144,-4.0088,2026-09-19,3,29.2,18.7,0.0,3,25.5,53.3,Normal,None,Moderate,17.515,Very Low
+187,Taza,34.2144,-4.0088,2026-09-20,2,29.1,19.8,0.0,5,26.9,50.0,Normal,None,Moderate,17.724999999999998,Very Low
+188,Taza,34.2144,-4.0088,2026-09-21,3,28.8,20.0,0.0,5,26.9,49.3,Normal,None,Moderate,10.525,Very Low
+189,Inezgane,30.3658,-9.5381,2026-09-15,3,34.3,25.0,0.0,8,10.8,31.7,Hot,None,Moderate,11.739999999999998,Very Low
+190,Inezgane,30.3658,-9.5381,2026-09-16,1,32.7,21.3,0.0,0,12.3,33.1,Hot,None,Moderate,10.899999999999999,Very Low
+191,Inezgane,30.3658,-9.5381,2026-09-17,3,26.4,21.0,0.0,0,14.4,41.8,Normal,None,Moderate,6.3999999999999995,Very Low
+192,Inezgane,30.3658,-9.5381,2026-09-18,2,25.7,20.0,0.0,0,14.4,38.5,Normal,None,Moderate,6.3999999999999995,Very Low
+193,Inezgane,30.3658,-9.5381,2026-09-19,45,25.7,20.3,0.0,0,14.9,40.7,Normal,None,Moderate,11.399999999999999,Very Low
+194,Inezgane,30.3658,-9.5381,2026-09-20,45,28.8,21.3,0.0,0,15.0,30.6,Normal,None,Moderate,11.399999999999999,Very Low
+195,Inezgane,30.3658,-9.5381,2026-09-21,45,33.6,21.6,0.0,0,12.8,27.0,Hot,None,Low,10.5,Very Low
+196,Larache,35.1833,-6.15,2026-09-15,0,30.4,19.4,0.0,0,24.9,45.7,Hot,None,Moderate,13.5,Very Low
+197,Larache,35.1833,-6.15,2026-09-16,45,27.4,18.5,0.0,0,16.9,32.4,Normal,None,Moderate,11.399999999999999,Very Low
+198,Larache,35.1833,-6.15,2026-09-17,3,26.5,18.6,0.0,1,16.7,31.3,Normal,None,Moderate,6.505,Very Low
+199,Larache,35.1833,-6.15,2026-09-18,45,26.2,16.9,0.0,5,16.3,32.4,Normal,None,Moderate,11.924999999999999,Very Low
+200,Larache,35.1833,-6.15,2026-09-19,1,35.3,16.8,0.0,8,20.8,38.2,Extreme Heat,None,Moderate,21.34,Low
+201,Larache,35.1833,-6.15,2026-09-20,0,36.8,21.4,0.0,1,18.4,34.9,Extreme Heat,None,Moderate,16.005,Very Low
+202,Larache,35.1833,-6.15,2026-09-21,1,34.2,19.3,0.0,0,15.5,28.8,Hot,None,Moderate,5.5,Very Low
+203,Al Khmissat,33.81,-6.06,2026-09-15,0,34.5,20.4,0.0,0,18.3,37.4,Hot,None,Moderate,9.899999999999999,Very Low
+204,Al Khmissat,33.81,-6.06,2026-09-16,1,30.7,18.0,0.0,0,19.2,38.9,Hot,None,Moderate,10.899999999999999,Very Low
+205,Al Khmissat,33.81,-6.06,2026-09-17,3,29.0,16.1,0.0,0,14.9,31.0,Normal,None,Moderate,6.3999999999999995,Very Low
+206,Al Khmissat,33.81,-6.06,2026-09-18,3,30.4,15.2,0.0,8,18.3,37.1,Hot,None,Moderate,11.739999999999998,Very Low
+207,Al Khmissat,33.81,-6.06,2026-09-19,1,34.6,17.7,0.0,8,12.2,27.4,Hot,None,Low,6.34,Very Low
+208,Al Khmissat,33.81,-6.06,2026-09-20,2,37.2,21.5,0.0,1,17.8,32.8,Extreme Heat,None,Moderate,17.005,Very Low
+209,Al Khmissat,33.81,-6.06,2026-09-21,1,35.4,20.0,0.0,0,13.5,25.2,Extreme Heat,None,Low,11.5,Very Low
+210,Guelmim,28.9833,-10.0667,2026-09-15,0,38.4,24.9,0.0,0,22.7,38.5,Extreme Heat,None,Moderate,19.5,Very Low
+211,Guelmim,28.9833,-10.0667,2026-09-16,0,36.2,20.5,0.0,0,33.1,54.0,Extreme Heat,None,Strong,26.7,Low
+212,Guelmim,28.9833,-10.0667,2026-09-17,3,24.7,18.7,0.0,0,29.8,49.3,Normal,None,Moderate,10.0,Very Low
+213,Guelmim,28.9833,-10.0667,2026-09-18,1,26.3,17.0,0.0,0,24.1,42.5,Normal,None,Moderate,10.0,Very Low
+214,Guelmim,28.9833,-10.0667,2026-09-19,3,29.1,18.5,0.0,0,19.3,35.6,Normal,None,Moderate,6.3999999999999995,Very Low
+215,Guelmim,28.9833,-10.0667,2026-09-20,0,32.6,16.9,0.0,0,21.1,39.2,Hot,None,Moderate,13.5,Very Low
+216,Guelmim,28.9833,-10.0667,2026-09-21,0,37.7,20.3,0.0,4,24.7,41.4,Extreme Heat,None,Moderate,19.92,Very Low
+217,Ksar El Kebir,35.0,-5.9,2026-09-15,45,37.0,20.9,0.0,0,26.0,53.6,Extreme Heat,None,Moderate,32.7,Low
+218,Ksar El Kebir,35.0,-5.9,2026-09-16,3,30.5,20.1,0.0,0,17.9,34.6,Hot,None,Moderate,10.899999999999999,Very Low
+219,Ksar El Kebir,35.0,-5.9,2026-09-17,3,30.0,19.3,0.0,1,18.9,36.4,Normal,None,Moderate,11.004999999999999,Very Low
+220,Ksar El Kebir,35.0,-5.9,2026-09-18,45,31.0,17.2,0.0,5,18.3,36.0,Hot,None,Moderate,16.424999999999997,Very Low
+221,Ksar El Kebir,35.0,-5.9,2026-09-19,1,36.3,18.6,0.0,5,9.7,20.5,Extreme Heat,None,Low,12.025,Very Low
+222,Ksar El Kebir,35.0,-5.9,2026-09-20,0,37.9,21.2,0.0,3,15.8,31.7,Extreme Heat,None,Moderate,16.215,Very Low
+223,Ksar El Kebir,35.0,-5.9,2026-09-21,1,36.3,21.3,0.0,0,13.9,25.6,Extreme Heat,None,Low,11.5,Very Low
+224,Khénifra,32.93,-5.66,2026-09-15,3,35.1,20.1,0.0,3,19.4,37.1,Extreme Heat,None,Moderate,17.215,Very Low
+225,Khénifra,32.93,-5.66,2026-09-16,1,31.3,16.3,0.0,0,15.3,29.9,Hot,None,Moderate,5.5,Very Low
+226,Khénifra,32.93,-5.66,2026-09-17,3,31.2,15.8,0.0,15,18.1,34.2,Hot,None,Moderate,12.475,Very Low
+227,Khénifra,32.93,-5.66,2026-09-18,3,31.2,15.2,0.0,13,14.4,27.7,Hot,None,Moderate,6.865,Very Low
+228,Khénifra,32.93,-5.66,2026-09-19,2,34.0,17.9,0.0,6,15.5,29.9,Hot,None,Moderate,6.13,Very Low
+229,Khénifra,32.93,-5.66,2026-09-20,2,35.9,20.8,0.0,5,14.9,38.9,Extreme Heat,None,Moderate,17.424999999999997,Very Low
+230,Khénifra,32.93,-5.66,2026-09-21,2,35.0,21.4,0.0,5,21.0,41.0,Hot,None,Moderate,21.025,Low
+231,Skhirate,33.85,-7.03,2026-09-15,45,26.5,21.2,0.0,0,12.3,27.7,Normal,None,Low,6.0,Very Low
+232,Skhirate,33.85,-7.03,2026-09-16,2,25.1,20.5,0.0,0,16.5,36.0,Normal,None,Moderate,6.3999999999999995,Very Low
+233,Skhirate,33.85,-7.03,2026-09-17,3,24.9,19.4,0.0,0,13.2,29.5,Normal,None,Moderate,1.0,Very Low
+234,Skhirate,33.85,-7.03,2026-09-18,3,25.2,16.8,0.0,3,12.9,30.2,Normal,None,Moderate,6.715,Very Low
+235,Skhirate,33.85,-7.03,2026-09-19,2,27.1,17.2,0.0,0,12.8,28.4,Normal,None,Moderate,1.0,Very Low
+236,Skhirate,33.85,-7.03,2026-09-20,1,31.3,19.7,0.0,0,12.8,27.7,Hot,None,Moderate,5.5,Very Low
+237,Skhirate,33.85,-7.03,2026-09-21,0,26.3,20.8,0.0,0,12.4,25.2,Normal,None,Low,0.0,Very Low
+238,Beni Yakhlef,33.6555,-7.3221,2026-09-15,45,30.6,20.2,0.0,0,17.2,31.7,Hot,None,Moderate,15.899999999999999,Very Low
+239,Beni Yakhlef,33.6555,-7.3221,2026-09-16,2,27.0,19.5,0.0,0,18.8,34.6,Normal,None,Moderate,6.3999999999999995,Very Low
+240,Beni Yakhlef,33.6555,-7.3221,2026-09-17,3,26.7,19.0,0.0,0,17.2,31.7,Normal,None,Moderate,6.3999999999999995,Very Low
+241,Beni Yakhlef,33.6555,-7.3221,2026-09-18,45,27.7,16.0,0.0,5,18.0,32.8,Normal,None,Moderate,11.924999999999999,Very Low
+242,Beni Yakhlef,33.6555,-7.3221,2026-09-19,45,29.6,16.7,0.0,0,16.6,31.0,Normal,None,Moderate,11.399999999999999,Very Low
+243,Beni Yakhlef,33.6555,-7.3221,2026-09-20,2,33.4,20.2,0.0,0,16.2,30.2,Hot,None,Moderate,10.899999999999999,Very Low
+244,Beni Yakhlef,33.6555,-7.3221,2026-09-21,1,31.9,19.8,0.0,0,16.9,33.5,Hot,None,Moderate,10.899999999999999,Very Low
+245,Sidi Yahya Zaer,33.7105,-6.8831,2026-09-15,0,32.6,20.7,0.0,0,19.0,37.8,Hot,None,Moderate,9.899999999999999,Very Low
+246,Sidi Yahya Zaer,33.7105,-6.8831,2026-09-16,2,27.8,18.6,0.0,0,20.6,41.4,Normal,None,Moderate,10.0,Very Low
+247,Sidi Yahya Zaer,33.7105,-6.8831,2026-09-17,45,27.3,16.1,0.0,0,17.4,35.3,Normal,None,Moderate,11.399999999999999,Very Low
+248,Sidi Yahya Zaer,33.7105,-6.8831,2026-09-18,45,28.8,14.6,0.0,3,16.4,33.8,Normal,None,Moderate,14.715,Very Low
+249,Sidi Yahya Zaer,33.7105,-6.8831,2026-09-19,1,32.9,16.5,0.0,2,15.4,33.1,Hot,None,Moderate,11.11,Very Low
+250,Sidi Yahya Zaer,33.7105,-6.8831,2026-09-20,2,36.6,20.1,0.0,3,17.0,33.8,Extreme Heat,None,Moderate,17.215,Very Low
+251,Sidi Yahya Zaer,33.7105,-6.8831,2026-09-21,1,32.3,18.5,0.0,0,15.5,31.7,Hot,None,Moderate,10.899999999999999,Very Low
+252,Ben Guerir,32.23,-7.95,2026-09-15,3,37.2,24.5,0.0,3,22.7,44.6,Extreme Heat,None,Moderate,20.814999999999998,Low
+253,Ben Guerir,32.23,-7.95,2026-09-16,1,32.3,19.6,0.0,0,20.2,40.0,Hot,None,Moderate,14.5,Very Low
+254,Ben Guerir,32.23,-7.95,2026-09-17,3,29.1,16.7,0.0,0,15.7,32.0,Normal,None,Moderate,6.3999999999999995,Very Low
+255,Ben Guerir,32.23,-7.95,2026-09-18,3,30.9,16.7,0.0,8,15.8,32.8,Hot,None,Moderate,11.739999999999998,Very Low
+256,Ben Guerir,32.23,-7.95,2026-09-19,2,35.0,18.0,0.0,4,15.2,31.7,Hot,None,Moderate,17.32,Very Low
+257,Ben Guerir,32.23,-7.95,2026-09-20,2,38.6,24.8,0.0,0,16.7,34.6,Extreme Heat,None,Moderate,16.9,Very Low
+258,Ben Guerir,32.23,-7.95,2026-09-21,2,34.3,23.5,0.0,3,19.4,35.3,Hot,None,Moderate,11.215,Very Low
+259,Ait Ali,30.1739,-9.4881,2026-09-15,3,37.0,25.5,0.0,0,22.2,36.7,Extreme Heat,None,Moderate,20.5,Low
+260,Ait Ali,30.1739,-9.4881,2026-09-16,1,32.1,22.2,0.0,0,24.9,40.0,Hot,None,Moderate,14.5,Very Low
+261,Ait Ali,30.1739,-9.4881,2026-09-17,3,27.4,20.9,0.0,0,27.0,43.6,Normal,None,Moderate,10.0,Very Low
+262,Ait Ali,30.1739,-9.4881,2026-09-18,2,27.3,20.0,0.0,0,22.0,37.8,Normal,None,Moderate,10.0,Very Low
+263,Ait Ali,30.1739,-9.4881,2026-09-19,2,27.0,20.3,0.0,0,21.6,36.0,Normal,None,Moderate,10.0,Very Low
+264,Ait Ali,30.1739,-9.4881,2026-09-20,45,27.3,20.8,0.0,0,19.7,33.8,Normal,None,Moderate,11.399999999999999,Very Low
+265,Ait Ali,30.1739,-9.4881,2026-09-21,45,29.7,20.8,0.0,0,16.6,28.8,Normal,None,Moderate,6.0,Very Low
+266,My Drarga,30.3805,-9.4763,2026-09-15,3,36.7,25.9,0.0,8,13.9,30.2,Extreme Heat,None,Moderate,17.74,Very Low
+267,My Drarga,30.3805,-9.4763,2026-09-16,1,32.1,22.4,0.0,0,15.4,36.0,Hot,None,Moderate,10.899999999999999,Very Low
+268,My Drarga,30.3805,-9.4763,2026-09-17,3,27.3,20.9,0.0,0,19.9,44.3,Normal,None,Moderate,6.3999999999999995,Very Low
+269,My Drarga,30.3805,-9.4763,2026-09-18,2,27.2,20.0,0.0,0,17.4,37.4,Normal,None,Moderate,6.3999999999999995,Very Low
+270,My Drarga,30.3805,-9.4763,2026-09-19,45,27.4,20.6,0.0,0,17.8,37.1,Normal,None,Moderate,11.399999999999999,Very Low
+271,My Drarga,30.3805,-9.4763,2026-09-20,45,28.6,21.1,0.0,0,15.0,30.6,Normal,None,Moderate,11.399999999999999,Very Low
+272,My Drarga,30.3805,-9.4763,2026-09-21,45,33.4,21.5,0.0,0,12.8,27.0,Hot,None,Low,10.5,Very Low
+273,Lqoliaa,30.2942,-9.4544,2026-09-15,3,38.0,25.7,0.0,3,19.9,42.1,Extreme Heat,None,Moderate,17.215,Very Low
+274,Lqoliaa,30.2942,-9.4544,2026-09-16,2,32.0,21.7,0.0,0,22.3,43.9,Hot,None,Moderate,14.5,Very Low
+275,Lqoliaa,30.2942,-9.4544,2026-09-17,3,28.1,21.2,0.0,0,20.0,42.8,Normal,None,Moderate,10.0,Very Low
+276,Lqoliaa,30.2942,-9.4544,2026-09-18,1,28.0,20.1,0.0,3,19.8,43.2,Normal,None,Moderate,6.715,Very Low
+277,Lqoliaa,30.2942,-9.4544,2026-09-19,45,27.8,20.2,0.0,3,22.4,47.9,Normal,None,Moderate,15.315,Very Low
+278,Lqoliaa,30.2942,-9.4544,2026-09-20,2,26.7,20.5,0.0,0,18.9,41.8,Normal,None,Moderate,6.3999999999999995,Very Low
+279,Lqoliaa,30.2942,-9.4544,2026-09-21,45,29.0,20.4,0.0,0,15.8,35.6,Normal,None,Moderate,11.399999999999999,Very Low
+280,El Kelaa des Srarhna,32.05,-7.4,2026-09-15,3,37.7,25.6,0.1,3,20.7,39.2,Extreme Heat,Light,Moderate,20.814999999999998,Low
+281,El Kelaa des Srarhna,32.05,-7.4,2026-09-16,0,34.1,20.9,0.0,0,19.3,33.5,Hot,None,Moderate,9.899999999999999,Very Low
+282,El Kelaa des Srarhna,32.05,-7.4,2026-09-17,3,30.2,17.1,0.0,3,15.3,26.6,Hot,None,Moderate,5.8149999999999995,Very Low
+283,El Kelaa des Srarhna,32.05,-7.4,2026-09-18,1,31.6,18.2,0.0,5,15.0,25.9,Hot,None,Moderate,6.025,Very Low
+284,El Kelaa des Srarhna,32.05,-7.4,2026-09-19,2,36.2,19.6,0.0,8,14.8,26.6,Extreme Heat,None,Moderate,12.34,Very Low
+285,El Kelaa des Srarhna,32.05,-7.4,2026-09-20,2,37.8,23.5,0.6000000000000001,1,11.4,23.8,Extreme Heat,Light,Low,11.605,Very Low
+286,El Kelaa des Srarhna,32.05,-7.4,2026-09-21,3,35.6,21.9,0.6000000000000001,8,11.9,23.0,Extreme Heat,Light,Low,12.34,Very Low
+287,Moulay Abdallah,33.1978,-8.5883,2026-09-15,45,28.7,21.7,0.0,0,20.6,32.4,Normal,None,Moderate,15.0,Very Low
+288,Moulay Abdallah,33.1978,-8.5883,2026-09-16,2,25.9,21.1,0.0,0,21.2,33.5,Normal,None,Moderate,10.0,Very Low
+289,Moulay Abdallah,33.1978,-8.5883,2026-09-17,3,26.5,19.6,0.0,0,18.9,29.5,Normal,None,Moderate,1.0,Very Low
+290,Moulay Abdallah,33.1978,-8.5883,2026-09-18,3,26.5,20.3,0.0,0,21.0,34.9,Normal,None,Moderate,10.0,Very Low
+291,Moulay Abdallah,33.1978,-8.5883,2026-09-19,2,27.3,20.5,0.0,0,19.6,31.7,Normal,None,Moderate,6.3999999999999995,Very Low
+292,Moulay Abdallah,33.1978,-8.5883,2026-09-20,2,30.2,21.1,0.0,0,16.5,31.3,Hot,None,Moderate,10.899999999999999,Very Low
+293,Moulay Abdallah,33.1978,-8.5883,2026-09-21,45,26.7,20.2,0.0,0,15.9,30.6,Normal,None,Moderate,11.399999999999999,Very Low
+294,Tiflet,33.9,-6.33,2026-09-15,0,33.6,22.2,0.0,0,18.4,37.4,Hot,None,Moderate,9.899999999999999,Very Low
+295,Tiflet,33.9,-6.33,2026-09-16,2,29.2,19.0,0.0,0,19.8,40.0,Normal,None,Moderate,6.3999999999999995,Very Low
+296,Tiflet,33.9,-6.33,2026-09-17,45,28.4,16.1,0.0,0,15.3,31.7,Normal,None,Moderate,11.399999999999999,Very Low
+297,Tiflet,33.9,-6.33,2026-09-18,3,30.3,15.8,0.0,5,15.1,35.3,Hot,None,Moderate,11.424999999999999,Very Low
+298,Tiflet,33.9,-6.33,2026-09-19,2,34.6,18.1,0.0,3,11.6,24.5,Hot,None,Low,5.8149999999999995,Very Low
+299,Tiflet,33.9,-6.33,2026-09-20,2,37.5,21.6,0.0,0,14.8,31.3,Extreme Heat,None,Moderate,16.9,Very Low
+300,Tiflet,33.9,-6.33,2026-09-21,0,35.9,20.5,0.0,0,16.1,32.4,Extreme Heat,None,Moderate,15.899999999999999,Very Low
+301,Oulad Teïma,30.4,-9.21,2026-09-15,3,40.9,26.0,0.0,3,25.3,47.9,Extreme Heat,None,Moderate,25.314999999999998,Low
+302,Oulad Teïma,30.4,-9.21,2026-09-16,2,35.4,21.9,0.0,0,21.2,40.3,Extreme Heat,None,Moderate,20.5,Low
+303,Oulad Teïma,30.4,-9.21,2026-09-17,3,29.8,20.2,0.0,0,27.2,51.1,Normal,None,Moderate,17.2,Very Low
+304,Oulad Teïma,30.4,-9.21,2026-09-18,1,29.9,19.3,0.0,0,22.5,43.6,Normal,None,Moderate,10.0,Very Low
+305,Oulad Teïma,30.4,-9.21,2026-09-19,2,31.4,20.0,0.0,3,26.2,49.7,Hot,None,Moderate,14.815,Very Low
+306,Oulad Teïma,30.4,-9.21,2026-09-20,2,28.1,20.4,0.0,2,27.7,49.3,Normal,None,Moderate,10.21,Very Low
+307,Oulad Teïma,30.4,-9.21,2026-09-21,45,32.7,19.7,0.0,0,22.6,41.4,Hot,None,Moderate,19.5,Very Low
+308,Berkane,34.9167,-2.3167,2026-09-15,2,27.2,17.8,0.0,0,12.8,27.4,Normal,None,Moderate,1.0,Very Low
+309,Berkane,34.9167,-2.3167,2026-09-16,1,31.7,17.5,0.0,0,13.9,34.2,Hot,None,Moderate,10.899999999999999,Very Low
+310,Berkane,34.9167,-2.3167,2026-09-17,3,26.0,18.5,0.0,3,14.3,30.6,Normal,None,Moderate,6.715,Very Low
+311,Berkane,34.9167,-2.3167,2026-09-18,3,26.2,19.4,0.0,8,16.0,34.2,Normal,None,Moderate,7.239999999999999,Very Low
+312,Berkane,34.9167,-2.3167,2026-09-19,45,26.5,18.6,0.0,13,23.7,47.5,Normal,None,Moderate,16.365000000000002,Very Low
+313,Berkane,34.9167,-2.3167,2026-09-20,45,26.2,19.5,0.0,8,16.6,31.3,Normal,None,Moderate,12.239999999999998,Very Low
+314,Berkane,34.9167,-2.3167,2026-09-21,45,26.4,18.8,0.0,5,13.9,27.4,Normal,None,Moderate,6.525,Very Low
+315,Ain El Aouda,33.8111,-6.7922,2026-09-15,0,31.7,20.0,0.0,0,17.8,35.3,Hot,None,Moderate,9.899999999999999,Very Low
+316,Ain El Aouda,33.8111,-6.7922,2026-09-16,2,27.4,18.6,0.0,0,20.0,40.0,Normal,None,Moderate,10.0,Very Low
+317,Ain El Aouda,33.8111,-6.7922,2026-09-17,3,27.4,16.7,0.0,0,16.5,32.4,Normal,None,Moderate,6.3999999999999995,Very Low
+318,Ain El Aouda,33.8111,-6.7922,2026-09-18,45,28.8,14.6,0.0,3,15.0,31.7,Normal,None,Moderate,14.715,Very Low
+319,Ain El Aouda,33.8111,-6.7922,2026-09-19,45,32.6,15.3,0.0,2,15.1,32.4,Hot,None,Moderate,16.11,Very Low
+320,Ain El Aouda,33.8111,-6.7922,2026-09-20,1,38.3,19.4,0.0,3,15.6,29.9,Extreme Heat,None,Moderate,11.815,Very Low
+321,Ain El Aouda,33.8111,-6.7922,2026-09-21,0,33.3,19.5,0.0,0,16.1,31.0,Hot,None,Moderate,9.899999999999999,Very Low
+322,Errachidia,31.9319,-4.4244,2026-09-15,3,34.8,24.3,0.1,23,29.2,56.9,Hot,Light,Strong,24.115,Low
+323,Errachidia,31.9319,-4.4244,2026-09-16,3,32.8,21.4,0.0,3,20.9,41.0,Hot,None,Moderate,14.815,Very Low
+324,Errachidia,31.9319,-4.4244,2026-09-17,80,31.3,21.6,0.6000000000000001,30,15.6,32.0,Hot,Light,Moderate,25.049999999999997,Low
+325,Errachidia,31.9319,-4.4244,2026-09-18,3,31.8,20.8,0.0,30,20.6,40.3,Hot,None,Moderate,17.65,Very Low
+326,Errachidia,31.9319,-4.4244,2026-09-19,3,31.5,22.4,0.0,29,15.8,29.9,Hot,None,Moderate,8.545,Very Low
+327,Errachidia,31.9319,-4.4244,2026-09-20,3,33.1,22.1,0.3,14,25.4,43.6,Hot,Light,Moderate,15.97,Very Low
+328,Errachidia,31.9319,-4.4244,2026-09-21,3,30.6,21.0,0.9,15,13.1,28.8,Hot,Light,Moderate,7.075,Very Low
+329,Al Fqih Ben Çalah,32.507,-6.6886,2026-09-15,2,39.2,22.6,0.0,3,19.1,36.7,Extreme Heat,None,Moderate,17.215,Very Low
+330,Al Fqih Ben Çalah,32.507,-6.6886,2026-09-16,0,35.2,19.2,0.0,0,17.7,34.6,Extreme Heat,None,Moderate,15.899999999999999,Very Low
+331,Al Fqih Ben Çalah,32.507,-6.6886,2026-09-17,3,32.4,16.4,0.0,3,13.7,25.9,Hot,None,Low,5.8149999999999995,Very Low
+332,Al Fqih Ben Çalah,32.507,-6.6886,2026-09-18,2,33.7,17.0,0.0,10,11.2,22.7,Hot,None,Low,6.55,Very Low
+333,Al Fqih Ben Çalah,32.507,-6.6886,2026-09-19,3,37.7,19.9,0.0,5,11.1,22.3,Extreme Heat,None,Low,12.025,Very Low
+334,Al Fqih Ben Çalah,32.507,-6.6886,2026-09-20,3,40.1,24.2,0.3,1,11.0,19.4,Extreme Heat,Light,Low,16.105,Very Low
+335,Al Fqih Ben Çalah,32.507,-6.6886,2026-09-21,80,38.2,22.0,1.2,3,13.7,24.5,Extreme Heat,Light,Low,22.814999999999998,Low
+336,Ad Darwa,33.4167,-7.5333,2026-09-15,2,33.3,21.0,0.0,0,17.0,33.1,Hot,None,Moderate,10.899999999999999,Very Low
+337,Ad Darwa,33.4167,-7.5333,2026-09-16,45,27.7,19.4,0.0,0,17.2,33.8,Normal,None,Moderate,11.399999999999999,Very Low
+338,Ad Darwa,33.4167,-7.5333,2026-09-17,3,27.4,18.8,0.0,0,16.3,31.7,Normal,None,Moderate,6.3999999999999995,Very Low
+339,Ad Darwa,33.4167,-7.5333,2026-09-18,3,28.6,17.0,0.0,3,17.4,33.8,Normal,None,Moderate,6.715,Very Low
+340,Ad Darwa,33.4167,-7.5333,2026-09-19,45,31.0,18.0,0.0,0,15.1,29.9,Hot,None,Moderate,10.5,Very Low
+341,Ad Darwa,33.4167,-7.5333,2026-09-20,2,36.3,21.3,0.0,0,18.4,35.3,Extreme Heat,None,Moderate,16.9,Very Low
+342,Ad Darwa,33.4167,-7.5333,2026-09-21,2,33.7,20.5,0.0,0,19.0,35.6,Hot,None,Moderate,10.899999999999999,Very Low
+343,Martil,35.61,-5.27,2026-09-15,2,26.7,21.7,0.0,0,10.0,24.5,Normal,None,Low,1.0,Very Low
+344,Martil,35.61,-5.27,2026-09-16,1,32.7,21.2,0.0,0,29.0,65.5,Hot,None,Strong,21.7,Low
+345,Martil,35.61,-5.27,2026-09-17,3,25.5,17.0,0.0,0,14.7,33.1,Normal,None,Moderate,6.3999999999999995,Very Low
+346,Martil,35.61,-5.27,2026-09-18,3,25.0,20.7,0.0,5,16.3,36.0,Normal,None,Moderate,6.924999999999999,Very Low
+347,Martil,35.61,-5.27,2026-09-19,2,24.8,22.1,1.2,29,26.0,57.6,Normal,Light,Strong,20.244999999999997,Low
+348,Martil,35.61,-5.27,2026-09-20,80,24.5,22.6,0.15,17,38.8,68.0,Normal,Light,Strong,29.985,Low
+349,Martil,35.61,-5.27,2026-09-21,3,24.7,22.3,0.0,0,34.7,63.0,Normal,None,Strong,17.2,Very Low
+350,Sidi Slimane,34.26,-5.93,2026-09-15,0,34.9,21.0,0.0,0,18.6,39.2,Hot,None,Moderate,9.899999999999999,Very Low
+351,Sidi Slimane,34.26,-5.93,2026-09-16,2,31.1,20.3,0.0,0,20.5,43.6,Hot,None,Moderate,14.5,Very Low
+352,Sidi Slimane,34.26,-5.93,2026-09-17,3,30.1,18.9,0.0,0,15.5,33.1,Hot,None,Moderate,10.899999999999999,Very Low
+353,Sidi Slimane,34.26,-5.93,2026-09-18,45,32.4,15.8,0.0,10,15.0,37.1,Hot,None,Moderate,16.95,Very Low
+354,Sidi Slimane,34.26,-5.93,2026-09-19,1,37.0,18.7,0.0,0,16.2,36.0,Extreme Heat,None,Moderate,16.9,Very Low
+355,Sidi Slimane,34.26,-5.93,2026-09-20,0,37.9,23.3,0.0,0,24.2,46.1,Extreme Heat,None,Moderate,19.5,Very Low
+356,Sidi Slimane,34.26,-5.93,2026-09-21,1,36.9,23.3,0.0,0,19.9,36.7,Extreme Heat,None,Moderate,16.9,Very Low
+357,Oued Zem,32.8619,-6.5711,2026-09-15,3,35.3,22.9,0.0,0,22.3,45.0,Extreme Heat,None,Moderate,20.5,Low
+358,Oued Zem,32.8619,-6.5711,2026-09-16,1,31.7,18.1,0.0,0,17.1,34.9,Hot,None,Moderate,10.899999999999999,Very Low
+359,Oued Zem,32.8619,-6.5711,2026-09-17,2,30.4,15.7,0.0,3,19.5,38.9,Hot,None,Moderate,11.215,Very Low
+360,Oued Zem,32.8619,-6.5711,2026-09-18,2,30.3,16.3,0.0,10,16.1,34.9,Hot,None,Moderate,11.95,Very Low
+361,Oued Zem,32.8619,-6.5711,2026-09-19,3,34.5,17.8,0.0,6,13.0,29.9,Hot,None,Moderate,6.13,Very Low
+362,Oued Zem,32.8619,-6.5711,2026-09-20,2,36.2,23.6,0.0,3,19.7,37.4,Extreme Heat,None,Moderate,17.215,Very Low
+363,Oued Zem,32.8619,-6.5711,2026-09-21,2,35.1,22.2,0.0,5,20.0,38.9,Extreme Heat,None,Moderate,21.025,Low
+364,Sefrou,33.83,-4.83,2026-09-15,2,32.4,23.6,0.0,0,17.6,38.5,Hot,None,Moderate,10.899999999999999,Very Low
+365,Sefrou,33.83,-4.83,2026-09-16,2,29.1,19.2,0.0,0,17.6,38.9,Normal,None,Moderate,6.3999999999999995,Very Low
+366,Sefrou,33.83,-4.83,2026-09-17,3,26.5,17.5,0.0,10,16.3,35.6,Normal,None,Moderate,7.449999999999999,Very Low
+367,Sefrou,33.83,-4.83,2026-09-18,3,27.6,17.2,0.0,13,15.0,32.8,Normal,None,Moderate,7.765,Very Low
+368,Sefrou,33.83,-4.83,2026-09-19,1,30.5,19.5,0.0,3,19.2,41.4,Hot,None,Moderate,11.215,Very Low
+369,Sefrou,33.83,-4.83,2026-09-20,2,31.5,19.0,0.0,8,20.7,39.6,Hot,None,Moderate,15.34,Very Low
+370,Sefrou,33.83,-4.83,2026-09-21,0,31.2,16.5,0.0,14,14.8,29.2,Hot,None,Moderate,5.97,Very Low
+371,Taroudannt,30.4711,-8.8778,2026-09-15,3,41.1,27.7,0.0,10,25.8,50.0,Extreme Heat,None,Moderate,33.25,Low
+372,Taroudannt,30.4711,-8.8778,2026-09-16,2,37.1,24.2,0.0,0,22.4,45.4,Extreme Heat,None,Moderate,20.5,Low
+373,Taroudannt,30.4711,-8.8778,2026-09-17,3,30.6,19.4,0.0,0,25.8,51.1,Hot,None,Moderate,21.7,Low
+374,Taroudannt,30.4711,-8.8778,2026-09-18,3,31.5,18.9,0.0,5,20.8,43.2,Hot,None,Moderate,15.025,Very Low
+375,Taroudannt,30.4711,-8.8778,2026-09-19,2,35.2,21.8,0.0,3,23.3,47.9,Extreme Heat,None,Moderate,20.814999999999998,Low
+376,Taroudannt,30.4711,-8.8778,2026-09-20,2,31.3,22.9,0.0,2,25.6,46.4,Hot,None,Moderate,14.71,Very Low
+377,Taroudannt,30.4711,-8.8778,2026-09-21,1,36.7,20.7,0.0,0,24.8,47.5,Extreme Heat,None,Moderate,20.5,Low
+378,Essaouira,31.513,-9.7687,2026-09-15,3,27.9,22.7,0.0,3,27.2,51.1,Normal,None,Moderate,17.515,Very Low
+379,Essaouira,31.513,-9.7687,2026-09-16,1,25.9,20.2,0.0,0,37.0,68.4,Normal,None,Strong,17.2,Very Low
+380,Essaouira,31.513,-9.7687,2026-09-17,2,24.3,19.2,0.0,0,29.2,53.6,Normal,None,Strong,17.2,Very Low
+381,Essaouira,31.513,-9.7687,2026-09-18,1,24.7,19.1,0.0,0,29.2,53.3,Normal,None,Strong,17.2,Very Low
+382,Essaouira,31.513,-9.7687,2026-09-19,2,25.0,18.8,0.0,0,24.8,45.0,Normal,None,Moderate,10.0,Very Low
+383,Essaouira,31.513,-9.7687,2026-09-20,2,27.2,19.8,0.0,0,16.1,30.2,Normal,None,Moderate,6.3999999999999995,Very Low
+384,Essaouira,31.513,-9.7687,2026-09-21,45,27.4,19.4,0.0,0,11.5,22.0,Normal,None,Low,6.0,Very Low
+385,Azrou,33.4344,-5.2213,2026-09-15,2,29.7,17.6,0.0,0,19.8,42.5,Normal,None,Moderate,6.3999999999999995,Very Low
+386,Azrou,33.4344,-5.2213,2026-09-16,1,26.1,14.2,0.0,0,16.2,40.7,Normal,None,Moderate,9.399999999999999,Very Low
+387,Azrou,33.4344,-5.2213,2026-09-17,3,25.9,15.1,0.0,23,17.2,37.4,Normal,None,Moderate,8.815,Very Low
+388,Azrou,33.4344,-5.2213,2026-09-18,3,25.4,14.2,0.0,33,12.7,29.9,Normal,None,Moderate,7.465,Very Low
+389,Azrou,33.4344,-5.2213,2026-09-19,3,28.4,16.7,0.0,10,13.4,33.8,Normal,None,Moderate,7.449999999999999,Very Low
+390,Azrou,33.4344,-5.2213,2026-09-20,3,29.5,19.7,0.0,9,23.4,54.4,Normal,None,Moderate,18.145,Very Low
+391,Azrou,33.4344,-5.2213,2026-09-21,1,29.0,19.6,0.0,10,25.6,61.9,Normal,None,Strong,18.25,Very Low
+392,Guercif,34.23,-3.36,2026-09-15,3,33.5,18.9,0.0,0,23.7,43.6,Hot,None,Moderate,14.5,Very Low
+393,Guercif,34.23,-3.36,2026-09-16,1,34.5,19.3,0.0,3,25.7,45.7,Hot,None,Moderate,14.815,Very Low
+394,Guercif,34.23,-3.36,2026-09-17,3,30.5,20.1,0.0,9,27.7,52.2,Hot,None,Moderate,22.645,Low
+395,Guercif,34.23,-3.36,2026-09-18,3,29.9,20.0,0.0,10,28.0,50.8,Normal,None,Moderate,18.25,Very Low
+396,Guercif,34.23,-3.36,2026-09-19,3,30.2,20.0,0.0,13,33.2,67.3,Hot,None,Strong,23.064999999999998,Low
+397,Guercif,34.23,-3.36,2026-09-20,3,29.4,20.7,0.0,5,32.2,56.5,Normal,None,Strong,17.724999999999998,Very Low
+398,Guercif,34.23,-3.36,2026-09-21,3,29.5,20.6,0.0,3,31.0,52.2,Normal,None,Strong,17.515,Very Low
+399,Warzat,30.9167,-6.9167000000000005,2026-09-15,3,32.2,21.9,0.0,8,21.4,40.0,Hot,None,Moderate,15.34,Very Low
+400,Warzat,30.9167,-6.9167000000000005,2026-09-16,1,33.3,18.0,0.0,3,23.1,40.3,Hot,None,Moderate,14.815,Very Low
+401,Warzat,30.9167,-6.9167000000000005,2026-09-17,80,32.1,19.2,0.6000000000000001,25,14.0,26.6,Hot,Light,Moderate,19.125,Very Low
+402,Warzat,30.9167,-6.9167000000000005,2026-09-18,2,31.8,18.6,0.0,23,18.4,34.2,Hot,None,Moderate,13.315,Very Low
+403,Warzat,30.9167,-6.9167000000000005,2026-09-19,2,32.4,20.5,0.0,18,8.3,17.3,Hot,None,Low,7.39,Very Low
+404,Warzat,30.9167,-6.9167000000000005,2026-09-20,3,33.8,22.9,0.0,9,25.0,46.4,Hot,None,Moderate,15.445,Very Low
+405,Warzat,30.9167,-6.9167000000000005,2026-09-21,80,31.4,20.5,0.6000000000000001,5,17.7,34.6,Hot,Light,Moderate,22.424999999999997,Low
+406,Fnidq,35.8414,-5.3587,2026-09-15,2,27.6,21.3,0.0,0,11.3,22.3,Normal,None,Low,1.0,Very Low
+407,Fnidq,35.8414,-5.3587,2026-09-16,1,30.0,21.3,0.0,0,31.8,60.5,Normal,None,Strong,21.7,Low
+408,Fnidq,35.8414,-5.3587,2026-09-17,3,26.6,18.0,0.0,0,14.0,28.1,Normal,None,Moderate,1.0,Very Low
+409,Fnidq,35.8414,-5.3587,2026-09-18,3,24.7,20.7,0.0,5,16.7,32.8,Normal,None,Moderate,6.924999999999999,Very Low
+410,Fnidq,35.8414,-5.3587,2026-09-19,80,24.7,22.0,1.2,29,28.6,54.4,Normal,Light,Strong,31.244999999999997,Low
+411,Fnidq,35.8414,-5.3587,2026-09-20,80,24.4,22.5,0.6000000000000001,17,38.8,68.0,Normal,Light,Strong,29.985,Low
+412,Fnidq,35.8414,-5.3587,2026-09-21,3,24.6,22.3,0.0,0,34.7,63.0,Normal,None,Strong,17.2,Very Low
+413,Tan-Tan,28.4333,-11.1,2026-09-15,0,37.0,23.4,0.0,0,19.7,37.8,Extreme Heat,None,Moderate,15.899999999999999,Very Low
+414,Tan-Tan,28.4333,-11.1,2026-09-16,0,31.0,20.6,0.0,0,24.6,45.7,Hot,None,Moderate,13.5,Very Low
+415,Tan-Tan,28.4333,-11.1,2026-09-17,51,25.9,20.3,0.2,0,32.1,56.5,Normal,Light,Strong,22.2,Low
+416,Tan-Tan,28.4333,-11.1,2026-09-18,1,25.7,19.5,0.0,0,26.3,47.9,Normal,None,Moderate,10.0,Very Low
+417,Tan-Tan,28.4333,-11.1,2026-09-19,3,26.1,19.6,0.0,0,19.6,38.9,Normal,None,Moderate,6.3999999999999995,Very Low
+418,Tan-Tan,28.4333,-11.1,2026-09-20,3,30.3,17.8,0.0,2,16.2,33.8,Hot,None,Moderate,11.11,Very Low
+419,Tan-Tan,28.4333,-11.1,2026-09-21,1,33.4,17.7,0.0,4,20.1,43.9,Hot,None,Moderate,14.92,Very Low
+420,Sidi Qacem,34.21,-5.7,2026-09-15,0,34.8,21.8,0.0,0,19.7,40.7,Hot,None,Moderate,9.899999999999999,Very Low
+421,Sidi Qacem,34.21,-5.7,2026-09-16,2,31.5,20.6,0.0,0,19.6,41.8,Hot,None,Moderate,10.899999999999999,Very Low
+422,Sidi Qacem,34.21,-5.7,2026-09-17,3,30.1,18.5,0.0,0,14.5,31.3,Hot,None,Moderate,10.899999999999999,Very Low
+423,Sidi Qacem,34.21,-5.7,2026-09-18,3,32.3,17.2,0.0,8,16.8,36.0,Hot,None,Moderate,11.739999999999998,Very Low
+424,Sidi Qacem,34.21,-5.7,2026-09-19,1,36.2,19.9,0.0,3,19.8,41.4,Extreme Heat,None,Moderate,17.215,Very Low
+425,Sidi Qacem,34.21,-5.7,2026-09-20,1,37.0,24.5,0.0,0,22.5,46.8,Extreme Heat,None,Moderate,20.5,Low
+426,Sidi Qacem,34.21,-5.7,2026-09-21,1,36.3,24.1,0.0,0,17.2,36.4,Extreme Heat,None,Moderate,16.9,Very Low
+427,M’diq,35.68,-5.32,2026-09-15,2,26.6,21.5,0.0,0,10.0,24.5,Normal,None,Low,1.0,Very Low
+428,M’diq,35.68,-5.32,2026-09-16,1,32.6,21.1,0.0,0,29.0,65.5,Hot,None,Strong,21.7,Low
+429,M’diq,35.68,-5.32,2026-09-17,3,25.3,16.9,0.0,0,14.7,33.1,Normal,None,Moderate,6.3999999999999995,Very Low
+430,M’diq,35.68,-5.32,2026-09-18,3,24.8,20.5,0.0,5,16.3,36.0,Normal,None,Moderate,6.924999999999999,Very Low
+431,M’diq,35.68,-5.32,2026-09-19,2,24.6,21.9,1.2,8,26.0,57.6,Normal,Light,Strong,18.04,Very Low
+432,M’diq,35.68,-5.32,2026-09-20,80,25.6,22.4,0.15,0,40.4,84.2,Normal,Light,Very Strong,38.4,Low
+433,M’diq,35.68,-5.32,2026-09-21,2,25.7,22.1,0.0,0,36.8,76.3,Normal,None,Strong,22.599999999999998,Low
+434,Youssoufia,32.25,-8.53,2026-09-15,3,37.4,24.6,0.0,3,24.1,49.7,Extreme Heat,None,Moderate,20.814999999999998,Low
+435,Youssoufia,32.25,-8.53,2026-09-16,1,31.4,19.7,0.0,0,20.6,41.8,Hot,None,Moderate,14.5,Very Low
+436,Youssoufia,32.25,-8.53,2026-09-17,3,28.7,17.1,0.0,0,18.2,38.2,Normal,None,Moderate,6.3999999999999995,Very Low
+437,Youssoufia,32.25,-8.53,2026-09-18,45,30.9,16.9,0.0,3,18.2,37.4,Hot,None,Moderate,16.215,Very Low
+438,Youssoufia,32.25,-8.53,2026-09-19,45,34.4,16.6,0.0,3,15.5,32.4,Hot,None,Moderate,16.215,Very Low
+439,Youssoufia,32.25,-8.53,2026-09-20,2,39.0,22.9,0.0,0,19.1,48.2,Extreme Heat,None,Moderate,16.9,Very Low
+440,Youssoufia,32.25,-8.53,2026-09-21,2,32.6,21.6,0.0,0,19.6,36.0,Hot,None,Moderate,10.899999999999999,Very Low
+441,Midalt,32.68,-4.74,2026-09-15,3,30.0,18.2,0.0,8,23.4,41.8,Normal,None,Moderate,15.34,Very Low
+442,Midalt,32.68,-4.74,2026-09-16,2,27.0,17.0,0.0,0,21.4,38.5,Normal,None,Moderate,10.0,Very Low
+443,Midalt,32.68,-4.74,2026-09-17,80,26.9,14.4,1.3,38,16.1,31.7,Normal,Light,Moderate,24.39,Low
+444,Midalt,32.68,-4.74,2026-09-18,3,26.6,13.6,0.0,18,22.1,35.6,Normal,None,Moderate,14.89,Very Low
+445,Midalt,32.68,-4.74,2026-09-19,3,25.8,14.3,0.0,14,26.3,43.9,Normal,None,Moderate,14.47,Very Low
+446,Midalt,32.68,-4.74,2026-09-20,3,29.0,15.5,0.6000000000000001,9,16.8,29.2,Normal,Light,Moderate,1.9449999999999998,Very Low
+447,Midalt,32.68,-4.74,2026-09-21,3,29.5,16.9,0.0,14,27.2,47.5,Normal,None,Moderate,11.47,Very Low
+448,Aïn Harrouda,33.6372,-7.4483,2026-09-15,45,29.2,21.7,0.0,0,12.1,32.0,Normal,None,Moderate,11.399999999999999,Very Low
+449,Aïn Harrouda,33.6372,-7.4483,2026-09-16,45,26.4,20.6,0.0,0,15.2,37.4,Normal,None,Moderate,11.399999999999999,Very Low
+450,Aïn Harrouda,33.6372,-7.4483,2026-09-17,3,26.3,19.7,0.0,0,13.2,33.8,Normal,None,Moderate,6.3999999999999995,Very Low
+451,Aïn Harrouda,33.6372,-7.4483,2026-09-18,3,26.9,17.6,0.0,3,14.6,37.1,Normal,None,Moderate,6.715,Very Low
+452,Aïn Harrouda,33.6372,-7.4483,2026-09-19,45,27.8,18.4,0.0,0,12.6,33.5,Normal,None,Moderate,11.399999999999999,Very Low
+453,Aïn Harrouda,33.6372,-7.4483,2026-09-20,2,30.4,20.4,0.0,0,11.5,27.4,Hot,None,Low,5.5,Very Low
+454,Aïn Harrouda,33.6372,-7.4483,2026-09-21,2,30.3,20.6,0.0,0,13.8,33.8,Hot,None,Moderate,10.899999999999999,Very Low
+455,Souq Sebt Oulad Nemma,32.3,-6.7,2026-09-15,3,39.7,24.6,0.0,3,17.7,32.8,Extreme Heat,None,Moderate,17.215,Very Low
+456,Souq Sebt Oulad Nemma,32.3,-6.7,2026-09-16,1,35.4,20.4,0.0,0,15.3,26.6,Extreme Heat,None,Moderate,11.5,Very Low
+457,Souq Sebt Oulad Nemma,32.3,-6.7,2026-09-17,3,32.2,17.7,0.0,5,13.8,24.8,Hot,None,Low,6.025,Very Low
+458,Souq Sebt Oulad Nemma,32.3,-6.7,2026-09-18,1,33.8,18.3,0.0,5,8.6,17.6,Hot,None,Low,6.025,Very Low
+459,Souq Sebt Oulad Nemma,32.3,-6.7,2026-09-19,3,38.2,20.2,0.0,2,10.5,19.8,Extreme Heat,None,Low,11.71,Very Low
+460,Souq Sebt Oulad Nemma,32.3,-6.7,2026-09-20,2,40.2,24.2,0.3,3,10.7,20.2,Extreme Heat,Light,Low,16.314999999999998,Very Low
+461,Souq Sebt Oulad Nemma,32.3,-6.7,2026-09-21,80,38.6,23.8,0.6000000000000001,3,16.6,29.2,Extreme Heat,Light,Moderate,22.814999999999998,Low
+462,Mehdya,34.2557,-6.6745,2026-09-15,45,27.6,21.0,0.0,0,12.5,28.1,Normal,None,Moderate,6.0,Very Low
+463,Mehdya,34.2557,-6.6745,2026-09-16,3,26.5,21.0,0.0,0,16.3,36.4,Normal,None,Moderate,6.3999999999999995,Very Low
+464,Mehdya,34.2557,-6.6745,2026-09-17,3,26.3,19.3,0.0,0,12.1,28.1,Normal,None,Moderate,1.0,Very Low
+465,Mehdya,34.2557,-6.6745,2026-09-18,45,26.9,17.6,0.0,5,13.3,29.9,Normal,None,Moderate,6.525,Very Low
+466,Mehdya,34.2557,-6.6745,2026-09-19,45,32.0,17.7,0.0,0,16.1,35.3,Hot,None,Moderate,15.899999999999999,Very Low
+467,Mehdya,34.2557,-6.6745,2026-09-20,1,36.7,22.5,0.0,0,17.3,40.3,Extreme Heat,None,Moderate,16.9,Very Low
+468,Mehdya,34.2557,-6.6745,2026-09-21,0,33.1,22.1,0.0,0,14.3,33.1,Hot,None,Moderate,9.899999999999999,Very Low
+469,Ouezzane,34.8,-5.6,2026-09-15,1,35.3,19.8,0.0,0,21.7,44.6,Extreme Heat,None,Moderate,20.5,Low
+470,Ouezzane,34.8,-5.6,2026-09-16,3,30.4,17.3,0.0,0,17.6,34.6,Hot,None,Moderate,10.899999999999999,Very Low
+471,Ouezzane,34.8,-5.6,2026-09-17,3,29.8,16.6,0.0,1,21.4,41.8,Normal,None,Moderate,10.105,Very Low
+472,Ouezzane,34.8,-5.6,2026-09-18,3,31.6,15.6,0.0,8,14.0,32.8,Hot,None,Moderate,11.739999999999998,Very Low
+473,Ouezzane,34.8,-5.6,2026-09-19,1,36.1,17.5,0.0,5,16.6,29.5,Extreme Heat,None,Moderate,12.025,Very Low
+474,Ouezzane,34.8,-5.6,2026-09-20,0,36.7,20.8,0.0,3,20.2,39.6,Extreme Heat,None,Moderate,19.814999999999998,Very Low
+475,Ouezzane,34.8,-5.6,2026-09-21,2,35.8,21.4,0.0,3,16.4,33.1,Extreme Heat,None,Moderate,17.215,Very Low
+476,Semara,26.7394,-11.6703,2026-09-15,0,40.9,26.8,0.0,1,31.5,50.4,Extreme Heat,None,Strong,31.305,Low
+477,Semara,26.7394,-11.6703,2026-09-16,0,39.4,25.2,0.0,0,32.0,55.1,Extreme Heat,None,Strong,26.7,Low
+478,Semara,26.7394,-11.6703,2026-09-17,3,31.0,20.3,0.0,0,29.3,50.4,Hot,None,Moderate,21.7,Low
+479,Semara,26.7394,-11.6703,2026-09-18,3,30.2,19.3,0.0,0,25.9,46.1,Hot,None,Moderate,14.5,Very Low
+480,Semara,26.7394,-11.6703,2026-09-19,3,32.5,18.4,0.0,0,20.8,37.4,Hot,None,Moderate,14.5,Very Low
+481,Semara,26.7394,-11.6703,2026-09-20,1,37.5,18.1,0.0,2,24.0,38.9,Extreme Heat,None,Moderate,20.71,Low
+482,Semara,26.7394,-11.6703,2026-09-21,3,41.3,22.6,0.0,25,16.9,44.6,Extreme Heat,None,Moderate,24.025,Low
+483,Ait Ourir,31.5644,-7.6628,2026-09-15,3,35.4,24.7,0.0,3,17.0,31.3,Extreme Heat,None,Moderate,17.215,Very Low
+484,Ait Ourir,31.5644,-7.6628,2026-09-16,1,32.7,19.9,0.0,0,14.9,28.1,Hot,None,Moderate,5.5,Very Low
+485,Ait Ourir,31.5644,-7.6628,2026-09-17,3,28.9,17.7,0.0,8,10.0,20.2,Normal,None,Low,1.8399999999999999,Very Low
+486,Ait Ourir,31.5644,-7.6628,2026-09-18,1,30.3,17.5,0.0,10,10.2,21.6,Hot,None,Low,6.55,Very Low
+487,Ait Ourir,31.5644,-7.6628,2026-09-19,2,34.8,19.2,0.0,10,12.2,24.5,Hot,None,Low,6.55,Very Low
+488,Ait Ourir,31.5644,-7.6628,2026-09-20,3,37.0,22.7,0.3,4,10.2,19.8,Extreme Heat,Light,Low,11.92,Very Low
+489,Ait Ourir,31.5644,-7.6628,2026-09-21,80,33.9,21.8,1.8,5,9.9,28.8,Hot,Light,Low,17.025,Very Low
+490,Oulad Tayeb,33.9598,-4.9954,2026-09-15,2,34.2,23.6,0.0,0,16.9,32.8,Hot,None,Moderate,10.899999999999999,Very Low
+491,Oulad Tayeb,33.9598,-4.9954,2026-09-16,1,30.9,21.0,0.0,0,16.7,31.7,Hot,None,Moderate,10.899999999999999,Very Low
+492,Oulad Tayeb,33.9598,-4.9954,2026-09-17,45,29.2,18.4,0.0,5,13.3,26.3,Normal,None,Low,6.525,Very Low
+493,Oulad Tayeb,33.9598,-4.9954,2026-09-18,3,30.7,18.4,0.0,5,10.9,23.4,Hot,None,Low,6.025,Very Low
+494,Oulad Tayeb,33.9598,-4.9954,2026-09-19,1,33.4,19.7,0.0,0,17.7,37.1,Hot,None,Moderate,10.899999999999999,Very Low
+495,Oulad Tayeb,33.9598,-4.9954,2026-09-20,1,33.2,21.0,0.0,0,20.0,48.6,Hot,None,Moderate,14.5,Very Low
+496,Oulad Tayeb,33.9598,-4.9954,2026-09-21,0,33.1,20.8,0.0,0,14.4,37.4,Hot,None,Moderate,9.899999999999999,Very Low
+497,Tit Mellil,33.5533,-7.4822,2026-09-15,45,29.9,21.5,0.0,0,13.0,34.2,Normal,None,Moderate,11.399999999999999,Very Low
+498,Tit Mellil,33.5533,-7.4822,2026-09-16,45,26.3,20.2,0.0,0,14.9,38.2,Normal,None,Moderate,11.399999999999999,Very Low
+499,Tit Mellil,33.5533,-7.4822,2026-09-17,3,26.1,19.0,0.0,0,13.4,35.3,Normal,None,Moderate,6.3999999999999995,Very Low
+500,Tit Mellil,33.5533,-7.4822,2026-09-18,3,27.0,17.5,0.0,3,15.0,38.5,Normal,None,Moderate,6.715,Very Low
+501,Tit Mellil,33.5533,-7.4822,2026-09-19,45,28.1,18.7,0.0,0,13.0,34.6,Normal,None,Moderate,11.399999999999999,Very Low
+502,Tit Mellil,33.5533,-7.4822,2026-09-20,2,31.1,20.8,0.0,0,11.6,29.9,Hot,None,Moderate,5.5,Very Low
+503,Tit Mellil,33.5533,-7.4822,2026-09-21,2,29.7,20.9,0.0,0,13.6,36.0,Normal,None,Moderate,6.3999999999999995,Very Low
+504,Sidi Bennour,32.655,-8.4292,2026-09-15,3,37.2,21.1,0.0,3,26.1,45.4,Extreme Heat,None,Moderate,20.814999999999998,Low
+505,Sidi Bennour,32.655,-8.4292,2026-09-16,2,30.2,18.5,0.0,0,22.7,39.2,Hot,None,Moderate,14.5,Very Low
+506,Sidi Bennour,32.655,-8.4292,2026-09-17,3,28.6,17.5,0.0,0,20.2,35.3,Normal,None,Moderate,10.0,Very Low
+507,Sidi Bennour,32.655,-8.4292,2026-09-18,45,30.6,17.5,0.0,0,22.0,39.2,Hot,None,Moderate,19.5,Very Low
+508,Sidi Bennour,32.655,-8.4292,2026-09-19,45,34.0,16.5,0.0,0,18.0,32.4,Hot,None,Moderate,15.899999999999999,Very Low
+509,Sidi Bennour,32.655,-8.4292,2026-09-20,2,38.7,20.3,0.0,0,18.4,36.0,Extreme Heat,None,Moderate,16.9,Very Low
+510,Sidi Bennour,32.655,-8.4292,2026-09-21,45,32.7,19.6,0.0,3,17.6,33.5,Hot,None,Moderate,16.215,Very Low
+511,Temsia,30.3633,-9.4144,2026-09-15,3,38.9,26.1,0.0,3,19.1,40.7,Extreme Heat,None,Moderate,17.215,Very Low
+512,Temsia,30.3633,-9.4144,2026-09-16,2,31.9,22.3,0.0,0,17.1,37.4,Hot,None,Moderate,10.899999999999999,Very Low
+513,Temsia,30.3633,-9.4144,2026-09-17,3,28.2,21.1,0.0,0,22.8,47.2,Normal,None,Moderate,10.0,Very Low
+514,Temsia,30.3633,-9.4144,2026-09-18,1,28.2,20.2,0.0,0,20.9,43.9,Normal,None,Moderate,10.0,Very Low
+515,Temsia,30.3633,-9.4144,2026-09-19,45,28.4,20.5,0.0,3,22.5,47.2,Normal,None,Moderate,15.315,Very Low
+516,Temsia,30.3633,-9.4144,2026-09-20,1,28.6,20.9,0.0,0,27.7,49.3,Normal,None,Moderate,10.0,Very Low
+517,Temsia,30.3633,-9.4144,2026-09-21,45,33.2,20.2,0.0,0,22.6,41.4,Hot,None,Moderate,19.5,Very Low
+518,Biougra,30.2144,-9.3708,2026-09-15,2,38.6,26.6,0.0,3,22.9,40.3,Extreme Heat,None,Moderate,20.814999999999998,Low
+519,Biougra,30.2144,-9.3708,2026-09-16,1,33.7,23.1,0.0,0,29.4,49.0,Hot,None,Moderate,14.5,Very Low
+520,Biougra,30.2144,-9.3708,2026-09-17,3,27.9,21.1,0.0,0,32.9,54.7,Normal,None,Strong,17.2,Very Low
+521,Biougra,30.2144,-9.3708,2026-09-18,2,28.3,20.2,0.0,0,23.1,39.6,Normal,None,Moderate,10.0,Very Low
+522,Biougra,30.2144,-9.3708,2026-09-19,2,28.6,20.4,0.0,3,22.1,36.0,Normal,None,Moderate,10.315,Very Low
+523,Biougra,30.2144,-9.3708,2026-09-20,1,27.3,20.5,0.0,0,25.5,43.9,Normal,None,Moderate,10.0,Very Low
+524,Biougra,30.2144,-9.3708,2026-09-21,45,30.7,19.9,0.0,0,19.8,35.3,Hot,None,Moderate,15.899999999999999,Very Low
+525,Al Hoceïma,35.2472,-3.9322,2026-09-15,45,26.4,20.2,0.0,0,11.3,20.2,Normal,None,Low,6.0,Very Low
+526,Al Hoceïma,35.2472,-3.9322,2026-09-16,3,28.7,19.9,0.0,0,13.0,25.2,Normal,None,Low,1.0,Very Low
+527,Al Hoceïma,35.2472,-3.9322,2026-09-17,3,25.8,20.0,0.0,3,16.7,30.2,Normal,None,Moderate,6.715,Very Low
+528,Al Hoceïma,35.2472,-3.9322,2026-09-18,45,26.0,18.9,0.0,12,15.4,32.0,Normal,None,Moderate,12.66,Very Low
+529,Al Hoceïma,35.2472,-3.9322,2026-09-19,2,27.7,18.9,0.0,15,26.5,47.5,Normal,None,Moderate,11.575,Very Low
+530,Al Hoceïma,35.2472,-3.9322,2026-09-20,2,27.3,22.0,0.0,5,33.7,60.5,Normal,None,Strong,17.724999999999998,Very Low
+531,Al Hoceïma,35.2472,-3.9322,2026-09-21,3,26.1,21.8,0.0,0,30.0,57.6,Normal,None,Strong,17.2,Very Low
+532,Qasbat Tadla,32.6,-6.26,2026-09-15,2,38.8,22.9,0.0,3,19.5,35.6,Extreme Heat,None,Moderate,17.215,Very Low
+533,Qasbat Tadla,32.6,-6.26,2026-09-16,0,34.3,18.7,0.0,0,14.6,27.7,Hot,None,Moderate,4.5,Very Low
+534,Qasbat Tadla,32.6,-6.26,2026-09-17,3,32.3,17.5,0.0,3,11.9,22.7,Hot,None,Low,5.8149999999999995,Very Low
+535,Qasbat Tadla,32.6,-6.26,2026-09-18,2,33.4,17.2,0.0,8,14.4,25.6,Hot,None,Low,6.34,Very Low
+536,Qasbat Tadla,32.6,-6.26,2026-09-19,3,37.3,20.6,0.0,1,10.2,19.4,Extreme Heat,None,Low,11.605,Very Low
+537,Qasbat Tadla,32.6,-6.26,2026-09-20,2,39.4,24.8,0.0,3,21.4,37.8,Extreme Heat,None,Moderate,20.814999999999998,Low
+538,Qasbat Tadla,32.6,-6.26,2026-09-21,80,37.5,19.9,0.6000000000000001,9,7.9,20.5,Extreme Heat,Light,Low,23.445,Low
+539,Aziylal,31.96,-6.5600000000000005,2026-09-15,3,30.4,19.7,0.1,5,22.9,49.3,Hot,Light,Moderate,15.025,Very Low
+540,Aziylal,31.96,-6.5600000000000005,2026-09-16,0,26.6,16.0,0.0,0,18.8,39.2,Normal,None,Moderate,5.3999999999999995,Very Low
+541,Aziylal,31.96,-6.5600000000000005,2026-09-17,3,25.3,14.8,0.0,23,15.3,32.0,Normal,None,Moderate,11.815,Very Low
+542,Aziylal,31.96,-6.5600000000000005,2026-09-18,3,25.9,15.0,0.0,18,17.3,37.8,Normal,None,Moderate,8.29,Very Low
+543,Aziylal,31.96,-6.5600000000000005,2026-09-19,3,28.9,17.6,0.0,23,16.4,34.9,Normal,None,Moderate,8.815,Very Low
+544,Aziylal,31.96,-6.5600000000000005,2026-09-20,3,30.8,20.3,0.0,6,18.0,34.2,Hot,None,Moderate,11.53,Very Low
+545,Aziylal,31.96,-6.5600000000000005,2026-09-21,80,29.2,19.4,1.8,12,16.0,33.1,Normal,Light,Moderate,18.66,Very Low
+546,Boujad,32.7741,-6.3925,2026-09-15,3,36.8,23.7,0.0,3,21.2,38.5,Extreme Heat,None,Moderate,20.814999999999998,Low
+547,Boujad,32.7741,-6.3925,2026-09-16,1,32.6,18.5,0.0,0,16.7,31.3,Hot,None,Moderate,10.899999999999999,Very Low
+548,Boujad,32.7741,-6.3925,2026-09-17,3,30.9,16.9,0.0,3,17.7,33.1,Hot,None,Moderate,11.215,Very Low
+549,Boujad,32.7741,-6.3925,2026-09-18,3,31.7,16.9,0.0,10,16.4,31.3,Hot,None,Moderate,11.95,Very Low
+550,Boujad,32.7741,-6.3925,2026-09-19,3,35.4,20.1,0.0,4,15.5,27.4,Extreme Heat,None,Moderate,11.92,Very Low
+551,Boujad,32.7741,-6.3925,2026-09-20,2,36.9,24.7,0.0,0,19.2,42.5,Extreme Heat,None,Moderate,16.9,Very Low
+552,Boujad,32.7741,-6.3925,2026-09-21,3,35.4,22.8,0.6000000000000001,5,14.3,34.6,Extreme Heat,Light,Moderate,17.424999999999997,Very Low
+553,Al Aaroui,35.0104,-3.0073,2026-09-15,45,29.1,18.2,0.0,0,16.9,29.2,Normal,None,Moderate,6.0,Very Low
+554,Al Aaroui,35.0104,-3.0073,2026-09-16,3,32.9,18.0,0.0,0,15.9,27.4,Hot,None,Moderate,5.5,Very Low
+555,Al Aaroui,35.0104,-3.0073,2026-09-17,3,26.7,17.3,0.0,1,18.9,33.5,Normal,None,Moderate,6.505,Very Low
+556,Al Aaroui,35.0104,-3.0073,2026-09-18,3,26.2,20.6,0.0,8,21.6,37.4,Normal,None,Moderate,10.84,Very Low
+557,Al Aaroui,35.0104,-3.0073,2026-09-19,45,26.1,20.5,0.0,18,29.4,51.5,Normal,None,Strong,24.09,Low
+558,Al Aaroui,35.0104,-3.0073,2026-09-20,3,26.9,20.6,0.0,10,29.6,54.4,Normal,None,Strong,18.25,Very Low
+559,Al Aaroui,35.0104,-3.0073,2026-09-21,3,26.6,20.7,0.0,8,25.7,46.4,Normal,None,Moderate,10.84,Very Low
+560,Mrirt,33.1654,-5.5634,2026-09-15,3,33.6,19.7,0.0,0,20.3,40.7,Hot,None,Moderate,14.5,Very Low
+561,Mrirt,33.1654,-5.5634,2026-09-16,3,30.0,14.7,0.0,0,18.5,37.1,Normal,None,Moderate,10.899999999999999,Very Low
+562,Mrirt,33.1654,-5.5634,2026-09-17,3,30.3,15.2,0.0,24,19.1,42.5,Hot,None,Moderate,13.419999999999998,Very Low
+563,Mrirt,33.1654,-5.5634,2026-09-18,3,28.8,14.0,0.0,13,17.4,35.3,Normal,None,Moderate,10.765,Very Low
+564,Mrirt,33.1654,-5.5634,2026-09-19,2,32.1,15.3,0.0,8,16.2,38.9,Hot,None,Moderate,11.739999999999998,Very Low
+565,Mrirt,33.1654,-5.5634,2026-09-20,3,33.3,19.1,0.0,9,19.9,38.2,Hot,None,Moderate,11.844999999999999,Very Low
+566,Mrirt,33.1654,-5.5634,2026-09-21,2,32.8,18.0,0.0,10,23.1,43.9,Hot,None,Moderate,15.55,Very Low
+567,Tineghir,31.5147,-5.5328,2026-09-15,61,32.1,20.8,0.7000000000000001,38,42.1,66.6,Hot,Light,Strong,39.489999999999995,Low
+568,Tineghir,31.5147,-5.5328,2026-09-16,2,31.4,18.3,0.0,5,32.6,51.5,Hot,None,Strong,22.224999999999998,Low
+569,Tineghir,31.5147,-5.5328,2026-09-17,80,29.4,19.1,0.7000000000000001,43,14.9,31.3,Normal,Light,Moderate,21.915,Low
+570,Tineghir,31.5147,-5.5328,2026-09-18,3,30.7,18.5,0.0,40,19.1,29.2,Hot,None,Moderate,9.7,Very Low
+571,Tineghir,31.5147,-5.5328,2026-09-19,3,29.8,20.8,0.0,30,16.6,25.2,Normal,None,Moderate,4.15,Very Low
+572,Tineghir,31.5147,-5.5328,2026-09-20,3,31.6,20.4,0.6000000000000001,12,17.1,32.4,Hot,Light,Moderate,12.16,Very Low
+573,Tineghir,31.5147,-5.5328,2026-09-21,80,29.1,20.4,0.6000000000000001,14,15.5,45.4,Normal,Light,Moderate,18.869999999999997,Very Low
+574,Bouknadel,34.1766,-6.6893,2026-09-15,45,26.3,21.0,0.0,0,15.1,26.3,Normal,None,Moderate,6.0,Very Low
+575,Bouknadel,34.1766,-6.6893,2026-09-16,2,25.4,20.8,0.0,0,18.5,32.0,Normal,None,Moderate,6.3999999999999995,Very Low
+576,Bouknadel,34.1766,-6.6893,2026-09-17,3,25.2,19.2,0.0,0,13.0,23.4,Normal,None,Low,1.0,Very Low
+577,Bouknadel,34.1766,-6.6893,2026-09-18,3,25.5,17.6,0.0,5,14.1,25.6,Normal,None,Low,1.525,Very Low
+578,Bouknadel,34.1766,-6.6893,2026-09-19,45,29.8,17.8,0.0,0,16.9,28.8,Normal,None,Moderate,6.0,Very Low
+579,Bouknadel,34.1766,-6.6893,2026-09-20,1,36.6,22.3,0.0,0,17.3,40.3,Extreme Heat,None,Moderate,16.9,Very Low
+580,Bouknadel,34.1766,-6.6893,2026-09-21,0,33.0,22.0,0.0,0,14.3,33.1,Hot,None,Moderate,9.899999999999999,Very Low
+581,Cabo Bojador,26.1269,-14.4992,2026-09-15,2,33.3,24.4,0.0,0,25.4,43.9,Hot,None,Moderate,14.5,Very Low
+582,Cabo Bojador,26.1269,-14.4992,2026-09-16,0,28.9,21.9,0.0,0,26.8,48.6,Normal,None,Moderate,9.0,Very Low
+583,Cabo Bojador,26.1269,-14.4992,2026-09-17,3,25.5,20.7,0.0,0,32.8,58.3,Normal,None,Strong,17.2,Very Low
+584,Cabo Bojador,26.1269,-14.4992,2026-09-18,3,24.9,20.2,0.0,0,25.1,47.2,Normal,None,Moderate,10.0,Very Low
+585,Cabo Bojador,26.1269,-14.4992,2026-09-19,1,25.3,19.2,0.0,0,20.9,41.4,Normal,None,Moderate,10.0,Very Low
+586,Cabo Bojador,26.1269,-14.4992,2026-09-20,1,26.2,19.2,0.0,0,27.9,51.1,Normal,None,Moderate,17.2,Very Low
+587,Cabo Bojador,26.1269,-14.4992,2026-09-21,1,26.9,20.1,0.0,8,25.9,46.8,Normal,None,Moderate,10.84,Very Low
+588,Zagora,30.3316,-5.8376,2026-09-15,3,36.9,26.2,0.0,5,23.1,38.5,Extreme Heat,None,Moderate,21.025,Low
+589,Zagora,30.3316,-5.8376,2026-09-16,2,37.2,23.3,0.0,3,11.0,20.2,Extreme Heat,None,Low,11.815,Very Low
+590,Zagora,30.3316,-5.8376,2026-09-17,3,34.0,26.3,0.4,13,15.8,42.5,Hot,Light,Moderate,12.265,Very Low
+591,Zagora,30.3316,-5.8376,2026-09-18,3,35.1,22.9,0.0,16,8.9,17.6,Extreme Heat,None,Low,13.18,Very Low
+592,Zagora,30.3316,-5.8376,2026-09-19,2,35.5,25.1,0.0,18,14.8,27.0,Extreme Heat,None,Moderate,13.39,Very Low
+593,Zagora,30.3316,-5.8376,2026-09-20,3,36.3,26.2,0.0,4,18.3,31.3,Extreme Heat,None,Moderate,17.32,Very Low
+594,Zagora,30.3316,-5.8376,2026-09-21,3,35.6,25.7,0.3,3,16.9,28.4,Extreme Heat,Light,Moderate,11.815,Very Low
+595,Azemmour,33.2833,-8.3333,2026-09-15,45,28.8,21.1,0.0,0,17.9,32.8,Normal,None,Moderate,11.399999999999999,Very Low
+596,Azemmour,33.2833,-8.3333,2026-09-16,45,26.3,20.1,0.0,0,18.8,34.2,Normal,None,Moderate,11.399999999999999,Very Low
+597,Azemmour,33.2833,-8.3333,2026-09-17,3,26.5,19.0,0.0,0,15.0,27.7,Normal,None,Moderate,1.0,Very Low
+598,Azemmour,33.2833,-8.3333,2026-09-18,45,26.4,19.6,0.0,0,18.7,35.3,Normal,None,Moderate,11.399999999999999,Very Low
+599,Azemmour,33.2833,-8.3333,2026-09-19,2,27.4,19.7,0.0,0,19.2,34.9,Normal,None,Moderate,6.3999999999999995,Very Low
+600,Azemmour,33.2833,-8.3333,2026-09-20,2,28.7,20.8,0.0,0,15.5,30.2,Normal,None,Moderate,6.3999999999999995,Very Low
+601,Azemmour,33.2833,-8.3333,2026-09-21,45,27.5,20.3,0.0,0,16.8,33.1,Normal,None,Moderate,11.399999999999999,Very Low
+602,El Hajeb,33.6928,-5.3711,2026-09-15,1,32.1,21.6,0.0,0,20.9,43.2,Hot,None,Moderate,14.5,Very Low
+603,El Hajeb,33.6928,-5.3711,2026-09-16,2,28.5,17.9,0.0,0,19.2,40.3,Normal,None,Moderate,6.3999999999999995,Very Low
+604,El Hajeb,33.6928,-5.3711,2026-09-17,3,25.9,16.0,0.0,11,17.6,38.2,Normal,None,Moderate,7.555,Very Low
+605,El Hajeb,33.6928,-5.3711,2026-09-18,3,27.3,15.6,0.0,23,15.2,31.0,Normal,None,Moderate,8.815,Very Low
+606,El Hajeb,33.6928,-5.3711,2026-09-19,2,30.3,17.5,0.0,10,19.3,41.8,Hot,None,Moderate,11.95,Very Low
+607,El Hajeb,33.6928,-5.3711,2026-09-20,2,32.1,21.7,0.0,9,18.8,40.0,Hot,None,Moderate,11.844999999999999,Very Low
+608,El Hajeb,33.6928,-5.3711,2026-09-21,0,31.2,19.0,0.0,10,17.4,33.1,Hot,None,Moderate,10.95,Very Low
+609,Jerada,34.31,-2.16,2026-09-15,3,30.7,19.2,0.0,0,18.6,34.9,Hot,None,Moderate,10.899999999999999,Very Low
+610,Jerada,34.31,-2.16,2026-09-16,0,29.1,18.0,0.0,0,23.5,44.3,Normal,None,Moderate,9.0,Very Low
+611,Jerada,34.31,-2.16,2026-09-17,3,28.8,17.2,0.1,15,19.9,45.7,Normal,Light,Moderate,7.975,Very Low
+612,Jerada,34.31,-2.16,2026-09-18,3,25.8,17.0,0.0,20,18.4,41.8,Normal,None,Moderate,8.5,Very Low
+613,Jerada,34.31,-2.16,2026-09-19,2,26.9,15.7,0.0,25,20.6,63.4,Normal,None,Strong,19.825,Very Low
+614,Jerada,34.31,-2.16,2026-09-20,2,27.5,17.9,0.3,14,20.0,33.1,Normal,Light,Moderate,11.47,Very Low
+615,Jerada,34.31,-2.16,2026-09-21,3,25.4,17.6,0.6000000000000001,15,16.1,31.3,Normal,Light,Moderate,7.975,Very Low
+616,El Aïoun,34.5726,-2.5127,2026-09-15,3,32.0,16.8,0.0,0,14.0,24.1,Hot,None,Low,5.5,Very Low
+617,El Aïoun,34.5726,-2.5127,2026-09-16,0,32.1,15.7,0.0,0,22.5,38.5,Hot,None,Moderate,13.5,Very Low
+618,El Aïoun,34.5726,-2.5127,2026-09-17,3,29.6,16.2,0.1,8,18.8,31.3,Normal,Light,Moderate,7.239999999999999,Very Low
+619,El Aïoun,34.5726,-2.5127,2026-09-18,45,28.1,18.2,0.0,13,18.1,33.1,Normal,None,Moderate,12.765,Very Low
+620,El Aïoun,34.5726,-2.5127,2026-09-19,2,29.3,17.2,0.0,15,23.5,41.4,Normal,None,Moderate,11.575,Very Low
+621,El Aïoun,34.5726,-2.5127,2026-09-20,2,28.9,17.9,0.0,8,21.7,39.2,Normal,None,Moderate,10.84,Very Low
+622,El Aïoun,34.5726,-2.5127,2026-09-21,3,29.5,18.5,0.0,8,20.9,36.0,Normal,None,Moderate,10.84,Very Low
+623,Tameslouht,31.5,-8.1,2026-09-15,3,36.6,25.5,0.0,8,18.0,32.8,Extreme Heat,None,Moderate,17.74,Very Low
+624,Tameslouht,31.5,-8.1,2026-09-16,1,34.0,21.4,0.0,0,18.8,31.3,Hot,None,Moderate,10.899999999999999,Very Low
+625,Tameslouht,31.5,-8.1,2026-09-17,2,29.6,18.2,0.0,0,13.3,22.7,Normal,None,Low,1.0,Very Low
+626,Tameslouht,31.5,-8.1,2026-09-18,2,31.1,18.7,0.0,8,11.2,20.9,Hot,None,Low,6.34,Very Low
+627,Tameslouht,31.5,-8.1,2026-09-19,2,35.6,20.7,0.0,2,11.3,20.5,Extreme Heat,None,Low,11.71,Very Low
+628,Tameslouht,31.5,-8.1,2026-09-20,3,38.2,23.5,0.0,3,14.5,40.3,Extreme Heat,None,Moderate,17.215,Very Low
+629,Tameslouht,31.5,-8.1,2026-09-21,2,33.5,23.9,0.3,5,17.9,32.0,Hot,Light,Moderate,11.424999999999999,Very Low
+630,Sidi Yahia El Gharb,34.3058,-6.3058,2026-09-15,45,31.8,20.8,0.0,0,18.6,33.8,Hot,None,Moderate,15.899999999999999,Very Low
+631,Sidi Yahia El Gharb,34.3058,-6.3058,2026-09-16,3,28.5,20.4,0.0,0,21.6,38.9,Normal,None,Moderate,10.0,Very Low
+632,Sidi Yahia El Gharb,34.3058,-6.3058,2026-09-17,3,28.0,18.3,0.0,0,16.3,30.2,Normal,None,Moderate,6.3999999999999995,Very Low
+633,Sidi Yahia El Gharb,34.3058,-6.3058,2026-09-18,45,29.5,15.8,0.0,5,18.0,33.1,Normal,None,Moderate,11.924999999999999,Very Low
+634,Sidi Yahia El Gharb,34.3058,-6.3058,2026-09-19,45,36.3,16.9,0.0,2,15.3,26.6,Extreme Heat,None,Moderate,16.71,Very Low
+635,Sidi Yahia El Gharb,34.3058,-6.3058,2026-09-20,1,38.1,22.8,0.0,3,23.1,45.0,Extreme Heat,None,Moderate,20.814999999999998,Low
+636,Sidi Yahia El Gharb,34.3058,-6.3058,2026-09-21,0,37.1,23.2,0.0,0,18.8,34.9,Extreme Heat,None,Moderate,15.899999999999999,Very Low
+637,Chichaoua,31.5333,-8.7667,2026-09-15,3,38.1,25.2,0.0,5,23.7,38.9,Extreme Heat,None,Moderate,21.025,Low
+638,Chichaoua,31.5333,-8.7667,2026-09-16,0,34.7,22.0,0.0,0,23.1,37.4,Hot,None,Moderate,13.5,Very Low
+639,Chichaoua,31.5333,-8.7667,2026-09-17,3,30.0,18.2,0.0,0,21.0,33.1,Normal,None,Moderate,14.5,Very Low
+640,Chichaoua,31.5333,-8.7667,2026-09-18,1,31.6,18.4,0.0,5,17.1,28.1,Hot,None,Moderate,6.025,Very Low
+641,Chichaoua,31.5333,-8.7667,2026-09-19,2,35.2,19.4,0.0,3,18.6,31.7,Extreme Heat,None,Moderate,17.215,Very Low
+642,Chichaoua,31.5333,-8.7667,2026-09-20,3,36.3,23.6,0.0,3,23.3,38.5,Extreme Heat,None,Moderate,20.814999999999998,Low
+643,Chichaoua,31.5333,-8.7667,2026-09-21,2,34.5,23.4,0.0,5,18.1,30.6,Hot,None,Moderate,11.424999999999999,Very Low
+644,Al ’Attawia,31.83,-7.31,2026-09-15,3,36.4,24.7,0.0,5,22.1,40.7,Extreme Heat,None,Moderate,21.025,Low
+645,Al ’Attawia,31.83,-7.31,2026-09-16,0,32.8,19.1,0.0,0,17.0,31.3,Hot,None,Moderate,9.899999999999999,Very Low
+646,Al ’Attawia,31.83,-7.31,2026-09-17,45,29.1,17.2,0.0,5,13.9,26.3,Normal,None,Moderate,6.525,Very Low
+647,Al ’Attawia,31.83,-7.31,2026-09-18,3,30.2,17.6,0.0,10,13.0,25.2,Hot,None,Low,6.55,Very Low
+648,Al ’Attawia,31.83,-7.31,2026-09-19,3,34.8,19.4,0.0,8,14.9,27.0,Hot,None,Moderate,6.34,Very Low
+649,Al ’Attawia,31.83,-7.31,2026-09-20,3,37.0,22.3,0.3,2,11.7,24.5,Extreme Heat,Light,Low,11.71,Very Low
+650,Al ’Attawia,31.83,-7.31,2026-09-21,3,35.0,20.2,0.9,8,9.7,20.9,Hot,Light,Low,12.34,Very Low
+651,Tabount,30.9014,-6.9217,2026-09-15,3,32.5,22.5,0.0,8,21.8,38.2,Hot,None,Moderate,15.34,Very Low
+652,Tabount,30.9014,-6.9217,2026-09-16,1,33.5,19.3,0.0,3,23.7,37.8,Hot,None,Moderate,14.815,Very Low
+653,Tabount,30.9014,-6.9217,2026-09-17,80,32.5,20.2,0.8,25,18.5,30.6,Hot,Light,Moderate,24.525,Low
+654,Tabount,30.9014,-6.9217,2026-09-18,2,31.9,19.0,0.0,23,19.4,32.8,Hot,None,Moderate,13.315,Very Low
+655,Tabount,30.9014,-6.9217,2026-09-19,2,32.7,20.9,0.0,18,9.6,17.3,Hot,None,Low,7.39,Very Low
+656,Tabount,30.9014,-6.9217,2026-09-20,3,33.7,22.8,0.0,9,25.0,46.4,Hot,None,Moderate,15.445,Very Low
+657,Tabount,30.9014,-6.9217,2026-09-21,80,31.3,20.4,0.6000000000000001,5,17.7,34.6,Hot,Light,Moderate,22.424999999999997,Low
+658,Zaïo,34.9396,-2.7334,2026-09-15,3,30.0,18.6,0.0,0,10.3,23.4,Normal,None,Low,5.5,Very Low
+659,Zaïo,34.9396,-2.7334,2026-09-16,2,33.2,19.8,0.0,0,14.7,28.4,Hot,None,Moderate,5.5,Very Low
+660,Zaïo,34.9396,-2.7334,2026-09-17,3,27.1,19.6,0.0,1,17.1,32.4,Normal,None,Moderate,6.505,Very Low
+661,Zaïo,34.9396,-2.7334,2026-09-18,45,27.4,20.2,0.0,6,15.5,31.3,Normal,None,Moderate,12.03,Very Low
+662,Zaïo,34.9396,-2.7334,2026-09-19,45,27.6,19.7,0.0,10,27.1,57.2,Normal,None,Strong,23.25,Low
+663,Zaïo,34.9396,-2.7334,2026-09-20,45,26.9,20.1,0.0,8,30.4,55.1,Normal,None,Strong,23.04,Low
+664,Zaïo,34.9396,-2.7334,2026-09-21,3,27.1,20.9,0.0,5,23.6,42.5,Normal,None,Moderate,10.525,Very Low
+665,Aguelmous,33.1324,-5.8366,2026-09-15,3,32.6,19.4,0.0,0,21.9,43.2,Hot,None,Moderate,14.5,Very Low
+666,Aguelmous,33.1324,-5.8366,2026-09-16,1,29.1,16.4,0.0,0,17.3,34.6,Normal,None,Moderate,6.3999999999999995,Very Low
+667,Aguelmous,33.1324,-5.8366,2026-09-17,3,29.0,15.9,0.0,10,19.1,37.4,Normal,None,Moderate,7.449999999999999,Very Low
+668,Aguelmous,33.1324,-5.8366,2026-09-18,3,29.1,14.9,0.0,20,16.0,34.6,Normal,None,Moderate,11.5,Very Low
+669,Aguelmous,33.1324,-5.8366,2026-09-19,3,31.8,17.2,0.0,8,18.0,35.3,Hot,None,Moderate,11.739999999999998,Very Low
+670,Aguelmous,33.1324,-5.8366,2026-09-20,3,32.4,19.6,0.0,5,19.5,38.5,Hot,None,Moderate,11.424999999999999,Very Low
+671,Aguelmous,33.1324,-5.8366,2026-09-21,2,32.4,20.1,0.0,5,24.3,47.9,Hot,None,Moderate,15.025,Very Low
+672,Asilah,35.4667,-6.0333,2026-09-15,0,31.8,21.3,0.0,0,18.9,34.6,Hot,None,Moderate,9.899999999999999,Very Low
+673,Asilah,35.4667,-6.0333,2026-09-16,3,24.9,19.6,0.0,0,19.2,35.3,Normal,None,Moderate,6.3999999999999995,Very Low
+674,Asilah,35.4667,-6.0333,2026-09-17,3,24.4,18.8,0.0,1,14.5,27.7,Normal,None,Moderate,1.105,Very Low
+675,Asilah,35.4667,-6.0333,2026-09-18,45,26.6,16.9,0.0,5,23.2,40.3,Normal,None,Moderate,15.525,Very Low
+676,Asilah,35.4667,-6.0333,2026-09-19,1,29.4,22.1,0.0,0,37.0,68.4,Normal,None,Strong,17.2,Very Low
+677,Asilah,35.4667,-6.0333,2026-09-20,0,33.7,23.4,0.0,2,27.7,52.6,Hot,None,Strong,20.91,Low
+678,Asilah,35.4667,-6.0333,2026-09-21,2,33.8,24.4,0.0,0,23.0,44.3,Hot,None,Moderate,14.5,Very Low
+679,Imzouren,35.1464,-3.8506,2026-09-15,45,27.1,19.8,0.0,0,11.9,21.6,Normal,None,Low,6.0,Very Low
+680,Imzouren,35.1464,-3.8506,2026-09-16,3,29.9,20.9,0.0,0,12.3,25.6,Normal,None,Low,1.0,Very Low
+681,Imzouren,35.1464,-3.8506,2026-09-17,45,26.0,19.3,0.0,5,17.1,31.0,Normal,None,Moderate,11.924999999999999,Very Low
+682,Imzouren,35.1464,-3.8506,2026-09-18,45,26.3,18.6,0.0,10,15.5,30.6,Normal,None,Moderate,12.45,Very Low
+683,Imzouren,35.1464,-3.8506,2026-09-19,2,29.3,18.7,0.0,10,24.2,44.3,Normal,None,Moderate,11.05,Very Low
+684,Imzouren,35.1464,-3.8506,2026-09-20,1,28.9,21.0,0.0,4,22.2,45.7,Normal,None,Moderate,10.42,Very Low
+685,Imzouren,35.1464,-3.8506,2026-09-21,3,28.1,21.9,0.0,3,18.7,36.0,Normal,None,Moderate,6.715,Very Low
+686,Mediouna,33.4556,-7.5208,2026-09-15,45,33.6,20.8,0.0,0,18.5,32.8,Hot,None,Moderate,15.899999999999999,Very Low
+687,Mediouna,33.4556,-7.5208,2026-09-16,45,28.0,19.3,0.0,0,18.0,33.1,Normal,None,Moderate,11.399999999999999,Very Low
+688,Mediouna,33.4556,-7.5208,2026-09-17,3,27.6,18.7,0.0,0,16.6,30.6,Normal,None,Moderate,6.3999999999999995,Very Low
+689,Mediouna,33.4556,-7.5208,2026-09-18,45,28.9,16.6,0.0,3,17.8,32.8,Normal,None,Moderate,11.715,Very Low
+690,Mediouna,33.4556,-7.5208,2026-09-19,45,31.3,17.4,0.0,0,15.8,29.5,Hot,None,Moderate,10.5,Very Low
+691,Mediouna,33.4556,-7.5208,2026-09-20,2,30.7,20.8,0.0,0,11.6,29.9,Hot,None,Moderate,5.5,Very Low
+692,Mediouna,33.4556,-7.5208,2026-09-21,2,29.3,20.5,0.0,0,13.6,36.0,Normal,None,Moderate,6.3999999999999995,Very Low
+693,Demnat,31.7311,-7.0361,2026-09-15,3,33.5,22.0,0.0,8,20.8,44.3,Hot,None,Moderate,15.34,Very Low
+694,Demnat,31.7311,-7.0361,2026-09-16,0,29.8,17.5,0.0,0,17.8,33.8,Normal,None,Moderate,5.3999999999999995,Very Low
+695,Demnat,31.7311,-7.0361,2026-09-17,45,26.4,15.6,0.0,13,14.4,28.4,Normal,None,Moderate,7.365,Very Low
+696,Demnat,31.7311,-7.0361,2026-09-18,3,27.6,15.4,0.0,15,12.7,25.6,Normal,None,Low,2.575,Very Low
+697,Demnat,31.7311,-7.0361,2026-09-19,3,32.1,18.5,0.0,10,14.1,28.4,Hot,None,Moderate,6.55,Very Low
+698,Demnat,31.7311,-7.0361,2026-09-20,80,34.1,22.1,0.3,5,15.0,28.4,Hot,Light,Moderate,17.025,Very Low
+699,Demnat,31.7311,-7.0361,2026-09-21,3,32.4,19.9,0.6000000000000001,7,12.7,24.1,Hot,Light,Low,6.235,Very Low
+700,Aïn Taoujdat,33.9333,-5.2167,2026-09-15,2,34.0,22.3,0.0,0,19.3,38.9,Hot,None,Moderate,10.899999999999999,Very Low
+701,Aïn Taoujdat,33.9333,-5.2167,2026-09-16,1,30.8,20.3,0.0,0,19.2,40.7,Hot,None,Moderate,10.899999999999999,Very Low
+702,Aïn Taoujdat,33.9333,-5.2167,2026-09-17,3,28.3,18.2,0.0,5,14.4,28.4,Normal,None,Moderate,1.525,Very Low
+703,Aïn Taoujdat,33.9333,-5.2167,2026-09-18,3,30.2,17.0,0.0,13,12.8,24.8,Hot,None,Low,6.865,Very Low
+704,Aïn Taoujdat,33.9333,-5.2167,2026-09-19,1,33.3,18.9,0.0,5,16.8,32.0,Hot,None,Moderate,11.424999999999999,Very Low
+705,Aïn Taoujdat,33.9333,-5.2167,2026-09-20,2,34.8,20.5,0.0,1,22.9,41.8,Hot,None,Moderate,14.605,Very Low
+706,Aïn Taoujdat,33.9333,-5.2167,2026-09-21,0,34.2,19.8,0.0,0,13.7,24.8,Hot,None,Low,4.5,Very Low
+707,Sidi Smai’il,32.8167,-8.5,2026-09-15,3,35.4,21.5,0.0,0,23.6,41.0,Extreme Heat,None,Moderate,20.5,Low
+708,Sidi Smai’il,32.8167,-8.5,2026-09-16,2,28.7,19.4,0.0,0,20.9,36.4,Normal,None,Moderate,10.0,Very Low
+709,Sidi Smai’il,32.8167,-8.5,2026-09-17,3,27.8,18.4,0.0,0,17.9,31.0,Normal,None,Moderate,6.3999999999999995,Very Low
+710,Sidi Smai’il,32.8167,-8.5,2026-09-18,45,29.5,18.4,0.0,0,21.2,37.8,Normal,None,Moderate,15.0,Very Low
+711,Sidi Smai’il,32.8167,-8.5,2026-09-19,2,32.2,17.6,0.0,0,16.9,30.6,Hot,None,Moderate,10.899999999999999,Very Low
+712,Sidi Smai’il,32.8167,-8.5,2026-09-20,2,35.2,21.0,0.0,0,19.0,34.6,Extreme Heat,None,Moderate,16.9,Very Low
+713,Sidi Smai’il,32.8167,-8.5,2026-09-21,45,30.1,19.5,0.0,3,17.4,31.7,Hot,None,Moderate,16.215,Very Low
+714,Moulay Bousselham,34.8786,-6.2933,2026-09-15,45,27.5,19.4,0.0,0,25.7,43.2,Normal,None,Moderate,15.0,Very Low
+715,Moulay Bousselham,34.8786,-6.2933,2026-09-16,45,25.6,19.4,0.0,0,17.0,28.1,Normal,None,Moderate,6.0,Very Low
+716,Moulay Bousselham,34.8786,-6.2933,2026-09-17,3,25.1,18.7,0.0,0,17.6,29.2,Normal,None,Moderate,1.0,Very Low
+717,Moulay Bousselham,34.8786,-6.2933,2026-09-18,45,25.8,17.7,0.0,5,18.7,31.3,Normal,None,Moderate,11.924999999999999,Very Low
+718,Moulay Bousselham,34.8786,-6.2933,2026-09-19,1,30.7,18.2,0.0,5,15.3,27.0,Hot,None,Moderate,6.025,Very Low
+719,Moulay Bousselham,34.8786,-6.2933,2026-09-20,1,37.3,19.8,0.0,1,13.0,25.2,Extreme Heat,None,Low,11.605,Very Low
+720,Moulay Bousselham,34.8786,-6.2933,2026-09-21,1,34.0,19.5,0.0,0,18.9,33.8,Hot,None,Moderate,10.899999999999999,Very Low
+721,Mechraa Bel Ksiri,34.56,-5.95,2026-09-15,45,34.8,20.8,0.0,0,20.2,36.7,Hot,None,Moderate,19.5,Very Low
+722,Mechraa Bel Ksiri,34.56,-5.95,2026-09-16,2,30.0,19.6,0.0,0,19.9,37.1,Normal,None,Moderate,10.899999999999999,Very Low
+723,Mechraa Bel Ksiri,34.56,-5.95,2026-09-17,3,29.7,18.8,0.0,0,17.8,33.1,Normal,None,Moderate,6.3999999999999995,Very Low
+724,Mechraa Bel Ksiri,34.56,-5.95,2026-09-18,45,31.9,16.0,0.0,8,15.8,33.5,Hot,None,Moderate,16.74,Very Low
+725,Mechraa Bel Ksiri,34.56,-5.95,2026-09-19,45,36.6,18.3,0.0,2,18.4,32.4,Extreme Heat,None,Moderate,22.11,Low
+726,Mechraa Bel Ksiri,34.56,-5.95,2026-09-20,0,38.3,24.1,0.0,3,24.6,47.5,Extreme Heat,None,Moderate,19.814999999999998,Very Low
+727,Mechraa Bel Ksiri,34.56,-5.95,2026-09-21,1,37.0,23.9,0.0,0,20.9,39.6,Extreme Heat,None,Moderate,20.5,Low
+728,Souk et Tnine Jorf el Mellah,34.4945,-5.5047,2026-09-15,0,35.9,22.4,0.0,0,19.6,37.8,Extreme Heat,None,Moderate,15.899999999999999,Very Low
+729,Souk et Tnine Jorf el Mellah,34.4945,-5.5047,2026-09-16,2,31.5,19.6,0.0,0,19.8,37.4,Hot,None,Moderate,10.899999999999999,Very Low
+730,Souk et Tnine Jorf el Mellah,34.4945,-5.5047,2026-09-17,3,30.7,19.4,0.0,1,15.7,28.4,Hot,None,Moderate,5.605,Very Low
+731,Souk et Tnine Jorf el Mellah,34.4945,-5.5047,2026-09-18,45,32.3,16.9,0.0,5,14.3,27.0,Hot,None,Moderate,11.025,Very Low
+732,Souk et Tnine Jorf el Mellah,34.4945,-5.5047,2026-09-19,1,36.4,20.3,0.0,3,24.7,46.8,Extreme Heat,None,Moderate,20.814999999999998,Low
+733,Souk et Tnine Jorf el Mellah,34.4945,-5.5047,2026-09-20,0,37.6,24.4,0.0,0,25.8,48.2,Extreme Heat,None,Moderate,19.5,Very Low
+734,Souk et Tnine Jorf el Mellah,34.4945,-5.5047,2026-09-21,1,36.5,24.0,0.0,0,20.2,37.8,Extreme Heat,None,Moderate,20.5,Low
+735,Zeghanghane,35.1575,-3.0017,2026-09-15,45,28.3,19.7,0.0,0,12.1,24.1,Normal,None,Low,6.0,Very Low
+736,Zeghanghane,35.1575,-3.0017,2026-09-16,1,32.0,19.0,0.0,3,9.0,20.5,Hot,None,Low,5.8149999999999995,Very Low
+737,Zeghanghane,35.1575,-3.0017,2026-09-17,3,26.9,18.8,0.0,5,16.6,33.1,Normal,None,Moderate,6.924999999999999,Very Low
+738,Zeghanghane,35.1575,-3.0017,2026-09-18,3,26.0,21.1,0.3,8,17.9,34.9,Normal,Light,Moderate,7.239999999999999,Very Low
+739,Zeghanghane,35.1575,-3.0017,2026-09-19,2,25.8,21.5,0.0,15,26.7,54.0,Normal,None,Strong,18.775,Very Low
+740,Zeghanghane,35.1575,-3.0017,2026-09-20,2,26.1,22.0,0.0,13,27.4,50.0,Normal,None,Moderate,18.564999999999998,Very Low
+741,Zeghanghane,35.1575,-3.0017,2026-09-21,3,26.0,22.2,0.0,5,24.0,44.6,Normal,None,Moderate,10.525,Very Low
+742,Oulad Barhil,30.6408,-8.475,2026-09-15,3,39.5,25.4,0.0,13,20.9,36.4,Extreme Heat,None,Moderate,21.865000000000002,Low
+743,Oulad Barhil,30.6408,-8.475,2026-09-16,1,36.3,22.1,0.0,3,26.2,47.5,Extreme Heat,None,Moderate,20.814999999999998,Low
+744,Oulad Barhil,30.6408,-8.475,2026-09-17,3,29.7,18.1,0.0,3,30.5,53.6,Normal,None,Strong,17.515,Very Low
+745,Oulad Barhil,30.6408,-8.475,2026-09-18,3,31.2,17.8,0.0,5,26.4,49.3,Hot,None,Moderate,15.025,Very Low
+746,Oulad Barhil,30.6408,-8.475,2026-09-19,3,37.6,20.7,0.0,3,26.2,46.4,Extreme Heat,None,Moderate,20.814999999999998,Low
+747,Oulad Barhil,30.6408,-8.475,2026-09-20,2,38.7,23.4,0.0,2,19.5,34.9,Extreme Heat,None,Moderate,17.11,Very Low
+748,Oulad Barhil,30.6408,-8.475,2026-09-21,1,36.3,21.3,0.0,0,25.4,45.7,Extreme Heat,None,Moderate,20.5,Low
+749,Bir Jdid,33.3737,-8.0002,2026-09-15,45,29.7,20.8,0.0,0,17.3,33.1,Normal,None,Moderate,11.399999999999999,Very Low
+750,Bir Jdid,33.3737,-8.0002,2026-09-16,45,26.2,20.1,0.0,0,18.6,35.6,Normal,None,Moderate,11.399999999999999,Very Low
+751,Bir Jdid,33.3737,-8.0002,2026-09-17,3,26.4,18.5,0.0,0,17.3,33.1,Normal,None,Moderate,6.3999999999999995,Very Low
+752,Bir Jdid,33.3737,-8.0002,2026-09-18,45,26.7,19.5,0.0,0,19.9,38.5,Normal,None,Moderate,11.399999999999999,Very Low
+753,Bir Jdid,33.3737,-8.0002,2026-09-19,45,28.2,18.9,0.0,0,18.3,35.3,Normal,None,Moderate,11.399999999999999,Very Low
+754,Bir Jdid,33.3737,-8.0002,2026-09-20,2,31.3,20.8,0.0,0,15.5,30.2,Hot,None,Moderate,10.899999999999999,Very Low
+755,Bir Jdid,33.3737,-8.0002,2026-09-21,45,29.5,20.0,0.0,0,19.2,36.7,Normal,None,Moderate,11.399999999999999,Very Low
+756,Bou Arfa,32.531,-1.9631,2026-09-15,3,32.3,20.1,0.0,13,17.0,33.8,Hot,None,Moderate,12.265,Very Low
+757,Bou Arfa,32.531,-1.9631,2026-09-16,3,29.2,19.2,0.0,0,18.9,29.5,Normal,None,Moderate,1.0,Very Low
+758,Bou Arfa,32.531,-1.9631,2026-09-17,3,29.4,17.6,0.3,15,22.3,37.1,Normal,Light,Moderate,11.575,Very Low
+759,Bou Arfa,32.531,-1.9631,2026-09-18,3,29.2,18.4,0.1,35,10.0,25.2,Normal,Light,Low,4.675,Very Low
+760,Bou Arfa,32.531,-1.9631,2026-09-19,3,28.4,18.9,0.0,22,18.9,31.7,Normal,None,Moderate,8.709999999999999,Very Low
+761,Bou Arfa,32.531,-1.9631,2026-09-20,80,30.8,19.5,2.4,9,15.6,32.0,Hot,Light,Moderate,22.845,Low
+762,Bou Arfa,32.531,-1.9631,2026-09-21,95,22.2,19.0,9.7,8,12.4,29.5,Normal,Moderate,Moderate,25.74,Low
+763,Tahannawt,31.3514,-7.9508,2026-09-15,3,32.8,22.5,0.0,5,18.4,38.2,Hot,None,Moderate,11.424999999999999,Very Low
+764,Tahannawt,31.3514,-7.9508,2026-09-16,2,30.6,18.5,0.0,0,15.8,30.2,Hot,None,Moderate,10.899999999999999,Very Low
+765,Tahannawt,31.3514,-7.9508,2026-09-17,3,26.5,15.7,0.0,8,13.3,26.6,Normal,None,Low,1.8399999999999999,Very Low
+766,Tahannawt,31.3514,-7.9508,2026-09-18,1,28.0,15.4,0.0,13,13.6,26.6,Normal,None,Moderate,2.365,Very Low
+767,Tahannawt,31.3514,-7.9508,2026-09-19,3,32.2,18.2,0.0,5,13.1,27.0,Hot,None,Moderate,6.025,Very Low
+768,Tahannawt,31.3514,-7.9508,2026-09-20,3,35.1,21.7,0.0,5,11.9,27.7,Extreme Heat,None,Low,12.025,Very Low
+769,Tahannawt,31.3514,-7.9508,2026-09-21,3,31.4,20.3,0.3,9,15.3,28.8,Hot,Light,Moderate,6.445,Very Low
+770,Arfoud,31.4361,-4.2328,2026-09-15,3,36.8,25.8,0.0,10,32.7,83.2,Extreme Heat,None,Strong,34.15,Low
+771,Arfoud,31.4361,-4.2328,2026-09-16,2,34.7,21.8,0.0,3,13.0,22.0,Hot,None,Low,5.8149999999999995,Very Low
+772,Arfoud,31.4361,-4.2328,2026-09-17,80,32.7,23.4,0.3,17,23.6,38.5,Hot,Light,Moderate,27.285,Low
+773,Arfoud,31.4361,-4.2328,2026-09-18,3,33.6,20.6,0.0,27,11.8,17.6,Hot,None,Low,8.334999999999999,Very Low
+774,Arfoud,31.4361,-4.2328,2026-09-19,3,33.6,23.0,0.0,30,21.0,33.1,Hot,None,Moderate,17.65,Very Low
+775,Arfoud,31.4361,-4.2328,2026-09-20,3,35.4,24.0,0.0,10,16.5,25.6,Extreme Heat,None,Moderate,12.55,Very Low
+776,Arfoud,31.4361,-4.2328,2026-09-21,3,32.1,23.7,0.9,5,17.7,27.7,Hot,Light,Moderate,6.025,Very Low
+777,Tahla,34.05,-4.42,2026-09-15,3,34.4,21.0,0.0,0,17.4,32.4,Hot,None,Moderate,10.899999999999999,Very Low
+778,Tahla,34.05,-4.42,2026-09-16,1,31.0,20.0,0.0,0,18.0,34.9,Hot,None,Moderate,10.899999999999999,Very Low
+779,Tahla,34.05,-4.42,2026-09-17,3,29.3,17.4,0.0,15,14.2,26.6,Normal,None,Moderate,2.575,Very Low
+780,Tahla,34.05,-4.42,2026-09-18,3,30.8,17.1,0.0,5,13.8,25.6,Hot,None,Low,6.025,Very Low
+781,Tahla,34.05,-4.42,2026-09-19,2,32.1,19.7,0.0,5,21.3,44.3,Hot,None,Moderate,15.025,Very Low
+782,Tahla,34.05,-4.42,2026-09-20,1,33.2,22.0,0.0,1,19.9,36.4,Hot,None,Moderate,11.004999999999999,Very Low
+783,Tahla,34.05,-4.42,2026-09-21,0,32.4,22.2,0.0,3,20.0,35.3,Hot,None,Moderate,13.815,Very Low
+784,Missour,33.05,-3.9908,2026-09-15,3,35.8,20.6,0.0,10,22.0,34.9,Extreme Heat,None,Moderate,21.55,Low
+785,Missour,33.05,-3.9908,2026-09-16,1,32.3,19.2,0.0,0,20.1,32.4,Hot,None,Moderate,14.5,Very Low
+786,Missour,33.05,-3.9908,2026-09-17,80,30.6,17.5,0.5,25,22.4,34.6,Hot,Light,Moderate,28.125,Low
+787,Missour,33.05,-3.9908,2026-09-18,3,29.5,16.5,0.0,17,27.5,46.1,Normal,None,Moderate,11.785,Very Low
+788,Missour,33.05,-3.9908,2026-09-19,80,29.8,17.6,0.9,23,23.5,43.6,Normal,Light,Moderate,23.415,Low
+789,Missour,33.05,-3.9908,2026-09-20,3,30.8,18.3,0.0,10,22.7,34.6,Hot,None,Moderate,15.55,Very Low
+790,Missour,33.05,-3.9908,2026-09-21,3,30.0,18.5,1.2,8,27.0,41.8,Normal,Light,Moderate,15.34,Very Low
+791,Sidi Lmokhtar,31.57,-9.01,2026-09-15,3,38.2,24.8,0.0,5,23.2,38.5,Extreme Heat,None,Moderate,21.025,Low
+792,Sidi Lmokhtar,31.57,-9.01,2026-09-16,1,34.3,21.7,0.0,0,23.9,41.4,Hot,None,Moderate,14.5,Very Low
+793,Sidi Lmokhtar,31.57,-9.01,2026-09-17,3,29.6,17.7,0.0,0,23.4,39.2,Normal,None,Moderate,10.0,Very Low
+794,Sidi Lmokhtar,31.57,-9.01,2026-09-18,1,31.1,17.8,0.0,3,15.6,27.7,Hot,None,Moderate,5.8149999999999995,Very Low
+795,Sidi Lmokhtar,31.57,-9.01,2026-09-19,2,34.9,19.0,0.0,5,13.6,24.5,Hot,None,Low,6.025,Very Low
+796,Sidi Lmokhtar,31.57,-9.01,2026-09-20,2,34.8,23.3,0.0,3,25.0,43.9,Hot,None,Moderate,14.815,Very Low
+797,Sidi Lmokhtar,31.57,-9.01,2026-09-21,2,32.8,20.9,0.0,3,22.2,36.4,Hot,None,Moderate,14.815,Very Low
+798,Douar Toulal,33.8951,-5.6021,2026-09-15,2,33.6,21.8,0.0,0,18.4,40.7,Hot,None,Moderate,10.899999999999999,Very Low
+799,Douar Toulal,33.8951,-5.6021,2026-09-16,1,30.3,18.8,0.0,0,18.0,39.2,Hot,None,Moderate,10.899999999999999,Very Low
+800,Douar Toulal,33.8951,-5.6021,2026-09-17,45,28.2,17.6,0.0,3,14.7,33.1,Normal,None,Moderate,11.715,Very Low
+801,Douar Toulal,33.8951,-5.6021,2026-09-18,2,30.0,16.3,0.0,18,12.9,29.9,Normal,None,Moderate,7.39,Very Low
+802,Douar Toulal,33.8951,-5.6021,2026-09-19,1,34.1,18.5,0.0,5,12.7,28.4,Hot,None,Moderate,6.025,Very Low
+803,Douar Toulal,33.8951,-5.6021,2026-09-20,2,35.4,22.2,0.0,1,18.8,35.6,Extreme Heat,None,Moderate,17.005,Very Low
+804,Douar Toulal,33.8951,-5.6021,2026-09-21,0,34.8,20.7,0.0,0,13.7,25.9,Hot,None,Low,4.5,Very Low
+805,Oulad Yaïch,32.4167,-6.3333,2026-09-15,3,38.6,25.5,0.0,3,18.3,35.3,Extreme Heat,None,Moderate,17.215,Very Low
+806,Oulad Yaïch,32.4167,-6.3333,2026-09-16,0,34.7,21.4,0.0,0,12.7,23.0,Hot,None,Low,4.5,Very Low
+807,Oulad Yaïch,32.4167,-6.3333,2026-09-17,3,31.9,17.7,0.0,3,11.1,19.8,Hot,None,Low,5.8149999999999995,Very Low
+808,Oulad Yaïch,32.4167,-6.3333,2026-09-18,1,33.3,18.8,0.0,5,7.2,14.8,Hot,None,Low,6.025,Very Low
+809,Oulad Yaïch,32.4167,-6.3333,2026-09-19,3,37.4,20.5,0.0,5,8.4,18.0,Extreme Heat,None,Low,12.025,Very Low
+810,Oulad Yaïch,32.4167,-6.3333,2026-09-20,2,38.1,26.6,0.3,3,16.1,29.5,Extreme Heat,Light,Moderate,11.815,Very Low
+811,Oulad Yaïch,32.4167,-6.3333,2026-09-21,80,36.8,28.1,0.9,9,18.6,37.1,Extreme Heat,Light,Moderate,28.845,Low
+812,Zawyat ech Cheïkh,32.6541,-5.9214,2026-09-15,3,36.0,20.5,0.0,5,19.2,36.0,Extreme Heat,None,Moderate,17.424999999999997,Very Low
+813,Zawyat ech Cheïkh,32.6541,-5.9214,2026-09-16,0,31.9,16.9,0.0,0,13.8,25.6,Hot,None,Low,4.5,Very Low
+814,Zawyat ech Cheïkh,32.6541,-5.9214,2026-09-17,3,30.4,16.6,0.0,5,14.4,27.4,Hot,None,Moderate,6.025,Very Low
+815,Zawyat ech Cheïkh,32.6541,-5.9214,2026-09-18,2,31.5,15.3,0.0,13,10.1,19.4,Hot,None,Low,6.865,Very Low
+816,Zawyat ech Cheïkh,32.6541,-5.9214,2026-09-19,2,35.1,18.4,0.0,4,11.9,22.0,Extreme Heat,None,Low,11.92,Very Low
+817,Zawyat ech Cheïkh,32.6541,-5.9214,2026-09-20,2,37.2,23.2,0.0,2,16.9,33.5,Extreme Heat,None,Moderate,17.11,Very Low
+818,Zawyat ech Cheïkh,32.6541,-5.9214,2026-09-21,80,35.4,21.6,0.6000000000000001,0,14.9,29.9,Extreme Heat,Light,Moderate,22.5,Low
+819,Imi-n-Tanout,31.177,-8.8504,2026-09-15,3,33.2,25.5,0.0,5,26.1,45.0,Hot,None,Moderate,15.025,Very Low
+820,Imi-n-Tanout,31.177,-8.8504,2026-09-16,1,30.3,20.2,0.0,0,25.0,44.6,Hot,None,Moderate,14.5,Very Low
+821,Imi-n-Tanout,31.177,-8.8504,2026-09-17,45,25.3,16.5,0.0,0,18.3,31.7,Normal,None,Moderate,11.399999999999999,Very Low
+822,Imi-n-Tanout,31.177,-8.8504,2026-09-18,45,27.0,16.2,0.0,8,18.1,32.8,Normal,None,Moderate,12.239999999999998,Very Low
+823,Imi-n-Tanout,31.177,-8.8504,2026-09-19,1,31.0,19.8,0.0,10,16.8,33.1,Hot,None,Moderate,11.95,Very Low
+824,Imi-n-Tanout,31.177,-8.8504,2026-09-20,3,33.5,24.2,0.0,4,15.2,29.9,Hot,None,Moderate,5.92,Very Low
+825,Imi-n-Tanout,31.177,-8.8504,2026-09-21,3,31.2,23.3,0.0,3,19.2,32.4,Hot,None,Moderate,11.215,Very Low
+826,Sebt Gzoula,32.1219,-9.0889,2026-09-15,3,38.3,24.6,0.0,3,24.1,45.7,Extreme Heat,None,Moderate,20.814999999999998,Low
+827,Sebt Gzoula,32.1219,-9.0889,2026-09-16,2,31.2,20.7,0.0,0,21.0,39.2,Hot,None,Moderate,14.5,Very Low
+828,Sebt Gzoula,32.1219,-9.0889,2026-09-17,3,28.3,18.2,0.0,0,18.1,34.6,Normal,None,Moderate,6.3999999999999995,Very Low
+829,Sebt Gzoula,32.1219,-9.0889,2026-09-18,2,31.3,18.2,0.0,0,18.9,36.7,Hot,None,Moderate,10.899999999999999,Very Low
+830,Sebt Gzoula,32.1219,-9.0889,2026-09-19,1,33.9,17.9,0.0,0,15.9,30.6,Hot,None,Moderate,10.899999999999999,Very Low
+831,Sebt Gzoula,32.1219,-9.0889,2026-09-20,2,30.6,21.6,0.0,0,18.3,34.6,Hot,None,Moderate,10.899999999999999,Very Low
+832,Sebt Gzoula,32.1219,-9.0889,2026-09-21,45,27.2,18.7,0.0,0,14.8,28.1,Normal,None,Moderate,6.0,Very Low
+833,Tifariti,26.158,-10.567,2026-09-15,1,37.7,25.6,0.0,8,22.2,41.4,Extreme Heat,None,Moderate,21.34,Low
+834,Tifariti,26.158,-10.567,2026-09-16,0,38.5,23.5,0.0,0,37.3,54.4,Extreme Heat,None,Strong,26.7,Low
+835,Tifariti,26.158,-10.567,2026-09-17,1,31.1,17.7,0.0,0,37.5,54.4,Hot,None,Strong,21.7,Low
+836,Tifariti,26.158,-10.567,2026-09-18,3,29.6,16.8,0.0,0,36.4,53.6,Normal,None,Strong,17.2,Very Low
+837,Tifariti,26.158,-10.567,2026-09-19,3,31.7,16.6,0.0,0,24.5,41.8,Hot,None,Moderate,14.5,Very Low
+838,Tifariti,26.158,-10.567,2026-09-20,0,37.5,18.5,0.0,6,16.0,28.8,Extreme Heat,None,Moderate,11.129999999999999,Very Low
+839,Tifariti,26.158,-10.567,2026-09-21,2,38.6,25.5,0.0,20,21.3,37.8,Extreme Heat,None,Moderate,22.6,Low
