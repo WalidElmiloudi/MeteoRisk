@@ -63,3 +63,9 @@ df["risk_level"] = pd.cut(df["risk_score"],bins = [0,20,40,60,80,100],labels = [
 df["risk_level"] = df["risk_level"].fillna('Very Low')
 
 df.to_csv("./data/gold/feature_gold.csv",index=False)
+df = pd.read_csv("./data/gold/feature_gold.csv")
+df = df.drop_duplicates(
+    subset=["city", "date"],
+    keep="last"
+)
+df.to_csv("./data/gold/feature_gold.csv",index=False)

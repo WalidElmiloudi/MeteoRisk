@@ -1,841 +1,1081 @@
 city,latitude,longitude,date,weather_code,temperature_max,temperature_min,precipitation_sum,precipitation_probability,wind_speed_max,wind_gusts_max,temperature_category,precipitation_category,wind_category,risk_score,risk_level
-Casablanca,33.5992,-7.62,2026-09-15,45,28.7,21.7,0.0,0,11.0,31.0,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Casablanca,33.5992,-7.62,2026-09-16,45,25.9,21.0,0.0,0,14.0,36.4,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Casablanca,33.5992,-7.62,2026-09-17,3,25.8,19.9,0.0,0,11.7,33.5,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Casablanca,33.5992,-7.62,2026-09-18,45,26.3,18.6,0.0,3,14.0,36.4,Normal,No Rain,Moderate,11.715,Very Low
-Casablanca,33.5992,-7.62,2026-09-19,45,27.0,19.9,0.0,0,12.4,33.5,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Casablanca,33.5992,-7.62,2026-09-20,2,31.8,21.5,0.0,0,11.6,29.9,Hot,No Rain,Moderate,5.5,Very Low
-Casablanca,33.5992,-7.62,2026-09-21,2,30.3,21.6,0.0,0,13.6,36.0,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Tangier,35.7767,-5.8039000000000005,2026-09-15,0,30.2,21.5,0.0,0,13.2,31.3,Hot,No Rain,Moderate,9.899999999999999,Very Low
-Tangier,35.7767,-5.8039000000000005,2026-09-16,3,26.7,18.2,0.0,0,19.0,44.6,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Tangier,35.7767,-5.8039000000000005,2026-09-17,3,26.1,16.6,0.0,0,12.0,28.8,Normal,No Rain,Moderate,1.0,Very Low
-Tangier,35.7767,-5.8039000000000005,2026-09-18,3,28.4,20.3,0.0,8,18.3,44.3,Normal,No Rain,Moderate,7.239999999999999,Very Low
-Tangier,35.7767,-5.8039000000000005,2026-09-19,1,27.7,21.9,0.0,0,31.1,73.8,Normal,No Rain,Strong,22.599999999999998,Low
-Tangier,35.7767,-5.8039000000000005,2026-09-20,2,25.5,22.6,0.0,0,45.7,88.2,Normal,No Rain,Very Strong,27.4,Low
-Tangier,35.7767,-5.8039000000000005,2026-09-21,2,25.6,21.9,0.0,0,42.9,80.6,Normal,No Rain,Very Strong,27.4,Low
-Fès,34.0433,-5.0033,2026-09-15,1,34.5,23.8,0.0,0,14.7,37.8,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Fès,34.0433,-5.0033,2026-09-16,1,31.1,20.7,0.0,0,16.9,40.7,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Fès,34.0433,-5.0033,2026-09-17,3,29.5,18.7,0.0,5,11.7,31.3,Normal,No Rain,Moderate,6.924999999999999,Very Low
-Fès,34.0433,-5.0033,2026-09-18,3,31.2,18.3,0.0,5,9.1,24.5,Hot,No Rain,Low,6.025,Very Low
-Fès,34.0433,-5.0033,2026-09-19,1,33.7,21.0,0.0,0,16.9,44.6,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Fès,34.0433,-5.0033,2026-09-20,1,33.9,21.9,0.0,0,20.0,48.6,Hot,No Rain,Moderate,14.5,Very Low
-Fès,34.0433,-5.0033,2026-09-21,0,33.8,21.5,0.0,0,14.4,37.4,Hot,No Rain,Moderate,9.899999999999999,Very Low
+Casablanca,33.5992,-7.62,2026-09-15,45,28.7,21.7,0.0,0,11.0,31.0,Normal,No Rain,Moderate,11.4,Very Low
+Casablanca,33.5992,-7.62,2026-09-16,45,25.9,21.0,0.0,0,14.0,36.4,Normal,No Rain,Moderate,11.4,Very Low
+Tangier,35.7767,-5.8039000000000005,2026-09-15,0,30.2,21.5,0.0,0,13.2,31.3,Hot,No Rain,Moderate,9.9,Very Low
+Tangier,35.7767,-5.8039000000000005,2026-09-16,3,26.7,18.2,0.0,0,19.0,44.6,Normal,No Rain,Moderate,6.4,Very Low
+Fès,34.0433,-5.0033,2026-09-15,1,34.5,23.8,0.0,0,14.7,37.8,Hot,No Rain,Moderate,10.9,Very Low
+Fès,34.0433,-5.0033,2026-09-16,1,31.1,20.7,0.0,0,16.9,40.7,Hot,No Rain,Moderate,10.9,Very Low
 Marrakech,31.6295,-7.9811,2026-09-15,3,37.1,25.6,0.0,3,11.9,39.6,Extreme Heat,No Rain,Moderate,17.215,Very Low
-Marrakech,31.6295,-7.9811,2026-09-16,0,34.6,21.7,0.0,0,12.7,34.6,Hot,No Rain,Moderate,9.899999999999999,Very Low
-Marrakech,31.6295,-7.9811,2026-09-17,3,30.5,19.1,0.0,0,9.6,27.7,Hot,No Rain,Low,5.5,Very Low
-Marrakech,31.6295,-7.9811,2026-09-18,1,31.7,19.2,0.0,8,7.3,25.6,Hot,No Rain,Low,6.34,Very Low
-Marrakech,31.6295,-7.9811,2026-09-19,2,36.3,20.8,0.0,3,7.5,23.8,Extreme Heat,No Rain,Low,11.815,Very Low
-Marrakech,31.6295,-7.9811,2026-09-20,3,39.0,23.7,0.0,3,14.7,24.8,Extreme Heat,No Rain,Low,11.815,Very Low
-Marrakech,31.6295,-7.9811,2026-09-21,3,34.5,23.6,0.0,5,17.0,31.3,Hot,No Rain,Moderate,11.424999999999999,Very Low
-Sale,34.05,-6.8167,2026-09-15,45,28.1,21.6,0.0,0,12.1,31.7,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Sale,34.05,-6.8167,2026-09-16,3,26.1,20.8,0.0,0,15.0,37.4,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Sale,34.05,-6.8167,2026-09-17,3,26.3,19.6,0.0,0,12.0,31.7,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Sale,34.05,-6.8167,2026-09-18,45,26.9,16.3,0.0,3,12.0,31.7,Normal,No Rain,Moderate,11.715,Very Low
-Sale,34.05,-6.8167,2026-09-19,45,29.4,17.3,0.0,0,12.4,32.0,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Sale,34.05,-6.8167,2026-09-20,1,33.5,19.4,0.0,0,13.6,32.0,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Sale,34.05,-6.8167,2026-09-21,0,28.4,20.3,0.0,0,11.8,27.7,Normal,No Rain,Low,0.0,Very Low
-Meknès,33.8833,-5.55,2026-09-15,2,33.4,21.8,0.0,0,16.1,41.4,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Meknès,33.8833,-5.55,2026-09-16,2,30.0,18.8,0.0,0,16.1,40.0,Normal,No Rain,Moderate,10.899999999999999,Very Low
-Meknès,33.8833,-5.55,2026-09-17,3,27.8,17.5,0.0,3,13.2,33.8,Normal,No Rain,Moderate,6.715,Very Low
-Meknès,33.8833,-5.55,2026-09-18,2,29.7,16.3,0.0,18,12.0,30.6,Normal,No Rain,Moderate,8.29,Very Low
-Meknès,33.8833,-5.55,2026-09-19,1,33.5,18.6,0.0,5,11.6,34.9,Hot,No Rain,Moderate,11.424999999999999,Very Low
-Meknès,33.8833,-5.55,2026-09-20,2,34.9,21.1,0.0,1,18.6,40.7,Hot,No Rain,Moderate,11.004999999999999,Very Low
-Meknès,33.8833,-5.55,2026-09-21,0,34.2,20.3,0.0,0,11.6,26.6,Hot,No Rain,Low,4.5,Very Low
-Rabat,34.0211,-6.8414,2026-09-15,45,28.1,21.6,0.0,0,12.1,31.7,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Rabat,34.0211,-6.8414,2026-09-16,3,26.2,20.9,0.0,0,15.0,37.4,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Rabat,34.0211,-6.8414,2026-09-17,3,26.3,19.6,0.0,0,12.0,31.7,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Rabat,34.0211,-6.8414,2026-09-18,45,27.0,16.4,0.0,3,12.0,31.7,Normal,No Rain,Moderate,11.715,Very Low
-Rabat,34.0211,-6.8414,2026-09-19,45,29.5,17.4,0.0,0,12.4,32.0,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Rabat,34.0211,-6.8414,2026-09-20,1,33.6,19.5,0.0,0,13.6,32.0,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Rabat,34.0211,-6.8414,2026-09-21,0,28.4,20.3,0.0,0,11.8,27.7,Normal,No Rain,Low,0.0,Very Low
+Marrakech,31.6295,-7.9811,2026-09-16,0,34.6,21.7,0.0,0,12.7,34.6,Hot,No Rain,Moderate,9.9,Very Low
+Sale,34.05,-6.8167,2026-09-15,45,28.1,21.6,0.0,0,12.1,31.7,Normal,No Rain,Moderate,11.4,Very Low
+Sale,34.05,-6.8167,2026-09-16,3,26.1,20.8,0.0,0,15.0,37.4,Normal,No Rain,Moderate,6.4,Very Low
+Meknès,33.8833,-5.55,2026-09-15,2,33.4,21.8,0.0,0,16.1,41.4,Hot,No Rain,Moderate,10.9,Very Low
+Meknès,33.8833,-5.55,2026-09-16,2,30.0,18.8,0.0,0,16.1,40.0,Normal,No Rain,Moderate,10.9,Very Low
+Rabat,34.0211,-6.8414,2026-09-15,45,28.1,21.6,0.0,0,12.1,31.7,Normal,No Rain,Moderate,11.4,Very Low
+Rabat,34.0211,-6.8414,2026-09-16,3,26.2,20.9,0.0,0,15.0,37.4,Normal,No Rain,Moderate,6.4,Very Low
 Agadir,30.4214,-9.5831,2026-09-15,3,35.6,27.5,0.0,5,10.8,34.9,Extreme Heat,No Rain,Moderate,17.424999999999997,Very Low
 Agadir,30.4214,-9.5831,2026-09-16,1,38.1,23.9,0.0,0,20.4,49.0,Extreme Heat,No Rain,Moderate,20.5,Low
-Agadir,30.4214,-9.5831,2026-09-17,2,28.3,20.9,0.0,0,14.7,40.7,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Agadir,30.4214,-9.5831,2026-09-18,2,27.1,20.2,0.0,3,13.3,36.7,Normal,No Rain,Moderate,6.715,Very Low
-Agadir,30.4214,-9.5831,2026-09-19,2,27.7,21.4,0.0,0,12.6,38.2,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Agadir,30.4214,-9.5831,2026-09-20,2,28.5,21.0,0.0,0,15.0,30.6,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Agadir,30.4214,-9.5831,2026-09-21,45,33.3,21.3,0.0,0,12.8,27.0,Hot,No Rain,Low,10.5,Very Low
-Kenitra,34.25,-6.5833,2026-09-15,45,29.0,21.2,0.0,0,13.2,33.1,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Kenitra,34.25,-6.5833,2026-09-16,2,26.9,20.8,0.0,0,16.3,40.3,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Kenitra,34.25,-6.5833,2026-09-17,3,26.9,19.0,0.0,0,12.8,31.7,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Kenitra,34.25,-6.5833,2026-09-18,45,28.1,16.9,0.0,5,13.3,33.5,Normal,No Rain,Moderate,11.924999999999999,Very Low
-Kenitra,34.25,-6.5833,2026-09-19,45,32.6,17.1,0.0,0,17.1,41.0,Hot,No Rain,Moderate,15.899999999999999,Very Low
-Kenitra,34.25,-6.5833,2026-09-20,1,36.7,22.4,0.0,0,17.3,40.3,Extreme Heat,No Rain,Moderate,16.9,Very Low
-Kenitra,34.25,-6.5833,2026-09-21,0,33.1,22.1,0.0,0,14.3,33.1,Hot,No Rain,Moderate,9.899999999999999,Very Low
-Oujda-Angad,34.6867,-1.9114,2026-09-15,3,30.9,16.2,0.0,0,17.8,37.4,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Oujda-Angad,34.6867,-1.9114,2026-09-16,0,32.2,15.8,0.0,0,19.1,39.6,Hot,No Rain,Moderate,9.899999999999999,Very Low
-Oujda-Angad,34.6867,-1.9114,2026-09-17,3,27.6,16.1,0.2,9,18.4,39.2,Normal,Light,Moderate,7.344999999999999,Very Low
-Oujda-Angad,34.6867,-1.9114,2026-09-18,3,27.0,18.0,0.0,20,18.4,39.6,Normal,No Rain,Moderate,8.5,Very Low
-Oujda-Angad,34.6867,-1.9114,2026-09-19,45,27.9,18.2,0.0,30,19.5,42.8,Normal,No Rain,Moderate,14.549999999999999,Very Low
-Oujda-Angad,34.6867,-1.9114,2026-09-20,45,28.1,17.4,0.0,13,20.3,40.0,Normal,No Rain,Moderate,16.365000000000002,Very Low
-Oujda-Angad,34.6867,-1.9114,2026-09-21,3,27.8,18.4,0.3,13,15.6,32.4,Normal,Light,Moderate,7.765,Very Low
-Tétouan,35.5667,-5.3667,2026-09-15,2,29.2,21.2,0.0,0,12.2,32.0,Normal,No Rain,Moderate,6.3999999999999995,Very Low
+Kenitra,34.25,-6.5833,2026-09-15,45,29.0,21.2,0.0,0,13.2,33.1,Normal,No Rain,Moderate,11.4,Very Low
+Kenitra,34.25,-6.5833,2026-09-16,2,26.9,20.8,0.0,0,16.3,40.3,Normal,No Rain,Moderate,6.4,Very Low
+Oujda-Angad,34.6867,-1.9114,2026-09-15,3,30.9,16.2,0.0,0,17.8,37.4,Hot,No Rain,Moderate,10.9,Very Low
+Oujda-Angad,34.6867,-1.9114,2026-09-16,0,32.2,15.8,0.0,0,19.1,39.6,Hot,No Rain,Moderate,9.9,Very Low
+Tétouan,35.5667,-5.3667,2026-09-15,2,29.2,21.2,0.0,0,12.2,32.0,Normal,No Rain,Moderate,6.4,Very Low
 Tétouan,35.5667,-5.3667,2026-09-16,2,33.4,19.7,0.0,0,25.8,59.8,Hot,No Rain,Strong,21.7,Low
-Tétouan,35.5667,-5.3667,2026-09-17,3,27.5,14.8,0.0,0,11.6,29.5,Normal,No Rain,Moderate,4.0,Very Low
-Tétouan,35.5667,-5.3667,2026-09-18,3,26.6,20.2,0.0,5,15.7,40.7,Normal,No Rain,Moderate,6.924999999999999,Very Low
-Tétouan,35.5667,-5.3667,2026-09-19,2,26.5,21.9,0.0,8,32.4,75.2,Normal,No Rain,Strong,23.439999999999998,Low
-Tétouan,35.5667,-5.3667,2026-09-20,2,25.3,22.4,0.0,0,40.4,84.2,Normal,No Rain,Very Strong,27.4,Low
-Tétouan,35.5667,-5.3667,2026-09-21,2,25.4,21.8,0.0,0,36.8,76.3,Normal,No Rain,Strong,22.599999999999998,Low
 Safi,32.2833,-9.2333,2026-09-15,3,33.8,22.8,0.0,0,22.8,42.5,Hot,No Rain,Moderate,14.5,Very Low
 Safi,32.2833,-9.2333,2026-09-16,2,27.5,20.8,0.0,0,27.5,49.7,Normal,No Rain,Moderate,10.0,Very Low
-Safi,32.2833,-9.2333,2026-09-17,3,25.3,19.2,0.0,0,20.4,36.7,Normal,No Rain,Moderate,10.0,Very Low
-Safi,32.2833,-9.2333,2026-09-18,2,26.4,19.5,0.0,0,22.7,40.3,Normal,No Rain,Moderate,10.0,Very Low
-Safi,32.2833,-9.2333,2026-09-19,2,28.2,18.8,0.0,0,20.4,37.1,Normal,No Rain,Moderate,10.0,Very Low
-Safi,32.2833,-9.2333,2026-09-20,2,30.9,21.6,0.0,0,17.0,32.0,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Safi,32.2833,-9.2333,2026-09-21,45,26.1,19.4,0.0,0,14.6,28.4,Normal,No Rain,Moderate,6.0,Very Low
 Taourirt,34.41,-2.89,2026-09-15,3,32.3,19.0,0.0,0,23.0,37.1,Hot,No Rain,Moderate,14.5,Very Low
 Taourirt,34.41,-2.89,2026-09-16,1,34.4,18.9,0.0,0,22.9,36.7,Hot,No Rain,Moderate,14.5,Very Low
-Taourirt,34.41,-2.89,2026-09-17,3,29.6,19.2,0.0,8,26.2,43.6,Normal,No Rain,Moderate,10.84,Very Low
-Taourirt,34.41,-2.89,2026-09-18,45,29.3,19.7,0.0,8,26.7,45.7,Normal,No Rain,Moderate,15.84,Very Low
-Taourirt,34.41,-2.89,2026-09-19,3,29.6,19.1,0.0,15,29.0,55.1,Normal,No Rain,Strong,18.775,Very Low
-Taourirt,34.41,-2.89,2026-09-20,3,30.1,19.9,0.0,6,28.4,48.6,Hot,No Rain,Moderate,15.129999999999999,Very Low
-Taourirt,34.41,-2.89,2026-09-21,3,30.2,19.6,0.0,3,26.3,45.0,Hot,No Rain,Moderate,14.815,Very Low
-Temara,33.9234,-6.9076,2026-09-15,45,28.1,21.4,0.0,0,11.6,31.7,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Temara,33.9234,-6.9076,2026-09-16,2,25.9,20.3,0.0,0,15.5,39.2,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Temara,33.9234,-6.9076,2026-09-17,3,26.0,19.2,0.0,0,12.5,33.5,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Temara,33.9234,-6.9076,2026-09-18,45,26.7,15.7,0.0,3,11.5,32.0,Normal,No Rain,Moderate,11.715,Very Low
-Temara,33.9234,-6.9076,2026-09-19,1,29.4,16.6,0.0,0,11.8,32.4,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Temara,33.9234,-6.9076,2026-09-20,1,31.2,19.6,0.0,0,12.8,27.7,Hot,No Rain,Moderate,5.5,Very Low
-Temara,33.9234,-6.9076,2026-09-21,0,26.2,20.7,0.0,0,12.4,25.2,Normal,No Rain,Low,0.0,Very Low
+Temara,33.9234,-6.9076,2026-09-15,45,28.1,21.4,0.0,0,11.6,31.7,Normal,No Rain,Moderate,11.4,Very Low
+Temara,33.9234,-6.9076,2026-09-16,2,25.9,20.3,0.0,0,15.5,39.2,Normal,No Rain,Moderate,6.4,Very Low
 Laâyoune,27.15,-13.2,2026-09-15,0,40.5,25.1,0.0,0,25.3,49.3,Extreme Heat,No Rain,Moderate,24.0,Low
 Laâyoune,27.15,-13.2,2026-09-16,0,36.1,21.7,0.0,0,26.3,51.1,Extreme Heat,No Rain,Moderate,26.7,Low
-Laâyoune,27.15,-13.2,2026-09-17,3,28.4,21.5,0.0,0,31.5,58.3,Normal,No Rain,Strong,17.2,Very Low
-Laâyoune,27.15,-13.2,2026-09-18,3,27.9,20.1,0.0,2,27.9,54.4,Normal,No Rain,Strong,17.41,Very Low
-Laâyoune,27.15,-13.2,2026-09-19,0,28.8,18.1,0.0,0,24.7,48.6,Normal,No Rain,Moderate,9.0,Very Low
-Laâyoune,27.15,-13.2,2026-09-20,3,32.8,19.3,0.0,0,22.7,46.4,Hot,No Rain,Moderate,14.5,Very Low
-Laâyoune,27.15,-13.2,2026-09-21,0,35.3,19.3,0.0,8,26.3,50.8,Extreme Heat,No Rain,Moderate,27.54,Low
-El Jadid,33.2566,-8.5025,2026-09-15,45,26.6,21.5,0.0,0,17.1,30.6,Normal,No Rain,Moderate,11.399999999999999,Very Low
-El Jadid,33.2566,-8.5025,2026-09-16,2,24.9,21.0,0.0,0,19.1,33.5,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-El Jadid,33.2566,-8.5025,2026-09-17,3,25.4,20.0,0.0,0,15.2,27.7,Normal,No Rain,Moderate,1.0,Very Low
-El Jadid,33.2566,-8.5025,2026-09-18,45,25.3,20.3,0.0,0,18.5,33.5,Normal,No Rain,Moderate,11.399999999999999,Very Low
-El Jadid,33.2566,-8.5025,2026-09-19,2,25.5,20.4,0.0,0,18.2,32.4,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-El Jadid,33.2566,-8.5025,2026-09-20,2,28.6,21.2,0.0,0,15.5,30.2,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-El Jadid,33.2566,-8.5025,2026-09-21,45,27.5,20.3,0.0,0,16.8,33.1,Normal,No Rain,Moderate,11.399999999999999,Very Low
+El Jadid,33.2566,-8.5025,2026-09-15,45,26.6,21.5,0.0,0,17.1,30.6,Normal,No Rain,Moderate,11.4,Very Low
+El Jadid,33.2566,-8.5025,2026-09-16,2,24.9,21.0,0.0,0,19.1,33.5,Normal,No Rain,Moderate,6.4,Very Low
 Ait Melloul,30.3342,-9.4972,2026-09-15,3,36.8,25.6,0.0,8,17.0,34.2,Extreme Heat,No Rain,Moderate,17.74,Very Low
-Ait Melloul,30.3342,-9.4972,2026-09-16,2,30.3,21.6,0.0,0,19.1,35.6,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Ait Melloul,30.3342,-9.4972,2026-09-17,2,27.3,21.5,0.0,0,18.8,37.1,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Ait Melloul,30.3342,-9.4972,2026-09-18,2,27.1,20.4,0.0,0,18.8,36.7,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Ait Melloul,30.3342,-9.4972,2026-09-19,45,26.8,20.5,0.0,0,21.3,41.4,Normal,No Rain,Moderate,15.0,Very Low
-Ait Melloul,30.3342,-9.4972,2026-09-20,2,28.7,21.2,0.0,0,15.0,30.6,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Ait Melloul,30.3342,-9.4972,2026-09-21,45,33.5,21.6,0.0,0,12.8,27.0,Hot,No Rain,Low,10.5,Very Low
+Ait Melloul,30.3342,-9.4972,2026-09-16,2,30.3,21.6,0.0,0,19.1,35.6,Hot,No Rain,Moderate,10.9,Very Low
 Béni Mellal,32.3394,-6.3608,2026-09-15,3,36.5,25.9,0.0,5,21.9,44.6,Extreme Heat,No Rain,Moderate,21.025,Low
-Béni Mellal,32.3394,-6.3608,2026-09-16,0,32.8,21.8,0.0,0,17.3,36.0,Hot,No Rain,Moderate,9.899999999999999,Very Low
-Béni Mellal,32.3394,-6.3608,2026-09-17,3,29.9,18.7,0.0,5,11.8,24.1,Normal,No Rain,Low,1.525,Very Low
-Béni Mellal,32.3394,-6.3608,2026-09-18,1,31.3,19.3,0.0,5,9.7,21.2,Hot,No Rain,Low,6.025,Very Low
-Béni Mellal,32.3394,-6.3608,2026-09-19,3,35.3,21.9,0.0,3,13.9,28.1,Extreme Heat,No Rain,Moderate,11.815,Very Low
-Béni Mellal,32.3394,-6.3608,2026-09-20,2,38.1,26.2,0.3,0,16.1,29.5,Extreme Heat,Light,Moderate,11.5,Very Low
-Béni Mellal,32.3394,-6.3608,2026-09-21,80,36.8,28.0,0.9,8,18.6,37.1,Extreme Heat,Light,Moderate,28.74,Low
-Bouskoura,33.4489,-7.6486,2026-09-15,45,32.6,21.0,0.0,0,15.3,37.1,Hot,No Rain,Moderate,15.899999999999999,Very Low
-Bouskoura,33.4489,-7.6486,2026-09-16,45,27.0,19.7,0.0,0,15.9,39.2,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Bouskoura,33.4489,-7.6486,2026-09-17,3,26.9,19.1,0.0,0,15.3,37.4,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Bouskoura,33.4489,-7.6486,2026-09-18,45,28.1,17.5,0.0,3,16.7,40.7,Normal,No Rain,Moderate,11.715,Very Low
-Bouskoura,33.4489,-7.6486,2026-09-19,45,30.5,18.6,0.0,0,14.0,34.9,Hot,No Rain,Moderate,15.899999999999999,Very Low
-Bouskoura,33.4489,-7.6486,2026-09-20,2,31.0,21.1,0.0,0,11.6,29.9,Hot,No Rain,Moderate,5.5,Very Low
-Bouskoura,33.4489,-7.6486,2026-09-21,2,29.5,20.8,0.0,0,13.6,36.0,Normal,No Rain,Moderate,6.3999999999999995,Very Low
+Béni Mellal,32.3394,-6.3608,2026-09-16,0,32.8,21.8,0.0,0,17.3,36.0,Hot,No Rain,Moderate,9.9,Very Low
+Bouskoura,33.4489,-7.6486,2026-09-15,45,32.6,21.0,0.0,0,15.3,37.1,Hot,No Rain,Moderate,15.9,Very Low
+Bouskoura,33.4489,-7.6486,2026-09-16,45,27.0,19.7,0.0,0,15.9,39.2,Normal,No Rain,Moderate,11.4,Very Low
 Tiznit,29.7,-9.7269,2026-09-15,1,36.3,26.7,0.0,0,21.7,34.9,Extreme Heat,No Rain,Moderate,20.5,Low
 Tiznit,29.7,-9.7269,2026-09-16,1,32.2,22.1,0.0,0,21.7,35.6,Hot,No Rain,Moderate,14.5,Very Low
-Tiznit,29.7,-9.7269,2026-09-17,3,23.7,19.6,0.0,0,23.7,38.5,Normal,No Rain,Moderate,10.0,Very Low
-Tiznit,29.7,-9.7269,2026-09-18,3,26.5,19.6,0.0,0,19.8,32.8,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Tiznit,29.7,-9.7269,2026-09-19,1,27.5,20.2,0.0,0,14.7,24.5,Normal,No Rain,Low,1.0,Very Low
-Tiznit,29.7,-9.7269,2026-09-20,1,25.8,20.2,0.0,0,19.0,30.6,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Tiznit,29.7,-9.7269,2026-09-21,45,27.6,19.8,0.0,0,12.3,20.9,Normal,No Rain,Low,6.0,Very Low
 Mohammedia,33.6833,-7.3833,2026-09-15,45,27.5,21.2,0.0,0,12.6,29.9,Normal,No Rain,Moderate,6.0,Very Low
-Mohammedia,33.6833,-7.3833,2026-09-16,2,25.7,20.8,0.0,0,15.6,37.4,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Mohammedia,33.6833,-7.3833,2026-09-17,3,25.4,20.0,0.0,0,13.3,31.0,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Mohammedia,33.6833,-7.3833,2026-09-18,3,25.8,17.5,0.0,5,14.6,34.2,Normal,No Rain,Moderate,6.924999999999999,Very Low
-Mohammedia,33.6833,-7.3833,2026-09-19,45,26.7,18.2,0.0,0,13.0,32.0,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Mohammedia,33.6833,-7.3833,2026-09-20,2,33.9,20.3,0.0,0,16.2,30.2,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Mohammedia,33.6833,-7.3833,2026-09-21,1,32.5,20.3,0.0,0,16.9,33.5,Hot,No Rain,Moderate,10.899999999999999,Very Low
+Mohammedia,33.6833,-7.3833,2026-09-16,2,25.7,20.8,0.0,0,15.6,37.4,Normal,No Rain,Moderate,6.4,Very Low
 Kouribga,32.88,-6.9,2026-09-15,3,34.6,22.7,0.0,3,24.9,49.0,Hot,No Rain,Moderate,14.815,Very Low
-Kouribga,32.88,-6.9,2026-09-16,2,31.0,17.4,0.0,0,18.9,36.4,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Kouribga,32.88,-6.9,2026-09-17,2,28.6,13.9,0.0,0,19.2,36.0,Normal,No Rain,Moderate,9.399999999999999,Very Low
-Kouribga,32.88,-6.9,2026-09-18,3,29.5,15.5,0.0,10,16.9,33.5,Normal,No Rain,Moderate,7.449999999999999,Very Low
-Kouribga,32.88,-6.9,2026-09-19,2,33.9,17.2,0.0,4,14.4,28.1,Hot,No Rain,Moderate,5.92,Very Low
-Kouribga,32.88,-6.9,2026-09-20,2,35.9,22.5,0.0,5,18.4,37.8,Extreme Heat,No Rain,Moderate,17.424999999999997,Very Low
-Kouribga,32.88,-6.9,2026-09-21,2,34.6,21.3,0.0,5,20.0,42.5,Hot,No Rain,Moderate,15.025,Very Low
+Kouribga,32.88,-6.9,2026-09-16,2,31.0,17.4,0.0,0,18.9,36.4,Hot,No Rain,Moderate,10.9,Very Low
 Settat,33.0023,-7.6198,2026-09-15,2,36.0,23.3,0.0,0,24.2,51.1,Extreme Heat,No Rain,Moderate,27.7,Low
-Settat,33.0023,-7.6198,2026-09-16,2,29.6,19.3,0.0,0,19.0,39.2,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Settat,33.0023,-7.6198,2026-09-17,45,28.1,17.2,0.0,0,17.5,36.7,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Settat,33.0023,-7.6198,2026-09-18,45,30.0,16.3,0.0,3,18.4,40.0,Normal,No Rain,Moderate,16.215,Very Low
-Settat,33.0023,-7.6198,2026-09-19,2,34.5,16.6,0.0,3,15.1,35.6,Hot,No Rain,Moderate,11.215,Very Low
-Settat,33.0023,-7.6198,2026-09-20,2,37.8,22.1,0.0,3,18.7,37.4,Extreme Heat,No Rain,Moderate,17.215,Very Low
-Settat,33.0023,-7.6198,2026-09-21,1,34.6,21.0,0.0,3,19.4,37.8,Hot,No Rain,Moderate,11.215,Very Low
+Settat,33.0023,-7.6198,2026-09-16,2,29.6,19.3,0.0,0,19.0,39.2,Normal,No Rain,Moderate,6.4,Very Low
 Barrechid,33.27,-7.5872,2026-09-15,2,35.7,21.4,0.0,0,22.4,40.0,Extreme Heat,No Rain,Moderate,20.5,Low
-Barrechid,33.27,-7.5872,2026-09-16,45,29.0,19.1,0.0,0,19.7,35.3,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Barrechid,33.27,-7.5872,2026-09-17,3,28.1,18.4,0.0,0,17.9,32.8,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Barrechid,33.27,-7.5872,2026-09-18,45,29.6,16.3,0.0,3,18.6,34.6,Normal,No Rain,Moderate,11.715,Very Low
-Barrechid,33.27,-7.5872,2026-09-19,45,33.5,16.6,0.0,2,16.2,30.6,Hot,No Rain,Moderate,16.11,Very Low
-Barrechid,33.27,-7.5872,2026-09-20,2,36.4,21.0,0.0,3,19.2,34.9,Extreme Heat,No Rain,Moderate,17.215,Very Low
-Barrechid,33.27,-7.5872,2026-09-21,2,33.3,19.9,0.0,0,20.5,36.0,Hot,No Rain,Moderate,14.5,Very Low
+Barrechid,33.27,-7.5872,2026-09-16,45,29.0,19.1,0.0,0,19.7,35.3,Normal,No Rain,Moderate,11.4,Very Low
 Ad Dakhla,23.7167,-15.95,2026-09-15,1,24.8,21.7,0.0,12,36.0,45.0,Normal,No Rain,Strong,11.26,Very Low
 Ad Dakhla,23.7167,-15.95,2026-09-16,0,23.5,22.1,0.0,3,36.7,45.7,Normal,No Rain,Strong,9.315,Very Low
-Ad Dakhla,23.7167,-15.95,2026-09-17,2,22.2,20.0,0.0,0,40.5,52.2,Normal,No Rain,Strong,22.0,Low
-Ad Dakhla,23.7167,-15.95,2026-09-18,0,21.1,20.2,0.0,0,39.2,49.0,Normal,No Rain,Strong,9.0,Very Low
-Ad Dakhla,23.7167,-15.95,2026-09-19,0,20.9,19.8,0.0,0,30.4,38.9,Normal,No Rain,Moderate,9.0,Very Low
-Ad Dakhla,23.7167,-15.95,2026-09-20,3,21.3,19.5,0.0,0,31.2,40.7,Normal,No Rain,Moderate,10.0,Very Low
-Ad Dakhla,23.7167,-15.95,2026-09-21,0,21.6,19.1,0.0,11,24.5,38.2,Normal,No Rain,Moderate,10.155,Very Low
 Nador,35.1667,-2.9333,2026-09-15,3,26.6,21.7,0.0,0,11.2,26.6,Normal,No Rain,Low,1.0,Very Low
 Nador,35.1667,-2.9333,2026-09-16,2,29.9,21.8,0.0,0,10.5,26.3,Normal,No Rain,Low,1.0,Very Low
-Nador,35.1667,-2.9333,2026-09-17,3,26.0,21.4,0.2,1,13.6,30.6,Normal,Light,Moderate,6.505,Very Low
-Nador,35.1667,-2.9333,2026-09-18,3,25.1,22.2,0.6000000000000001,8,13.3,29.9,Normal,Light,Moderate,1.8399999999999999,Very Low
-Nador,35.1667,-2.9333,2026-09-19,3,25.1,22.4,0.6000000000000001,15,22.3,47.2,Normal,Light,Moderate,11.575,Very Low
-Nador,35.1667,-2.9333,2026-09-20,3,26.2,22.5,0.15,13,28.8,50.0,Normal,Light,Moderate,18.564999999999998,Very Low
-Nador,35.1667,-2.9333,2026-09-21,3,26.1,22.6,0.0,5,25.0,43.9,Normal,No Rain,Moderate,10.525,Very Low
 Taza,34.2144,-4.0088,2026-09-15,3,33.5,19.5,0.0,0,13.0,27.0,Hot,No Rain,Low,5.5,Very Low
 Taza,34.2144,-4.0088,2026-09-16,2,30.8,21.0,0.0,0,24.1,49.7,Hot,No Rain,Moderate,14.5,Very Low
-Taza,34.2144,-4.0088,2026-09-17,3,30.3,17.6,0.0,8,11.8,25.2,Hot,No Rain,Low,6.34,Very Low
-Taza,34.2144,-4.0088,2026-09-18,3,28.8,18.6,0.0,5,17.3,36.4,Normal,No Rain,Moderate,6.924999999999999,Very Low
-Taza,34.2144,-4.0088,2026-09-19,3,29.2,18.7,0.0,3,25.5,53.3,Normal,No Rain,Moderate,17.515,Very Low
-Taza,34.2144,-4.0088,2026-09-20,2,29.1,19.8,0.0,5,26.9,50.0,Normal,No Rain,Moderate,17.724999999999998,Very Low
-Taza,34.2144,-4.0088,2026-09-21,3,28.8,20.0,0.0,5,26.9,49.3,Normal,No Rain,Moderate,10.525,Very Low
 Inezgane,30.3658,-9.5381,2026-09-15,3,34.3,25.0,0.0,8,10.8,31.7,Hot,No Rain,Moderate,11.739999999999998,Very Low
-Inezgane,30.3658,-9.5381,2026-09-16,1,32.7,21.3,0.0,0,12.3,33.1,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Inezgane,30.3658,-9.5381,2026-09-17,3,26.4,21.0,0.0,0,14.4,41.8,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Inezgane,30.3658,-9.5381,2026-09-18,2,25.7,20.0,0.0,0,14.4,38.5,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Inezgane,30.3658,-9.5381,2026-09-19,45,25.7,20.3,0.0,0,14.9,40.7,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Inezgane,30.3658,-9.5381,2026-09-20,45,28.8,21.3,0.0,0,15.0,30.6,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Inezgane,30.3658,-9.5381,2026-09-21,45,33.6,21.6,0.0,0,12.8,27.0,Hot,No Rain,Low,10.5,Very Low
+Inezgane,30.3658,-9.5381,2026-09-16,1,32.7,21.3,0.0,0,12.3,33.1,Hot,No Rain,Moderate,10.9,Very Low
 Larache,35.1833,-6.15,2026-09-15,0,30.4,19.4,0.0,0,24.9,45.7,Hot,No Rain,Moderate,13.5,Very Low
-Larache,35.1833,-6.15,2026-09-16,45,27.4,18.5,0.0,0,16.9,32.4,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Larache,35.1833,-6.15,2026-09-17,3,26.5,18.6,0.0,1,16.7,31.3,Normal,No Rain,Moderate,6.505,Very Low
-Larache,35.1833,-6.15,2026-09-18,45,26.2,16.9,0.0,5,16.3,32.4,Normal,No Rain,Moderate,11.924999999999999,Very Low
-Larache,35.1833,-6.15,2026-09-19,1,35.3,16.8,0.0,8,20.8,38.2,Extreme Heat,No Rain,Moderate,21.34,Low
-Larache,35.1833,-6.15,2026-09-20,0,36.8,21.4,0.0,1,18.4,34.9,Extreme Heat,No Rain,Moderate,16.005,Very Low
-Larache,35.1833,-6.15,2026-09-21,1,34.2,19.3,0.0,0,15.5,28.8,Hot,No Rain,Moderate,5.5,Very Low
-Al Khmissat,33.81,-6.06,2026-09-15,0,34.5,20.4,0.0,0,18.3,37.4,Hot,No Rain,Moderate,9.899999999999999,Very Low
-Al Khmissat,33.81,-6.06,2026-09-16,1,30.7,18.0,0.0,0,19.2,38.9,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Al Khmissat,33.81,-6.06,2026-09-17,3,29.0,16.1,0.0,0,14.9,31.0,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Al Khmissat,33.81,-6.06,2026-09-18,3,30.4,15.2,0.0,8,18.3,37.1,Hot,No Rain,Moderate,11.739999999999998,Very Low
-Al Khmissat,33.81,-6.06,2026-09-19,1,34.6,17.7,0.0,8,12.2,27.4,Hot,No Rain,Low,6.34,Very Low
-Al Khmissat,33.81,-6.06,2026-09-20,2,37.2,21.5,0.0,1,17.8,32.8,Extreme Heat,No Rain,Moderate,17.005,Very Low
-Al Khmissat,33.81,-6.06,2026-09-21,1,35.4,20.0,0.0,0,13.5,25.2,Extreme Heat,No Rain,Low,11.5,Very Low
+Larache,35.1833,-6.15,2026-09-16,45,27.4,18.5,0.0,0,16.9,32.4,Normal,No Rain,Moderate,11.4,Very Low
+Al Khmissat,33.81,-6.06,2026-09-15,0,34.5,20.4,0.0,0,18.3,37.4,Hot,No Rain,Moderate,9.9,Very Low
+Al Khmissat,33.81,-6.06,2026-09-16,1,30.7,18.0,0.0,0,19.2,38.9,Hot,No Rain,Moderate,10.9,Very Low
 Guelmim,28.9833,-10.0667,2026-09-15,0,38.4,24.9,0.0,0,22.7,38.5,Extreme Heat,No Rain,Moderate,19.5,Very Low
 Guelmim,28.9833,-10.0667,2026-09-16,0,36.2,20.5,0.0,0,33.1,54.0,Extreme Heat,No Rain,Strong,26.7,Low
-Guelmim,28.9833,-10.0667,2026-09-17,3,24.7,18.7,0.0,0,29.8,49.3,Normal,No Rain,Moderate,10.0,Very Low
-Guelmim,28.9833,-10.0667,2026-09-18,1,26.3,17.0,0.0,0,24.1,42.5,Normal,No Rain,Moderate,10.0,Very Low
-Guelmim,28.9833,-10.0667,2026-09-19,3,29.1,18.5,0.0,0,19.3,35.6,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Guelmim,28.9833,-10.0667,2026-09-20,0,32.6,16.9,0.0,0,21.1,39.2,Hot,No Rain,Moderate,13.5,Very Low
-Guelmim,28.9833,-10.0667,2026-09-21,0,37.7,20.3,0.0,4,24.7,41.4,Extreme Heat,No Rain,Moderate,19.92,Very Low
 Ksar El Kebir,35.0,-5.9,2026-09-15,45,37.0,20.9,0.0,0,26.0,53.6,Extreme Heat,No Rain,Moderate,32.7,Low
-Ksar El Kebir,35.0,-5.9,2026-09-16,3,30.5,20.1,0.0,0,17.9,34.6,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Ksar El Kebir,35.0,-5.9,2026-09-17,3,30.0,19.3,0.0,1,18.9,36.4,Normal,No Rain,Moderate,11.004999999999999,Very Low
-Ksar El Kebir,35.0,-5.9,2026-09-18,45,31.0,17.2,0.0,5,18.3,36.0,Hot,No Rain,Moderate,16.424999999999997,Very Low
-Ksar El Kebir,35.0,-5.9,2026-09-19,1,36.3,18.6,0.0,5,9.7,20.5,Extreme Heat,No Rain,Low,12.025,Very Low
-Ksar El Kebir,35.0,-5.9,2026-09-20,0,37.9,21.2,0.0,3,15.8,31.7,Extreme Heat,No Rain,Moderate,16.215,Very Low
-Ksar El Kebir,35.0,-5.9,2026-09-21,1,36.3,21.3,0.0,0,13.9,25.6,Extreme Heat,No Rain,Low,11.5,Very Low
+Ksar El Kebir,35.0,-5.9,2026-09-16,3,30.5,20.1,0.0,0,17.9,34.6,Hot,No Rain,Moderate,10.9,Very Low
 Khénifra,32.93,-5.66,2026-09-15,3,35.1,20.1,0.0,3,19.4,37.1,Extreme Heat,No Rain,Moderate,17.215,Very Low
 Khénifra,32.93,-5.66,2026-09-16,1,31.3,16.3,0.0,0,15.3,29.9,Hot,No Rain,Moderate,5.5,Very Low
-Khénifra,32.93,-5.66,2026-09-17,3,31.2,15.8,0.0,15,18.1,34.2,Hot,No Rain,Moderate,12.475,Very Low
-Khénifra,32.93,-5.66,2026-09-18,3,31.2,15.2,0.0,13,14.4,27.7,Hot,No Rain,Moderate,6.865,Very Low
-Khénifra,32.93,-5.66,2026-09-19,2,34.0,17.9,0.0,6,15.5,29.9,Hot,No Rain,Moderate,6.13,Very Low
-Khénifra,32.93,-5.66,2026-09-20,2,35.9,20.8,0.0,5,14.9,38.9,Extreme Heat,No Rain,Moderate,17.424999999999997,Very Low
-Khénifra,32.93,-5.66,2026-09-21,2,35.0,21.4,0.0,5,21.0,41.0,Hot,No Rain,Moderate,21.025,Low
 Skhirate,33.85,-7.03,2026-09-15,45,26.5,21.2,0.0,0,12.3,27.7,Normal,No Rain,Low,6.0,Very Low
-Skhirate,33.85,-7.03,2026-09-16,2,25.1,20.5,0.0,0,16.5,36.0,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Skhirate,33.85,-7.03,2026-09-17,3,24.9,19.4,0.0,0,13.2,29.5,Normal,No Rain,Moderate,1.0,Very Low
-Skhirate,33.85,-7.03,2026-09-18,3,25.2,16.8,0.0,3,12.9,30.2,Normal,No Rain,Moderate,6.715,Very Low
-Skhirate,33.85,-7.03,2026-09-19,2,27.1,17.2,0.0,0,12.8,28.4,Normal,No Rain,Moderate,1.0,Very Low
-Skhirate,33.85,-7.03,2026-09-20,1,31.3,19.7,0.0,0,12.8,27.7,Hot,No Rain,Moderate,5.5,Very Low
-Skhirate,33.85,-7.03,2026-09-21,0,26.3,20.8,0.0,0,12.4,25.2,Normal,No Rain,Low,0.0,Very Low
-Beni Yakhlef,33.6555,-7.3221,2026-09-15,45,30.6,20.2,0.0,0,17.2,31.7,Hot,No Rain,Moderate,15.899999999999999,Very Low
-Beni Yakhlef,33.6555,-7.3221,2026-09-16,2,27.0,19.5,0.0,0,18.8,34.6,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Beni Yakhlef,33.6555,-7.3221,2026-09-17,3,26.7,19.0,0.0,0,17.2,31.7,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Beni Yakhlef,33.6555,-7.3221,2026-09-18,45,27.7,16.0,0.0,5,18.0,32.8,Normal,No Rain,Moderate,11.924999999999999,Very Low
-Beni Yakhlef,33.6555,-7.3221,2026-09-19,45,29.6,16.7,0.0,0,16.6,31.0,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Beni Yakhlef,33.6555,-7.3221,2026-09-20,2,33.4,20.2,0.0,0,16.2,30.2,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Beni Yakhlef,33.6555,-7.3221,2026-09-21,1,31.9,19.8,0.0,0,16.9,33.5,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Sidi Yahya Zaer,33.7105,-6.8831,2026-09-15,0,32.6,20.7,0.0,0,19.0,37.8,Hot,No Rain,Moderate,9.899999999999999,Very Low
+Skhirate,33.85,-7.03,2026-09-16,2,25.1,20.5,0.0,0,16.5,36.0,Normal,No Rain,Moderate,6.4,Very Low
+Beni Yakhlef,33.6555,-7.3221,2026-09-15,45,30.6,20.2,0.0,0,17.2,31.7,Hot,No Rain,Moderate,15.9,Very Low
+Beni Yakhlef,33.6555,-7.3221,2026-09-16,2,27.0,19.5,0.0,0,18.8,34.6,Normal,No Rain,Moderate,6.4,Very Low
+Sidi Yahya Zaer,33.7105,-6.8831,2026-09-15,0,32.6,20.7,0.0,0,19.0,37.8,Hot,No Rain,Moderate,9.9,Very Low
 Sidi Yahya Zaer,33.7105,-6.8831,2026-09-16,2,27.8,18.6,0.0,0,20.6,41.4,Normal,No Rain,Moderate,10.0,Very Low
-Sidi Yahya Zaer,33.7105,-6.8831,2026-09-17,45,27.3,16.1,0.0,0,17.4,35.3,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Sidi Yahya Zaer,33.7105,-6.8831,2026-09-18,45,28.8,14.6,0.0,3,16.4,33.8,Normal,No Rain,Moderate,14.715,Very Low
-Sidi Yahya Zaer,33.7105,-6.8831,2026-09-19,1,32.9,16.5,0.0,2,15.4,33.1,Hot,No Rain,Moderate,11.11,Very Low
-Sidi Yahya Zaer,33.7105,-6.8831,2026-09-20,2,36.6,20.1,0.0,3,17.0,33.8,Extreme Heat,No Rain,Moderate,17.215,Very Low
-Sidi Yahya Zaer,33.7105,-6.8831,2026-09-21,1,32.3,18.5,0.0,0,15.5,31.7,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Ben Guerir,32.23,-7.95,2026-09-15,3,37.2,24.5,0.0,3,22.7,44.6,Extreme Heat,No Rain,Moderate,20.814999999999998,Low
+Ben Guerir,32.23,-7.95,2026-09-15,3,37.2,24.5,0.0,3,22.7,44.6,Extreme Heat,No Rain,Moderate,20.815,Low
 Ben Guerir,32.23,-7.95,2026-09-16,1,32.3,19.6,0.0,0,20.2,40.0,Hot,No Rain,Moderate,14.5,Very Low
-Ben Guerir,32.23,-7.95,2026-09-17,3,29.1,16.7,0.0,0,15.7,32.0,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Ben Guerir,32.23,-7.95,2026-09-18,3,30.9,16.7,0.0,8,15.8,32.8,Hot,No Rain,Moderate,11.739999999999998,Very Low
-Ben Guerir,32.23,-7.95,2026-09-19,2,35.0,18.0,0.0,4,15.2,31.7,Hot,No Rain,Moderate,17.32,Very Low
-Ben Guerir,32.23,-7.95,2026-09-20,2,38.6,24.8,0.0,0,16.7,34.6,Extreme Heat,No Rain,Moderate,16.9,Very Low
-Ben Guerir,32.23,-7.95,2026-09-21,2,34.3,23.5,0.0,3,19.4,35.3,Hot,No Rain,Moderate,11.215,Very Low
 Ait Ali,30.1739,-9.4881,2026-09-15,3,37.0,25.5,0.0,0,22.2,36.7,Extreme Heat,No Rain,Moderate,20.5,Low
 Ait Ali,30.1739,-9.4881,2026-09-16,1,32.1,22.2,0.0,0,24.9,40.0,Hot,No Rain,Moderate,14.5,Very Low
-Ait Ali,30.1739,-9.4881,2026-09-17,3,27.4,20.9,0.0,0,27.0,43.6,Normal,No Rain,Moderate,10.0,Very Low
-Ait Ali,30.1739,-9.4881,2026-09-18,2,27.3,20.0,0.0,0,22.0,37.8,Normal,No Rain,Moderate,10.0,Very Low
-Ait Ali,30.1739,-9.4881,2026-09-19,2,27.0,20.3,0.0,0,21.6,36.0,Normal,No Rain,Moderate,10.0,Very Low
-Ait Ali,30.1739,-9.4881,2026-09-20,45,27.3,20.8,0.0,0,19.7,33.8,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Ait Ali,30.1739,-9.4881,2026-09-21,45,29.7,20.8,0.0,0,16.6,28.8,Normal,No Rain,Moderate,6.0,Very Low
 My Drarga,30.3805,-9.4763,2026-09-15,3,36.7,25.9,0.0,8,13.9,30.2,Extreme Heat,No Rain,Moderate,17.74,Very Low
-My Drarga,30.3805,-9.4763,2026-09-16,1,32.1,22.4,0.0,0,15.4,36.0,Hot,No Rain,Moderate,10.899999999999999,Very Low
-My Drarga,30.3805,-9.4763,2026-09-17,3,27.3,20.9,0.0,0,19.9,44.3,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-My Drarga,30.3805,-9.4763,2026-09-18,2,27.2,20.0,0.0,0,17.4,37.4,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-My Drarga,30.3805,-9.4763,2026-09-19,45,27.4,20.6,0.0,0,17.8,37.1,Normal,No Rain,Moderate,11.399999999999999,Very Low
-My Drarga,30.3805,-9.4763,2026-09-20,45,28.6,21.1,0.0,0,15.0,30.6,Normal,No Rain,Moderate,11.399999999999999,Very Low
-My Drarga,30.3805,-9.4763,2026-09-21,45,33.4,21.5,0.0,0,12.8,27.0,Hot,No Rain,Low,10.5,Very Low
+My Drarga,30.3805,-9.4763,2026-09-16,1,32.1,22.4,0.0,0,15.4,36.0,Hot,No Rain,Moderate,10.9,Very Low
 Lqoliaa,30.2942,-9.4544,2026-09-15,3,38.0,25.7,0.0,3,19.9,42.1,Extreme Heat,No Rain,Moderate,17.215,Very Low
 Lqoliaa,30.2942,-9.4544,2026-09-16,2,32.0,21.7,0.0,0,22.3,43.9,Hot,No Rain,Moderate,14.5,Very Low
-Lqoliaa,30.2942,-9.4544,2026-09-17,3,28.1,21.2,0.0,0,20.0,42.8,Normal,No Rain,Moderate,10.0,Very Low
-Lqoliaa,30.2942,-9.4544,2026-09-18,1,28.0,20.1,0.0,3,19.8,43.2,Normal,No Rain,Moderate,6.715,Very Low
-Lqoliaa,30.2942,-9.4544,2026-09-19,45,27.8,20.2,0.0,3,22.4,47.9,Normal,No Rain,Moderate,15.315,Very Low
-Lqoliaa,30.2942,-9.4544,2026-09-20,2,26.7,20.5,0.0,0,18.9,41.8,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Lqoliaa,30.2942,-9.4544,2026-09-21,45,29.0,20.4,0.0,0,15.8,35.6,Normal,No Rain,Moderate,11.399999999999999,Very Low
-El Kelaa des Srarhna,32.05,-7.4,2026-09-15,3,37.7,25.6,0.1,3,20.7,39.2,Extreme Heat,Light,Moderate,20.814999999999998,Low
-El Kelaa des Srarhna,32.05,-7.4,2026-09-16,0,34.1,20.9,0.0,0,19.3,33.5,Hot,No Rain,Moderate,9.899999999999999,Very Low
-El Kelaa des Srarhna,32.05,-7.4,2026-09-17,3,30.2,17.1,0.0,3,15.3,26.6,Hot,No Rain,Moderate,5.8149999999999995,Very Low
-El Kelaa des Srarhna,32.05,-7.4,2026-09-18,1,31.6,18.2,0.0,5,15.0,25.9,Hot,No Rain,Moderate,6.025,Very Low
-El Kelaa des Srarhna,32.05,-7.4,2026-09-19,2,36.2,19.6,0.0,8,14.8,26.6,Extreme Heat,No Rain,Moderate,12.34,Very Low
-El Kelaa des Srarhna,32.05,-7.4,2026-09-20,2,37.8,23.5,0.6000000000000001,1,11.4,23.8,Extreme Heat,Light,Low,11.605,Very Low
-El Kelaa des Srarhna,32.05,-7.4,2026-09-21,3,35.6,21.9,0.6000000000000001,8,11.9,23.0,Extreme Heat,Light,Low,12.34,Very Low
+El Kelaa des Srarhna,32.05,-7.4,2026-09-15,3,37.7,25.6,0.1,3,20.7,39.2,Extreme Heat,Light,Moderate,20.815,Low
+El Kelaa des Srarhna,32.05,-7.4,2026-09-16,0,34.1,20.9,0.0,0,19.3,33.5,Hot,No Rain,Moderate,9.9,Very Low
 Moulay Abdallah,33.1978,-8.5883,2026-09-15,45,28.7,21.7,0.0,0,20.6,32.4,Normal,No Rain,Moderate,15.0,Very Low
 Moulay Abdallah,33.1978,-8.5883,2026-09-16,2,25.9,21.1,0.0,0,21.2,33.5,Normal,No Rain,Moderate,10.0,Very Low
-Moulay Abdallah,33.1978,-8.5883,2026-09-17,3,26.5,19.6,0.0,0,18.9,29.5,Normal,No Rain,Moderate,1.0,Very Low
-Moulay Abdallah,33.1978,-8.5883,2026-09-18,3,26.5,20.3,0.0,0,21.0,34.9,Normal,No Rain,Moderate,10.0,Very Low
-Moulay Abdallah,33.1978,-8.5883,2026-09-19,2,27.3,20.5,0.0,0,19.6,31.7,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Moulay Abdallah,33.1978,-8.5883,2026-09-20,2,30.2,21.1,0.0,0,16.5,31.3,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Moulay Abdallah,33.1978,-8.5883,2026-09-21,45,26.7,20.2,0.0,0,15.9,30.6,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Tiflet,33.9,-6.33,2026-09-15,0,33.6,22.2,0.0,0,18.4,37.4,Hot,No Rain,Moderate,9.899999999999999,Very Low
-Tiflet,33.9,-6.33,2026-09-16,2,29.2,19.0,0.0,0,19.8,40.0,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Tiflet,33.9,-6.33,2026-09-17,45,28.4,16.1,0.0,0,15.3,31.7,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Tiflet,33.9,-6.33,2026-09-18,3,30.3,15.8,0.0,5,15.1,35.3,Hot,No Rain,Moderate,11.424999999999999,Very Low
-Tiflet,33.9,-6.33,2026-09-19,2,34.6,18.1,0.0,3,11.6,24.5,Hot,No Rain,Low,5.8149999999999995,Very Low
-Tiflet,33.9,-6.33,2026-09-20,2,37.5,21.6,0.0,0,14.8,31.3,Extreme Heat,No Rain,Moderate,16.9,Very Low
-Tiflet,33.9,-6.33,2026-09-21,0,35.9,20.5,0.0,0,16.1,32.4,Extreme Heat,No Rain,Moderate,15.899999999999999,Very Low
-Oulad Teïma,30.4,-9.21,2026-09-15,3,40.9,26.0,0.0,3,25.3,47.9,Extreme Heat,No Rain,Moderate,25.314999999999998,Low
+Tiflet,33.9,-6.33,2026-09-15,0,33.6,22.2,0.0,0,18.4,37.4,Hot,No Rain,Moderate,9.9,Very Low
+Tiflet,33.9,-6.33,2026-09-16,2,29.2,19.0,0.0,0,19.8,40.0,Normal,No Rain,Moderate,6.4,Very Low
+Oulad Teïma,30.4,-9.21,2026-09-15,3,40.9,26.0,0.0,3,25.3,47.9,Extreme Heat,No Rain,Moderate,25.315,Low
 Oulad Teïma,30.4,-9.21,2026-09-16,2,35.4,21.9,0.0,0,21.2,40.3,Extreme Heat,No Rain,Moderate,20.5,Low
-Oulad Teïma,30.4,-9.21,2026-09-17,3,29.8,20.2,0.0,0,27.2,51.1,Normal,No Rain,Moderate,17.2,Very Low
-Oulad Teïma,30.4,-9.21,2026-09-18,1,29.9,19.3,0.0,0,22.5,43.6,Normal,No Rain,Moderate,10.0,Very Low
-Oulad Teïma,30.4,-9.21,2026-09-19,2,31.4,20.0,0.0,3,26.2,49.7,Hot,No Rain,Moderate,14.815,Very Low
-Oulad Teïma,30.4,-9.21,2026-09-20,2,28.1,20.4,0.0,2,27.7,49.3,Normal,No Rain,Moderate,10.21,Very Low
-Oulad Teïma,30.4,-9.21,2026-09-21,45,32.7,19.7,0.0,0,22.6,41.4,Hot,No Rain,Moderate,19.5,Very Low
 Berkane,34.9167,-2.3167,2026-09-15,2,27.2,17.8,0.0,0,12.8,27.4,Normal,No Rain,Moderate,1.0,Very Low
-Berkane,34.9167,-2.3167,2026-09-16,1,31.7,17.5,0.0,0,13.9,34.2,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Berkane,34.9167,-2.3167,2026-09-17,3,26.0,18.5,0.0,3,14.3,30.6,Normal,No Rain,Moderate,6.715,Very Low
-Berkane,34.9167,-2.3167,2026-09-18,3,26.2,19.4,0.0,8,16.0,34.2,Normal,No Rain,Moderate,7.239999999999999,Very Low
-Berkane,34.9167,-2.3167,2026-09-19,45,26.5,18.6,0.0,13,23.7,47.5,Normal,No Rain,Moderate,16.365000000000002,Very Low
-Berkane,34.9167,-2.3167,2026-09-20,45,26.2,19.5,0.0,8,16.6,31.3,Normal,No Rain,Moderate,12.239999999999998,Very Low
-Berkane,34.9167,-2.3167,2026-09-21,45,26.4,18.8,0.0,5,13.9,27.4,Normal,No Rain,Moderate,6.525,Very Low
-Ain El Aouda,33.8111,-6.7922,2026-09-15,0,31.7,20.0,0.0,0,17.8,35.3,Hot,No Rain,Moderate,9.899999999999999,Very Low
+Berkane,34.9167,-2.3167,2026-09-16,1,31.7,17.5,0.0,0,13.9,34.2,Hot,No Rain,Moderate,10.9,Very Low
+Ain El Aouda,33.8111,-6.7922,2026-09-15,0,31.7,20.0,0.0,0,17.8,35.3,Hot,No Rain,Moderate,9.9,Very Low
 Ain El Aouda,33.8111,-6.7922,2026-09-16,2,27.4,18.6,0.0,0,20.0,40.0,Normal,No Rain,Moderate,10.0,Very Low
-Ain El Aouda,33.8111,-6.7922,2026-09-17,3,27.4,16.7,0.0,0,16.5,32.4,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Ain El Aouda,33.8111,-6.7922,2026-09-18,45,28.8,14.6,0.0,3,15.0,31.7,Normal,No Rain,Moderate,14.715,Very Low
-Ain El Aouda,33.8111,-6.7922,2026-09-19,45,32.6,15.3,0.0,2,15.1,32.4,Hot,No Rain,Moderate,16.11,Very Low
-Ain El Aouda,33.8111,-6.7922,2026-09-20,1,38.3,19.4,0.0,3,15.6,29.9,Extreme Heat,No Rain,Moderate,11.815,Very Low
-Ain El Aouda,33.8111,-6.7922,2026-09-21,0,33.3,19.5,0.0,0,16.1,31.0,Hot,No Rain,Moderate,9.899999999999999,Very Low
 Errachidia,31.9319,-4.4244,2026-09-15,3,34.8,24.3,0.1,23,29.2,56.9,Hot,Light,Strong,24.115,Low
 Errachidia,31.9319,-4.4244,2026-09-16,3,32.8,21.4,0.0,3,20.9,41.0,Hot,No Rain,Moderate,14.815,Very Low
-Errachidia,31.9319,-4.4244,2026-09-17,80,31.3,21.6,0.6000000000000001,30,15.6,32.0,Hot,Light,Moderate,25.049999999999997,Low
-Errachidia,31.9319,-4.4244,2026-09-18,3,31.8,20.8,0.0,30,20.6,40.3,Hot,No Rain,Moderate,17.65,Very Low
-Errachidia,31.9319,-4.4244,2026-09-19,3,31.5,22.4,0.0,29,15.8,29.9,Hot,No Rain,Moderate,8.545,Very Low
-Errachidia,31.9319,-4.4244,2026-09-20,3,33.1,22.1,0.3,14,25.4,43.6,Hot,Light,Moderate,15.97,Very Low
-Errachidia,31.9319,-4.4244,2026-09-21,3,30.6,21.0,0.9,15,13.1,28.8,Hot,Light,Moderate,7.075,Very Low
 Al Fqih Ben Çalah,32.507,-6.6886,2026-09-15,2,39.2,22.6,0.0,3,19.1,36.7,Extreme Heat,No Rain,Moderate,17.215,Very Low
-Al Fqih Ben Çalah,32.507,-6.6886,2026-09-16,0,35.2,19.2,0.0,0,17.7,34.6,Extreme Heat,No Rain,Moderate,15.899999999999999,Very Low
-Al Fqih Ben Çalah,32.507,-6.6886,2026-09-17,3,32.4,16.4,0.0,3,13.7,25.9,Hot,No Rain,Low,5.8149999999999995,Very Low
-Al Fqih Ben Çalah,32.507,-6.6886,2026-09-18,2,33.7,17.0,0.0,10,11.2,22.7,Hot,No Rain,Low,6.55,Very Low
-Al Fqih Ben Çalah,32.507,-6.6886,2026-09-19,3,37.7,19.9,0.0,5,11.1,22.3,Extreme Heat,No Rain,Low,12.025,Very Low
-Al Fqih Ben Çalah,32.507,-6.6886,2026-09-20,3,40.1,24.2,0.3,1,11.0,19.4,Extreme Heat,Light,Low,16.105,Very Low
-Al Fqih Ben Çalah,32.507,-6.6886,2026-09-21,80,38.2,22.0,1.2,3,13.7,24.5,Extreme Heat,Light,Low,22.814999999999998,Low
-Ad Darwa,33.4167,-7.5333,2026-09-15,2,33.3,21.0,0.0,0,17.0,33.1,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Ad Darwa,33.4167,-7.5333,2026-09-16,45,27.7,19.4,0.0,0,17.2,33.8,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Ad Darwa,33.4167,-7.5333,2026-09-17,3,27.4,18.8,0.0,0,16.3,31.7,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Ad Darwa,33.4167,-7.5333,2026-09-18,3,28.6,17.0,0.0,3,17.4,33.8,Normal,No Rain,Moderate,6.715,Very Low
-Ad Darwa,33.4167,-7.5333,2026-09-19,45,31.0,18.0,0.0,0,15.1,29.9,Hot,No Rain,Moderate,10.5,Very Low
-Ad Darwa,33.4167,-7.5333,2026-09-20,2,36.3,21.3,0.0,0,18.4,35.3,Extreme Heat,No Rain,Moderate,16.9,Very Low
-Ad Darwa,33.4167,-7.5333,2026-09-21,2,33.7,20.5,0.0,0,19.0,35.6,Hot,No Rain,Moderate,10.899999999999999,Very Low
+Al Fqih Ben Çalah,32.507,-6.6886,2026-09-16,0,35.2,19.2,0.0,0,17.7,34.6,Extreme Heat,No Rain,Moderate,15.9,Very Low
+Ad Darwa,33.4167,-7.5333,2026-09-15,2,33.3,21.0,0.0,0,17.0,33.1,Hot,No Rain,Moderate,10.9,Very Low
+Ad Darwa,33.4167,-7.5333,2026-09-16,45,27.7,19.4,0.0,0,17.2,33.8,Normal,No Rain,Moderate,11.4,Very Low
 Martil,35.61,-5.27,2026-09-15,2,26.7,21.7,0.0,0,10.0,24.5,Normal,No Rain,Low,1.0,Very Low
 Martil,35.61,-5.27,2026-09-16,1,32.7,21.2,0.0,0,29.0,65.5,Hot,No Rain,Strong,21.7,Low
-Martil,35.61,-5.27,2026-09-17,3,25.5,17.0,0.0,0,14.7,33.1,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Martil,35.61,-5.27,2026-09-18,3,25.0,20.7,0.0,5,16.3,36.0,Normal,No Rain,Moderate,6.924999999999999,Very Low
-Martil,35.61,-5.27,2026-09-19,2,24.8,22.1,1.2,29,26.0,57.6,Normal,Light,Strong,20.244999999999997,Low
-Martil,35.61,-5.27,2026-09-20,80,24.5,22.6,0.15,17,38.8,68.0,Normal,Light,Strong,29.985,Low
-Martil,35.61,-5.27,2026-09-21,3,24.7,22.3,0.0,0,34.7,63.0,Normal,No Rain,Strong,17.2,Very Low
-Sidi Slimane,34.26,-5.93,2026-09-15,0,34.9,21.0,0.0,0,18.6,39.2,Hot,No Rain,Moderate,9.899999999999999,Very Low
+Sidi Slimane,34.26,-5.93,2026-09-15,0,34.9,21.0,0.0,0,18.6,39.2,Hot,No Rain,Moderate,9.9,Very Low
 Sidi Slimane,34.26,-5.93,2026-09-16,2,31.1,20.3,0.0,0,20.5,43.6,Hot,No Rain,Moderate,14.5,Very Low
-Sidi Slimane,34.26,-5.93,2026-09-17,3,30.1,18.9,0.0,0,15.5,33.1,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Sidi Slimane,34.26,-5.93,2026-09-18,45,32.4,15.8,0.0,10,15.0,37.1,Hot,No Rain,Moderate,16.95,Very Low
-Sidi Slimane,34.26,-5.93,2026-09-19,1,37.0,18.7,0.0,0,16.2,36.0,Extreme Heat,No Rain,Moderate,16.9,Very Low
-Sidi Slimane,34.26,-5.93,2026-09-20,0,37.9,23.3,0.0,0,24.2,46.1,Extreme Heat,No Rain,Moderate,19.5,Very Low
-Sidi Slimane,34.26,-5.93,2026-09-21,1,36.9,23.3,0.0,0,19.9,36.7,Extreme Heat,No Rain,Moderate,16.9,Very Low
 Oued Zem,32.8619,-6.5711,2026-09-15,3,35.3,22.9,0.0,0,22.3,45.0,Extreme Heat,No Rain,Moderate,20.5,Low
-Oued Zem,32.8619,-6.5711,2026-09-16,1,31.7,18.1,0.0,0,17.1,34.9,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Oued Zem,32.8619,-6.5711,2026-09-17,2,30.4,15.7,0.0,3,19.5,38.9,Hot,No Rain,Moderate,11.215,Very Low
-Oued Zem,32.8619,-6.5711,2026-09-18,2,30.3,16.3,0.0,10,16.1,34.9,Hot,No Rain,Moderate,11.95,Very Low
-Oued Zem,32.8619,-6.5711,2026-09-19,3,34.5,17.8,0.0,6,13.0,29.9,Hot,No Rain,Moderate,6.13,Very Low
-Oued Zem,32.8619,-6.5711,2026-09-20,2,36.2,23.6,0.0,3,19.7,37.4,Extreme Heat,No Rain,Moderate,17.215,Very Low
-Oued Zem,32.8619,-6.5711,2026-09-21,2,35.1,22.2,0.0,5,20.0,38.9,Extreme Heat,No Rain,Moderate,21.025,Low
-Sefrou,33.83,-4.83,2026-09-15,2,32.4,23.6,0.0,0,17.6,38.5,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Sefrou,33.83,-4.83,2026-09-16,2,29.1,19.2,0.0,0,17.6,38.9,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Sefrou,33.83,-4.83,2026-09-17,3,26.5,17.5,0.0,10,16.3,35.6,Normal,No Rain,Moderate,7.449999999999999,Very Low
-Sefrou,33.83,-4.83,2026-09-18,3,27.6,17.2,0.0,13,15.0,32.8,Normal,No Rain,Moderate,7.765,Very Low
-Sefrou,33.83,-4.83,2026-09-19,1,30.5,19.5,0.0,3,19.2,41.4,Hot,No Rain,Moderate,11.215,Very Low
-Sefrou,33.83,-4.83,2026-09-20,2,31.5,19.0,0.0,8,20.7,39.6,Hot,No Rain,Moderate,15.34,Very Low
-Sefrou,33.83,-4.83,2026-09-21,0,31.2,16.5,0.0,14,14.8,29.2,Hot,No Rain,Moderate,5.97,Very Low
+Oued Zem,32.8619,-6.5711,2026-09-16,1,31.7,18.1,0.0,0,17.1,34.9,Hot,No Rain,Moderate,10.9,Very Low
+Sefrou,33.83,-4.83,2026-09-15,2,32.4,23.6,0.0,0,17.6,38.5,Hot,No Rain,Moderate,10.9,Very Low
+Sefrou,33.83,-4.83,2026-09-16,2,29.1,19.2,0.0,0,17.6,38.9,Normal,No Rain,Moderate,6.4,Very Low
 Taroudannt,30.4711,-8.8778,2026-09-15,3,41.1,27.7,0.0,10,25.8,50.0,Extreme Heat,No Rain,Moderate,33.25,Low
 Taroudannt,30.4711,-8.8778,2026-09-16,2,37.1,24.2,0.0,0,22.4,45.4,Extreme Heat,No Rain,Moderate,20.5,Low
-Taroudannt,30.4711,-8.8778,2026-09-17,3,30.6,19.4,0.0,0,25.8,51.1,Hot,No Rain,Moderate,21.7,Low
-Taroudannt,30.4711,-8.8778,2026-09-18,3,31.5,18.9,0.0,5,20.8,43.2,Hot,No Rain,Moderate,15.025,Very Low
-Taroudannt,30.4711,-8.8778,2026-09-19,2,35.2,21.8,0.0,3,23.3,47.9,Extreme Heat,No Rain,Moderate,20.814999999999998,Low
-Taroudannt,30.4711,-8.8778,2026-09-20,2,31.3,22.9,0.0,2,25.6,46.4,Hot,No Rain,Moderate,14.71,Very Low
-Taroudannt,30.4711,-8.8778,2026-09-21,1,36.7,20.7,0.0,0,24.8,47.5,Extreme Heat,No Rain,Moderate,20.5,Low
 Essaouira,31.513,-9.7687,2026-09-15,3,27.9,22.7,0.0,3,27.2,51.1,Normal,No Rain,Moderate,17.515,Very Low
 Essaouira,31.513,-9.7687,2026-09-16,1,25.9,20.2,0.0,0,37.0,68.4,Normal,No Rain,Strong,17.2,Very Low
-Essaouira,31.513,-9.7687,2026-09-17,2,24.3,19.2,0.0,0,29.2,53.6,Normal,No Rain,Strong,17.2,Very Low
-Essaouira,31.513,-9.7687,2026-09-18,1,24.7,19.1,0.0,0,29.2,53.3,Normal,No Rain,Strong,17.2,Very Low
-Essaouira,31.513,-9.7687,2026-09-19,2,25.0,18.8,0.0,0,24.8,45.0,Normal,No Rain,Moderate,10.0,Very Low
-Essaouira,31.513,-9.7687,2026-09-20,2,27.2,19.8,0.0,0,16.1,30.2,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Essaouira,31.513,-9.7687,2026-09-21,45,27.4,19.4,0.0,0,11.5,22.0,Normal,No Rain,Low,6.0,Very Low
-Azrou,33.4344,-5.2213,2026-09-15,2,29.7,17.6,0.0,0,19.8,42.5,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Azrou,33.4344,-5.2213,2026-09-16,1,26.1,14.2,0.0,0,16.2,40.7,Normal,No Rain,Moderate,9.399999999999999,Very Low
-Azrou,33.4344,-5.2213,2026-09-17,3,25.9,15.1,0.0,23,17.2,37.4,Normal,No Rain,Moderate,8.815,Very Low
-Azrou,33.4344,-5.2213,2026-09-18,3,25.4,14.2,0.0,33,12.7,29.9,Normal,No Rain,Moderate,7.465,Very Low
-Azrou,33.4344,-5.2213,2026-09-19,3,28.4,16.7,0.0,10,13.4,33.8,Normal,No Rain,Moderate,7.449999999999999,Very Low
-Azrou,33.4344,-5.2213,2026-09-20,3,29.5,19.7,0.0,9,23.4,54.4,Normal,No Rain,Moderate,18.145,Very Low
-Azrou,33.4344,-5.2213,2026-09-21,1,29.0,19.6,0.0,10,25.6,61.9,Normal,No Rain,Strong,18.25,Very Low
+Azrou,33.4344,-5.2213,2026-09-15,2,29.7,17.6,0.0,0,19.8,42.5,Normal,No Rain,Moderate,6.4,Very Low
+Azrou,33.4344,-5.2213,2026-09-16,1,26.1,14.2,0.0,0,16.2,40.7,Normal,No Rain,Moderate,9.4,Very Low
 Guercif,34.23,-3.36,2026-09-15,3,33.5,18.9,0.0,0,23.7,43.6,Hot,No Rain,Moderate,14.5,Very Low
 Guercif,34.23,-3.36,2026-09-16,1,34.5,19.3,0.0,3,25.7,45.7,Hot,No Rain,Moderate,14.815,Very Low
-Guercif,34.23,-3.36,2026-09-17,3,30.5,20.1,0.0,9,27.7,52.2,Hot,No Rain,Moderate,22.645,Low
-Guercif,34.23,-3.36,2026-09-18,3,29.9,20.0,0.0,10,28.0,50.8,Normal,No Rain,Moderate,18.25,Very Low
-Guercif,34.23,-3.36,2026-09-19,3,30.2,20.0,0.0,13,33.2,67.3,Hot,No Rain,Strong,23.064999999999998,Low
-Guercif,34.23,-3.36,2026-09-20,3,29.4,20.7,0.0,5,32.2,56.5,Normal,No Rain,Strong,17.724999999999998,Very Low
-Guercif,34.23,-3.36,2026-09-21,3,29.5,20.6,0.0,3,31.0,52.2,Normal,No Rain,Strong,17.515,Very Low
 Warzat,30.9167,-6.9167000000000005,2026-09-15,3,32.2,21.9,0.0,8,21.4,40.0,Hot,No Rain,Moderate,15.34,Very Low
 Warzat,30.9167,-6.9167000000000005,2026-09-16,1,33.3,18.0,0.0,3,23.1,40.3,Hot,No Rain,Moderate,14.815,Very Low
-Warzat,30.9167,-6.9167000000000005,2026-09-17,80,32.1,19.2,0.6000000000000001,25,14.0,26.6,Hot,Light,Moderate,19.125,Very Low
-Warzat,30.9167,-6.9167000000000005,2026-09-18,2,31.8,18.6,0.0,23,18.4,34.2,Hot,No Rain,Moderate,13.315,Very Low
-Warzat,30.9167,-6.9167000000000005,2026-09-19,2,32.4,20.5,0.0,18,8.3,17.3,Hot,No Rain,Low,7.39,Very Low
-Warzat,30.9167,-6.9167000000000005,2026-09-20,3,33.8,22.9,0.0,9,25.0,46.4,Hot,No Rain,Moderate,15.445,Very Low
-Warzat,30.9167,-6.9167000000000005,2026-09-21,80,31.4,20.5,0.6000000000000001,5,17.7,34.6,Hot,Light,Moderate,22.424999999999997,Low
 Fnidq,35.8414,-5.3587,2026-09-15,2,27.6,21.3,0.0,0,11.3,22.3,Normal,No Rain,Low,1.0,Very Low
 Fnidq,35.8414,-5.3587,2026-09-16,1,30.0,21.3,0.0,0,31.8,60.5,Normal,No Rain,Strong,21.7,Low
-Fnidq,35.8414,-5.3587,2026-09-17,3,26.6,18.0,0.0,0,14.0,28.1,Normal,No Rain,Moderate,1.0,Very Low
-Fnidq,35.8414,-5.3587,2026-09-18,3,24.7,20.7,0.0,5,16.7,32.8,Normal,No Rain,Moderate,6.924999999999999,Very Low
-Fnidq,35.8414,-5.3587,2026-09-19,80,24.7,22.0,1.2,29,28.6,54.4,Normal,Light,Strong,31.244999999999997,Low
-Fnidq,35.8414,-5.3587,2026-09-20,80,24.4,22.5,0.6000000000000001,17,38.8,68.0,Normal,Light,Strong,29.985,Low
-Fnidq,35.8414,-5.3587,2026-09-21,3,24.6,22.3,0.0,0,34.7,63.0,Normal,No Rain,Strong,17.2,Very Low
-Tan-Tan,28.4333,-11.1,2026-09-15,0,37.0,23.4,0.0,0,19.7,37.8,Extreme Heat,No Rain,Moderate,15.899999999999999,Very Low
+Tan-Tan,28.4333,-11.1,2026-09-15,0,37.0,23.4,0.0,0,19.7,37.8,Extreme Heat,No Rain,Moderate,15.9,Very Low
 Tan-Tan,28.4333,-11.1,2026-09-16,0,31.0,20.6,0.0,0,24.6,45.7,Hot,No Rain,Moderate,13.5,Very Low
-Tan-Tan,28.4333,-11.1,2026-09-17,51,25.9,20.3,0.2,0,32.1,56.5,Normal,Light,Strong,22.2,Low
-Tan-Tan,28.4333,-11.1,2026-09-18,1,25.7,19.5,0.0,0,26.3,47.9,Normal,No Rain,Moderate,10.0,Very Low
-Tan-Tan,28.4333,-11.1,2026-09-19,3,26.1,19.6,0.0,0,19.6,38.9,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Tan-Tan,28.4333,-11.1,2026-09-20,3,30.3,17.8,0.0,2,16.2,33.8,Hot,No Rain,Moderate,11.11,Very Low
-Tan-Tan,28.4333,-11.1,2026-09-21,1,33.4,17.7,0.0,4,20.1,43.9,Hot,No Rain,Moderate,14.92,Very Low
-Sidi Qacem,34.21,-5.7,2026-09-15,0,34.8,21.8,0.0,0,19.7,40.7,Hot,No Rain,Moderate,9.899999999999999,Very Low
-Sidi Qacem,34.21,-5.7,2026-09-16,2,31.5,20.6,0.0,0,19.6,41.8,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Sidi Qacem,34.21,-5.7,2026-09-17,3,30.1,18.5,0.0,0,14.5,31.3,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Sidi Qacem,34.21,-5.7,2026-09-18,3,32.3,17.2,0.0,8,16.8,36.0,Hot,No Rain,Moderate,11.739999999999998,Very Low
-Sidi Qacem,34.21,-5.7,2026-09-19,1,36.2,19.9,0.0,3,19.8,41.4,Extreme Heat,No Rain,Moderate,17.215,Very Low
-Sidi Qacem,34.21,-5.7,2026-09-20,1,37.0,24.5,0.0,0,22.5,46.8,Extreme Heat,No Rain,Moderate,20.5,Low
-Sidi Qacem,34.21,-5.7,2026-09-21,1,36.3,24.1,0.0,0,17.2,36.4,Extreme Heat,No Rain,Moderate,16.9,Very Low
+Sidi Qacem,34.21,-5.7,2026-09-15,0,34.8,21.8,0.0,0,19.7,40.7,Hot,No Rain,Moderate,9.9,Very Low
+Sidi Qacem,34.21,-5.7,2026-09-16,2,31.5,20.6,0.0,0,19.6,41.8,Hot,No Rain,Moderate,10.9,Very Low
 M’diq,35.68,-5.32,2026-09-15,2,26.6,21.5,0.0,0,10.0,24.5,Normal,No Rain,Low,1.0,Very Low
 M’diq,35.68,-5.32,2026-09-16,1,32.6,21.1,0.0,0,29.0,65.5,Hot,No Rain,Strong,21.7,Low
-M’diq,35.68,-5.32,2026-09-17,3,25.3,16.9,0.0,0,14.7,33.1,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-M’diq,35.68,-5.32,2026-09-18,3,24.8,20.5,0.0,5,16.3,36.0,Normal,No Rain,Moderate,6.924999999999999,Very Low
-M’diq,35.68,-5.32,2026-09-19,2,24.6,21.9,1.2,8,26.0,57.6,Normal,Light,Strong,18.04,Very Low
-M’diq,35.68,-5.32,2026-09-20,80,25.6,22.4,0.15,0,40.4,84.2,Normal,Light,Very Strong,38.4,Low
-M’diq,35.68,-5.32,2026-09-21,2,25.7,22.1,0.0,0,36.8,76.3,Normal,No Rain,Strong,22.599999999999998,Low
-Youssoufia,32.25,-8.53,2026-09-15,3,37.4,24.6,0.0,3,24.1,49.7,Extreme Heat,No Rain,Moderate,20.814999999999998,Low
+Youssoufia,32.25,-8.53,2026-09-15,3,37.4,24.6,0.0,3,24.1,49.7,Extreme Heat,No Rain,Moderate,20.815,Low
 Youssoufia,32.25,-8.53,2026-09-16,1,31.4,19.7,0.0,0,20.6,41.8,Hot,No Rain,Moderate,14.5,Very Low
-Youssoufia,32.25,-8.53,2026-09-17,3,28.7,17.1,0.0,0,18.2,38.2,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Youssoufia,32.25,-8.53,2026-09-18,45,30.9,16.9,0.0,3,18.2,37.4,Hot,No Rain,Moderate,16.215,Very Low
-Youssoufia,32.25,-8.53,2026-09-19,45,34.4,16.6,0.0,3,15.5,32.4,Hot,No Rain,Moderate,16.215,Very Low
-Youssoufia,32.25,-8.53,2026-09-20,2,39.0,22.9,0.0,0,19.1,48.2,Extreme Heat,No Rain,Moderate,16.9,Very Low
-Youssoufia,32.25,-8.53,2026-09-21,2,32.6,21.6,0.0,0,19.6,36.0,Hot,No Rain,Moderate,10.899999999999999,Very Low
 Midalt,32.68,-4.74,2026-09-15,3,30.0,18.2,0.0,8,23.4,41.8,Normal,No Rain,Moderate,15.34,Very Low
 Midalt,32.68,-4.74,2026-09-16,2,27.0,17.0,0.0,0,21.4,38.5,Normal,No Rain,Moderate,10.0,Very Low
-Midalt,32.68,-4.74,2026-09-17,80,26.9,14.4,1.3,38,16.1,31.7,Normal,Light,Moderate,24.39,Low
-Midalt,32.68,-4.74,2026-09-18,3,26.6,13.6,0.0,18,22.1,35.6,Normal,No Rain,Moderate,14.89,Very Low
-Midalt,32.68,-4.74,2026-09-19,3,25.8,14.3,0.0,14,26.3,43.9,Normal,No Rain,Moderate,14.47,Very Low
-Midalt,32.68,-4.74,2026-09-20,3,29.0,15.5,0.6000000000000001,9,16.8,29.2,Normal,Light,Moderate,1.9449999999999998,Very Low
-Midalt,32.68,-4.74,2026-09-21,3,29.5,16.9,0.0,14,27.2,47.5,Normal,No Rain,Moderate,11.47,Very Low
-Aïn Harrouda,33.6372,-7.4483,2026-09-15,45,29.2,21.7,0.0,0,12.1,32.0,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Aïn Harrouda,33.6372,-7.4483,2026-09-16,45,26.4,20.6,0.0,0,15.2,37.4,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Aïn Harrouda,33.6372,-7.4483,2026-09-17,3,26.3,19.7,0.0,0,13.2,33.8,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Aïn Harrouda,33.6372,-7.4483,2026-09-18,3,26.9,17.6,0.0,3,14.6,37.1,Normal,No Rain,Moderate,6.715,Very Low
-Aïn Harrouda,33.6372,-7.4483,2026-09-19,45,27.8,18.4,0.0,0,12.6,33.5,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Aïn Harrouda,33.6372,-7.4483,2026-09-20,2,30.4,20.4,0.0,0,11.5,27.4,Hot,No Rain,Low,5.5,Very Low
-Aïn Harrouda,33.6372,-7.4483,2026-09-21,2,30.3,20.6,0.0,0,13.8,33.8,Hot,No Rain,Moderate,10.899999999999999,Very Low
+Aïn Harrouda,33.6372,-7.4483,2026-09-15,45,29.2,21.7,0.0,0,12.1,32.0,Normal,No Rain,Moderate,11.4,Very Low
+Aïn Harrouda,33.6372,-7.4483,2026-09-16,45,26.4,20.6,0.0,0,15.2,37.4,Normal,No Rain,Moderate,11.4,Very Low
 Souq Sebt Oulad Nemma,32.3,-6.7,2026-09-15,3,39.7,24.6,0.0,3,17.7,32.8,Extreme Heat,No Rain,Moderate,17.215,Very Low
 Souq Sebt Oulad Nemma,32.3,-6.7,2026-09-16,1,35.4,20.4,0.0,0,15.3,26.6,Extreme Heat,No Rain,Moderate,11.5,Very Low
-Souq Sebt Oulad Nemma,32.3,-6.7,2026-09-17,3,32.2,17.7,0.0,5,13.8,24.8,Hot,No Rain,Low,6.025,Very Low
-Souq Sebt Oulad Nemma,32.3,-6.7,2026-09-18,1,33.8,18.3,0.0,5,8.6,17.6,Hot,No Rain,Low,6.025,Very Low
-Souq Sebt Oulad Nemma,32.3,-6.7,2026-09-19,3,38.2,20.2,0.0,2,10.5,19.8,Extreme Heat,No Rain,Low,11.71,Very Low
-Souq Sebt Oulad Nemma,32.3,-6.7,2026-09-20,2,40.2,24.2,0.3,3,10.7,20.2,Extreme Heat,Light,Low,16.314999999999998,Very Low
-Souq Sebt Oulad Nemma,32.3,-6.7,2026-09-21,80,38.6,23.8,0.6000000000000001,3,16.6,29.2,Extreme Heat,Light,Moderate,22.814999999999998,Low
 Mehdya,34.2557,-6.6745,2026-09-15,45,27.6,21.0,0.0,0,12.5,28.1,Normal,No Rain,Moderate,6.0,Very Low
-Mehdya,34.2557,-6.6745,2026-09-16,3,26.5,21.0,0.0,0,16.3,36.4,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Mehdya,34.2557,-6.6745,2026-09-17,3,26.3,19.3,0.0,0,12.1,28.1,Normal,No Rain,Moderate,1.0,Very Low
-Mehdya,34.2557,-6.6745,2026-09-18,45,26.9,17.6,0.0,5,13.3,29.9,Normal,No Rain,Moderate,6.525,Very Low
-Mehdya,34.2557,-6.6745,2026-09-19,45,32.0,17.7,0.0,0,16.1,35.3,Hot,No Rain,Moderate,15.899999999999999,Very Low
-Mehdya,34.2557,-6.6745,2026-09-20,1,36.7,22.5,0.0,0,17.3,40.3,Extreme Heat,No Rain,Moderate,16.9,Very Low
-Mehdya,34.2557,-6.6745,2026-09-21,0,33.1,22.1,0.0,0,14.3,33.1,Hot,No Rain,Moderate,9.899999999999999,Very Low
+Mehdya,34.2557,-6.6745,2026-09-16,3,26.5,21.0,0.0,0,16.3,36.4,Normal,No Rain,Moderate,6.4,Very Low
 Ouezzane,34.8,-5.6,2026-09-15,1,35.3,19.8,0.0,0,21.7,44.6,Extreme Heat,No Rain,Moderate,20.5,Low
-Ouezzane,34.8,-5.6,2026-09-16,3,30.4,17.3,0.0,0,17.6,34.6,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Ouezzane,34.8,-5.6,2026-09-17,3,29.8,16.6,0.0,1,21.4,41.8,Normal,No Rain,Moderate,10.105,Very Low
-Ouezzane,34.8,-5.6,2026-09-18,3,31.6,15.6,0.0,8,14.0,32.8,Hot,No Rain,Moderate,11.739999999999998,Very Low
-Ouezzane,34.8,-5.6,2026-09-19,1,36.1,17.5,0.0,5,16.6,29.5,Extreme Heat,No Rain,Moderate,12.025,Very Low
-Ouezzane,34.8,-5.6,2026-09-20,0,36.7,20.8,0.0,3,20.2,39.6,Extreme Heat,No Rain,Moderate,19.814999999999998,Very Low
-Ouezzane,34.8,-5.6,2026-09-21,2,35.8,21.4,0.0,3,16.4,33.1,Extreme Heat,No Rain,Moderate,17.215,Very Low
+Ouezzane,34.8,-5.6,2026-09-16,3,30.4,17.3,0.0,0,17.6,34.6,Hot,No Rain,Moderate,10.9,Very Low
 Semara,26.7394,-11.6703,2026-09-15,0,40.9,26.8,0.0,1,31.5,50.4,Extreme Heat,No Rain,Strong,31.305,Low
 Semara,26.7394,-11.6703,2026-09-16,0,39.4,25.2,0.0,0,32.0,55.1,Extreme Heat,No Rain,Strong,26.7,Low
-Semara,26.7394,-11.6703,2026-09-17,3,31.0,20.3,0.0,0,29.3,50.4,Hot,No Rain,Moderate,21.7,Low
-Semara,26.7394,-11.6703,2026-09-18,3,30.2,19.3,0.0,0,25.9,46.1,Hot,No Rain,Moderate,14.5,Very Low
-Semara,26.7394,-11.6703,2026-09-19,3,32.5,18.4,0.0,0,20.8,37.4,Hot,No Rain,Moderate,14.5,Very Low
-Semara,26.7394,-11.6703,2026-09-20,1,37.5,18.1,0.0,2,24.0,38.9,Extreme Heat,No Rain,Moderate,20.71,Low
-Semara,26.7394,-11.6703,2026-09-21,3,41.3,22.6,0.0,25,16.9,44.6,Extreme Heat,No Rain,Moderate,24.025,Low
 Ait Ourir,31.5644,-7.6628,2026-09-15,3,35.4,24.7,0.0,3,17.0,31.3,Extreme Heat,No Rain,Moderate,17.215,Very Low
 Ait Ourir,31.5644,-7.6628,2026-09-16,1,32.7,19.9,0.0,0,14.9,28.1,Hot,No Rain,Moderate,5.5,Very Low
-Ait Ourir,31.5644,-7.6628,2026-09-17,3,28.9,17.7,0.0,8,10.0,20.2,Normal,No Rain,Low,1.8399999999999999,Very Low
-Ait Ourir,31.5644,-7.6628,2026-09-18,1,30.3,17.5,0.0,10,10.2,21.6,Hot,No Rain,Low,6.55,Very Low
-Ait Ourir,31.5644,-7.6628,2026-09-19,2,34.8,19.2,0.0,10,12.2,24.5,Hot,No Rain,Low,6.55,Very Low
-Ait Ourir,31.5644,-7.6628,2026-09-20,3,37.0,22.7,0.3,4,10.2,19.8,Extreme Heat,Light,Low,11.92,Very Low
-Ait Ourir,31.5644,-7.6628,2026-09-21,80,33.9,21.8,1.8,5,9.9,28.8,Hot,Light,Low,17.025,Very Low
-Oulad Tayeb,33.9598,-4.9954,2026-09-15,2,34.2,23.6,0.0,0,16.9,32.8,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Oulad Tayeb,33.9598,-4.9954,2026-09-16,1,30.9,21.0,0.0,0,16.7,31.7,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Oulad Tayeb,33.9598,-4.9954,2026-09-17,45,29.2,18.4,0.0,5,13.3,26.3,Normal,No Rain,Low,6.525,Very Low
-Oulad Tayeb,33.9598,-4.9954,2026-09-18,3,30.7,18.4,0.0,5,10.9,23.4,Hot,No Rain,Low,6.025,Very Low
-Oulad Tayeb,33.9598,-4.9954,2026-09-19,1,33.4,19.7,0.0,0,17.7,37.1,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Oulad Tayeb,33.9598,-4.9954,2026-09-20,1,33.2,21.0,0.0,0,20.0,48.6,Hot,No Rain,Moderate,14.5,Very Low
-Oulad Tayeb,33.9598,-4.9954,2026-09-21,0,33.1,20.8,0.0,0,14.4,37.4,Hot,No Rain,Moderate,9.899999999999999,Very Low
-Tit Mellil,33.5533,-7.4822,2026-09-15,45,29.9,21.5,0.0,0,13.0,34.2,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Tit Mellil,33.5533,-7.4822,2026-09-16,45,26.3,20.2,0.0,0,14.9,38.2,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Tit Mellil,33.5533,-7.4822,2026-09-17,3,26.1,19.0,0.0,0,13.4,35.3,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Tit Mellil,33.5533,-7.4822,2026-09-18,3,27.0,17.5,0.0,3,15.0,38.5,Normal,No Rain,Moderate,6.715,Very Low
-Tit Mellil,33.5533,-7.4822,2026-09-19,45,28.1,18.7,0.0,0,13.0,34.6,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Tit Mellil,33.5533,-7.4822,2026-09-20,2,31.1,20.8,0.0,0,11.6,29.9,Hot,No Rain,Moderate,5.5,Very Low
-Tit Mellil,33.5533,-7.4822,2026-09-21,2,29.7,20.9,0.0,0,13.6,36.0,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Sidi Bennour,32.655,-8.4292,2026-09-15,3,37.2,21.1,0.0,3,26.1,45.4,Extreme Heat,No Rain,Moderate,20.814999999999998,Low
+Oulad Tayeb,33.9598,-4.9954,2026-09-15,2,34.2,23.6,0.0,0,16.9,32.8,Hot,No Rain,Moderate,10.9,Very Low
+Oulad Tayeb,33.9598,-4.9954,2026-09-16,1,30.9,21.0,0.0,0,16.7,31.7,Hot,No Rain,Moderate,10.9,Very Low
+Tit Mellil,33.5533,-7.4822,2026-09-15,45,29.9,21.5,0.0,0,13.0,34.2,Normal,No Rain,Moderate,11.4,Very Low
+Tit Mellil,33.5533,-7.4822,2026-09-16,45,26.3,20.2,0.0,0,14.9,38.2,Normal,No Rain,Moderate,11.4,Very Low
+Sidi Bennour,32.655,-8.4292,2026-09-15,3,37.2,21.1,0.0,3,26.1,45.4,Extreme Heat,No Rain,Moderate,20.815,Low
 Sidi Bennour,32.655,-8.4292,2026-09-16,2,30.2,18.5,0.0,0,22.7,39.2,Hot,No Rain,Moderate,14.5,Very Low
-Sidi Bennour,32.655,-8.4292,2026-09-17,3,28.6,17.5,0.0,0,20.2,35.3,Normal,No Rain,Moderate,10.0,Very Low
-Sidi Bennour,32.655,-8.4292,2026-09-18,45,30.6,17.5,0.0,0,22.0,39.2,Hot,No Rain,Moderate,19.5,Very Low
-Sidi Bennour,32.655,-8.4292,2026-09-19,45,34.0,16.5,0.0,0,18.0,32.4,Hot,No Rain,Moderate,15.899999999999999,Very Low
-Sidi Bennour,32.655,-8.4292,2026-09-20,2,38.7,20.3,0.0,0,18.4,36.0,Extreme Heat,No Rain,Moderate,16.9,Very Low
-Sidi Bennour,32.655,-8.4292,2026-09-21,45,32.7,19.6,0.0,3,17.6,33.5,Hot,No Rain,Moderate,16.215,Very Low
 Temsia,30.3633,-9.4144,2026-09-15,3,38.9,26.1,0.0,3,19.1,40.7,Extreme Heat,No Rain,Moderate,17.215,Very Low
-Temsia,30.3633,-9.4144,2026-09-16,2,31.9,22.3,0.0,0,17.1,37.4,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Temsia,30.3633,-9.4144,2026-09-17,3,28.2,21.1,0.0,0,22.8,47.2,Normal,No Rain,Moderate,10.0,Very Low
-Temsia,30.3633,-9.4144,2026-09-18,1,28.2,20.2,0.0,0,20.9,43.9,Normal,No Rain,Moderate,10.0,Very Low
-Temsia,30.3633,-9.4144,2026-09-19,45,28.4,20.5,0.0,3,22.5,47.2,Normal,No Rain,Moderate,15.315,Very Low
-Temsia,30.3633,-9.4144,2026-09-20,1,28.6,20.9,0.0,0,27.7,49.3,Normal,No Rain,Moderate,10.0,Very Low
-Temsia,30.3633,-9.4144,2026-09-21,45,33.2,20.2,0.0,0,22.6,41.4,Hot,No Rain,Moderate,19.5,Very Low
-Biougra,30.2144,-9.3708,2026-09-15,2,38.6,26.6,0.0,3,22.9,40.3,Extreme Heat,No Rain,Moderate,20.814999999999998,Low
+Temsia,30.3633,-9.4144,2026-09-16,2,31.9,22.3,0.0,0,17.1,37.4,Hot,No Rain,Moderate,10.9,Very Low
+Biougra,30.2144,-9.3708,2026-09-15,2,38.6,26.6,0.0,3,22.9,40.3,Extreme Heat,No Rain,Moderate,20.815,Low
 Biougra,30.2144,-9.3708,2026-09-16,1,33.7,23.1,0.0,0,29.4,49.0,Hot,No Rain,Moderate,14.5,Very Low
-Biougra,30.2144,-9.3708,2026-09-17,3,27.9,21.1,0.0,0,32.9,54.7,Normal,No Rain,Strong,17.2,Very Low
-Biougra,30.2144,-9.3708,2026-09-18,2,28.3,20.2,0.0,0,23.1,39.6,Normal,No Rain,Moderate,10.0,Very Low
-Biougra,30.2144,-9.3708,2026-09-19,2,28.6,20.4,0.0,3,22.1,36.0,Normal,No Rain,Moderate,10.315,Very Low
-Biougra,30.2144,-9.3708,2026-09-20,1,27.3,20.5,0.0,0,25.5,43.9,Normal,No Rain,Moderate,10.0,Very Low
-Biougra,30.2144,-9.3708,2026-09-21,45,30.7,19.9,0.0,0,19.8,35.3,Hot,No Rain,Moderate,15.899999999999999,Very Low
 Al Hoceïma,35.2472,-3.9322,2026-09-15,45,26.4,20.2,0.0,0,11.3,20.2,Normal,No Rain,Low,6.0,Very Low
 Al Hoceïma,35.2472,-3.9322,2026-09-16,3,28.7,19.9,0.0,0,13.0,25.2,Normal,No Rain,Low,1.0,Very Low
-Al Hoceïma,35.2472,-3.9322,2026-09-17,3,25.8,20.0,0.0,3,16.7,30.2,Normal,No Rain,Moderate,6.715,Very Low
-Al Hoceïma,35.2472,-3.9322,2026-09-18,45,26.0,18.9,0.0,12,15.4,32.0,Normal,No Rain,Moderate,12.66,Very Low
-Al Hoceïma,35.2472,-3.9322,2026-09-19,2,27.7,18.9,0.0,15,26.5,47.5,Normal,No Rain,Moderate,11.575,Very Low
-Al Hoceïma,35.2472,-3.9322,2026-09-20,2,27.3,22.0,0.0,5,33.7,60.5,Normal,No Rain,Strong,17.724999999999998,Very Low
-Al Hoceïma,35.2472,-3.9322,2026-09-21,3,26.1,21.8,0.0,0,30.0,57.6,Normal,No Rain,Strong,17.2,Very Low
 Qasbat Tadla,32.6,-6.26,2026-09-15,2,38.8,22.9,0.0,3,19.5,35.6,Extreme Heat,No Rain,Moderate,17.215,Very Low
 Qasbat Tadla,32.6,-6.26,2026-09-16,0,34.3,18.7,0.0,0,14.6,27.7,Hot,No Rain,Moderate,4.5,Very Low
-Qasbat Tadla,32.6,-6.26,2026-09-17,3,32.3,17.5,0.0,3,11.9,22.7,Hot,No Rain,Low,5.8149999999999995,Very Low
-Qasbat Tadla,32.6,-6.26,2026-09-18,2,33.4,17.2,0.0,8,14.4,25.6,Hot,No Rain,Low,6.34,Very Low
-Qasbat Tadla,32.6,-6.26,2026-09-19,3,37.3,20.6,0.0,1,10.2,19.4,Extreme Heat,No Rain,Low,11.605,Very Low
-Qasbat Tadla,32.6,-6.26,2026-09-20,2,39.4,24.8,0.0,3,21.4,37.8,Extreme Heat,No Rain,Moderate,20.814999999999998,Low
-Qasbat Tadla,32.6,-6.26,2026-09-21,80,37.5,19.9,0.6000000000000001,9,7.9,20.5,Extreme Heat,Light,Low,23.445,Low
 Aziylal,31.96,-6.5600000000000005,2026-09-15,3,30.4,19.7,0.1,5,22.9,49.3,Hot,Light,Moderate,15.025,Very Low
-Aziylal,31.96,-6.5600000000000005,2026-09-16,0,26.6,16.0,0.0,0,18.8,39.2,Normal,No Rain,Moderate,5.3999999999999995,Very Low
-Aziylal,31.96,-6.5600000000000005,2026-09-17,3,25.3,14.8,0.0,23,15.3,32.0,Normal,No Rain,Moderate,11.815,Very Low
-Aziylal,31.96,-6.5600000000000005,2026-09-18,3,25.9,15.0,0.0,18,17.3,37.8,Normal,No Rain,Moderate,8.29,Very Low
-Aziylal,31.96,-6.5600000000000005,2026-09-19,3,28.9,17.6,0.0,23,16.4,34.9,Normal,No Rain,Moderate,8.815,Very Low
-Aziylal,31.96,-6.5600000000000005,2026-09-20,3,30.8,20.3,0.0,6,18.0,34.2,Hot,No Rain,Moderate,11.53,Very Low
-Aziylal,31.96,-6.5600000000000005,2026-09-21,80,29.2,19.4,1.8,12,16.0,33.1,Normal,Light,Moderate,18.66,Very Low
-Boujad,32.7741,-6.3925,2026-09-15,3,36.8,23.7,0.0,3,21.2,38.5,Extreme Heat,No Rain,Moderate,20.814999999999998,Low
-Boujad,32.7741,-6.3925,2026-09-16,1,32.6,18.5,0.0,0,16.7,31.3,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Boujad,32.7741,-6.3925,2026-09-17,3,30.9,16.9,0.0,3,17.7,33.1,Hot,No Rain,Moderate,11.215,Very Low
-Boujad,32.7741,-6.3925,2026-09-18,3,31.7,16.9,0.0,10,16.4,31.3,Hot,No Rain,Moderate,11.95,Very Low
-Boujad,32.7741,-6.3925,2026-09-19,3,35.4,20.1,0.0,4,15.5,27.4,Extreme Heat,No Rain,Moderate,11.92,Very Low
-Boujad,32.7741,-6.3925,2026-09-20,2,36.9,24.7,0.0,0,19.2,42.5,Extreme Heat,No Rain,Moderate,16.9,Very Low
-Boujad,32.7741,-6.3925,2026-09-21,3,35.4,22.8,0.6000000000000001,5,14.3,34.6,Extreme Heat,Light,Moderate,17.424999999999997,Very Low
+Aziylal,31.96,-6.5600000000000005,2026-09-16,0,26.6,16.0,0.0,0,18.8,39.2,Normal,No Rain,Moderate,5.4,Very Low
+Boujad,32.7741,-6.3925,2026-09-15,3,36.8,23.7,0.0,3,21.2,38.5,Extreme Heat,No Rain,Moderate,20.815,Low
+Boujad,32.7741,-6.3925,2026-09-16,1,32.6,18.5,0.0,0,16.7,31.3,Hot,No Rain,Moderate,10.9,Very Low
 Al Aaroui,35.0104,-3.0073,2026-09-15,45,29.1,18.2,0.0,0,16.9,29.2,Normal,No Rain,Moderate,6.0,Very Low
 Al Aaroui,35.0104,-3.0073,2026-09-16,3,32.9,18.0,0.0,0,15.9,27.4,Hot,No Rain,Moderate,5.5,Very Low
-Al Aaroui,35.0104,-3.0073,2026-09-17,3,26.7,17.3,0.0,1,18.9,33.5,Normal,No Rain,Moderate,6.505,Very Low
-Al Aaroui,35.0104,-3.0073,2026-09-18,3,26.2,20.6,0.0,8,21.6,37.4,Normal,No Rain,Moderate,10.84,Very Low
-Al Aaroui,35.0104,-3.0073,2026-09-19,45,26.1,20.5,0.0,18,29.4,51.5,Normal,No Rain,Strong,24.09,Low
-Al Aaroui,35.0104,-3.0073,2026-09-20,3,26.9,20.6,0.0,10,29.6,54.4,Normal,No Rain,Strong,18.25,Very Low
-Al Aaroui,35.0104,-3.0073,2026-09-21,3,26.6,20.7,0.0,8,25.7,46.4,Normal,No Rain,Moderate,10.84,Very Low
 Mrirt,33.1654,-5.5634,2026-09-15,3,33.6,19.7,0.0,0,20.3,40.7,Hot,No Rain,Moderate,14.5,Very Low
-Mrirt,33.1654,-5.5634,2026-09-16,3,30.0,14.7,0.0,0,18.5,37.1,Normal,No Rain,Moderate,10.899999999999999,Very Low
-Mrirt,33.1654,-5.5634,2026-09-17,3,30.3,15.2,0.0,24,19.1,42.5,Hot,No Rain,Moderate,13.419999999999998,Very Low
-Mrirt,33.1654,-5.5634,2026-09-18,3,28.8,14.0,0.0,13,17.4,35.3,Normal,No Rain,Moderate,10.765,Very Low
-Mrirt,33.1654,-5.5634,2026-09-19,2,32.1,15.3,0.0,8,16.2,38.9,Hot,No Rain,Moderate,11.739999999999998,Very Low
-Mrirt,33.1654,-5.5634,2026-09-20,3,33.3,19.1,0.0,9,19.9,38.2,Hot,No Rain,Moderate,11.844999999999999,Very Low
-Mrirt,33.1654,-5.5634,2026-09-21,2,32.8,18.0,0.0,10,23.1,43.9,Hot,No Rain,Moderate,15.55,Very Low
-Tineghir,31.5147,-5.5328,2026-09-15,61,32.1,20.8,0.7000000000000001,38,42.1,66.6,Hot,Light,Strong,39.489999999999995,Low
-Tineghir,31.5147,-5.5328,2026-09-16,2,31.4,18.3,0.0,5,32.6,51.5,Hot,No Rain,Strong,22.224999999999998,Low
-Tineghir,31.5147,-5.5328,2026-09-17,80,29.4,19.1,0.7000000000000001,43,14.9,31.3,Normal,Light,Moderate,21.915,Low
-Tineghir,31.5147,-5.5328,2026-09-18,3,30.7,18.5,0.0,40,19.1,29.2,Hot,No Rain,Moderate,9.7,Very Low
-Tineghir,31.5147,-5.5328,2026-09-19,3,29.8,20.8,0.0,30,16.6,25.2,Normal,No Rain,Moderate,4.15,Very Low
-Tineghir,31.5147,-5.5328,2026-09-20,3,31.6,20.4,0.6000000000000001,12,17.1,32.4,Hot,Light,Moderate,12.16,Very Low
-Tineghir,31.5147,-5.5328,2026-09-21,80,29.1,20.4,0.6000000000000001,14,15.5,45.4,Normal,Light,Moderate,18.869999999999997,Very Low
+Mrirt,33.1654,-5.5634,2026-09-16,3,30.0,14.7,0.0,0,18.5,37.1,Normal,No Rain,Moderate,10.9,Very Low
+Tineghir,31.5147,-5.5328,2026-09-15,61,32.1,20.8,0.7000000000000001,38,42.1,66.6,Hot,Light,Strong,39.49,Low
+Tineghir,31.5147,-5.5328,2026-09-16,2,31.4,18.3,0.0,5,32.6,51.5,Hot,No Rain,Strong,22.225,Low
 Bouknadel,34.1766,-6.6893,2026-09-15,45,26.3,21.0,0.0,0,15.1,26.3,Normal,No Rain,Moderate,6.0,Very Low
-Bouknadel,34.1766,-6.6893,2026-09-16,2,25.4,20.8,0.0,0,18.5,32.0,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Bouknadel,34.1766,-6.6893,2026-09-17,3,25.2,19.2,0.0,0,13.0,23.4,Normal,No Rain,Low,1.0,Very Low
-Bouknadel,34.1766,-6.6893,2026-09-18,3,25.5,17.6,0.0,5,14.1,25.6,Normal,No Rain,Low,1.525,Very Low
-Bouknadel,34.1766,-6.6893,2026-09-19,45,29.8,17.8,0.0,0,16.9,28.8,Normal,No Rain,Moderate,6.0,Very Low
-Bouknadel,34.1766,-6.6893,2026-09-20,1,36.6,22.3,0.0,0,17.3,40.3,Extreme Heat,No Rain,Moderate,16.9,Very Low
-Bouknadel,34.1766,-6.6893,2026-09-21,0,33.0,22.0,0.0,0,14.3,33.1,Hot,No Rain,Moderate,9.899999999999999,Very Low
+Bouknadel,34.1766,-6.6893,2026-09-16,2,25.4,20.8,0.0,0,18.5,32.0,Normal,No Rain,Moderate,6.4,Very Low
 Cabo Bojador,26.1269,-14.4992,2026-09-15,2,33.3,24.4,0.0,0,25.4,43.9,Hot,No Rain,Moderate,14.5,Very Low
 Cabo Bojador,26.1269,-14.4992,2026-09-16,0,28.9,21.9,0.0,0,26.8,48.6,Normal,No Rain,Moderate,9.0,Very Low
-Cabo Bojador,26.1269,-14.4992,2026-09-17,3,25.5,20.7,0.0,0,32.8,58.3,Normal,No Rain,Strong,17.2,Very Low
-Cabo Bojador,26.1269,-14.4992,2026-09-18,3,24.9,20.2,0.0,0,25.1,47.2,Normal,No Rain,Moderate,10.0,Very Low
-Cabo Bojador,26.1269,-14.4992,2026-09-19,1,25.3,19.2,0.0,0,20.9,41.4,Normal,No Rain,Moderate,10.0,Very Low
-Cabo Bojador,26.1269,-14.4992,2026-09-20,1,26.2,19.2,0.0,0,27.9,51.1,Normal,No Rain,Moderate,17.2,Very Low
-Cabo Bojador,26.1269,-14.4992,2026-09-21,1,26.9,20.1,0.0,8,25.9,46.8,Normal,No Rain,Moderate,10.84,Very Low
 Zagora,30.3316,-5.8376,2026-09-15,3,36.9,26.2,0.0,5,23.1,38.5,Extreme Heat,No Rain,Moderate,21.025,Low
 Zagora,30.3316,-5.8376,2026-09-16,2,37.2,23.3,0.0,3,11.0,20.2,Extreme Heat,No Rain,Low,11.815,Very Low
-Zagora,30.3316,-5.8376,2026-09-17,3,34.0,26.3,0.4,13,15.8,42.5,Hot,Light,Moderate,12.265,Very Low
-Zagora,30.3316,-5.8376,2026-09-18,3,35.1,22.9,0.0,16,8.9,17.6,Extreme Heat,No Rain,Low,13.18,Very Low
-Zagora,30.3316,-5.8376,2026-09-19,2,35.5,25.1,0.0,18,14.8,27.0,Extreme Heat,No Rain,Moderate,13.39,Very Low
-Zagora,30.3316,-5.8376,2026-09-20,3,36.3,26.2,0.0,4,18.3,31.3,Extreme Heat,No Rain,Moderate,17.32,Very Low
-Zagora,30.3316,-5.8376,2026-09-21,3,35.6,25.7,0.3,3,16.9,28.4,Extreme Heat,Light,Moderate,11.815,Very Low
-Azemmour,33.2833,-8.3333,2026-09-15,45,28.8,21.1,0.0,0,17.9,32.8,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Azemmour,33.2833,-8.3333,2026-09-16,45,26.3,20.1,0.0,0,18.8,34.2,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Azemmour,33.2833,-8.3333,2026-09-17,3,26.5,19.0,0.0,0,15.0,27.7,Normal,No Rain,Moderate,1.0,Very Low
-Azemmour,33.2833,-8.3333,2026-09-18,45,26.4,19.6,0.0,0,18.7,35.3,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Azemmour,33.2833,-8.3333,2026-09-19,2,27.4,19.7,0.0,0,19.2,34.9,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Azemmour,33.2833,-8.3333,2026-09-20,2,28.7,20.8,0.0,0,15.5,30.2,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Azemmour,33.2833,-8.3333,2026-09-21,45,27.5,20.3,0.0,0,16.8,33.1,Normal,No Rain,Moderate,11.399999999999999,Very Low
+Azemmour,33.2833,-8.3333,2026-09-15,45,28.8,21.1,0.0,0,17.9,32.8,Normal,No Rain,Moderate,11.4,Very Low
+Azemmour,33.2833,-8.3333,2026-09-16,45,26.3,20.1,0.0,0,18.8,34.2,Normal,No Rain,Moderate,11.4,Very Low
 El Hajeb,33.6928,-5.3711,2026-09-15,1,32.1,21.6,0.0,0,20.9,43.2,Hot,No Rain,Moderate,14.5,Very Low
-El Hajeb,33.6928,-5.3711,2026-09-16,2,28.5,17.9,0.0,0,19.2,40.3,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-El Hajeb,33.6928,-5.3711,2026-09-17,3,25.9,16.0,0.0,11,17.6,38.2,Normal,No Rain,Moderate,7.555,Very Low
-El Hajeb,33.6928,-5.3711,2026-09-18,3,27.3,15.6,0.0,23,15.2,31.0,Normal,No Rain,Moderate,8.815,Very Low
-El Hajeb,33.6928,-5.3711,2026-09-19,2,30.3,17.5,0.0,10,19.3,41.8,Hot,No Rain,Moderate,11.95,Very Low
-El Hajeb,33.6928,-5.3711,2026-09-20,2,32.1,21.7,0.0,9,18.8,40.0,Hot,No Rain,Moderate,11.844999999999999,Very Low
-El Hajeb,33.6928,-5.3711,2026-09-21,0,31.2,19.0,0.0,10,17.4,33.1,Hot,No Rain,Moderate,10.95,Very Low
-Jerada,34.31,-2.16,2026-09-15,3,30.7,19.2,0.0,0,18.6,34.9,Hot,No Rain,Moderate,10.899999999999999,Very Low
+El Hajeb,33.6928,-5.3711,2026-09-16,2,28.5,17.9,0.0,0,19.2,40.3,Normal,No Rain,Moderate,6.4,Very Low
+Jerada,34.31,-2.16,2026-09-15,3,30.7,19.2,0.0,0,18.6,34.9,Hot,No Rain,Moderate,10.9,Very Low
 Jerada,34.31,-2.16,2026-09-16,0,29.1,18.0,0.0,0,23.5,44.3,Normal,No Rain,Moderate,9.0,Very Low
-Jerada,34.31,-2.16,2026-09-17,3,28.8,17.2,0.1,15,19.9,45.7,Normal,Light,Moderate,7.975,Very Low
-Jerada,34.31,-2.16,2026-09-18,3,25.8,17.0,0.0,20,18.4,41.8,Normal,No Rain,Moderate,8.5,Very Low
-Jerada,34.31,-2.16,2026-09-19,2,26.9,15.7,0.0,25,20.6,63.4,Normal,No Rain,Strong,19.825,Very Low
-Jerada,34.31,-2.16,2026-09-20,2,27.5,17.9,0.3,14,20.0,33.1,Normal,Light,Moderate,11.47,Very Low
-Jerada,34.31,-2.16,2026-09-21,3,25.4,17.6,0.6000000000000001,15,16.1,31.3,Normal,Light,Moderate,7.975,Very Low
 El Aïoun,34.5726,-2.5127,2026-09-15,3,32.0,16.8,0.0,0,14.0,24.1,Hot,No Rain,Low,5.5,Very Low
 El Aïoun,34.5726,-2.5127,2026-09-16,0,32.1,15.7,0.0,0,22.5,38.5,Hot,No Rain,Moderate,13.5,Very Low
-El Aïoun,34.5726,-2.5127,2026-09-17,3,29.6,16.2,0.1,8,18.8,31.3,Normal,Light,Moderate,7.239999999999999,Very Low
-El Aïoun,34.5726,-2.5127,2026-09-18,45,28.1,18.2,0.0,13,18.1,33.1,Normal,No Rain,Moderate,12.765,Very Low
-El Aïoun,34.5726,-2.5127,2026-09-19,2,29.3,17.2,0.0,15,23.5,41.4,Normal,No Rain,Moderate,11.575,Very Low
-El Aïoun,34.5726,-2.5127,2026-09-20,2,28.9,17.9,0.0,8,21.7,39.2,Normal,No Rain,Moderate,10.84,Very Low
-El Aïoun,34.5726,-2.5127,2026-09-21,3,29.5,18.5,0.0,8,20.9,36.0,Normal,No Rain,Moderate,10.84,Very Low
 Tameslouht,31.5,-8.1,2026-09-15,3,36.6,25.5,0.0,8,18.0,32.8,Extreme Heat,No Rain,Moderate,17.74,Very Low
-Tameslouht,31.5,-8.1,2026-09-16,1,34.0,21.4,0.0,0,18.8,31.3,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Tameslouht,31.5,-8.1,2026-09-17,2,29.6,18.2,0.0,0,13.3,22.7,Normal,No Rain,Low,1.0,Very Low
-Tameslouht,31.5,-8.1,2026-09-18,2,31.1,18.7,0.0,8,11.2,20.9,Hot,No Rain,Low,6.34,Very Low
-Tameslouht,31.5,-8.1,2026-09-19,2,35.6,20.7,0.0,2,11.3,20.5,Extreme Heat,No Rain,Low,11.71,Very Low
-Tameslouht,31.5,-8.1,2026-09-20,3,38.2,23.5,0.0,3,14.5,40.3,Extreme Heat,No Rain,Moderate,17.215,Very Low
-Tameslouht,31.5,-8.1,2026-09-21,2,33.5,23.9,0.3,5,17.9,32.0,Hot,Light,Moderate,11.424999999999999,Very Low
-Sidi Yahia El Gharb,34.3058,-6.3058,2026-09-15,45,31.8,20.8,0.0,0,18.6,33.8,Hot,No Rain,Moderate,15.899999999999999,Very Low
+Tameslouht,31.5,-8.1,2026-09-16,1,34.0,21.4,0.0,0,18.8,31.3,Hot,No Rain,Moderate,10.9,Very Low
+Sidi Yahia El Gharb,34.3058,-6.3058,2026-09-15,45,31.8,20.8,0.0,0,18.6,33.8,Hot,No Rain,Moderate,15.9,Very Low
 Sidi Yahia El Gharb,34.3058,-6.3058,2026-09-16,3,28.5,20.4,0.0,0,21.6,38.9,Normal,No Rain,Moderate,10.0,Very Low
-Sidi Yahia El Gharb,34.3058,-6.3058,2026-09-17,3,28.0,18.3,0.0,0,16.3,30.2,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Sidi Yahia El Gharb,34.3058,-6.3058,2026-09-18,45,29.5,15.8,0.0,5,18.0,33.1,Normal,No Rain,Moderate,11.924999999999999,Very Low
-Sidi Yahia El Gharb,34.3058,-6.3058,2026-09-19,45,36.3,16.9,0.0,2,15.3,26.6,Extreme Heat,No Rain,Moderate,16.71,Very Low
-Sidi Yahia El Gharb,34.3058,-6.3058,2026-09-20,1,38.1,22.8,0.0,3,23.1,45.0,Extreme Heat,No Rain,Moderate,20.814999999999998,Low
-Sidi Yahia El Gharb,34.3058,-6.3058,2026-09-21,0,37.1,23.2,0.0,0,18.8,34.9,Extreme Heat,No Rain,Moderate,15.899999999999999,Very Low
 Chichaoua,31.5333,-8.7667,2026-09-15,3,38.1,25.2,0.0,5,23.7,38.9,Extreme Heat,No Rain,Moderate,21.025,Low
 Chichaoua,31.5333,-8.7667,2026-09-16,0,34.7,22.0,0.0,0,23.1,37.4,Hot,No Rain,Moderate,13.5,Very Low
-Chichaoua,31.5333,-8.7667,2026-09-17,3,30.0,18.2,0.0,0,21.0,33.1,Normal,No Rain,Moderate,14.5,Very Low
-Chichaoua,31.5333,-8.7667,2026-09-18,1,31.6,18.4,0.0,5,17.1,28.1,Hot,No Rain,Moderate,6.025,Very Low
-Chichaoua,31.5333,-8.7667,2026-09-19,2,35.2,19.4,0.0,3,18.6,31.7,Extreme Heat,No Rain,Moderate,17.215,Very Low
-Chichaoua,31.5333,-8.7667,2026-09-20,3,36.3,23.6,0.0,3,23.3,38.5,Extreme Heat,No Rain,Moderate,20.814999999999998,Low
-Chichaoua,31.5333,-8.7667,2026-09-21,2,34.5,23.4,0.0,5,18.1,30.6,Hot,No Rain,Moderate,11.424999999999999,Very Low
 Al ’Attawia,31.83,-7.31,2026-09-15,3,36.4,24.7,0.0,5,22.1,40.7,Extreme Heat,No Rain,Moderate,21.025,Low
-Al ’Attawia,31.83,-7.31,2026-09-16,0,32.8,19.1,0.0,0,17.0,31.3,Hot,No Rain,Moderate,9.899999999999999,Very Low
-Al ’Attawia,31.83,-7.31,2026-09-17,45,29.1,17.2,0.0,5,13.9,26.3,Normal,No Rain,Moderate,6.525,Very Low
-Al ’Attawia,31.83,-7.31,2026-09-18,3,30.2,17.6,0.0,10,13.0,25.2,Hot,No Rain,Low,6.55,Very Low
-Al ’Attawia,31.83,-7.31,2026-09-19,3,34.8,19.4,0.0,8,14.9,27.0,Hot,No Rain,Moderate,6.34,Very Low
-Al ’Attawia,31.83,-7.31,2026-09-20,3,37.0,22.3,0.3,2,11.7,24.5,Extreme Heat,Light,Low,11.71,Very Low
-Al ’Attawia,31.83,-7.31,2026-09-21,3,35.0,20.2,0.9,8,9.7,20.9,Hot,Light,Low,12.34,Very Low
+Al ’Attawia,31.83,-7.31,2026-09-16,0,32.8,19.1,0.0,0,17.0,31.3,Hot,No Rain,Moderate,9.9,Very Low
 Tabount,30.9014,-6.9217,2026-09-15,3,32.5,22.5,0.0,8,21.8,38.2,Hot,No Rain,Moderate,15.34,Very Low
 Tabount,30.9014,-6.9217,2026-09-16,1,33.5,19.3,0.0,3,23.7,37.8,Hot,No Rain,Moderate,14.815,Very Low
-Tabount,30.9014,-6.9217,2026-09-17,80,32.5,20.2,0.8,25,18.5,30.6,Hot,Light,Moderate,24.525,Low
-Tabount,30.9014,-6.9217,2026-09-18,2,31.9,19.0,0.0,23,19.4,32.8,Hot,No Rain,Moderate,13.315,Very Low
-Tabount,30.9014,-6.9217,2026-09-19,2,32.7,20.9,0.0,18,9.6,17.3,Hot,No Rain,Low,7.39,Very Low
-Tabount,30.9014,-6.9217,2026-09-20,3,33.7,22.8,0.0,9,25.0,46.4,Hot,No Rain,Moderate,15.445,Very Low
-Tabount,30.9014,-6.9217,2026-09-21,80,31.3,20.4,0.6000000000000001,5,17.7,34.6,Hot,Light,Moderate,22.424999999999997,Low
 Zaïo,34.9396,-2.7334,2026-09-15,3,30.0,18.6,0.0,0,10.3,23.4,Normal,No Rain,Low,5.5,Very Low
 Zaïo,34.9396,-2.7334,2026-09-16,2,33.2,19.8,0.0,0,14.7,28.4,Hot,No Rain,Moderate,5.5,Very Low
-Zaïo,34.9396,-2.7334,2026-09-17,3,27.1,19.6,0.0,1,17.1,32.4,Normal,No Rain,Moderate,6.505,Very Low
-Zaïo,34.9396,-2.7334,2026-09-18,45,27.4,20.2,0.0,6,15.5,31.3,Normal,No Rain,Moderate,12.03,Very Low
-Zaïo,34.9396,-2.7334,2026-09-19,45,27.6,19.7,0.0,10,27.1,57.2,Normal,No Rain,Strong,23.25,Low
-Zaïo,34.9396,-2.7334,2026-09-20,45,26.9,20.1,0.0,8,30.4,55.1,Normal,No Rain,Strong,23.04,Low
-Zaïo,34.9396,-2.7334,2026-09-21,3,27.1,20.9,0.0,5,23.6,42.5,Normal,No Rain,Moderate,10.525,Very Low
 Aguelmous,33.1324,-5.8366,2026-09-15,3,32.6,19.4,0.0,0,21.9,43.2,Hot,No Rain,Moderate,14.5,Very Low
-Aguelmous,33.1324,-5.8366,2026-09-16,1,29.1,16.4,0.0,0,17.3,34.6,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Aguelmous,33.1324,-5.8366,2026-09-17,3,29.0,15.9,0.0,10,19.1,37.4,Normal,No Rain,Moderate,7.449999999999999,Very Low
-Aguelmous,33.1324,-5.8366,2026-09-18,3,29.1,14.9,0.0,20,16.0,34.6,Normal,No Rain,Moderate,11.5,Very Low
-Aguelmous,33.1324,-5.8366,2026-09-19,3,31.8,17.2,0.0,8,18.0,35.3,Hot,No Rain,Moderate,11.739999999999998,Very Low
-Aguelmous,33.1324,-5.8366,2026-09-20,3,32.4,19.6,0.0,5,19.5,38.5,Hot,No Rain,Moderate,11.424999999999999,Very Low
-Aguelmous,33.1324,-5.8366,2026-09-21,2,32.4,20.1,0.0,5,24.3,47.9,Hot,No Rain,Moderate,15.025,Very Low
-Asilah,35.4667,-6.0333,2026-09-15,0,31.8,21.3,0.0,0,18.9,34.6,Hot,No Rain,Moderate,9.899999999999999,Very Low
-Asilah,35.4667,-6.0333,2026-09-16,3,24.9,19.6,0.0,0,19.2,35.3,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Asilah,35.4667,-6.0333,2026-09-17,3,24.4,18.8,0.0,1,14.5,27.7,Normal,No Rain,Moderate,1.105,Very Low
-Asilah,35.4667,-6.0333,2026-09-18,45,26.6,16.9,0.0,5,23.2,40.3,Normal,No Rain,Moderate,15.525,Very Low
-Asilah,35.4667,-6.0333,2026-09-19,1,29.4,22.1,0.0,0,37.0,68.4,Normal,No Rain,Strong,17.2,Very Low
-Asilah,35.4667,-6.0333,2026-09-20,0,33.7,23.4,0.0,2,27.7,52.6,Hot,No Rain,Strong,20.91,Low
-Asilah,35.4667,-6.0333,2026-09-21,2,33.8,24.4,0.0,0,23.0,44.3,Hot,No Rain,Moderate,14.5,Very Low
+Aguelmous,33.1324,-5.8366,2026-09-16,1,29.1,16.4,0.0,0,17.3,34.6,Normal,No Rain,Moderate,6.4,Very Low
+Asilah,35.4667,-6.0333,2026-09-15,0,31.8,21.3,0.0,0,18.9,34.6,Hot,No Rain,Moderate,9.9,Very Low
+Asilah,35.4667,-6.0333,2026-09-16,3,24.9,19.6,0.0,0,19.2,35.3,Normal,No Rain,Moderate,6.4,Very Low
 Imzouren,35.1464,-3.8506,2026-09-15,45,27.1,19.8,0.0,0,11.9,21.6,Normal,No Rain,Low,6.0,Very Low
 Imzouren,35.1464,-3.8506,2026-09-16,3,29.9,20.9,0.0,0,12.3,25.6,Normal,No Rain,Low,1.0,Very Low
-Imzouren,35.1464,-3.8506,2026-09-17,45,26.0,19.3,0.0,5,17.1,31.0,Normal,No Rain,Moderate,11.924999999999999,Very Low
-Imzouren,35.1464,-3.8506,2026-09-18,45,26.3,18.6,0.0,10,15.5,30.6,Normal,No Rain,Moderate,12.45,Very Low
-Imzouren,35.1464,-3.8506,2026-09-19,2,29.3,18.7,0.0,10,24.2,44.3,Normal,No Rain,Moderate,11.05,Very Low
-Imzouren,35.1464,-3.8506,2026-09-20,1,28.9,21.0,0.0,4,22.2,45.7,Normal,No Rain,Moderate,10.42,Very Low
-Imzouren,35.1464,-3.8506,2026-09-21,3,28.1,21.9,0.0,3,18.7,36.0,Normal,No Rain,Moderate,6.715,Very Low
-Mediouna,33.4556,-7.5208,2026-09-15,45,33.6,20.8,0.0,0,18.5,32.8,Hot,No Rain,Moderate,15.899999999999999,Very Low
-Mediouna,33.4556,-7.5208,2026-09-16,45,28.0,19.3,0.0,0,18.0,33.1,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Mediouna,33.4556,-7.5208,2026-09-17,3,27.6,18.7,0.0,0,16.6,30.6,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Mediouna,33.4556,-7.5208,2026-09-18,45,28.9,16.6,0.0,3,17.8,32.8,Normal,No Rain,Moderate,11.715,Very Low
-Mediouna,33.4556,-7.5208,2026-09-19,45,31.3,17.4,0.0,0,15.8,29.5,Hot,No Rain,Moderate,10.5,Very Low
-Mediouna,33.4556,-7.5208,2026-09-20,2,30.7,20.8,0.0,0,11.6,29.9,Hot,No Rain,Moderate,5.5,Very Low
-Mediouna,33.4556,-7.5208,2026-09-21,2,29.3,20.5,0.0,0,13.6,36.0,Normal,No Rain,Moderate,6.3999999999999995,Very Low
+Mediouna,33.4556,-7.5208,2026-09-15,45,33.6,20.8,0.0,0,18.5,32.8,Hot,No Rain,Moderate,15.9,Very Low
+Mediouna,33.4556,-7.5208,2026-09-16,45,28.0,19.3,0.0,0,18.0,33.1,Normal,No Rain,Moderate,11.4,Very Low
 Demnat,31.7311,-7.0361,2026-09-15,3,33.5,22.0,0.0,8,20.8,44.3,Hot,No Rain,Moderate,15.34,Very Low
-Demnat,31.7311,-7.0361,2026-09-16,0,29.8,17.5,0.0,0,17.8,33.8,Normal,No Rain,Moderate,5.3999999999999995,Very Low
-Demnat,31.7311,-7.0361,2026-09-17,45,26.4,15.6,0.0,13,14.4,28.4,Normal,No Rain,Moderate,7.365,Very Low
-Demnat,31.7311,-7.0361,2026-09-18,3,27.6,15.4,0.0,15,12.7,25.6,Normal,No Rain,Low,2.575,Very Low
-Demnat,31.7311,-7.0361,2026-09-19,3,32.1,18.5,0.0,10,14.1,28.4,Hot,No Rain,Moderate,6.55,Very Low
-Demnat,31.7311,-7.0361,2026-09-20,80,34.1,22.1,0.3,5,15.0,28.4,Hot,Light,Moderate,17.025,Very Low
-Demnat,31.7311,-7.0361,2026-09-21,3,32.4,19.9,0.6000000000000001,7,12.7,24.1,Hot,Light,Low,6.235,Very Low
-Aïn Taoujdat,33.9333,-5.2167,2026-09-15,2,34.0,22.3,0.0,0,19.3,38.9,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Aïn Taoujdat,33.9333,-5.2167,2026-09-16,1,30.8,20.3,0.0,0,19.2,40.7,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Aïn Taoujdat,33.9333,-5.2167,2026-09-17,3,28.3,18.2,0.0,5,14.4,28.4,Normal,No Rain,Moderate,1.525,Very Low
-Aïn Taoujdat,33.9333,-5.2167,2026-09-18,3,30.2,17.0,0.0,13,12.8,24.8,Hot,No Rain,Low,6.865,Very Low
-Aïn Taoujdat,33.9333,-5.2167,2026-09-19,1,33.3,18.9,0.0,5,16.8,32.0,Hot,No Rain,Moderate,11.424999999999999,Very Low
-Aïn Taoujdat,33.9333,-5.2167,2026-09-20,2,34.8,20.5,0.0,1,22.9,41.8,Hot,No Rain,Moderate,14.605,Very Low
-Aïn Taoujdat,33.9333,-5.2167,2026-09-21,0,34.2,19.8,0.0,0,13.7,24.8,Hot,No Rain,Low,4.5,Very Low
+Demnat,31.7311,-7.0361,2026-09-16,0,29.8,17.5,0.0,0,17.8,33.8,Normal,No Rain,Moderate,5.4,Very Low
+Aïn Taoujdat,33.9333,-5.2167,2026-09-15,2,34.0,22.3,0.0,0,19.3,38.9,Hot,No Rain,Moderate,10.9,Very Low
+Aïn Taoujdat,33.9333,-5.2167,2026-09-16,1,30.8,20.3,0.0,0,19.2,40.7,Hot,No Rain,Moderate,10.9,Very Low
 Sidi Smai’il,32.8167,-8.5,2026-09-15,3,35.4,21.5,0.0,0,23.6,41.0,Extreme Heat,No Rain,Moderate,20.5,Low
 Sidi Smai’il,32.8167,-8.5,2026-09-16,2,28.7,19.4,0.0,0,20.9,36.4,Normal,No Rain,Moderate,10.0,Very Low
-Sidi Smai’il,32.8167,-8.5,2026-09-17,3,27.8,18.4,0.0,0,17.9,31.0,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Sidi Smai’il,32.8167,-8.5,2026-09-18,45,29.5,18.4,0.0,0,21.2,37.8,Normal,No Rain,Moderate,15.0,Very Low
-Sidi Smai’il,32.8167,-8.5,2026-09-19,2,32.2,17.6,0.0,0,16.9,30.6,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Sidi Smai’il,32.8167,-8.5,2026-09-20,2,35.2,21.0,0.0,0,19.0,34.6,Extreme Heat,No Rain,Moderate,16.9,Very Low
-Sidi Smai’il,32.8167,-8.5,2026-09-21,45,30.1,19.5,0.0,3,17.4,31.7,Hot,No Rain,Moderate,16.215,Very Low
 Moulay Bousselham,34.8786,-6.2933,2026-09-15,45,27.5,19.4,0.0,0,25.7,43.2,Normal,No Rain,Moderate,15.0,Very Low
 Moulay Bousselham,34.8786,-6.2933,2026-09-16,45,25.6,19.4,0.0,0,17.0,28.1,Normal,No Rain,Moderate,6.0,Very Low
-Moulay Bousselham,34.8786,-6.2933,2026-09-17,3,25.1,18.7,0.0,0,17.6,29.2,Normal,No Rain,Moderate,1.0,Very Low
-Moulay Bousselham,34.8786,-6.2933,2026-09-18,45,25.8,17.7,0.0,5,18.7,31.3,Normal,No Rain,Moderate,11.924999999999999,Very Low
-Moulay Bousselham,34.8786,-6.2933,2026-09-19,1,30.7,18.2,0.0,5,15.3,27.0,Hot,No Rain,Moderate,6.025,Very Low
-Moulay Bousselham,34.8786,-6.2933,2026-09-20,1,37.3,19.8,0.0,1,13.0,25.2,Extreme Heat,No Rain,Low,11.605,Very Low
-Moulay Bousselham,34.8786,-6.2933,2026-09-21,1,34.0,19.5,0.0,0,18.9,33.8,Hot,No Rain,Moderate,10.899999999999999,Very Low
 Mechraa Bel Ksiri,34.56,-5.95,2026-09-15,45,34.8,20.8,0.0,0,20.2,36.7,Hot,No Rain,Moderate,19.5,Very Low
-Mechraa Bel Ksiri,34.56,-5.95,2026-09-16,2,30.0,19.6,0.0,0,19.9,37.1,Normal,No Rain,Moderate,10.899999999999999,Very Low
-Mechraa Bel Ksiri,34.56,-5.95,2026-09-17,3,29.7,18.8,0.0,0,17.8,33.1,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Mechraa Bel Ksiri,34.56,-5.95,2026-09-18,45,31.9,16.0,0.0,8,15.8,33.5,Hot,No Rain,Moderate,16.74,Very Low
-Mechraa Bel Ksiri,34.56,-5.95,2026-09-19,45,36.6,18.3,0.0,2,18.4,32.4,Extreme Heat,No Rain,Moderate,22.11,Low
-Mechraa Bel Ksiri,34.56,-5.95,2026-09-20,0,38.3,24.1,0.0,3,24.6,47.5,Extreme Heat,No Rain,Moderate,19.814999999999998,Very Low
-Mechraa Bel Ksiri,34.56,-5.95,2026-09-21,1,37.0,23.9,0.0,0,20.9,39.6,Extreme Heat,No Rain,Moderate,20.5,Low
-Souk et Tnine Jorf el Mellah,34.4945,-5.5047,2026-09-15,0,35.9,22.4,0.0,0,19.6,37.8,Extreme Heat,No Rain,Moderate,15.899999999999999,Very Low
-Souk et Tnine Jorf el Mellah,34.4945,-5.5047,2026-09-16,2,31.5,19.6,0.0,0,19.8,37.4,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Souk et Tnine Jorf el Mellah,34.4945,-5.5047,2026-09-17,3,30.7,19.4,0.0,1,15.7,28.4,Hot,No Rain,Moderate,5.605,Very Low
-Souk et Tnine Jorf el Mellah,34.4945,-5.5047,2026-09-18,45,32.3,16.9,0.0,5,14.3,27.0,Hot,No Rain,Moderate,11.025,Very Low
-Souk et Tnine Jorf el Mellah,34.4945,-5.5047,2026-09-19,1,36.4,20.3,0.0,3,24.7,46.8,Extreme Heat,No Rain,Moderate,20.814999999999998,Low
-Souk et Tnine Jorf el Mellah,34.4945,-5.5047,2026-09-20,0,37.6,24.4,0.0,0,25.8,48.2,Extreme Heat,No Rain,Moderate,19.5,Very Low
-Souk et Tnine Jorf el Mellah,34.4945,-5.5047,2026-09-21,1,36.5,24.0,0.0,0,20.2,37.8,Extreme Heat,No Rain,Moderate,20.5,Low
+Mechraa Bel Ksiri,34.56,-5.95,2026-09-16,2,30.0,19.6,0.0,0,19.9,37.1,Normal,No Rain,Moderate,10.9,Very Low
+Souk et Tnine Jorf el Mellah,34.4945,-5.5047,2026-09-15,0,35.9,22.4,0.0,0,19.6,37.8,Extreme Heat,No Rain,Moderate,15.9,Very Low
+Souk et Tnine Jorf el Mellah,34.4945,-5.5047,2026-09-16,2,31.5,19.6,0.0,0,19.8,37.4,Hot,No Rain,Moderate,10.9,Very Low
 Zeghanghane,35.1575,-3.0017,2026-09-15,45,28.3,19.7,0.0,0,12.1,24.1,Normal,No Rain,Low,6.0,Very Low
-Zeghanghane,35.1575,-3.0017,2026-09-16,1,32.0,19.0,0.0,3,9.0,20.5,Hot,No Rain,Low,5.8149999999999995,Very Low
-Zeghanghane,35.1575,-3.0017,2026-09-17,3,26.9,18.8,0.0,5,16.6,33.1,Normal,No Rain,Moderate,6.924999999999999,Very Low
-Zeghanghane,35.1575,-3.0017,2026-09-18,3,26.0,21.1,0.3,8,17.9,34.9,Normal,Light,Moderate,7.239999999999999,Very Low
-Zeghanghane,35.1575,-3.0017,2026-09-19,2,25.8,21.5,0.0,15,26.7,54.0,Normal,No Rain,Strong,18.775,Very Low
-Zeghanghane,35.1575,-3.0017,2026-09-20,2,26.1,22.0,0.0,13,27.4,50.0,Normal,No Rain,Moderate,18.564999999999998,Very Low
-Zeghanghane,35.1575,-3.0017,2026-09-21,3,26.0,22.2,0.0,5,24.0,44.6,Normal,No Rain,Moderate,10.525,Very Low
-Oulad Barhil,30.6408,-8.475,2026-09-15,3,39.5,25.4,0.0,13,20.9,36.4,Extreme Heat,No Rain,Moderate,21.865000000000002,Low
-Oulad Barhil,30.6408,-8.475,2026-09-16,1,36.3,22.1,0.0,3,26.2,47.5,Extreme Heat,No Rain,Moderate,20.814999999999998,Low
-Oulad Barhil,30.6408,-8.475,2026-09-17,3,29.7,18.1,0.0,3,30.5,53.6,Normal,No Rain,Strong,17.515,Very Low
-Oulad Barhil,30.6408,-8.475,2026-09-18,3,31.2,17.8,0.0,5,26.4,49.3,Hot,No Rain,Moderate,15.025,Very Low
-Oulad Barhil,30.6408,-8.475,2026-09-19,3,37.6,20.7,0.0,3,26.2,46.4,Extreme Heat,No Rain,Moderate,20.814999999999998,Low
-Oulad Barhil,30.6408,-8.475,2026-09-20,2,38.7,23.4,0.0,2,19.5,34.9,Extreme Heat,No Rain,Moderate,17.11,Very Low
-Oulad Barhil,30.6408,-8.475,2026-09-21,1,36.3,21.3,0.0,0,25.4,45.7,Extreme Heat,No Rain,Moderate,20.5,Low
-Bir Jdid,33.3737,-8.0002,2026-09-15,45,29.7,20.8,0.0,0,17.3,33.1,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Bir Jdid,33.3737,-8.0002,2026-09-16,45,26.2,20.1,0.0,0,18.6,35.6,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Bir Jdid,33.3737,-8.0002,2026-09-17,3,26.4,18.5,0.0,0,17.3,33.1,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Bir Jdid,33.3737,-8.0002,2026-09-18,45,26.7,19.5,0.0,0,19.9,38.5,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Bir Jdid,33.3737,-8.0002,2026-09-19,45,28.2,18.9,0.0,0,18.3,35.3,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Bir Jdid,33.3737,-8.0002,2026-09-20,2,31.3,20.8,0.0,0,15.5,30.2,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Bir Jdid,33.3737,-8.0002,2026-09-21,45,29.5,20.0,0.0,0,19.2,36.7,Normal,No Rain,Moderate,11.399999999999999,Very Low
+Zeghanghane,35.1575,-3.0017,2026-09-16,1,32.0,19.0,0.0,3,9.0,20.5,Hot,No Rain,Low,5.815,Very Low
+Oulad Barhil,30.6408,-8.475,2026-09-15,3,39.5,25.4,0.0,13,20.9,36.4,Extreme Heat,No Rain,Moderate,21.865,Low
+Oulad Barhil,30.6408,-8.475,2026-09-16,1,36.3,22.1,0.0,3,26.2,47.5,Extreme Heat,No Rain,Moderate,20.815,Low
+Bir Jdid,33.3737,-8.0002,2026-09-15,45,29.7,20.8,0.0,0,17.3,33.1,Normal,No Rain,Moderate,11.4,Very Low
+Bir Jdid,33.3737,-8.0002,2026-09-16,45,26.2,20.1,0.0,0,18.6,35.6,Normal,No Rain,Moderate,11.4,Very Low
 Bou Arfa,32.531,-1.9631,2026-09-15,3,32.3,20.1,0.0,13,17.0,33.8,Hot,No Rain,Moderate,12.265,Very Low
 Bou Arfa,32.531,-1.9631,2026-09-16,3,29.2,19.2,0.0,0,18.9,29.5,Normal,No Rain,Moderate,1.0,Very Low
-Bou Arfa,32.531,-1.9631,2026-09-17,3,29.4,17.6,0.3,15,22.3,37.1,Normal,Light,Moderate,11.575,Very Low
-Bou Arfa,32.531,-1.9631,2026-09-18,3,29.2,18.4,0.1,35,10.0,25.2,Normal,Light,Low,4.675,Very Low
-Bou Arfa,32.531,-1.9631,2026-09-19,3,28.4,18.9,0.0,22,18.9,31.7,Normal,No Rain,Moderate,8.709999999999999,Very Low
-Bou Arfa,32.531,-1.9631,2026-09-20,80,30.8,19.5,2.4,9,15.6,32.0,Hot,Light,Moderate,22.845,Low
-Bou Arfa,32.531,-1.9631,2026-09-21,95,22.2,19.0,9.7,8,12.4,29.5,Normal,Moderate,Moderate,25.74,Low
-Tahannawt,31.3514,-7.9508,2026-09-15,3,32.8,22.5,0.0,5,18.4,38.2,Hot,No Rain,Moderate,11.424999999999999,Very Low
-Tahannawt,31.3514,-7.9508,2026-09-16,2,30.6,18.5,0.0,0,15.8,30.2,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Tahannawt,31.3514,-7.9508,2026-09-17,3,26.5,15.7,0.0,8,13.3,26.6,Normal,No Rain,Low,1.8399999999999999,Very Low
-Tahannawt,31.3514,-7.9508,2026-09-18,1,28.0,15.4,0.0,13,13.6,26.6,Normal,No Rain,Moderate,2.365,Very Low
-Tahannawt,31.3514,-7.9508,2026-09-19,3,32.2,18.2,0.0,5,13.1,27.0,Hot,No Rain,Moderate,6.025,Very Low
-Tahannawt,31.3514,-7.9508,2026-09-20,3,35.1,21.7,0.0,5,11.9,27.7,Extreme Heat,No Rain,Low,12.025,Very Low
-Tahannawt,31.3514,-7.9508,2026-09-21,3,31.4,20.3,0.3,9,15.3,28.8,Hot,Light,Moderate,6.445,Very Low
+Tahannawt,31.3514,-7.9508,2026-09-15,3,32.8,22.5,0.0,5,18.4,38.2,Hot,No Rain,Moderate,11.425,Very Low
+Tahannawt,31.3514,-7.9508,2026-09-16,2,30.6,18.5,0.0,0,15.8,30.2,Hot,No Rain,Moderate,10.9,Very Low
 Arfoud,31.4361,-4.2328,2026-09-15,3,36.8,25.8,0.0,10,32.7,83.2,Extreme Heat,No Rain,Strong,34.15,Low
-Arfoud,31.4361,-4.2328,2026-09-16,2,34.7,21.8,0.0,3,13.0,22.0,Hot,No Rain,Low,5.8149999999999995,Very Low
-Arfoud,31.4361,-4.2328,2026-09-17,80,32.7,23.4,0.3,17,23.6,38.5,Hot,Light,Moderate,27.285,Low
-Arfoud,31.4361,-4.2328,2026-09-18,3,33.6,20.6,0.0,27,11.8,17.6,Hot,No Rain,Low,8.334999999999999,Very Low
-Arfoud,31.4361,-4.2328,2026-09-19,3,33.6,23.0,0.0,30,21.0,33.1,Hot,No Rain,Moderate,17.65,Very Low
-Arfoud,31.4361,-4.2328,2026-09-20,3,35.4,24.0,0.0,10,16.5,25.6,Extreme Heat,No Rain,Moderate,12.55,Very Low
-Arfoud,31.4361,-4.2328,2026-09-21,3,32.1,23.7,0.9,5,17.7,27.7,Hot,Light,Moderate,6.025,Very Low
-Tahla,34.05,-4.42,2026-09-15,3,34.4,21.0,0.0,0,17.4,32.4,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Tahla,34.05,-4.42,2026-09-16,1,31.0,20.0,0.0,0,18.0,34.9,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Tahla,34.05,-4.42,2026-09-17,3,29.3,17.4,0.0,15,14.2,26.6,Normal,No Rain,Moderate,2.575,Very Low
-Tahla,34.05,-4.42,2026-09-18,3,30.8,17.1,0.0,5,13.8,25.6,Hot,No Rain,Low,6.025,Very Low
-Tahla,34.05,-4.42,2026-09-19,2,32.1,19.7,0.0,5,21.3,44.3,Hot,No Rain,Moderate,15.025,Very Low
-Tahla,34.05,-4.42,2026-09-20,1,33.2,22.0,0.0,1,19.9,36.4,Hot,No Rain,Moderate,11.004999999999999,Very Low
-Tahla,34.05,-4.42,2026-09-21,0,32.4,22.2,0.0,3,20.0,35.3,Hot,No Rain,Moderate,13.815,Very Low
+Arfoud,31.4361,-4.2328,2026-09-16,2,34.7,21.8,0.0,3,13.0,22.0,Hot,No Rain,Low,5.815,Very Low
+Tahla,34.05,-4.42,2026-09-15,3,34.4,21.0,0.0,0,17.4,32.4,Hot,No Rain,Moderate,10.9,Very Low
+Tahla,34.05,-4.42,2026-09-16,1,31.0,20.0,0.0,0,18.0,34.9,Hot,No Rain,Moderate,10.9,Very Low
 Missour,33.05,-3.9908,2026-09-15,3,35.8,20.6,0.0,10,22.0,34.9,Extreme Heat,No Rain,Moderate,21.55,Low
 Missour,33.05,-3.9908,2026-09-16,1,32.3,19.2,0.0,0,20.1,32.4,Hot,No Rain,Moderate,14.5,Very Low
-Missour,33.05,-3.9908,2026-09-17,80,30.6,17.5,0.5,25,22.4,34.6,Hot,Light,Moderate,28.125,Low
-Missour,33.05,-3.9908,2026-09-18,3,29.5,16.5,0.0,17,27.5,46.1,Normal,No Rain,Moderate,11.785,Very Low
-Missour,33.05,-3.9908,2026-09-19,80,29.8,17.6,0.9,23,23.5,43.6,Normal,Light,Moderate,23.415,Low
-Missour,33.05,-3.9908,2026-09-20,3,30.8,18.3,0.0,10,22.7,34.6,Hot,No Rain,Moderate,15.55,Very Low
-Missour,33.05,-3.9908,2026-09-21,3,30.0,18.5,1.2,8,27.0,41.8,Normal,Light,Moderate,15.34,Very Low
 Sidi Lmokhtar,31.57,-9.01,2026-09-15,3,38.2,24.8,0.0,5,23.2,38.5,Extreme Heat,No Rain,Moderate,21.025,Low
 Sidi Lmokhtar,31.57,-9.01,2026-09-16,1,34.3,21.7,0.0,0,23.9,41.4,Hot,No Rain,Moderate,14.5,Very Low
-Sidi Lmokhtar,31.57,-9.01,2026-09-17,3,29.6,17.7,0.0,0,23.4,39.2,Normal,No Rain,Moderate,10.0,Very Low
-Sidi Lmokhtar,31.57,-9.01,2026-09-18,1,31.1,17.8,0.0,3,15.6,27.7,Hot,No Rain,Moderate,5.8149999999999995,Very Low
-Sidi Lmokhtar,31.57,-9.01,2026-09-19,2,34.9,19.0,0.0,5,13.6,24.5,Hot,No Rain,Low,6.025,Very Low
-Sidi Lmokhtar,31.57,-9.01,2026-09-20,2,34.8,23.3,0.0,3,25.0,43.9,Hot,No Rain,Moderate,14.815,Very Low
-Sidi Lmokhtar,31.57,-9.01,2026-09-21,2,32.8,20.9,0.0,3,22.2,36.4,Hot,No Rain,Moderate,14.815,Very Low
-Douar Toulal,33.8951,-5.6021,2026-09-15,2,33.6,21.8,0.0,0,18.4,40.7,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Douar Toulal,33.8951,-5.6021,2026-09-16,1,30.3,18.8,0.0,0,18.0,39.2,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Douar Toulal,33.8951,-5.6021,2026-09-17,45,28.2,17.6,0.0,3,14.7,33.1,Normal,No Rain,Moderate,11.715,Very Low
-Douar Toulal,33.8951,-5.6021,2026-09-18,2,30.0,16.3,0.0,18,12.9,29.9,Normal,No Rain,Moderate,7.39,Very Low
-Douar Toulal,33.8951,-5.6021,2026-09-19,1,34.1,18.5,0.0,5,12.7,28.4,Hot,No Rain,Moderate,6.025,Very Low
-Douar Toulal,33.8951,-5.6021,2026-09-20,2,35.4,22.2,0.0,1,18.8,35.6,Extreme Heat,No Rain,Moderate,17.005,Very Low
-Douar Toulal,33.8951,-5.6021,2026-09-21,0,34.8,20.7,0.0,0,13.7,25.9,Hot,No Rain,Low,4.5,Very Low
+Douar Toulal,33.8951,-5.6021,2026-09-15,2,33.6,21.8,0.0,0,18.4,40.7,Hot,No Rain,Moderate,10.9,Very Low
+Douar Toulal,33.8951,-5.6021,2026-09-16,1,30.3,18.8,0.0,0,18.0,39.2,Hot,No Rain,Moderate,10.9,Very Low
 Oulad Yaïch,32.4167,-6.3333,2026-09-15,3,38.6,25.5,0.0,3,18.3,35.3,Extreme Heat,No Rain,Moderate,17.215,Very Low
 Oulad Yaïch,32.4167,-6.3333,2026-09-16,0,34.7,21.4,0.0,0,12.7,23.0,Hot,No Rain,Low,4.5,Very Low
-Oulad Yaïch,32.4167,-6.3333,2026-09-17,3,31.9,17.7,0.0,3,11.1,19.8,Hot,No Rain,Low,5.8149999999999995,Very Low
-Oulad Yaïch,32.4167,-6.3333,2026-09-18,1,33.3,18.8,0.0,5,7.2,14.8,Hot,No Rain,Low,6.025,Very Low
-Oulad Yaïch,32.4167,-6.3333,2026-09-19,3,37.4,20.5,0.0,5,8.4,18.0,Extreme Heat,No Rain,Low,12.025,Very Low
-Oulad Yaïch,32.4167,-6.3333,2026-09-20,2,38.1,26.6,0.3,3,16.1,29.5,Extreme Heat,Light,Moderate,11.815,Very Low
-Oulad Yaïch,32.4167,-6.3333,2026-09-21,80,36.8,28.1,0.9,9,18.6,37.1,Extreme Heat,Light,Moderate,28.845,Low
 Zawyat ech Cheïkh,32.6541,-5.9214,2026-09-15,3,36.0,20.5,0.0,5,19.2,36.0,Extreme Heat,No Rain,Moderate,17.424999999999997,Very Low
 Zawyat ech Cheïkh,32.6541,-5.9214,2026-09-16,0,31.9,16.9,0.0,0,13.8,25.6,Hot,No Rain,Low,4.5,Very Low
-Zawyat ech Cheïkh,32.6541,-5.9214,2026-09-17,3,30.4,16.6,0.0,5,14.4,27.4,Hot,No Rain,Moderate,6.025,Very Low
-Zawyat ech Cheïkh,32.6541,-5.9214,2026-09-18,2,31.5,15.3,0.0,13,10.1,19.4,Hot,No Rain,Low,6.865,Very Low
-Zawyat ech Cheïkh,32.6541,-5.9214,2026-09-19,2,35.1,18.4,0.0,4,11.9,22.0,Extreme Heat,No Rain,Low,11.92,Very Low
-Zawyat ech Cheïkh,32.6541,-5.9214,2026-09-20,2,37.2,23.2,0.0,2,16.9,33.5,Extreme Heat,No Rain,Moderate,17.11,Very Low
-Zawyat ech Cheïkh,32.6541,-5.9214,2026-09-21,80,35.4,21.6,0.6000000000000001,0,14.9,29.9,Extreme Heat,Light,Moderate,22.5,Low
 Imi-n-Tanout,31.177,-8.8504,2026-09-15,3,33.2,25.5,0.0,5,26.1,45.0,Hot,No Rain,Moderate,15.025,Very Low
 Imi-n-Tanout,31.177,-8.8504,2026-09-16,1,30.3,20.2,0.0,0,25.0,44.6,Hot,No Rain,Moderate,14.5,Very Low
-Imi-n-Tanout,31.177,-8.8504,2026-09-17,45,25.3,16.5,0.0,0,18.3,31.7,Normal,No Rain,Moderate,11.399999999999999,Very Low
-Imi-n-Tanout,31.177,-8.8504,2026-09-18,45,27.0,16.2,0.0,8,18.1,32.8,Normal,No Rain,Moderate,12.239999999999998,Very Low
-Imi-n-Tanout,31.177,-8.8504,2026-09-19,1,31.0,19.8,0.0,10,16.8,33.1,Hot,No Rain,Moderate,11.95,Very Low
-Imi-n-Tanout,31.177,-8.8504,2026-09-20,3,33.5,24.2,0.0,4,15.2,29.9,Hot,No Rain,Moderate,5.92,Very Low
-Imi-n-Tanout,31.177,-8.8504,2026-09-21,3,31.2,23.3,0.0,3,19.2,32.4,Hot,No Rain,Moderate,11.215,Very Low
-Sebt Gzoula,32.1219,-9.0889,2026-09-15,3,38.3,24.6,0.0,3,24.1,45.7,Extreme Heat,No Rain,Moderate,20.814999999999998,Low
+Sebt Gzoula,32.1219,-9.0889,2026-09-15,3,38.3,24.6,0.0,3,24.1,45.7,Extreme Heat,No Rain,Moderate,20.815,Low
 Sebt Gzoula,32.1219,-9.0889,2026-09-16,2,31.2,20.7,0.0,0,21.0,39.2,Hot,No Rain,Moderate,14.5,Very Low
-Sebt Gzoula,32.1219,-9.0889,2026-09-17,3,28.3,18.2,0.0,0,18.1,34.6,Normal,No Rain,Moderate,6.3999999999999995,Very Low
-Sebt Gzoula,32.1219,-9.0889,2026-09-18,2,31.3,18.2,0.0,0,18.9,36.7,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Sebt Gzoula,32.1219,-9.0889,2026-09-19,1,33.9,17.9,0.0,0,15.9,30.6,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Sebt Gzoula,32.1219,-9.0889,2026-09-20,2,30.6,21.6,0.0,0,18.3,34.6,Hot,No Rain,Moderate,10.899999999999999,Very Low
-Sebt Gzoula,32.1219,-9.0889,2026-09-21,45,27.2,18.7,0.0,0,14.8,28.1,Normal,No Rain,Moderate,6.0,Very Low
 Tifariti,26.158,-10.567,2026-09-15,1,37.7,25.6,0.0,8,22.2,41.4,Extreme Heat,No Rain,Moderate,21.34,Low
 Tifariti,26.158,-10.567,2026-09-16,0,38.5,23.5,0.0,0,37.3,54.4,Extreme Heat,No Rain,Strong,26.7,Low
-Tifariti,26.158,-10.567,2026-09-17,1,31.1,17.7,0.0,0,37.5,54.4,Hot,No Rain,Strong,21.7,Low
-Tifariti,26.158,-10.567,2026-09-18,3,29.6,16.8,0.0,0,36.4,53.6,Normal,No Rain,Strong,17.2,Very Low
-Tifariti,26.158,-10.567,2026-09-19,3,31.7,16.6,0.0,0,24.5,41.8,Hot,No Rain,Moderate,14.5,Very Low
-Tifariti,26.158,-10.567,2026-09-20,0,37.5,18.5,0.0,6,16.0,28.8,Extreme Heat,No Rain,Moderate,11.129999999999999,Very Low
-Tifariti,26.158,-10.567,2026-09-21,2,38.6,25.5,0.0,20,21.3,37.8,Extreme Heat,No Rain,Moderate,22.6,Low
+Casablanca,33.5992,-7.62,2026-09-17,3,25.3,19.7,0.0,0,12.8,36.0,Normal,No Rain,Moderate,6.4,Very Low
+Casablanca,33.5992,-7.62,2026-09-18,3,25.0,18.4,0.0,0,12.0,32.8,Normal,No Rain,Moderate,6.4,Very Low
+Casablanca,33.5992,-7.62,2026-09-19,45,26.5,19.4,0.0,0,11.9,31.7,Normal,No Rain,Moderate,11.4,Very Low
+Casablanca,33.5992,-7.62,2026-09-20,45,28.7,21.1,0.0,0,10.2,29.9,Normal,No Rain,Moderate,6.0,Very Low
+Casablanca,33.5992,-7.62,2026-09-21,45,27.9,21.1,0.0,0,10.8,31.3,Normal,No Rain,Moderate,11.4,Very Low
+Casablanca,33.5992,-7.62,2026-09-22,45,29.7,20.9,0.0,0,11.4,29.9,Normal,No Rain,Moderate,6.0,Very Low
+Casablanca,33.5992,-7.62,2026-09-23,45,28.7,20.9,0.0,0,12.3,32.4,Normal,No Rain,Moderate,11.4,Very Low
+Tangier,35.7767,-5.8039000000000005,2026-09-17,3,26.7,17.6,0.0,0,10.6,25.6,Normal,No Rain,Low,1.0,Very Low
+Tangier,35.7767,-5.8039000000000005,2026-09-18,3,28.0,18.5,0.0,0,19.2,45.7,Normal,No Rain,Moderate,6.4,Very Low
+Tangier,35.7767,-5.8039000000000005,2026-09-19,2,27.9,22.7,0.0,0,29.7,71.6,Normal,No Rain,Strong,22.6,Low
+Tangier,35.7767,-5.8039000000000005,2026-09-20,2,28.5,24.1,0.0,0,30.6,74.9,Normal,No Rain,Strong,22.6,Low
+Tangier,35.7767,-5.8039000000000005,2026-09-21,2,28.5,23.3,0.0,0,27.7,66.2,Normal,No Rain,Strong,17.2,Very Low
+Tangier,35.7767,-5.8039000000000005,2026-09-22,1,26.6,22.1,0.0,0,32.8,60.8,Normal,No Rain,Strong,17.2,Very Low
+Tangier,35.7767,-5.8039000000000005,2026-09-23,1,27.5,22.3,0.0,0,29.3,54.7,Normal,No Rain,Strong,17.2,Very Low
+Fès,34.0433,-5.0033,2026-09-17,3,28.9,18.0,0.0,0,12.2,32.4,Normal,No Rain,Moderate,6.4,Very Low
+Fès,34.0433,-5.0033,2026-09-18,2,31.2,17.8,0.0,0,10.0,27.7,Hot,No Rain,Low,5.5,Very Low
+Fès,34.0433,-5.0033,2026-09-19,2,33.6,20.9,0.0,0,17.8,45.4,Hot,No Rain,Moderate,10.9,Very Low
+Fès,34.0433,-5.0033,2026-09-20,2,36.1,22.7,0.0,0,14.8,38.9,Extreme Heat,No Rain,Moderate,16.9,Very Low
+Fès,34.0433,-5.0033,2026-09-21,2,35.5,22.9,0.0,3,14.5,36.7,Extreme Heat,No Rain,Moderate,17.215,Very Low
+Fès,34.0433,-5.0033,2026-09-22,1,35.4,21.7,0.0,0,11.3,28.8,Extreme Heat,No Rain,Moderate,11.5,Very Low
+Fès,34.0433,-5.0033,2026-09-23,1,36.0,22.0,0.0,0,12.3,30.2,Extreme Heat,No Rain,Moderate,16.9,Very Low
+Marrakech,31.6295,-7.9811,2026-09-17,2,30.2,18.3,0.0,0,10.6,31.0,Hot,No Rain,Moderate,10.9,Very Low
+Marrakech,31.6295,-7.9811,2026-09-18,1,32.0,18.3,0.0,0,7.6,23.0,Hot,No Rain,Low,5.5,Very Low
+Marrakech,31.6295,-7.9811,2026-09-19,3,35.5,20.6,0.0,5,9.1,25.6,Extreme Heat,No Rain,Low,12.025,Very Low
+Marrakech,31.6295,-7.9811,2026-09-20,80,37.9,22.8,1.5,25,10.4,30.6,Extreme Heat,Light,Moderate,30.525,Low
+Marrakech,31.6295,-7.9811,2026-09-21,3,37.7,23.3,0.0,13,12.4,33.8,Extreme Heat,No Rain,Moderate,18.265,Very Low
+Marrakech,31.6295,-7.9811,2026-09-22,1,36.6,21.7,0.0,6,14.0,25.2,Extreme Heat,No Rain,Low,12.13,Very Low
+Marrakech,31.6295,-7.9811,2026-09-23,2,36.5,20.5,0.0,3,13.3,23.4,Extreme Heat,No Rain,Low,11.815,Very Low
+Sale,34.05,-6.8167,2026-09-17,3,25.4,18.6,0.0,0,11.8,31.7,Normal,No Rain,Moderate,6.4,Very Low
+Sale,34.05,-6.8167,2026-09-18,45,25.4,17.1,0.0,0,13.2,33.8,Normal,No Rain,Moderate,11.4,Very Low
+Sale,34.05,-6.8167,2026-09-19,45,28.4,17.2,0.0,0,12.2,32.4,Normal,No Rain,Moderate,11.4,Very Low
+Sale,34.05,-6.8167,2026-09-20,2,29.4,20.7,0.0,0,10.3,27.7,Normal,No Rain,Low,1.0,Very Low
+Sale,34.05,-6.8167,2026-09-21,1,28.9,21.3,0.0,0,11.5,30.6,Normal,No Rain,Moderate,6.4,Very Low
+Sale,34.05,-6.8167,2026-09-22,45,27.3,20.6,0.0,0,11.4,26.6,Normal,No Rain,Low,6.0,Very Low
+Sale,34.05,-6.8167,2026-09-23,45,27.2,20.1,0.0,0,11.9,28.4,Normal,No Rain,Moderate,6.0,Very Low
+Meknès,33.8833,-5.55,2026-09-17,45,27.7,15.4,0.0,0,12.9,34.6,Normal,No Rain,Moderate,11.4,Very Low
+Meknès,33.8833,-5.55,2026-09-18,3,29.4,15.9,0.0,0,12.9,36.0,Normal,No Rain,Moderate,6.4,Very Low
+Meknès,33.8833,-5.55,2026-09-19,2,33.8,18.9,0.0,3,11.3,31.7,Hot,No Rain,Moderate,11.215,Very Low
+Meknès,33.8833,-5.55,2026-09-20,2,35.7,22.1,0.0,0,13.0,35.6,Extreme Heat,No Rain,Moderate,16.9,Very Low
+Meknès,33.8833,-5.55,2026-09-21,2,35.3,21.0,0.0,3,13.9,36.4,Extreme Heat,No Rain,Moderate,17.215,Very Low
+Meknès,33.8833,-5.55,2026-09-22,1,34.1,19.8,0.0,0,14.8,34.2,Hot,No Rain,Moderate,10.9,Very Low
+Meknès,33.8833,-5.55,2026-09-23,1,35.3,20.0,0.0,0,16.1,36.7,Extreme Heat,No Rain,Moderate,16.9,Very Low
+Rabat,34.0211,-6.8414,2026-09-17,3,25.4,18.6,0.0,0,11.8,31.7,Normal,No Rain,Moderate,6.4,Very Low
+Rabat,34.0211,-6.8414,2026-09-18,45,25.4,17.1,0.0,0,13.2,33.8,Normal,No Rain,Moderate,11.4,Very Low
+Rabat,34.0211,-6.8414,2026-09-19,45,28.4,17.2,0.0,0,12.2,32.4,Normal,No Rain,Moderate,11.4,Very Low
+Rabat,34.0211,-6.8414,2026-09-20,2,29.4,20.7,0.0,0,10.3,27.7,Normal,No Rain,Low,1.0,Very Low
+Rabat,34.0211,-6.8414,2026-09-21,1,29.0,21.3,0.0,0,11.5,30.6,Normal,No Rain,Moderate,6.4,Very Low
+Rabat,34.0211,-6.8414,2026-09-22,45,27.4,20.7,0.0,0,11.4,26.6,Normal,No Rain,Low,6.0,Very Low
+Rabat,34.0211,-6.8414,2026-09-23,45,27.3,20.2,0.0,0,11.9,28.4,Normal,No Rain,Moderate,6.0,Very Low
+Agadir,30.4214,-9.5831,2026-09-17,3,28.6,20.5,0.0,0,14.5,37.1,Normal,No Rain,Moderate,6.4,Very Low
+Agadir,30.4214,-9.5831,2026-09-18,1,26.3,19.7,0.0,0,12.4,35.6,Normal,No Rain,Moderate,6.4,Very Low
+Agadir,30.4214,-9.5831,2026-09-19,2,26.5,20.4,0.0,0,13.3,37.8,Normal,No Rain,Moderate,6.4,Very Low
+Agadir,30.4214,-9.5831,2026-09-20,45,27.0,20.5,0.0,0,13.1,36.4,Normal,No Rain,Moderate,11.4,Very Low
+Agadir,30.4214,-9.5831,2026-09-21,45,30.6,21.7,0.0,0,9.7,29.9,Hot,No Rain,Low,10.5,Very Low
+Agadir,30.4214,-9.5831,2026-09-22,45,38.3,21.6,0.0,0,17.2,33.1,Extreme Heat,No Rain,Moderate,21.9,Low
+Agadir,30.4214,-9.5831,2026-09-23,0,37.5,22.2,0.0,0,14.0,28.4,Extreme Heat,No Rain,Moderate,10.5,Very Low
+Kenitra,34.25,-6.5833,2026-09-17,3,26.1,18.3,0.0,0,12.1,30.6,Normal,No Rain,Moderate,6.4,Very Low
+Kenitra,34.25,-6.5833,2026-09-18,45,26.8,16.5,0.0,0,14.4,36.0,Normal,No Rain,Moderate,11.4,Very Low
+Kenitra,34.25,-6.5833,2026-09-19,45,32.2,17.0,0.0,0,14.6,37.4,Hot,No Rain,Moderate,15.9,Very Low
+Kenitra,34.25,-6.5833,2026-09-20,2,32.9,20.3,0.0,0,12.2,31.3,Hot,No Rain,Moderate,10.9,Very Low
+Kenitra,34.25,-6.5833,2026-09-21,45,31.5,20.8,0.0,0,12.8,32.4,Hot,No Rain,Moderate,15.9,Very Low
+Kenitra,34.25,-6.5833,2026-09-22,45,27.6,20.5,0.0,0,11.8,27.4,Normal,No Rain,Low,6.0,Very Low
+Kenitra,34.25,-6.5833,2026-09-23,45,28.3,19.6,0.0,0,12.6,29.5,Normal,No Rain,Moderate,6.0,Very Low
+Oujda-Angad,34.6867,-1.9114,2026-09-17,3,28.3,15.6,0.0,0,18.4,38.2,Normal,No Rain,Moderate,6.4,Very Low
+Oujda-Angad,34.6867,-1.9114,2026-09-18,45,27.7,16.5,0.0,3,19.0,40.3,Normal,No Rain,Moderate,11.715,Very Low
+Oujda-Angad,34.6867,-1.9114,2026-09-19,81,28.8,18.6,3.5,45,16.2,42.1,Normal,Moderate,Moderate,30.025,Low
+Oujda-Angad,34.6867,-1.9114,2026-09-20,3,30.7,19.1,0.0,8,19.1,40.7,Hot,No Rain,Moderate,11.739999999999998,Very Low
+Oujda-Angad,34.6867,-1.9114,2026-09-21,45,28.3,19.5,0.0,5,17.3,38.2,Normal,No Rain,Moderate,11.925,Very Low
+Oujda-Angad,34.6867,-1.9114,2026-09-22,45,29.5,17.4,0.0,5,21.7,41.8,Normal,No Rain,Moderate,15.525,Very Low
+Oujda-Angad,34.6867,-1.9114,2026-09-23,1,30.9,17.1,0.0,3,22.1,40.0,Hot,No Rain,Moderate,14.815,Very Low
+Tétouan,35.5667,-5.3667,2026-09-17,3,27.5,14.6,0.0,0,10.6,28.1,Normal,No Rain,Low,4.0,Very Low
+Tétouan,35.5667,-5.3667,2026-09-18,3,26.3,18.6,0.0,0,19.1,46.8,Normal,No Rain,Moderate,6.4,Very Low
+Tétouan,35.5667,-5.3667,2026-09-19,2,26.5,22.3,0.0,0,32.8,78.5,Normal,No Rain,Strong,22.6,Low
+Tétouan,35.5667,-5.3667,2026-09-20,3,26.2,23.6,0.0,0,27.5,67.7,Normal,No Rain,Strong,17.2,Very Low
+Tétouan,35.5667,-5.3667,2026-09-21,3,26.3,23.1,0.0,0,24.0,63.0,Normal,No Rain,Strong,17.2,Very Low
+Tétouan,35.5667,-5.3667,2026-09-22,2,26.7,22.3,0.0,0,26.7,54.7,Normal,No Rain,Strong,17.2,Very Low
+Tétouan,35.5667,-5.3667,2026-09-23,2,27.0,22.4,0.0,0,19.0,46.8,Normal,No Rain,Moderate,6.4,Very Low
+Safi,32.2833,-9.2333,2026-09-17,3,24.7,19.2,0.0,0,20.2,37.1,Normal,No Rain,Moderate,10.0,Very Low
+Safi,32.2833,-9.2333,2026-09-18,2,25.8,18.7,0.0,0,22.0,39.2,Normal,No Rain,Moderate,10.0,Very Low
+Safi,32.2833,-9.2333,2026-09-19,2,27.2,18.7,0.0,0,19.2,34.9,Normal,No Rain,Moderate,6.4,Very Low
+Safi,32.2833,-9.2333,2026-09-20,45,25.1,19.7,0.0,0,10.4,20.5,Normal,No Rain,Low,6.0,Very Low
+Safi,32.2833,-9.2333,2026-09-21,45,25.1,19.4,0.0,0,11.0,21.6,Normal,No Rain,Low,6.0,Very Low
+Safi,32.2833,-9.2333,2026-09-22,45,29.5,18.8,0.0,0,13.7,25.9,Normal,No Rain,Low,6.0,Very Low
+Safi,32.2833,-9.2333,2026-09-23,45,30.2,20.1,0.0,0,16.3,31.3,Hot,No Rain,Moderate,15.9,Very Low
+Taourirt,34.41,-2.89,2026-09-17,3,29.6,20.1,0.0,0,24.8,40.3,Normal,No Rain,Moderate,10.0,Very Low
+Taourirt,34.41,-2.89,2026-09-18,45,29.5,18.6,0.0,3,28.8,48.6,Normal,No Rain,Moderate,15.315,Very Low
+Taourirt,34.41,-2.89,2026-09-19,3,30.0,20.1,0.4,10,30.8,54.4,Normal,Light,Strong,22.75,Low
+Taourirt,34.41,-2.89,2026-09-20,3,30.7,21.3,0.0,3,30.0,53.6,Hot,No Rain,Strong,22.015,Low
+Taourirt,34.41,-2.89,2026-09-21,3,29.9,21.3,0.0,3,27.8,47.5,Normal,No Rain,Moderate,10.315,Very Low
+Taourirt,34.41,-2.89,2026-09-22,45,30.9,19.8,0.0,0,22.1,37.1,Hot,No Rain,Moderate,19.5,Very Low
+Taourirt,34.41,-2.89,2026-09-23,0,31.7,19.9,0.0,0,25.2,43.2,Hot,No Rain,Moderate,13.5,Very Low
+Temara,33.9234,-6.9076,2026-09-17,3,25.1,18.4,0.0,0,12.2,33.5,Normal,No Rain,Moderate,6.4,Very Low
+Temara,33.9234,-6.9076,2026-09-18,3,25.3,16.4,0.0,0,13.2,33.8,Normal,No Rain,Moderate,6.4,Very Low
+Temara,33.9234,-6.9076,2026-09-19,3,28.2,16.5,0.0,0,11.9,32.0,Normal,No Rain,Moderate,6.4,Very Low
+Temara,33.9234,-6.9076,2026-09-20,2,29.1,20.1,0.0,0,9.7,27.7,Normal,No Rain,Low,1.0,Very Low
+Temara,33.9234,-6.9076,2026-09-21,1,28.9,20.6,0.0,0,11.0,31.0,Normal,No Rain,Moderate,6.4,Very Low
+Temara,33.9234,-6.9076,2026-09-22,45,25.3,20.5,0.0,0,11.5,23.8,Normal,No Rain,Low,6.0,Very Low
+Temara,33.9234,-6.9076,2026-09-23,45,25.3,20.1,0.0,0,12.2,25.6,Normal,No Rain,Low,6.0,Very Low
+Laâyoune,27.15,-13.2,2026-09-17,51,28.0,21.4,0.2,0,31.1,60.5,Normal,Light,Strong,22.2,Low
+Laâyoune,27.15,-13.2,2026-09-18,51,27.2,19.9,0.4,6,26.9,52.2,Normal,Light,Moderate,22.83,Low
+Laâyoune,27.15,-13.2,2026-09-19,3,28.9,18.4,0.0,0,24.2,47.9,Normal,No Rain,Moderate,10.0,Very Low
+Laâyoune,27.15,-13.2,2026-09-20,3,31.2,18.9,0.0,0,20.8,41.8,Hot,No Rain,Moderate,14.5,Very Low
+Laâyoune,27.15,-13.2,2026-09-21,3,34.3,19.4,0.0,2,23.5,46.8,Hot,No Rain,Moderate,14.71,Very Low
+Laâyoune,27.15,-13.2,2026-09-22,3,32.7,19.9,0.0,5,24.5,49.0,Hot,No Rain,Moderate,15.025,Very Low
+Laâyoune,27.15,-13.2,2026-09-23,1,32.4,19.3,0.0,6,21.7,46.4,Hot,No Rain,Moderate,15.13,Very Low
+El Jadid,33.2566,-8.5025,2026-09-17,3,25.0,20.4,0.0,0,13.9,25.6,Normal,No Rain,Low,1.0,Very Low
+El Jadid,33.2566,-8.5025,2026-09-18,3,24.7,19.9,0.0,0,18.3,33.1,Normal,No Rain,Moderate,6.4,Very Low
+El Jadid,33.2566,-8.5025,2026-09-19,2,25.7,20.2,0.0,0,16.0,29.2,Normal,No Rain,Moderate,1.0,Very Low
+El Jadid,33.2566,-8.5025,2026-09-20,45,27.2,20.8,0.0,0,12.7,23.8,Normal,No Rain,Low,6.0,Very Low
+El Jadid,33.2566,-8.5025,2026-09-21,45,26.4,21.1,0.0,0,12.7,24.5,Normal,No Rain,Low,6.0,Very Low
+El Jadid,33.2566,-8.5025,2026-09-22,45,28.1,21.5,0.0,0,11.6,24.1,Normal,No Rain,Low,6.0,Very Low
+El Jadid,33.2566,-8.5025,2026-09-23,45,27.0,20.8,0.0,0,15.0,30.2,Normal,No Rain,Moderate,11.4,Very Low
+Ait Melloul,30.3342,-9.4972,2026-09-17,3,27.1,21.2,0.0,0,17.0,34.6,Normal,No Rain,Moderate,6.4,Very Low
+Ait Melloul,30.3342,-9.4972,2026-09-18,1,26.2,19.8,0.0,0,17.2,34.6,Normal,No Rain,Moderate,6.4,Very Low
+Ait Melloul,30.3342,-9.4972,2026-09-19,3,26.1,20.3,0.0,0,19.9,39.6,Normal,No Rain,Moderate,6.4,Very Low
+Ait Melloul,30.3342,-9.4972,2026-09-20,2,26.9,20.7,0.0,0,18.4,37.4,Normal,No Rain,Moderate,6.4,Very Low
+Ait Melloul,30.3342,-9.4972,2026-09-21,2,29.0,19.9,0.0,0,15.8,33.5,Normal,No Rain,Moderate,6.4,Very Low
+Ait Melloul,30.3342,-9.4972,2026-09-22,2,38.5,20.1,0.0,0,17.2,33.1,Extreme Heat,No Rain,Moderate,16.9,Very Low
+Ait Melloul,30.3342,-9.4972,2026-09-23,0,37.8,22.5,0.0,0,14.0,28.4,Extreme Heat,No Rain,Moderate,10.5,Very Low
+Béni Mellal,32.3394,-6.3608,2026-09-17,3,29.9,18.8,0.0,0,10.6,26.6,Normal,No Rain,Low,1.0,Very Low
+Béni Mellal,32.3394,-6.3608,2026-09-18,3,31.7,18.9,0.0,0,9.9,32.4,Hot,No Rain,Moderate,10.9,Very Low
+Béni Mellal,32.3394,-6.3608,2026-09-19,3,35.3,22.5,0.0,0,11.1,24.5,Extreme Heat,No Rain,Low,11.5,Very Low
+Béni Mellal,32.3394,-6.3608,2026-09-20,3,36.7,25.1,0.0,2,18.1,38.9,Extreme Heat,No Rain,Moderate,17.11,Very Low
+Béni Mellal,32.3394,-6.3608,2026-09-21,2,35.7,24.8,0.0,8,18.2,51.5,Extreme Heat,No Rain,Moderate,24.94,Low
+Béni Mellal,32.3394,-6.3608,2026-09-22,1,36.1,24.4,0.0,2,18.3,34.2,Extreme Heat,No Rain,Moderate,17.11,Very Low
+Béni Mellal,32.3394,-6.3608,2026-09-23,1,36.7,24.4,0.0,0,16.6,31.3,Extreme Heat,No Rain,Moderate,16.9,Very Low
+Bouskoura,33.4489,-7.6486,2026-09-17,3,26.3,18.6,0.0,0,14.9,37.4,Normal,No Rain,Moderate,6.4,Very Low
+Bouskoura,33.4489,-7.6486,2026-09-18,3,26.9,17.5,0.0,0,14.3,35.6,Normal,No Rain,Moderate,6.4,Very Low
+Bouskoura,33.4489,-7.6486,2026-09-19,45,29.4,18.5,0.0,0,14.1,35.3,Normal,No Rain,Moderate,11.4,Very Low
+Bouskoura,33.4489,-7.6486,2026-09-20,45,31.9,20.6,0.0,0,13.2,34.2,Hot,No Rain,Moderate,15.9,Very Low
+Bouskoura,33.4489,-7.6486,2026-09-21,45,31.8,19.9,0.0,0,15.0,37.8,Hot,No Rain,Moderate,15.9,Very Low
+Bouskoura,33.4489,-7.6486,2026-09-22,45,28.9,20.0,0.0,0,11.4,29.9,Normal,No Rain,Moderate,6.0,Very Low
+Bouskoura,33.4489,-7.6486,2026-09-23,45,27.9,20.1,0.0,3,12.3,32.4,Normal,No Rain,Moderate,11.715,Very Low
+Tiznit,29.7,-9.7269,2026-09-17,3,23.2,19.9,0.0,0,22.4,37.4,Normal,No Rain,Moderate,10.0,Very Low
+Tiznit,29.7,-9.7269,2026-09-18,2,25.4,19.0,0.0,0,20.8,35.3,Normal,No Rain,Moderate,10.0,Very Low
+Tiznit,29.7,-9.7269,2026-09-19,2,26.7,19.6,0.0,0,15.7,26.3,Normal,No Rain,Moderate,1.0,Very Low
+Tiznit,29.7,-9.7269,2026-09-20,2,27.5,20.0,0.0,0,14.4,25.6,Normal,No Rain,Low,1.0,Very Low
+Tiznit,29.7,-9.7269,2026-09-21,1,31.4,21.5,0.0,0,13.1,22.3,Hot,No Rain,Low,5.5,Very Low
+Tiznit,29.7,-9.7269,2026-09-22,0,29.9,20.0,0.0,0,15.7,25.6,Normal,No Rain,Moderate,0.0,Very Low
+Tiznit,29.7,-9.7269,2026-09-23,0,31.3,19.4,0.0,3,14.8,25.9,Hot,No Rain,Moderate,4.815,Very Low
+Mohammedia,33.6833,-7.3833,2026-09-17,3,24.9,19.1,0.0,0,14.0,34.2,Normal,No Rain,Moderate,6.4,Very Low
+Mohammedia,33.6833,-7.3833,2026-09-18,3,24.3,17.1,0.0,0,12.2,31.3,Normal,No Rain,Moderate,6.4,Very Low
+Mohammedia,33.6833,-7.3833,2026-09-19,45,26.0,17.9,0.0,0,13.3,31.7,Normal,No Rain,Moderate,11.4,Very Low
+Mohammedia,33.6833,-7.3833,2026-09-20,45,27.4,20.6,0.0,0,11.5,28.4,Normal,No Rain,Low,6.0,Very Low
+Mohammedia,33.6833,-7.3833,2026-09-21,45,26.7,20.7,0.0,0,12.0,29.2,Normal,No Rain,Moderate,6.0,Very Low
+Mohammedia,33.6833,-7.3833,2026-09-22,45,31.0,20.4,0.0,0,15.2,29.2,Hot,No Rain,Moderate,10.5,Very Low
+Mohammedia,33.6833,-7.3833,2026-09-23,45,29.7,20.2,0.0,0,16.9,32.0,Normal,No Rain,Moderate,11.4,Very Low
+Kouribga,32.88,-6.9,2026-09-17,3,28.2,14.4,0.0,0,18.8,37.4,Normal,No Rain,Moderate,9.4,Very Low
+Kouribga,32.88,-6.9,2026-09-18,3,29.9,15.1,0.0,0,18.4,35.3,Normal,No Rain,Moderate,6.4,Very Low
+Kouribga,32.88,-6.9,2026-09-19,3,33.6,18.1,0.0,0,18.4,35.6,Hot,No Rain,Moderate,10.9,Very Low
+Kouribga,32.88,-6.9,2026-09-20,3,35.1,22.6,0.0,8,18.9,40.0,Extreme Heat,No Rain,Moderate,17.74,Very Low
+Kouribga,32.88,-6.9,2026-09-21,2,34.7,21.2,0.3,5,20.2,41.0,Hot,Light,Moderate,15.025,Very Low
+Kouribga,32.88,-6.9,2026-09-22,2,33.9,17.9,0.0,1,18.2,39.2,Hot,No Rain,Moderate,11.005,Very Low
+Kouribga,32.88,-6.9,2026-09-23,1,34.6,17.1,0.0,3,20.9,42.5,Hot,No Rain,Moderate,14.815,Very Low
+Settat,33.0023,-7.6198,2026-09-17,3,27.6,16.6,0.0,0,17.6,37.1,Normal,No Rain,Moderate,6.4,Very Low
+Settat,33.0023,-7.6198,2026-09-18,3,29.2,16.5,0.0,0,16.9,36.4,Normal,No Rain,Moderate,6.4,Very Low
+Settat,33.0023,-7.6198,2026-09-19,2,32.6,16.7,0.0,0,16.8,36.0,Hot,No Rain,Moderate,10.9,Very Low
+Settat,33.0023,-7.6198,2026-09-20,2,35.2,21.6,0.0,0,16.4,36.4,Extreme Heat,No Rain,Moderate,16.9,Very Low
+Settat,33.0023,-7.6198,2026-09-21,2,36.7,21.0,0.0,0,18.8,41.0,Extreme Heat,No Rain,Moderate,16.9,Very Low
+Settat,33.0023,-7.6198,2026-09-22,0,34.9,18.3,0.0,3,16.7,34.6,Hot,No Rain,Moderate,10.215,Very Low
+Settat,33.0023,-7.6198,2026-09-23,45,33.8,18.6,0.0,3,18.1,36.4,Hot,No Rain,Moderate,16.215,Very Low
+Barrechid,33.27,-7.5872,2026-09-17,3,27.8,17.4,0.0,0,17.2,31.3,Normal,No Rain,Moderate,6.4,Very Low
+Barrechid,33.27,-7.5872,2026-09-18,3,29.1,17.0,0.0,0,17.5,31.7,Normal,No Rain,Moderate,6.4,Very Low
+Barrechid,33.27,-7.5872,2026-09-19,45,32.3,16.8,0.0,0,16.2,29.5,Hot,No Rain,Moderate,10.5,Very Low
+Barrechid,33.27,-7.5872,2026-09-20,45,34.9,20.9,0.0,0,16.6,32.8,Hot,No Rain,Moderate,15.9,Very Low
+Barrechid,33.27,-7.5872,2026-09-21,45,35.3,19.4,0.0,0,19.2,36.7,Extreme Heat,No Rain,Moderate,21.9,Low
+Barrechid,33.27,-7.5872,2026-09-22,45,33.4,19.0,0.0,0,17.8,32.8,Hot,No Rain,Moderate,15.9,Very Low
+Barrechid,33.27,-7.5872,2026-09-23,45,32.3,18.9,0.0,0,19.4,35.6,Hot,No Rain,Moderate,15.9,Very Low
+Ad Dakhla,23.7167,-15.95,2026-09-17,2,22.3,20.6,0.0,0,41.3,52.9,Normal,No Rain,Strong,22.0,Low
+Ad Dakhla,23.7167,-15.95,2026-09-18,0,21.2,20.4,0.0,0,36.2,45.0,Normal,No Rain,Strong,9.0,Very Low
+Ad Dakhla,23.7167,-15.95,2026-09-19,0,21.1,19.9,0.0,0,30.2,37.4,Normal,No Rain,Moderate,9.0,Very Low
+Ad Dakhla,23.7167,-15.95,2026-09-20,0,21.4,19.4,0.0,0,31.8,40.0,Normal,No Rain,Moderate,9.0,Very Low
+Ad Dakhla,23.7167,-15.95,2026-09-21,0,21.4,20.4,0.0,5,30.8,38.5,Normal,No Rain,Moderate,9.525,Very Low
+Ad Dakhla,23.7167,-15.95,2026-09-22,0,21.6,20.4,0.0,9,30.2,40.3,Normal,No Rain,Moderate,9.945,Very Low
+Ad Dakhla,23.7167,-15.95,2026-09-23,2,21.6,20.4,0.0,6,30.1,37.1,Normal,No Rain,Moderate,10.63,Very Low
+Nador,35.1667,-2.9333,2026-09-17,80,26.5,21.6,0.2,0,14.3,32.0,Normal,Light,Moderate,17.4,Very Low
+Nador,35.1667,-2.9333,2026-09-18,80,25.3,22.0,0.6000000000000001,3,14.6,32.8,Normal,Light,Moderate,17.715,Very Low
+Nador,35.1667,-2.9333,2026-09-19,80,25.6,23.0,1.7000000000000002,3,23.9,52.6,Normal,Light,Moderate,28.515,Low
+Nador,35.1667,-2.9333,2026-09-20,80,25.9,24.0,4.3,5,24.4,50.4,Normal,Moderate,Moderate,33.625,Low
+Nador,35.1667,-2.9333,2026-09-21,3,25.6,23.7,1.2,10,17.2,38.2,Normal,Light,Moderate,7.449999999999999,Very Low
+Nador,35.1667,-2.9333,2026-09-22,2,27.2,21.7,0.0,3,20.4,35.6,Normal,No Rain,Moderate,10.315,Very Low
+Nador,35.1667,-2.9333,2026-09-23,2,27.1,21.5,0.0,0,16.6,29.9,Normal,No Rain,Moderate,1.0,Very Low
+Taza,34.2144,-4.0088,2026-09-17,3,29.3,16.9,0.0,0,14.3,31.0,Normal,No Rain,Moderate,6.4,Very Low
+Taza,34.2144,-4.0088,2026-09-18,2,29.4,18.2,0.0,0,16.9,35.6,Normal,No Rain,Moderate,6.4,Very Low
+Taza,34.2144,-4.0088,2026-09-19,3,28.8,19.3,0.0,0,24.6,51.8,Normal,No Rain,Moderate,17.2,Very Low
+Taza,34.2144,-4.0088,2026-09-20,3,31.0,20.4,0.0,0,21.4,45.0,Hot,No Rain,Moderate,14.5,Very Low
+Taza,34.2144,-4.0088,2026-09-21,2,30.2,20.5,0.0,5,19.4,43.6,Hot,No Rain,Moderate,11.425,Very Low
+Taza,34.2144,-4.0088,2026-09-22,2,31.5,19.7,0.0,1,13.7,27.4,Hot,No Rain,Moderate,5.605,Very Low
+Taza,34.2144,-4.0088,2026-09-23,0,32.4,18.7,0.0,0,17.4,32.4,Hot,No Rain,Moderate,9.9,Very Low
+Inezgane,30.3658,-9.5381,2026-09-17,3,26.8,20.7,0.0,0,13.7,38.5,Normal,No Rain,Moderate,6.4,Very Low
+Inezgane,30.3658,-9.5381,2026-09-18,1,25.0,19.4,0.0,0,13.0,37.1,Normal,No Rain,Moderate,6.4,Very Low
+Inezgane,30.3658,-9.5381,2026-09-19,45,25.0,19.9,0.0,0,14.8,41.0,Normal,No Rain,Moderate,11.4,Very Low
+Inezgane,30.3658,-9.5381,2026-09-20,45,25.4,20.0,0.0,0,14.5,41.4,Normal,No Rain,Moderate,11.4,Very Low
+Inezgane,30.3658,-9.5381,2026-09-21,45,27.5,19.8,0.0,0,11.9,33.1,Normal,No Rain,Moderate,11.4,Very Low
+Inezgane,30.3658,-9.5381,2026-09-22,45,38.6,19.6,0.0,0,17.2,33.1,Extreme Heat,No Rain,Moderate,21.9,Low
+Inezgane,30.3658,-9.5381,2026-09-23,0,37.8,22.5,0.0,0,14.0,28.4,Extreme Heat,No Rain,Moderate,10.5,Very Low
+Larache,35.1833,-6.15,2026-09-17,3,25.3,17.7,0.0,0,12.4,23.8,Normal,No Rain,Low,1.0,Very Low
+Larache,35.1833,-6.15,2026-09-18,45,26.7,14.9,0.0,0,17.1,33.1,Normal,No Rain,Moderate,14.4,Very Low
+Larache,35.1833,-6.15,2026-09-19,2,35.1,17.9,0.0,0,19.5,35.3,Extreme Heat,No Rain,Moderate,16.9,Very Low
+Larache,35.1833,-6.15,2026-09-20,1,34.6,25.7,0.0,0,14.2,29.2,Hot,No Rain,Moderate,5.5,Very Low
+Larache,35.1833,-6.15,2026-09-21,1,32.9,22.9,0.0,0,14.1,26.3,Hot,No Rain,Moderate,5.5,Very Low
+Larache,35.1833,-6.15,2026-09-22,2,29.5,19.8,0.0,0,15.0,28.4,Normal,No Rain,Moderate,1.0,Very Low
+Larache,35.1833,-6.15,2026-09-23,2,29.6,18.5,0.0,0,13.5,25.2,Normal,No Rain,Low,1.0,Very Low
+Al Khmissat,33.81,-6.06,2026-09-17,45,28.4,15.1,0.0,0,14.2,29.9,Normal,No Rain,Moderate,6.0,Very Low
+Al Khmissat,33.81,-6.06,2026-09-18,3,29.4,15.7,0.0,0,16.2,33.8,Normal,No Rain,Moderate,6.4,Very Low
+Al Khmissat,33.81,-6.06,2026-09-19,2,34.1,17.8,0.0,0,13.9,31.0,Hot,No Rain,Moderate,10.9,Very Low
+Al Khmissat,33.81,-6.06,2026-09-20,2,36.3,22.3,0.0,0,15.4,29.9,Extreme Heat,No Rain,Moderate,11.5,Very Low
+Al Khmissat,33.81,-6.06,2026-09-21,2,35.7,21.1,0.0,3,16.5,33.5,Extreme Heat,No Rain,Moderate,17.215,Very Low
+Al Khmissat,33.81,-6.06,2026-09-22,3,34.4,19.2,0.0,0,15.2,29.9,Hot,No Rain,Moderate,5.5,Very Low
+Al Khmissat,33.81,-6.06,2026-09-23,1,35.3,17.2,0.0,3,20.0,37.8,Extreme Heat,No Rain,Moderate,20.815,Low
+Guelmim,28.9833,-10.0667,2026-09-17,3,24.5,18.9,0.0,0,29.5,49.0,Normal,No Rain,Moderate,10.0,Very Low
+Guelmim,28.9833,-10.0667,2026-09-18,1,27.0,17.2,0.0,0,24.1,42.5,Normal,No Rain,Moderate,10.0,Very Low
+Guelmim,28.9833,-10.0667,2026-09-19,3,28.2,18.1,0.0,0,20.6,37.1,Normal,No Rain,Moderate,10.0,Very Low
+Guelmim,28.9833,-10.0667,2026-09-20,1,33.7,17.0,0.0,0,22.3,41.0,Hot,No Rain,Moderate,14.5,Very Low
+Guelmim,28.9833,-10.0667,2026-09-21,0,38.3,19.9,0.0,2,16.5,32.8,Extreme Heat,No Rain,Moderate,16.11,Very Low
+Guelmim,28.9833,-10.0667,2026-09-22,2,38.2,21.9,0.0,2,16.6,32.8,Extreme Heat,No Rain,Moderate,17.11,Very Low
+Guelmim,28.9833,-10.0667,2026-09-23,3,38.5,20.2,0.0,2,13.4,33.1,Extreme Heat,No Rain,Moderate,17.11,Very Low
+Ksar El Kebir,35.0,-5.9,2026-09-17,3,28.3,18.8,0.0,0,14.3,27.4,Normal,No Rain,Moderate,1.0,Very Low
+Ksar El Kebir,35.0,-5.9,2026-09-18,45,30.4,16.0,0.0,0,18.3,36.4,Hot,No Rain,Moderate,15.9,Very Low
+Ksar El Kebir,35.0,-5.9,2026-09-19,2,35.6,18.8,0.0,0,7.4,18.0,Extreme Heat,No Rain,Low,11.5,Very Low
+Ksar El Kebir,35.0,-5.9,2026-09-20,1,37.9,22.3,0.0,0,10.6,25.6,Extreme Heat,No Rain,Low,11.5,Very Low
+Ksar El Kebir,35.0,-5.9,2026-09-21,2,36.0,22.9,0.0,0,13.5,26.3,Extreme Heat,No Rain,Low,11.5,Very Low
+Ksar El Kebir,35.0,-5.9,2026-09-22,2,34.0,21.4,0.0,0,16.0,31.7,Hot,No Rain,Moderate,10.9,Very Low
+Ksar El Kebir,35.0,-5.9,2026-09-23,1,35.1,20.3,0.0,0,14.8,29.2,Extreme Heat,No Rain,Moderate,11.5,Very Low
+Khénifra,32.93,-5.66,2026-09-17,3,31.8,15.7,0.0,0,16.6,31.7,Hot,No Rain,Moderate,10.9,Very Low
+Khénifra,32.93,-5.66,2026-09-18,3,32.0,15.6,0.0,0,18.5,34.2,Hot,No Rain,Moderate,10.9,Very Low
+Khénifra,32.93,-5.66,2026-09-19,3,34.6,19.3,0.0,3,23.7,50.4,Hot,No Rain,Moderate,22.015,Low
+Khénifra,32.93,-5.66,2026-09-20,3,35.4,22.0,0.0,2,21.5,43.6,Extreme Heat,No Rain,Moderate,20.71,Low
+Khénifra,32.93,-5.66,2026-09-21,80,33.0,20.8,1.2,8,11.9,29.5,Hot,Light,Moderate,17.34,Very Low
+Khénifra,32.93,-5.66,2026-09-22,2,33.7,18.7,0.0,4,14.2,25.9,Hot,No Rain,Moderate,5.92,Very Low
+Khénifra,32.93,-5.66,2026-09-23,2,35.0,19.3,0.0,3,16.0,28.4,Hot,No Rain,Moderate,11.815,Very Low
+Skhirate,33.85,-7.03,2026-09-17,3,24.3,18.7,0.0,0,12.9,29.2,Normal,No Rain,Moderate,1.0,Very Low
+Skhirate,33.85,-7.03,2026-09-18,3,24.0,17.0,0.0,0,13.7,31.0,Normal,No Rain,Moderate,6.4,Very Low
+Skhirate,33.85,-7.03,2026-09-19,3,26.1,17.1,0.0,0,12.2,27.4,Normal,No Rain,Low,1.0,Very Low
+Skhirate,33.85,-7.03,2026-09-20,2,26.8,19.9,0.0,0,10.5,25.2,Normal,No Rain,Low,1.0,Very Low
+Skhirate,33.85,-7.03,2026-09-21,2,26.7,20.5,0.0,0,12.3,27.4,Normal,No Rain,Low,1.0,Very Low
+Skhirate,33.85,-7.03,2026-09-22,45,25.4,20.4,0.0,0,11.5,23.8,Normal,No Rain,Low,6.0,Very Low
+Skhirate,33.85,-7.03,2026-09-23,45,25.4,20.2,0.0,0,12.2,25.6,Normal,No Rain,Low,6.0,Very Low
+Beni Yakhlef,33.6555,-7.3221,2026-09-17,3,26.1,17.8,0.0,0,16.3,31.0,Normal,No Rain,Moderate,6.4,Very Low
+Beni Yakhlef,33.6555,-7.3221,2026-09-18,3,26.2,16.1,0.0,0,15.9,29.5,Normal,No Rain,Moderate,1.0,Very Low
+Beni Yakhlef,33.6555,-7.3221,2026-09-19,45,28.3,16.7,0.0,0,16.8,31.0,Normal,No Rain,Moderate,11.4,Very Low
+Beni Yakhlef,33.6555,-7.3221,2026-09-20,45,31.0,20.0,0.0,0,15.1,28.1,Hot,No Rain,Moderate,10.5,Very Low
+Beni Yakhlef,33.6555,-7.3221,2026-09-21,45,30.3,19.7,0.0,0,17.1,32.0,Hot,No Rain,Moderate,15.9,Very Low
+Beni Yakhlef,33.6555,-7.3221,2026-09-22,45,30.4,19.7,0.0,0,15.2,29.2,Hot,No Rain,Moderate,10.5,Very Low
+Beni Yakhlef,33.6555,-7.3221,2026-09-23,45,29.2,19.7,0.0,0,16.9,32.0,Normal,No Rain,Moderate,11.4,Very Low
+Sidi Yahya Zaer,33.7105,-6.8831,2026-09-17,3,26.2,15.9,0.0,0,16.0,32.8,Normal,No Rain,Moderate,6.4,Very Low
+Sidi Yahya Zaer,33.7105,-6.8831,2026-09-18,45,27.4,15.2,0.0,0,16.2,32.8,Normal,No Rain,Moderate,11.4,Very Low
+Sidi Yahya Zaer,33.7105,-6.8831,2026-09-19,3,30.9,16.6,0.0,0,15.6,32.0,Hot,No Rain,Moderate,10.9,Very Low
+Sidi Yahya Zaer,33.7105,-6.8831,2026-09-20,2,32.9,20.9,0.0,0,16.3,33.1,Hot,No Rain,Moderate,10.9,Very Low
+Sidi Yahya Zaer,33.7105,-6.8831,2026-09-21,1,33.6,20.0,0.0,0,16.4,34.6,Hot,No Rain,Moderate,10.9,Very Low
+Sidi Yahya Zaer,33.7105,-6.8831,2026-09-22,1,31.2,18.6,0.0,0,15.0,30.2,Hot,No Rain,Moderate,10.9,Very Low
+Sidi Yahya Zaer,33.7105,-6.8831,2026-09-23,45,30.5,16.4,0.0,0,16.0,32.8,Hot,No Rain,Moderate,15.9,Very Low
+Ben Guerir,32.23,-7.95,2026-09-17,3,28.6,16.5,0.0,0,17.3,34.6,Normal,No Rain,Moderate,6.4,Very Low
+Ben Guerir,32.23,-7.95,2026-09-18,2,30.3,16.6,0.0,0,14.8,31.0,Hot,No Rain,Moderate,10.9,Very Low
+Ben Guerir,32.23,-7.95,2026-09-19,2,33.6,18.6,0.0,0,17.7,36.7,Hot,No Rain,Moderate,10.9,Very Low
+Ben Guerir,32.23,-7.95,2026-09-20,2,35.8,22.5,0.0,5,16.6,35.6,Extreme Heat,No Rain,Moderate,17.424999999999997,Very Low
+Ben Guerir,32.23,-7.95,2026-09-21,1,37.2,22.6,0.0,5,20.1,41.0,Extreme Heat,No Rain,Moderate,21.025,Low
+Ben Guerir,32.23,-7.95,2026-09-22,1,36.2,19.3,0.0,5,18.3,32.0,Extreme Heat,No Rain,Moderate,17.424999999999997,Very Low
+Ben Guerir,32.23,-7.95,2026-09-23,0,36.0,19.1,0.0,0,19.7,34.6,Extreme Heat,No Rain,Moderate,15.9,Very Low
+Ait Ali,30.1739,-9.4881,2026-09-17,3,26.7,20.8,0.0,0,24.9,40.3,Normal,No Rain,Moderate,10.0,Very Low
+Ait Ali,30.1739,-9.4881,2026-09-18,2,26.1,19.6,0.0,0,22.5,36.4,Normal,No Rain,Moderate,10.0,Very Low
+Ait Ali,30.1739,-9.4881,2026-09-19,2,26.4,20.1,0.0,0,20.5,34.2,Normal,No Rain,Moderate,10.0,Very Low
+Ait Ali,30.1739,-9.4881,2026-09-20,2,26.8,20.4,0.0,0,19.5,32.4,Normal,No Rain,Moderate,6.4,Very Low
+Ait Ali,30.1739,-9.4881,2026-09-21,0,29.8,20.3,0.0,0,18.2,30.2,Normal,No Rain,Moderate,5.4,Very Low
+Ait Ali,30.1739,-9.4881,2026-09-22,0,35.5,20.5,0.0,0,18.0,32.8,Extreme Heat,No Rain,Moderate,15.9,Very Low
+Ait Ali,30.1739,-9.4881,2026-09-23,0,34.0,21.1,0.0,0,18.9,33.1,Hot,No Rain,Moderate,9.9,Very Low
+My Drarga,30.3805,-9.4763,2026-09-17,3,27.4,20.6,0.0,0,17.9,39.6,Normal,No Rain,Moderate,6.4,Very Low
+My Drarga,30.3805,-9.4763,2026-09-18,1,26.2,19.3,0.0,0,15.6,37.1,Normal,No Rain,Moderate,6.4,Very Low
+My Drarga,30.3805,-9.4763,2026-09-19,45,26.5,19.8,0.0,0,17.5,38.5,Normal,No Rain,Moderate,11.4,Very Low
+My Drarga,30.3805,-9.4763,2026-09-20,45,26.8,20.2,0.0,0,16.6,36.7,Normal,No Rain,Moderate,11.4,Very Low
+My Drarga,30.3805,-9.4763,2026-09-21,45,29.9,20.8,0.0,0,12.0,28.4,Normal,No Rain,Moderate,6.0,Very Low
+My Drarga,30.3805,-9.4763,2026-09-22,45,38.4,20.5,0.0,0,17.2,33.1,Extreme Heat,No Rain,Moderate,21.9,Low
+My Drarga,30.3805,-9.4763,2026-09-23,0,37.7,22.4,0.0,0,14.0,28.4,Extreme Heat,No Rain,Moderate,10.5,Very Low
+Lqoliaa,30.2942,-9.4544,2026-09-17,3,27.6,20.7,0.0,0,17.8,39.6,Normal,No Rain,Moderate,6.4,Very Low
+Lqoliaa,30.2942,-9.4544,2026-09-18,2,26.8,19.5,0.0,0,18.7,40.7,Normal,No Rain,Moderate,6.4,Very Low
+Lqoliaa,30.2942,-9.4544,2026-09-19,2,26.9,19.9,0.0,0,20.5,45.0,Normal,No Rain,Moderate,10.0,Very Low
+Lqoliaa,30.2942,-9.4544,2026-09-20,2,27.5,20.2,0.0,0,18.7,43.6,Normal,No Rain,Moderate,6.4,Very Low
+Lqoliaa,30.2942,-9.4544,2026-09-21,45,30.7,19.5,0.0,0,17.7,38.2,Hot,No Rain,Moderate,15.9,Very Low
+Lqoliaa,30.2942,-9.4544,2026-09-22,45,36.2,19.7,0.0,0,17.2,38.2,Extreme Heat,No Rain,Moderate,21.9,Low
+Lqoliaa,30.2942,-9.4544,2026-09-23,0,33.1,19.6,0.0,0,17.0,37.4,Hot,No Rain,Moderate,9.9,Very Low
+El Kelaa des Srarhna,32.05,-7.4,2026-09-17,2,29.8,17.4,0.0,0,16.8,28.8,Normal,No Rain,Moderate,1.0,Very Low
+El Kelaa des Srarhna,32.05,-7.4,2026-09-18,3,31.3,17.9,0.0,0,13.6,23.4,Hot,No Rain,Low,5.5,Very Low
+El Kelaa des Srarhna,32.05,-7.4,2026-09-19,3,34.9,20.3,0.0,0,16.2,27.7,Hot,No Rain,Moderate,5.5,Very Low
+El Kelaa des Srarhna,32.05,-7.4,2026-09-20,2,37.4,23.3,0.0,15,18.0,30.2,Extreme Heat,No Rain,Moderate,18.475,Very Low
+El Kelaa des Srarhna,32.05,-7.4,2026-09-21,2,37.8,23.0,0.0,8,20.1,33.5,Extreme Heat,No Rain,Moderate,21.34,Low
+El Kelaa des Srarhna,32.05,-7.4,2026-09-22,1,35.9,21.6,0.0,2,13.9,24.1,Extreme Heat,No Rain,Low,11.71,Very Low
+El Kelaa des Srarhna,32.05,-7.4,2026-09-23,1,36.2,20.2,0.0,0,15.6,27.0,Extreme Heat,No Rain,Moderate,11.5,Very Low
+Moulay Abdallah,33.1978,-8.5883,2026-09-17,3,25.7,20.3,0.0,0,16.2,24.8,Normal,No Rain,Moderate,1.0,Very Low
+Moulay Abdallah,33.1978,-8.5883,2026-09-18,2,25.5,19.8,0.0,0,19.9,32.4,Normal,No Rain,Moderate,6.4,Very Low
+Moulay Abdallah,33.1978,-8.5883,2026-09-19,2,27.1,20.1,0.0,0,17.6,28.1,Normal,No Rain,Moderate,1.0,Very Low
+Moulay Abdallah,33.1978,-8.5883,2026-09-20,45,27.5,20.5,0.0,0,13.4,21.6,Normal,No Rain,Low,6.0,Very Low
+Moulay Abdallah,33.1978,-8.5883,2026-09-21,45,26.5,20.8,0.0,0,13.5,20.9,Normal,No Rain,Low,6.0,Very Low
+Moulay Abdallah,33.1978,-8.5883,2026-09-22,45,27.7,21.0,0.0,0,11.8,23.8,Normal,No Rain,Low,6.0,Very Low
+Moulay Abdallah,33.1978,-8.5883,2026-09-23,45,27.5,20.8,0.0,0,15.6,31.0,Normal,No Rain,Moderate,11.4,Very Low
+Tiflet,33.9,-6.33,2026-09-17,3,27.5,15.9,0.0,0,13.7,28.4,Normal,No Rain,Moderate,1.0,Very Low
+Tiflet,33.9,-6.33,2026-09-18,3,29.0,15.7,0.0,0,16.6,34.2,Normal,No Rain,Moderate,6.4,Very Low
+Tiflet,33.9,-6.33,2026-09-19,2,33.9,18.0,0.0,0,15.5,32.0,Hot,No Rain,Moderate,10.9,Very Low
+Tiflet,33.9,-6.33,2026-09-20,2,35.9,22.3,0.0,0,14.0,29.9,Extreme Heat,No Rain,Moderate,11.5,Very Low
+Tiflet,33.9,-6.33,2026-09-21,1,35.4,22.0,0.0,5,15.7,32.8,Extreme Heat,No Rain,Moderate,17.424999999999997,Very Low
+Tiflet,33.9,-6.33,2026-09-22,2,34.2,20.7,0.0,1,15.4,32.0,Hot,No Rain,Moderate,11.005,Very Low
+Tiflet,33.9,-6.33,2026-09-23,1,34.7,20.0,0.0,0,18.0,36.0,Hot,No Rain,Moderate,10.9,Very Low
+Oulad Teïma,30.4,-9.21,2026-09-17,45,29.4,19.8,0.0,0,25.2,47.9,Normal,No Rain,Moderate,15.0,Very Low
+Oulad Teïma,30.4,-9.21,2026-09-18,2,29.2,18.7,0.0,0,22.9,42.5,Normal,No Rain,Moderate,10.0,Very Low
+Oulad Teïma,30.4,-9.21,2026-09-19,45,29.8,19.1,0.0,0,24.2,45.7,Normal,No Rain,Moderate,15.0,Very Low
+Oulad Teïma,30.4,-9.21,2026-09-20,45,30.4,19.5,0.0,0,23.7,44.3,Hot,No Rain,Moderate,19.5,Very Low
+Oulad Teïma,30.4,-9.21,2026-09-21,3,35.7,20.5,0.0,0,23.7,42.8,Extreme Heat,No Rain,Moderate,20.5,Low
+Oulad Teïma,30.4,-9.21,2026-09-22,3,38.3,19.5,0.0,0,28.3,47.2,Extreme Heat,No Rain,Moderate,20.5,Low
+Oulad Teïma,30.4,-9.21,2026-09-23,0,37.3,19.6,0.0,3,25.8,44.6,Extreme Heat,No Rain,Moderate,19.815,Very Low
+Berkane,34.9167,-2.3167,2026-09-17,3,26.3,17.9,0.0,0,15.4,32.8,Normal,No Rain,Moderate,6.4,Very Low
+Berkane,34.9167,-2.3167,2026-09-18,3,26.0,18.2,0.0,3,19.1,39.6,Normal,No Rain,Moderate,6.715,Very Low
+Berkane,34.9167,-2.3167,2026-09-19,45,26.2,19.8,0.1,5,20.1,44.3,Normal,Light,Moderate,15.525,Very Low
+Berkane,34.9167,-2.3167,2026-09-20,45,27.1,21.2,0.0,0,18.3,37.8,Normal,No Rain,Moderate,11.4,Very Low
+Berkane,34.9167,-2.3167,2026-09-21,45,26.4,20.5,0.0,5,18.0,38.5,Normal,No Rain,Moderate,11.925,Very Low
+Berkane,34.9167,-2.3167,2026-09-22,45,27.7,19.9,0.0,3,14.6,27.4,Normal,No Rain,Moderate,6.315,Very Low
+Berkane,34.9167,-2.3167,2026-09-23,45,28.0,19.5,0.0,0,11.9,22.7,Normal,No Rain,Low,6.0,Very Low
+Ain El Aouda,33.8111,-6.7922,2026-09-17,3,26.1,16.5,0.0,0,15.5,31.0,Normal,No Rain,Moderate,6.4,Very Low
+Ain El Aouda,33.8111,-6.7922,2026-09-18,45,27.2,15.0,0.0,0,15.6,31.3,Normal,No Rain,Moderate,11.4,Very Low
+Ain El Aouda,33.8111,-6.7922,2026-09-19,45,30.9,15.5,0.0,0,15.1,30.2,Hot,No Rain,Moderate,15.9,Very Low
+Ain El Aouda,33.8111,-6.7922,2026-09-20,2,32.7,19.6,0.0,0,14.3,28.8,Hot,No Rain,Moderate,5.5,Very Low
+Ain El Aouda,33.8111,-6.7922,2026-09-21,1,33.2,19.5,0.0,0,15.8,31.3,Hot,No Rain,Moderate,10.9,Very Low
+Ain El Aouda,33.8111,-6.7922,2026-09-22,45,32.1,19.0,0.0,0,15.0,29.2,Hot,No Rain,Moderate,10.5,Very Low
+Ain El Aouda,33.8111,-6.7922,2026-09-23,45,31.7,17.2,0.0,0,16.5,32.0,Hot,No Rain,Moderate,15.9,Very Low
+Errachidia,31.9319,-4.4244,2026-09-17,3,32.7,20.8,0.0,28,21.3,53.6,Hot,No Rain,Moderate,24.64,Low
+Errachidia,31.9319,-4.4244,2026-09-18,3,32.6,20.3,0.0,20,21.9,67.3,Hot,No Rain,Strong,23.8,Low
+Errachidia,31.9319,-4.4244,2026-09-19,61,31.5,22.3,0.4,19,18.7,43.6,Hot,Light,Moderate,21.895,Low
+Errachidia,31.9319,-4.4244,2026-09-20,3,30.6,20.0,0.1,13,11.0,24.8,Hot,Light,Low,6.865,Very Low
+Errachidia,31.9319,-4.4244,2026-09-21,80,29.8,21.5,3.3,38,12.9,29.2,Normal,Moderate,Moderate,20.89,Low
+Errachidia,31.9319,-4.4244,2026-09-22,3,30.4,19.0,0.0,17,12.3,23.8,Hot,No Rain,Low,7.285,Very Low
+Errachidia,31.9319,-4.4244,2026-09-23,2,31.7,20.2,0.0,18,12.1,20.2,Hot,No Rain,Low,7.39,Very Low
+Al Fqih Ben Çalah,32.507,-6.6886,2026-09-17,2,33.1,15.9,0.0,0,15.0,31.0,Hot,No Rain,Moderate,10.9,Very Low
+Al Fqih Ben Çalah,32.507,-6.6886,2026-09-18,3,33.9,17.0,0.0,0,10.6,22.0,Hot,No Rain,Low,5.5,Very Low
+Al Fqih Ben Çalah,32.507,-6.6886,2026-09-19,3,37.8,19.6,0.0,3,11.3,22.3,Extreme Heat,No Rain,Low,11.815,Very Low
+Al Fqih Ben Çalah,32.507,-6.6886,2026-09-20,3,38.8,23.8,0.0,3,17.7,35.6,Extreme Heat,No Rain,Moderate,17.215,Very Low
+Al Fqih Ben Çalah,32.507,-6.6886,2026-09-21,2,38.2,22.1,0.0,5,12.8,31.0,Extreme Heat,No Rain,Moderate,17.424999999999997,Very Low
+Al Fqih Ben Çalah,32.507,-6.6886,2026-09-22,2,37.8,20.8,0.0,3,12.7,24.5,Extreme Heat,No Rain,Low,11.815,Very Low
+Al Fqih Ben Çalah,32.507,-6.6886,2026-09-23,1,38.1,19.2,0.0,0,14.2,24.5,Extreme Heat,No Rain,Low,11.5,Very Low
+Ad Darwa,33.4167,-7.5333,2026-09-17,3,26.9,18.3,0.0,0,15.5,30.6,Normal,No Rain,Moderate,6.4,Very Low
+Ad Darwa,33.4167,-7.5333,2026-09-18,3,27.4,17.0,0.0,0,15.4,30.2,Normal,No Rain,Moderate,6.4,Very Low
+Ad Darwa,33.4167,-7.5333,2026-09-19,45,29.9,17.8,0.0,0,15.2,30.2,Normal,No Rain,Moderate,11.4,Very Low
+Ad Darwa,33.4167,-7.5333,2026-09-20,45,32.8,20.5,0.0,0,14.4,28.8,Hot,No Rain,Moderate,10.5,Very Low
+Ad Darwa,33.4167,-7.5333,2026-09-21,45,32.6,19.7,0.0,0,15.9,31.7,Hot,No Rain,Moderate,15.9,Very Low
+Ad Darwa,33.4167,-7.5333,2026-09-22,45,33.5,19.5,0.0,0,16.9,33.1,Hot,No Rain,Moderate,15.9,Very Low
+Ad Darwa,33.4167,-7.5333,2026-09-23,45,32.2,19.1,0.0,0,18.7,36.4,Hot,No Rain,Moderate,15.9,Very Low
+Martil,35.61,-5.27,2026-09-17,3,25.5,16.9,0.0,0,11.4,28.4,Normal,No Rain,Low,1.0,Very Low
+Martil,35.61,-5.27,2026-09-18,45,24.7,19.9,0.3,3,17.4,39.2,Normal,Light,Moderate,11.715,Very Low
+Martil,35.61,-5.27,2026-09-19,80,24.9,22.1,2.9,31,28.4,65.5,Normal,Moderate,Strong,36.355,Low
+Martil,35.61,-5.27,2026-09-20,80,24.8,23.1,5.3,50,23.0,50.4,Normal,Moderate,Moderate,38.35,Low
+Martil,35.61,-5.27,2026-09-21,80,24.8,22.5,1.8,16,19.9,44.6,Normal,Light,Moderate,19.08,Very Low
+Martil,35.61,-5.27,2026-09-22,2,25.6,22.2,0.0,0,22.7,40.0,Normal,No Rain,Moderate,10.0,Very Low
+Martil,35.61,-5.27,2026-09-23,2,25.4,21.9,0.0,0,16.6,29.2,Normal,No Rain,Moderate,1.0,Very Low
+Sidi Slimane,34.26,-5.93,2026-09-17,3,28.7,18.8,0.0,0,14.3,31.3,Normal,No Rain,Moderate,6.4,Very Low
+Sidi Slimane,34.26,-5.93,2026-09-18,45,31.6,16.9,0.0,0,17.2,36.0,Hot,No Rain,Moderate,15.9,Very Low
+Sidi Slimane,34.26,-5.93,2026-09-19,1,37.1,18.4,0.0,0,14.2,31.7,Extreme Heat,No Rain,Moderate,16.9,Very Low
+Sidi Slimane,34.26,-5.93,2026-09-20,2,38.9,23.7,0.0,0,15.0,34.6,Extreme Heat,No Rain,Moderate,16.9,Very Low
+Sidi Slimane,34.26,-5.93,2026-09-21,1,38.1,22.0,0.0,3,15.6,37.1,Extreme Heat,No Rain,Moderate,17.215,Very Low
+Sidi Slimane,34.26,-5.93,2026-09-22,45,35.6,20.4,0.0,0,14.4,31.0,Extreme Heat,No Rain,Moderate,21.9,Low
+Sidi Slimane,34.26,-5.93,2026-09-23,45,37.2,18.8,0.0,0,14.2,33.1,Extreme Heat,No Rain,Moderate,21.9,Low
+Oued Zem,32.8619,-6.5711,2026-09-17,2,30.5,15.4,0.0,0,16.2,33.1,Hot,No Rain,Moderate,10.9,Very Low
+Oued Zem,32.8619,-6.5711,2026-09-18,3,31.4,16.0,0.0,0,17.5,37.1,Hot,No Rain,Moderate,10.9,Very Low
+Oued Zem,32.8619,-6.5711,2026-09-19,3,34.7,19.0,0.0,3,18.6,36.0,Hot,No Rain,Moderate,11.215,Very Low
+Oued Zem,32.8619,-6.5711,2026-09-20,3,36.2,23.5,0.0,3,18.4,38.5,Extreme Heat,No Rain,Moderate,17.215,Very Low
+Oued Zem,32.8619,-6.5711,2026-09-21,80,34.5,21.3,0.6000000000000001,3,17.0,31.3,Hot,Light,Moderate,22.215,Low
+Oued Zem,32.8619,-6.5711,2026-09-22,2,34.1,19.1,0.0,0,20.1,36.0,Hot,No Rain,Moderate,14.5,Very Low
+Oued Zem,32.8619,-6.5711,2026-09-23,1,34.5,19.1,0.0,0,17.6,36.4,Hot,No Rain,Moderate,10.9,Very Low
+Sefrou,33.83,-4.83,2026-09-17,3,26.0,16.8,0.0,0,14.8,33.1,Normal,No Rain,Moderate,6.4,Very Low
+Sefrou,33.83,-4.83,2026-09-18,3,27.8,16.6,0.0,0,15.1,34.2,Normal,No Rain,Moderate,6.4,Very Low
+Sefrou,33.83,-4.83,2026-09-19,2,30.6,19.6,0.0,8,17.4,43.6,Hot,No Rain,Moderate,11.739999999999998,Very Low
+Sefrou,33.83,-4.83,2026-09-20,2,32.6,23.3,0.0,0,18.1,45.7,Hot,No Rain,Moderate,10.9,Very Low
+Sefrou,33.83,-4.83,2026-09-21,1,32.0,22.2,0.0,5,17.8,38.9,Hot,No Rain,Moderate,11.425,Very Low
+Sefrou,33.83,-4.83,2026-09-22,1,32.4,18.4,0.0,3,16.5,32.0,Hot,No Rain,Moderate,11.215,Very Low
+Sefrou,33.83,-4.83,2026-09-23,1,32.7,18.1,0.0,3,17.3,34.6,Hot,No Rain,Moderate,11.215,Very Low
+Taroudannt,30.4711,-8.8778,2026-09-17,45,30.4,18.8,0.0,0,23.4,45.7,Hot,No Rain,Moderate,19.5,Very Low
+Taroudannt,30.4711,-8.8778,2026-09-18,2,30.6,18.1,0.0,0,22.0,42.8,Hot,No Rain,Moderate,14.5,Very Low
+Taroudannt,30.4711,-8.8778,2026-09-19,2,31.6,18.9,0.0,0,21.6,43.6,Hot,No Rain,Moderate,14.5,Very Low
+Taroudannt,30.4711,-8.8778,2026-09-20,2,33.4,19.7,0.0,3,22.5,46.8,Hot,No Rain,Moderate,14.815,Very Low
+Taroudannt,30.4711,-8.8778,2026-09-21,2,39.1,22.0,0.0,0,24.8,52.6,Extreme Heat,No Rain,Moderate,27.7,Low
+Taroudannt,30.4711,-8.8778,2026-09-22,2,39.8,20.6,0.0,0,31.4,58.0,Extreme Heat,No Rain,Strong,27.7,Low
+Taroudannt,30.4711,-8.8778,2026-09-23,0,40.6,18.2,0.0,3,24.3,47.2,Extreme Heat,No Rain,Moderate,24.315,Low
+Essaouira,31.513,-9.7687,2026-09-17,3,23.6,18.9,0.0,0,29.2,54.0,Normal,No Rain,Strong,17.2,Very Low
+Essaouira,31.513,-9.7687,2026-09-18,1,23.9,19.1,0.0,0,30.0,54.7,Normal,No Rain,Strong,17.2,Very Low
+Essaouira,31.513,-9.7687,2026-09-19,1,24.9,18.7,0.0,0,28.8,53.3,Normal,No Rain,Strong,17.2,Very Low
+Essaouira,31.513,-9.7687,2026-09-20,45,24.3,19.5,0.0,0,13.1,25.9,Normal,No Rain,Low,6.0,Very Low
+Essaouira,31.513,-9.7687,2026-09-21,45,25.1,19.2,0.0,0,8.4,18.4,Normal,No Rain,Low,6.0,Very Low
+Essaouira,31.513,-9.7687,2026-09-22,45,29.3,18.4,0.0,0,10.5,20.5,Normal,No Rain,Low,6.0,Very Low
+Essaouira,31.513,-9.7687,2026-09-23,0,29.5,18.0,0.0,0,14.0,29.2,Normal,No Rain,Moderate,0.0,Very Low
+Azrou,33.4344,-5.2213,2026-09-17,3,26.2,15.1,0.0,0,15.1,34.9,Normal,No Rain,Moderate,6.4,Very Low
+Azrou,33.4344,-5.2213,2026-09-18,3,26.6,13.8,0.0,0,15.3,34.6,Normal,No Rain,Moderate,9.4,Very Low
+Azrou,33.4344,-5.2213,2026-09-19,3,28.5,17.9,0.1,15,17.3,40.0,Normal,Light,Moderate,7.975,Very Low
+Azrou,33.4344,-5.2213,2026-09-20,3,29.6,20.0,0.3,18,17.4,47.9,Normal,Light,Moderate,8.29,Very Low
+Azrou,33.4344,-5.2213,2026-09-21,1,28.8,18.5,0.0,15,18.0,42.1,Normal,No Rain,Moderate,7.975,Very Low
+Azrou,33.4344,-5.2213,2026-09-22,3,27.9,16.9,0.0,3,19.4,45.7,Normal,No Rain,Moderate,6.715,Very Low
+Azrou,33.4344,-5.2213,2026-09-23,1,29.5,18.4,0.0,3,15.9,41.8,Normal,No Rain,Moderate,6.715,Very Low
+Guercif,34.23,-3.36,2026-09-17,3,30.8,19.9,0.0,0,27.0,54.0,Hot,No Rain,Strong,21.7,Low
+Guercif,34.23,-3.36,2026-09-18,3,30.2,18.9,0.0,3,29.4,54.4,Hot,No Rain,Strong,22.015,Low
+Guercif,34.23,-3.36,2026-09-19,3,29.8,20.7,0.0,8,28.8,55.1,Normal,No Rain,Strong,18.04,Very Low
+Guercif,34.23,-3.36,2026-09-20,3,32.7,20.9,0.0,5,29.2,60.5,Hot,No Rain,Strong,22.225,Low
+Guercif,34.23,-3.36,2026-09-21,3,31.0,21.5,0.0,3,26.8,54.0,Hot,No Rain,Strong,22.015,Low
+Guercif,34.23,-3.36,2026-09-22,2,32.4,19.9,0.0,0,26.2,43.6,Hot,No Rain,Moderate,14.5,Very Low
+Guercif,34.23,-3.36,2026-09-23,45,32.5,18.9,0.0,0,28.2,50.8,Hot,No Rain,Moderate,26.7,Low
+Warzat,30.9167,-6.9167000000000005,2026-09-17,80,31.4,18.0,0.6000000000000001,30,16.1,36.4,Hot,Light,Moderate,25.05,Low
+Warzat,30.9167,-6.9167000000000005,2026-09-18,3,32.2,17.9,0.0,5,16.9,32.4,Hot,No Rain,Moderate,11.425,Very Low
+Warzat,30.9167,-6.9167000000000005,2026-09-19,3,32.0,20.5,0.0,5,19.7,36.7,Hot,No Rain,Moderate,11.425,Very Low
+Warzat,30.9167,-6.9167000000000005,2026-09-20,3,32.3,20.0,0.0,4,31.6,55.8,Hot,No Rain,Strong,22.12,Low
+Warzat,30.9167,-6.9167000000000005,2026-09-21,3,31.9,20.5,0.3,10,23.1,40.0,Hot,Light,Moderate,15.55,Very Low
+Warzat,30.9167,-6.9167000000000005,2026-09-22,2,31.8,19.1,0.0,1,18.1,30.2,Hot,No Rain,Moderate,11.005,Very Low
+Warzat,30.9167,-6.9167000000000005,2026-09-23,2,32.7,17.3,0.0,5,4.9,11.9,Hot,No Rain,Low,6.025,Very Low
+Fnidq,35.8414,-5.3587,2026-09-17,3,27.0,17.4,0.0,0,11.2,24.1,Normal,No Rain,Low,1.0,Very Low
+Fnidq,35.8414,-5.3587,2026-09-18,45,24.5,19.6,0.4,3,16.2,32.8,Normal,Light,Moderate,11.715,Very Low
+Fnidq,35.8414,-5.3587,2026-09-19,3,24.5,21.8,1.2,31,24.0,47.5,Normal,Light,Moderate,13.255,Very Low
+Fnidq,35.8414,-5.3587,2026-09-20,80,24.4,22.2,5.1,50,25.5,50.0,Normal,Moderate,Moderate,38.35,Low
+Fnidq,35.8414,-5.3587,2026-09-21,3,24.5,22.1,1.2,16,19.8,39.6,Normal,Light,Moderate,8.079999999999998,Very Low
+Fnidq,35.8414,-5.3587,2026-09-22,2,25.5,21.7,0.0,0,22.7,40.0,Normal,No Rain,Moderate,10.0,Very Low
+Fnidq,35.8414,-5.3587,2026-09-23,2,25.3,21.9,0.0,0,16.6,29.2,Normal,No Rain,Moderate,1.0,Very Low
+Tan-Tan,28.4333,-11.1,2026-09-17,51,25.7,20.4,0.3,0,31.1,55.4,Normal,Light,Strong,22.2,Low
+Tan-Tan,28.4333,-11.1,2026-09-18,3,25.7,19.1,0.0,0,25.7,46.8,Normal,No Rain,Moderate,10.0,Very Low
+Tan-Tan,28.4333,-11.1,2026-09-19,2,26.8,18.9,0.0,0,19.4,37.4,Normal,No Rain,Moderate,6.4,Very Low
+Tan-Tan,28.4333,-11.1,2026-09-20,3,30.3,19.6,0.0,0,18.3,34.9,Hot,No Rain,Moderate,10.9,Very Low
+Tan-Tan,28.4333,-11.1,2026-09-21,3,30.0,17.8,0.0,2,20.7,40.7,Normal,No Rain,Moderate,14.71,Very Low
+Tan-Tan,28.4333,-11.1,2026-09-22,1,29.1,18.7,0.0,1,21.0,41.0,Normal,No Rain,Moderate,10.105,Very Low
+Tan-Tan,28.4333,-11.1,2026-09-23,3,29.3,18.5,0.0,2,15.3,39.2,Normal,No Rain,Moderate,6.609999999999999,Very Low
+Sidi Qacem,34.21,-5.7,2026-09-17,3,28.8,18.6,0.0,0,14.1,30.6,Normal,No Rain,Moderate,6.4,Very Low
+Sidi Qacem,34.21,-5.7,2026-09-18,45,31.6,17.4,0.0,0,15.0,32.8,Hot,No Rain,Moderate,15.9,Very Low
+Sidi Qacem,34.21,-5.7,2026-09-19,2,36.4,20.3,0.0,0,15.7,34.2,Extreme Heat,No Rain,Moderate,16.9,Very Low
+Sidi Qacem,34.21,-5.7,2026-09-20,2,38.4,25.7,0.0,0,15.5,34.2,Extreme Heat,No Rain,Moderate,16.9,Very Low
+Sidi Qacem,34.21,-5.7,2026-09-21,1,37.8,23.2,0.0,3,12.7,25.9,Extreme Heat,No Rain,Low,11.815,Very Low
+Sidi Qacem,34.21,-5.7,2026-09-22,1,36.0,22.2,0.0,0,14.3,31.3,Extreme Heat,No Rain,Moderate,16.9,Very Low
+Sidi Qacem,34.21,-5.7,2026-09-23,0,37.5,21.0,0.0,0,13.8,32.4,Extreme Heat,No Rain,Moderate,15.9,Very Low
+M’diq,35.68,-5.32,2026-09-17,3,25.3,16.7,0.0,0,11.4,28.4,Normal,No Rain,Low,1.0,Very Low
+M’diq,35.68,-5.32,2026-09-18,45,24.6,19.7,0.3,0,17.4,39.2,Normal,Light,Moderate,11.4,Very Low
+M’diq,35.68,-5.32,2026-09-19,80,24.7,21.9,2.9,0,28.4,65.5,Normal,Moderate,Strong,33.099999999999994,Low
+M’diq,35.68,-5.32,2026-09-20,80,24.7,23.0,5.3,0,23.0,50.4,Normal,Moderate,Moderate,33.099999999999994,Low
+M’diq,35.68,-5.32,2026-09-21,80,24.7,22.4,1.8,0,19.9,44.6,Normal,Light,Moderate,17.4,Very Low
+M’diq,35.68,-5.32,2026-09-22,2,27.0,22.1,0.0,0,26.7,54.7,Normal,No Rain,Strong,17.2,Very Low
+M’diq,35.68,-5.32,2026-09-23,2,27.3,22.7,0.0,0,19.0,46.8,Normal,No Rain,Moderate,6.4,Very Low
+Youssoufia,32.25,-8.53,2026-09-17,2,27.8,17.2,0.0,0,18.6,38.9,Normal,No Rain,Moderate,6.4,Very Low
+Youssoufia,32.25,-8.53,2026-09-18,1,30.2,16.7,0.0,0,16.9,34.9,Hot,No Rain,Moderate,10.9,Very Low
+Youssoufia,32.25,-8.53,2026-09-19,2,32.5,16.6,0.0,0,16.4,34.6,Hot,No Rain,Moderate,10.9,Very Low
+Youssoufia,32.25,-8.53,2026-09-20,2,35.4,20.7,0.0,3,17.3,38.5,Extreme Heat,No Rain,Moderate,17.215,Very Low
+Youssoufia,32.25,-8.53,2026-09-21,1,36.5,21.7,0.0,0,17.9,39.2,Extreme Heat,No Rain,Moderate,16.9,Very Low
+Youssoufia,32.25,-8.53,2026-09-22,0,35.9,19.4,0.0,0,17.9,34.6,Extreme Heat,No Rain,Moderate,15.9,Very Low
+Youssoufia,32.25,-8.53,2026-09-23,45,35.2,18.9,0.0,0,18.3,36.7,Extreme Heat,No Rain,Moderate,21.9,Low
+Midalt,32.68,-4.74,2026-09-17,3,29.2,13.7,0.1,18,21.4,43.2,Normal,Light,Moderate,14.89,Very Low
+Midalt,32.68,-4.74,2026-09-18,2,27.8,13.6,0.0,8,23.7,42.5,Normal,No Rain,Moderate,13.84,Very Low
+Midalt,32.68,-4.74,2026-09-19,45,28.6,14.1,0.2,31,28.8,50.8,Normal,Light,Moderate,28.455,Low
+Midalt,32.68,-4.74,2026-09-20,3,29.6,14.9,0.0,13,16.9,37.1,Normal,No Rain,Moderate,10.765,Very Low
+Midalt,32.68,-4.74,2026-09-21,3,28.2,16.0,1.5,15,9.0,28.4,Normal,Light,Low,2.575,Very Low
+Midalt,32.68,-4.74,2026-09-22,3,28.8,13.2,0.0,5,19.2,31.0,Normal,No Rain,Moderate,9.925,Very Low
+Midalt,32.68,-4.74,2026-09-23,3,29.8,14.9,0.0,3,16.2,24.5,Normal,No Rain,Moderate,4.315,Very Low
+Aïn Harrouda,33.6372,-7.4483,2026-09-17,3,25.6,18.9,0.0,0,13.8,36.0,Normal,No Rain,Moderate,6.4,Very Low
+Aïn Harrouda,33.6372,-7.4483,2026-09-18,3,25.3,17.1,0.0,0,12.1,33.5,Normal,No Rain,Moderate,6.4,Very Low
+Aïn Harrouda,33.6372,-7.4483,2026-09-19,45,27.0,17.8,0.0,0,12.1,32.8,Normal,No Rain,Moderate,11.4,Very Low
+Aïn Harrouda,33.6372,-7.4483,2026-09-20,45,29.3,20.7,0.0,0,11.2,31.0,Normal,No Rain,Moderate,11.4,Very Low
+Aïn Harrouda,33.6372,-7.4483,2026-09-21,45,28.4,20.4,0.0,0,11.9,31.7,Normal,No Rain,Moderate,11.4,Very Low
+Aïn Harrouda,33.6372,-7.4483,2026-09-22,45,28.8,20.7,0.0,0,11.6,28.1,Normal,No Rain,Low,6.0,Very Low
+Aïn Harrouda,33.6372,-7.4483,2026-09-23,45,27.6,20.6,0.0,0,12.7,30.6,Normal,No Rain,Moderate,11.4,Very Low
+Souq Sebt Oulad Nemma,32.3,-6.7,2026-09-17,2,32.7,17.6,0.0,0,14.0,25.2,Hot,No Rain,Low,5.5,Very Low
+Souq Sebt Oulad Nemma,32.3,-6.7,2026-09-18,3,34.0,18.3,0.0,0,13.3,22.3,Hot,No Rain,Low,5.5,Very Low
+Souq Sebt Oulad Nemma,32.3,-6.7,2026-09-19,3,37.8,20.6,0.0,3,7.6,15.5,Extreme Heat,No Rain,Low,11.815,Very Low
+Souq Sebt Oulad Nemma,32.3,-6.7,2026-09-20,80,39.3,23.3,0.3,2,14.0,25.2,Extreme Heat,Light,Low,22.71,Low
+Souq Sebt Oulad Nemma,32.3,-6.7,2026-09-21,80,38.5,23.5,0.3,5,12.2,24.8,Extreme Heat,Light,Low,23.025,Low
+Souq Sebt Oulad Nemma,32.3,-6.7,2026-09-22,2,38.0,22.2,0.0,3,13.1,25.6,Extreme Heat,No Rain,Low,11.815,Very Low
+Souq Sebt Oulad Nemma,32.3,-6.7,2026-09-23,0,38.5,21.7,0.0,0,10.3,19.4,Extreme Heat,No Rain,Low,10.5,Very Low
+Mehdya,34.2557,-6.6745,2026-09-17,3,25.6,18.6,0.0,0,11.8,27.4,Normal,No Rain,Low,1.0,Very Low
+Mehdya,34.2557,-6.6745,2026-09-18,45,26.0,17.1,0.0,0,15.3,33.8,Normal,No Rain,Moderate,11.4,Very Low
+Mehdya,34.2557,-6.6745,2026-09-19,45,30.8,17.5,0.0,0,14.6,33.1,Hot,No Rain,Moderate,15.9,Very Low
+Mehdya,34.2557,-6.6745,2026-09-20,2,30.7,20.7,0.0,0,11.5,26.6,Hot,No Rain,Low,5.5,Very Low
+Mehdya,34.2557,-6.6745,2026-09-21,45,29.6,21.0,0.0,0,12.4,28.8,Normal,No Rain,Moderate,6.0,Very Low
+Mehdya,34.2557,-6.6745,2026-09-22,45,27.6,20.6,0.0,0,11.8,27.4,Normal,No Rain,Low,6.0,Very Low
+Mehdya,34.2557,-6.6745,2026-09-23,45,28.3,19.6,0.0,0,12.6,29.5,Normal,No Rain,Moderate,6.0,Very Low
+Ouezzane,34.8,-5.6,2026-09-17,3,28.0,16.4,0.0,0,15.8,31.0,Normal,No Rain,Moderate,6.4,Very Low
+Ouezzane,34.8,-5.6,2026-09-18,3,30.6,15.0,0.0,0,17.2,34.2,Hot,No Rain,Moderate,10.9,Very Low
+Ouezzane,34.8,-5.6,2026-09-19,1,35.6,17.8,0.0,0,17.3,35.3,Extreme Heat,No Rain,Moderate,16.9,Very Low
+Ouezzane,34.8,-5.6,2026-09-20,1,37.4,21.9,0.0,0,12.6,25.2,Extreme Heat,No Rain,Low,11.5,Very Low
+Ouezzane,34.8,-5.6,2026-09-21,1,36.0,20.9,0.0,5,10.4,20.9,Extreme Heat,No Rain,Low,12.025,Very Low
+Ouezzane,34.8,-5.6,2026-09-22,3,35.3,19.8,0.0,1,12.1,30.6,Extreme Heat,No Rain,Moderate,17.005,Very Low
+Ouezzane,34.8,-5.6,2026-09-23,0,36.6,17.9,0.0,0,12.5,27.4,Extreme Heat,No Rain,Low,10.5,Very Low
+Semara,26.7394,-11.6703,2026-09-17,3,30.8,20.3,0.0,0,29.5,51.1,Hot,No Rain,Strong,21.7,Low
+Semara,26.7394,-11.6703,2026-09-18,3,30.1,18.9,0.0,0,25.0,43.9,Hot,No Rain,Moderate,14.5,Very Low
+Semara,26.7394,-11.6703,2026-09-19,3,31.8,18.4,0.0,0,19.7,33.1,Hot,No Rain,Moderate,10.9,Very Low
+Semara,26.7394,-11.6703,2026-09-20,3,35.1,18.5,0.0,0,13.0,27.7,Extreme Heat,No Rain,Moderate,11.5,Very Low
+Semara,26.7394,-11.6703,2026-09-21,1,41.0,21.9,0.0,7,19.9,40.0,Extreme Heat,No Rain,Moderate,22.135,Low
+Semara,26.7394,-11.6703,2026-09-22,0,41.6,23.2,0.0,9,18.1,50.4,Extreme Heat,No Rain,Moderate,28.545,Low
+Semara,26.7394,-11.6703,2026-09-23,0,40.4,23.0,0.0,9,22.3,40.7,Extreme Heat,No Rain,Moderate,24.945,Low
+Ait Ourir,31.5644,-7.6628,2026-09-17,2,28.6,16.3,0.0,0,11.1,22.0,Normal,No Rain,Low,1.0,Very Low
+Ait Ourir,31.5644,-7.6628,2026-09-18,2,30.4,16.7,0.0,0,11.5,22.3,Hot,No Rain,Low,5.5,Very Low
+Ait Ourir,31.5644,-7.6628,2026-09-19,3,34.3,19.6,0.0,3,10.6,20.9,Hot,No Rain,Low,5.815,Very Low
+Ait Ourir,31.5644,-7.6628,2026-09-20,80,36.5,22.8,0.6000000000000001,25,18.4,37.4,Extreme Heat,Light,Moderate,30.525,Low
+Ait Ourir,31.5644,-7.6628,2026-09-21,80,35.8,22.2,0.9,13,14.8,33.8,Extreme Heat,Light,Moderate,29.265,Low
+Ait Ourir,31.5644,-7.6628,2026-09-22,1,35.3,20.8,0.0,9,13.0,25.6,Extreme Heat,No Rain,Low,12.445,Very Low
+Ait Ourir,31.5644,-7.6628,2026-09-23,1,35.3,18.7,0.0,3,11.5,22.7,Extreme Heat,No Rain,Low,11.815,Very Low
+Oulad Tayeb,33.9598,-4.9954,2026-09-17,45,28.6,17.5,0.0,0,14.2,27.7,Normal,No Rain,Moderate,6.0,Very Low
+Oulad Tayeb,33.9598,-4.9954,2026-09-18,3,30.7,17.4,0.0,0,13.3,27.0,Hot,No Rain,Moderate,5.5,Very Low
+Oulad Tayeb,33.9598,-4.9954,2026-09-19,2,33.1,19.6,0.0,0,19.3,38.2,Hot,No Rain,Moderate,10.9,Very Low
+Oulad Tayeb,33.9598,-4.9954,2026-09-20,2,35.7,21.2,0.0,0,16.3,31.7,Extreme Heat,No Rain,Moderate,16.9,Very Low
+Oulad Tayeb,33.9598,-4.9954,2026-09-21,3,35.4,21.9,0.0,3,16.7,28.8,Extreme Heat,No Rain,Moderate,11.815,Very Low
+Oulad Tayeb,33.9598,-4.9954,2026-09-22,1,34.6,20.8,0.0,0,11.3,28.8,Hot,No Rain,Moderate,5.5,Very Low
+Oulad Tayeb,33.9598,-4.9954,2026-09-23,1,35.3,21.3,0.0,0,12.3,30.2,Extreme Heat,No Rain,Moderate,16.9,Very Low
+Tit Mellil,33.5533,-7.4822,2026-09-17,3,25.6,18.6,0.0,0,13.3,36.0,Normal,No Rain,Moderate,6.4,Very Low
+Tit Mellil,33.5533,-7.4822,2026-09-18,3,25.4,16.9,0.0,0,12.6,33.8,Normal,No Rain,Moderate,6.4,Very Low
+Tit Mellil,33.5533,-7.4822,2026-09-19,45,27.3,18.1,0.0,0,12.7,34.2,Normal,No Rain,Moderate,11.4,Very Low
+Tit Mellil,33.5533,-7.4822,2026-09-20,45,29.9,20.4,0.0,0,11.7,31.3,Normal,No Rain,Moderate,11.4,Very Low
+Tit Mellil,33.5533,-7.4822,2026-09-21,45,29.1,20.1,0.0,0,12.4,33.5,Normal,No Rain,Moderate,11.4,Very Low
+Tit Mellil,33.5533,-7.4822,2026-09-22,45,29.0,20.2,0.0,0,11.4,29.9,Normal,No Rain,Moderate,6.0,Very Low
+Tit Mellil,33.5533,-7.4822,2026-09-23,45,28.1,20.2,0.0,3,12.3,32.4,Normal,No Rain,Moderate,11.715,Very Low
+Sidi Bennour,32.655,-8.4292,2026-09-17,3,27.8,17.6,0.0,0,19.5,33.8,Normal,No Rain,Moderate,6.4,Very Low
+Sidi Bennour,32.655,-8.4292,2026-09-18,2,29.8,16.5,0.0,0,20.3,34.9,Normal,No Rain,Moderate,10.0,Very Low
+Sidi Bennour,32.655,-8.4292,2026-09-19,3,32.3,16.6,0.0,0,19.1,33.1,Hot,No Rain,Moderate,10.9,Very Low
+Sidi Bennour,32.655,-8.4292,2026-09-20,2,34.4,19.3,0.0,0,18.4,33.1,Hot,No Rain,Moderate,10.9,Very Low
+Sidi Bennour,32.655,-8.4292,2026-09-21,45,35.6,18.7,0.0,0,18.8,33.8,Extreme Heat,No Rain,Moderate,21.9,Low
+Sidi Bennour,32.655,-8.4292,2026-09-22,45,34.7,19.2,0.0,0,16.6,33.8,Hot,No Rain,Moderate,15.9,Very Low
+Sidi Bennour,32.655,-8.4292,2026-09-23,45,34.2,19.1,0.0,0,18.7,37.1,Hot,No Rain,Moderate,15.9,Very Low
+Temsia,30.3633,-9.4144,2026-09-17,3,28.0,20.7,0.0,0,20.5,43.6,Normal,No Rain,Moderate,10.0,Very Low
+Temsia,30.3633,-9.4144,2026-09-18,2,27.2,19.5,0.0,0,19.2,41.4,Normal,No Rain,Moderate,6.4,Very Low
+Temsia,30.3633,-9.4144,2026-09-19,2,27.5,19.9,0.0,0,22.1,46.8,Normal,No Rain,Moderate,10.0,Very Low
+Temsia,30.3633,-9.4144,2026-09-20,2,28.0,20.1,0.0,0,19.6,43.2,Normal,No Rain,Moderate,6.4,Very Low
+Temsia,30.3633,-9.4144,2026-09-21,45,31.9,20.2,0.0,0,14.6,33.1,Hot,No Rain,Moderate,15.9,Very Low
+Temsia,30.3633,-9.4144,2026-09-22,45,38.8,20.2,0.0,0,28.3,47.2,Extreme Heat,No Rain,Moderate,25.5,Low
+Temsia,30.3633,-9.4144,2026-09-23,0,37.8,20.1,0.0,0,25.8,44.6,Extreme Heat,No Rain,Moderate,19.5,Very Low
+Biougra,30.2144,-9.3708,2026-09-17,3,27.4,20.7,0.0,0,29.7,49.3,Normal,No Rain,Moderate,10.0,Very Low
+Biougra,30.2144,-9.3708,2026-09-18,1,27.4,19.5,0.0,0,25.6,41.8,Normal,No Rain,Moderate,10.0,Very Low
+Biougra,30.2144,-9.3708,2026-09-19,45,27.7,19.9,0.0,0,21.7,36.0,Normal,No Rain,Moderate,15.0,Very Low
+Biougra,30.2144,-9.3708,2026-09-20,2,28.4,20.3,0.0,0,19.8,34.6,Normal,No Rain,Moderate,6.4,Very Low
+Biougra,30.2144,-9.3708,2026-09-21,3,32.1,20.8,0.0,0,17.8,29.9,Hot,No Rain,Moderate,5.5,Very Low
+Biougra,30.2144,-9.3708,2026-09-22,3,37.8,20.0,0.0,0,23.7,39.6,Extreme Heat,No Rain,Moderate,20.5,Low
+Biougra,30.2144,-9.3708,2026-09-23,0,35.3,18.7,0.0,3,22.0,38.5,Extreme Heat,No Rain,Moderate,19.815,Very Low
+Al Hoceïma,35.2472,-3.9322,2026-09-17,3,25.8,19.5,0.0,25,15.5,27.7,Normal,No Rain,Moderate,3.625,Very Low
+Al Hoceïma,35.2472,-3.9322,2026-09-18,3,26.6,18.7,0.0,0,19.2,36.7,Normal,No Rain,Moderate,6.4,Very Low
+Al Hoceïma,35.2472,-3.9322,2026-09-19,3,28.8,19.9,0.0,0,28.7,52.9,Normal,No Rain,Strong,17.2,Very Low
+Al Hoceïma,35.2472,-3.9322,2026-09-20,2,28.3,23.3,0.0,5,26.5,47.2,Normal,No Rain,Moderate,10.525,Very Low
+Al Hoceïma,35.2472,-3.9322,2026-09-21,2,27.9,22.7,0.0,0,24.3,44.3,Normal,No Rain,Moderate,10.0,Very Low
+Al Hoceïma,35.2472,-3.9322,2026-09-22,2,27.2,20.1,0.0,0,13.0,24.5,Normal,No Rain,Low,1.0,Very Low
+Al Hoceïma,35.2472,-3.9322,2026-09-23,45,27.2,21.7,0.0,0,10.8,19.8,Normal,No Rain,Low,6.0,Very Low
+Qasbat Tadla,32.6,-6.26,2026-09-17,3,32.6,17.3,0.0,0,11.5,22.7,Hot,No Rain,Low,5.5,Very Low
+Qasbat Tadla,32.6,-6.26,2026-09-18,3,33.8,17.6,0.0,0,12.5,24.5,Hot,No Rain,Low,5.5,Very Low
+Qasbat Tadla,32.6,-6.26,2026-09-19,3,37.5,20.2,0.0,3,13.6,25.9,Extreme Heat,No Rain,Low,11.815,Very Low
+Qasbat Tadla,32.6,-6.26,2026-09-20,3,39.0,24.6,0.0,3,18.0,39.6,Extreme Heat,No Rain,Moderate,17.215,Very Low
+Qasbat Tadla,32.6,-6.26,2026-09-21,2,37.3,21.6,0.6000000000000001,8,10.9,22.0,Extreme Heat,Light,Low,12.34,Very Low
+Qasbat Tadla,32.6,-6.26,2026-09-22,2,36.5,20.0,0.0,2,9.9,25.2,Extreme Heat,No Rain,Low,11.71,Very Low
+Qasbat Tadla,32.6,-6.26,2026-09-23,2,37.7,18.6,0.0,3,8.1,18.4,Extreme Heat,No Rain,Low,11.815,Very Low
+Aziylal,31.96,-6.5600000000000005,2026-09-17,3,27.3,14.5,0.0,3,16.0,34.9,Normal,No Rain,Moderate,9.715,Very Low
+Aziylal,31.96,-6.5600000000000005,2026-09-18,3,26.9,15.8,0.0,3,16.3,36.4,Normal,No Rain,Moderate,6.715,Very Low
+Aziylal,31.96,-6.5600000000000005,2026-09-19,3,29.5,18.6,0.0,15,18.9,40.0,Normal,No Rain,Moderate,7.975,Very Low
+Aziylal,31.96,-6.5600000000000005,2026-09-20,80,30.4,20.9,0.6000000000000001,33,18.4,38.9,Hot,Light,Moderate,25.365,Low
+Aziylal,31.96,-6.5600000000000005,2026-09-21,3,29.3,19.6,0.0,25,18.4,41.4,Normal,No Rain,Moderate,9.025,Very Low
+Aziylal,31.96,-6.5600000000000005,2026-09-22,2,29.0,18.4,0.0,8,18.5,38.2,Normal,No Rain,Moderate,7.239999999999999,Very Low
+Aziylal,31.96,-6.5600000000000005,2026-09-23,0,30.0,17.8,0.0,3,17.5,37.1,Normal,No Rain,Moderate,10.215,Very Low
+Boujad,32.7741,-6.3925,2026-09-17,1,31.7,17.3,0.0,0,16.6,31.3,Hot,No Rain,Moderate,10.9,Very Low
+Boujad,32.7741,-6.3925,2026-09-18,3,32.5,17.4,0.0,0,19.1,36.4,Hot,No Rain,Moderate,10.9,Very Low
+Boujad,32.7741,-6.3925,2026-09-19,3,35.8,20.8,0.0,0,20.2,36.7,Extreme Heat,No Rain,Moderate,20.5,Low
+Boujad,32.7741,-6.3925,2026-09-20,2,36.9,24.7,0.0,2,18.5,40.7,Extreme Heat,No Rain,Moderate,17.11,Very Low
+Boujad,32.7741,-6.3925,2026-09-21,3,35.2,21.4,0.6000000000000001,8,12.3,26.3,Extreme Heat,Light,Low,12.34,Very Low
+Boujad,32.7741,-6.3925,2026-09-22,2,34.5,20.0,0.0,1,16.3,35.3,Hot,No Rain,Moderate,11.005,Very Low
+Boujad,32.7741,-6.3925,2026-09-23,1,35.4,21.1,0.0,0,14.9,34.6,Extreme Heat,No Rain,Moderate,16.9,Very Low
+Al Aaroui,35.0104,-3.0073,2026-09-17,3,27.6,17.8,0.0,0,18.1,31.7,Normal,No Rain,Moderate,6.4,Very Low
+Al Aaroui,35.0104,-3.0073,2026-09-18,45,26.8,19.5,0.0,0,25.0,43.6,Normal,No Rain,Moderate,15.0,Very Low
+Al Aaroui,35.0104,-3.0073,2026-09-19,3,26.5,20.6,0.0,3,28.5,50.8,Normal,No Rain,Moderate,17.515,Very Low
+Al Aaroui,35.0104,-3.0073,2026-09-20,3,26.7,22.2,0.0,0,29.8,52.2,Normal,No Rain,Strong,17.2,Very Low
+Al Aaroui,35.0104,-3.0073,2026-09-21,45,26.2,21.1,0.0,3,26.0,46.4,Normal,No Rain,Moderate,15.315,Very Low
+Al Aaroui,35.0104,-3.0073,2026-09-22,45,28.7,19.6,0.0,3,19.1,37.1,Normal,No Rain,Moderate,11.715,Very Low
+Al Aaroui,35.0104,-3.0073,2026-09-23,45,29.3,19.0,0.0,0,17.6,35.3,Normal,No Rain,Moderate,11.4,Very Low
+Mrirt,33.1654,-5.5634,2026-09-17,3,30.7,15.2,0.0,0,20.0,41.0,Hot,No Rain,Moderate,14.5,Very Low
+Mrirt,33.1654,-5.5634,2026-09-18,3,30.9,14.1,0.0,0,18.1,40.7,Hot,No Rain,Moderate,10.9,Very Low
+Mrirt,33.1654,-5.5634,2026-09-19,3,32.4,16.8,0.0,15,15.7,33.8,Hot,No Rain,Moderate,12.475,Very Low
+Mrirt,33.1654,-5.5634,2026-09-20,3,32.9,20.0,0.6000000000000001,5,18.5,52.6,Hot,Light,Moderate,18.625,Very Low
+Mrirt,33.1654,-5.5634,2026-09-21,2,32.0,19.6,0.0,13,19.2,43.6,Hot,No Rain,Moderate,12.265,Very Low
+Mrirt,33.1654,-5.5634,2026-09-22,2,31.5,16.8,0.0,2,17.1,36.4,Hot,No Rain,Moderate,11.11,Very Low
+Mrirt,33.1654,-5.5634,2026-09-23,2,32.9,15.8,0.0,3,21.4,40.3,Hot,No Rain,Moderate,14.815,Very Low
+Tineghir,31.5147,-5.5328,2026-09-17,3,30.5,19.1,0.0,30,26.6,43.2,Hot,No Rain,Moderate,17.65,Very Low
+Tineghir,31.5147,-5.5328,2026-09-18,3,31.1,18.4,0.0,33,18.9,32.4,Hot,No Rain,Moderate,14.364999999999998,Very Low
+Tineghir,31.5147,-5.5328,2026-09-19,61,29.8,20.3,0.3,19,21.7,33.8,Normal,Light,Moderate,20.995,Low
+Tineghir,31.5147,-5.5328,2026-09-20,3,29.8,18.4,0.6000000000000001,25,23.2,40.3,Normal,Light,Moderate,12.625,Very Low
+Tineghir,31.5147,-5.5328,2026-09-21,80,29.1,18.7,1.8,48,18.3,32.0,Normal,Light,Moderate,22.44,Low
+Tineghir,31.5147,-5.5328,2026-09-22,3,29.2,17.6,0.3,11,15.7,28.1,Normal,Light,Moderate,2.155,Very Low
+Tineghir,31.5147,-5.5328,2026-09-23,2,30.7,18.1,0.0,10,15.8,27.7,Hot,No Rain,Moderate,6.55,Very Low
+Bouknadel,34.1766,-6.6893,2026-09-17,3,24.8,18.8,0.0,0,13.2,23.4,Normal,No Rain,Low,1.0,Very Low
+Bouknadel,34.1766,-6.6893,2026-09-18,45,24.9,17.3,0.0,0,17.3,29.5,Normal,No Rain,Moderate,6.0,Very Low
+Bouknadel,34.1766,-6.6893,2026-09-19,45,28.1,17.9,0.0,0,15.6,27.4,Normal,No Rain,Moderate,6.0,Very Low
+Bouknadel,34.1766,-6.6893,2026-09-20,2,28.0,20.8,0.0,0,12.2,21.6,Normal,No Rain,Low,1.0,Very Low
+Bouknadel,34.1766,-6.6893,2026-09-21,45,27.8,21.0,0.0,0,13.3,23.4,Normal,No Rain,Low,6.0,Very Low
+Bouknadel,34.1766,-6.6893,2026-09-22,45,27.6,20.6,0.0,0,11.8,27.4,Normal,No Rain,Low,6.0,Very Low
+Bouknadel,34.1766,-6.6893,2026-09-23,45,28.3,19.5,0.0,0,12.6,29.5,Normal,No Rain,Moderate,6.0,Very Low
+Cabo Bojador,26.1269,-14.4992,2026-09-17,51,25.5,20.9,0.1,0,31.5,56.5,Normal,Light,Strong,22.2,Low
+Cabo Bojador,26.1269,-14.4992,2026-09-18,3,24.7,20.0,0.0,0,23.5,45.4,Normal,No Rain,Moderate,10.0,Very Low
+Cabo Bojador,26.1269,-14.4992,2026-09-19,3,24.5,19.4,0.0,0,21.4,41.4,Normal,No Rain,Moderate,10.0,Very Low
+Cabo Bojador,26.1269,-14.4992,2026-09-20,1,26.3,19.2,0.0,0,25.6,46.1,Normal,No Rain,Moderate,10.0,Very Low
+Cabo Bojador,26.1269,-14.4992,2026-09-21,2,25.3,19.4,0.0,2,26.6,48.2,Normal,No Rain,Moderate,10.21,Very Low
+Cabo Bojador,26.1269,-14.4992,2026-09-22,2,24.9,19.8,0.0,3,25.9,49.0,Normal,No Rain,Moderate,10.315,Very Low
+Cabo Bojador,26.1269,-14.4992,2026-09-23,1,26.3,19.6,0.0,6,24.8,49.7,Normal,No Rain,Moderate,10.63,Very Low
+Zagora,30.3316,-5.8376,2026-09-17,3,35.0,25.7,0.0,8,14.7,23.8,Hot,No Rain,Low,12.34,Very Low
+Zagora,30.3316,-5.8376,2026-09-18,3,35.6,24.9,0.0,3,12.1,19.4,Extreme Heat,No Rain,Low,11.815,Very Low
+Zagora,30.3316,-5.8376,2026-09-19,3,35.7,26.8,0.0,0,20.7,32.4,Extreme Heat,No Rain,Moderate,20.5,Low
+Zagora,30.3316,-5.8376,2026-09-20,3,34.7,24.0,0.0,0,20.8,32.4,Hot,No Rain,Moderate,14.5,Very Low
+Zagora,30.3316,-5.8376,2026-09-21,3,34.6,25.0,1.5,13,16.5,31.3,Hot,Light,Moderate,12.265,Very Low
+Zagora,30.3316,-5.8376,2026-09-22,3,32.2,23.3,0.9,4,8.9,16.9,Hot,Light,Low,5.92,Very Low
+Zagora,30.3316,-5.8376,2026-09-23,3,34.7,22.5,0.0,5,8.5,15.1,Hot,No Rain,Low,6.025,Very Low
+Azemmour,33.2833,-8.3333,2026-09-17,3,25.7,19.7,0.0,0,14.3,26.6,Normal,No Rain,Moderate,1.0,Very Low
+Azemmour,33.2833,-8.3333,2026-09-18,3,25.8,18.5,0.0,0,18.3,33.5,Normal,No Rain,Moderate,6.4,Very Low
+Azemmour,33.2833,-8.3333,2026-09-19,45,27.1,19.2,0.0,0,16.8,31.0,Normal,No Rain,Moderate,11.4,Very Low
+Azemmour,33.2833,-8.3333,2026-09-20,45,27.5,19.6,0.0,0,13.2,24.5,Normal,No Rain,Low,6.0,Very Low
+Azemmour,33.2833,-8.3333,2026-09-21,45,26.9,20.7,0.0,0,13.0,25.9,Normal,No Rain,Low,6.0,Very Low
+Azemmour,33.2833,-8.3333,2026-09-22,45,28.2,21.1,0.0,0,11.6,24.1,Normal,No Rain,Low,6.0,Very Low
+Azemmour,33.2833,-8.3333,2026-09-23,45,27.0,20.9,0.0,0,15.0,30.2,Normal,No Rain,Moderate,11.4,Very Low
+El Hajeb,33.6928,-5.3711,2026-09-17,3,26.3,15.6,0.0,0,16.5,36.0,Normal,No Rain,Moderate,6.4,Very Low
+El Hajeb,33.6928,-5.3711,2026-09-18,3,27.3,15.3,0.0,0,15.9,34.6,Normal,No Rain,Moderate,6.4,Very Low
+El Hajeb,33.6928,-5.3711,2026-09-19,2,30.8,17.9,0.0,3,17.9,40.7,Hot,No Rain,Moderate,11.215,Very Low
+El Hajeb,33.6928,-5.3711,2026-09-20,2,32.6,23.1,0.3,5,16.9,50.8,Hot,Light,Moderate,18.625,Very Low
+El Hajeb,33.6928,-5.3711,2026-09-21,2,31.9,21.2,0.0,5,20.4,42.5,Hot,No Rain,Moderate,15.025,Very Low
+El Hajeb,33.6928,-5.3711,2026-09-22,1,31.9,19.0,0.0,1,19.4,38.2,Hot,No Rain,Moderate,11.005,Very Low
+El Hajeb,33.6928,-5.3711,2026-09-23,1,32.2,19.4,0.0,3,19.7,39.6,Hot,No Rain,Moderate,11.215,Very Low
+Jerada,34.31,-2.16,2026-09-17,3,26.6,16.7,0.0,0,19.9,38.9,Normal,No Rain,Moderate,6.4,Very Low
+Jerada,34.31,-2.16,2026-09-18,3,27.0,15.6,0.0,5,23.7,50.4,Normal,No Rain,Moderate,17.724999999999998,Very Low
+Jerada,34.31,-2.16,2026-09-19,80,26.8,16.9,2.0,58,25.6,52.2,Normal,Light,Moderate,34.29,Low
+Jerada,34.31,-2.16,2026-09-20,3,30.3,18.0,0.6000000000000001,10,18.3,51.8,Hot,Light,Moderate,19.15,Very Low
+Jerada,34.31,-2.16,2026-09-21,3,27.1,17.8,0.3,13,15.0,34.2,Normal,Light,Moderate,7.765,Very Low
+Jerada,34.31,-2.16,2026-09-22,2,29.8,16.9,0.0,4,20.2,39.6,Normal,No Rain,Moderate,10.42,Very Low
+Jerada,34.31,-2.16,2026-09-23,2,29.6,16.6,0.0,3,22.9,40.3,Normal,No Rain,Moderate,10.315,Very Low
+El Aïoun,34.5726,-2.5127,2026-09-17,3,28.3,15.5,0.0,0,14.9,25.2,Normal,No Rain,Moderate,1.0,Very Low
+El Aïoun,34.5726,-2.5127,2026-09-18,45,29.1,15.5,0.0,3,19.4,34.6,Normal,No Rain,Moderate,11.715,Very Low
+El Aïoun,34.5726,-2.5127,2026-09-19,80,30.6,19.1,0.1,23,21.6,41.4,Hot,Light,Moderate,27.915,Low
+El Aïoun,34.5726,-2.5127,2026-09-20,45,32.3,18.5,0.0,5,21.0,38.2,Hot,No Rain,Moderate,20.025,Low
+El Aïoun,34.5726,-2.5127,2026-09-21,45,29.8,19.7,0.0,5,20.2,35.6,Normal,No Rain,Moderate,15.525,Very Low
+El Aïoun,34.5726,-2.5127,2026-09-22,45,30.2,17.7,0.0,3,16.6,29.9,Hot,No Rain,Moderate,10.815,Very Low
+El Aïoun,34.5726,-2.5127,2026-09-23,0,31.3,17.3,0.0,0,17.4,30.6,Hot,No Rain,Moderate,9.9,Very Low
+Tameslouht,31.5,-8.1,2026-09-17,3,29.4,18.2,0.0,0,14.8,24.5,Normal,No Rain,Low,1.0,Very Low
+Tameslouht,31.5,-8.1,2026-09-18,2,31.2,17.8,0.0,0,11.2,19.8,Hot,No Rain,Low,5.5,Very Low
+Tameslouht,31.5,-8.1,2026-09-19,2,34.3,20.0,0.0,3,13.0,21.2,Hot,No Rain,Low,5.815,Very Low
+Tameslouht,31.5,-8.1,2026-09-20,80,36.9,22.5,1.2,25,17.1,32.0,Extreme Heat,Light,Moderate,30.525,Low
+Tameslouht,31.5,-8.1,2026-09-21,2,36.8,23.3,0.0,8,28.3,48.2,Extreme Heat,No Rain,Moderate,21.34,Low
+Tameslouht,31.5,-8.1,2026-09-22,0,36.1,21.9,0.0,1,14.3,28.8,Extreme Heat,No Rain,Moderate,10.605,Very Low
+Tameslouht,31.5,-8.1,2026-09-23,1,35.6,21.0,0.0,3,13.8,23.8,Extreme Heat,No Rain,Low,11.815,Very Low
+Sidi Yahia El Gharb,34.3058,-6.3058,2026-09-17,3,27.1,17.8,0.0,0,14.6,26.6,Normal,No Rain,Moderate,1.0,Very Low
+Sidi Yahia El Gharb,34.3058,-6.3058,2026-09-18,45,29.2,16.3,0.0,0,18.1,32.8,Normal,No Rain,Moderate,11.4,Very Low
+Sidi Yahia El Gharb,34.3058,-6.3058,2026-09-19,45,35.2,17.1,0.0,0,19.0,34.6,Extreme Heat,No Rain,Moderate,21.9,Low
+Sidi Yahia El Gharb,34.3058,-6.3058,2026-09-20,2,35.7,20.8,0.0,0,20.8,37.1,Extreme Heat,No Rain,Moderate,20.5,Low
+Sidi Yahia El Gharb,34.3058,-6.3058,2026-09-21,0,34.1,20.7,0.0,0,17.8,33.5,Hot,No Rain,Moderate,9.9,Very Low
+Sidi Yahia El Gharb,34.3058,-6.3058,2026-09-22,45,33.3,20.0,0.0,0,16.8,31.7,Hot,No Rain,Moderate,15.9,Very Low
+Sidi Yahia El Gharb,34.3058,-6.3058,2026-09-23,1,34.3,18.9,0.0,0,18.4,34.6,Hot,No Rain,Moderate,10.9,Very Low
+Chichaoua,31.5333,-8.7667,2026-09-17,3,29.6,18.3,0.0,0,16.6,27.0,Normal,No Rain,Moderate,1.0,Very Low
+Chichaoua,31.5333,-8.7667,2026-09-18,3,31.2,18.0,0.0,0,15.9,25.9,Hot,No Rain,Moderate,5.5,Very Low
+Chichaoua,31.5333,-8.7667,2026-09-19,2,33.9,18.5,0.0,0,19.1,35.3,Hot,No Rain,Moderate,10.9,Very Low
+Chichaoua,31.5333,-8.7667,2026-09-20,2,34.3,22.5,0.0,3,24.5,40.3,Hot,No Rain,Moderate,14.815,Very Low
+Chichaoua,31.5333,-8.7667,2026-09-21,1,36.4,22.5,0.0,0,24.0,41.0,Extreme Heat,No Rain,Moderate,20.5,Low
+Chichaoua,31.5333,-8.7667,2026-09-22,0,36.2,19.8,0.0,0,21.4,36.4,Extreme Heat,No Rain,Moderate,19.5,Very Low
+Chichaoua,31.5333,-8.7667,2026-09-23,0,35.7,19.7,0.0,0,18.9,30.6,Extreme Heat,No Rain,Moderate,15.9,Very Low
+Al ’Attawia,31.83,-7.31,2026-09-17,45,28.6,16.4,0.0,0,15.0,28.4,Normal,No Rain,Moderate,6.0,Very Low
+Al ’Attawia,31.83,-7.31,2026-09-18,3,30.4,16.8,0.0,0,12.7,23.4,Hot,No Rain,Low,5.5,Very Low
+Al ’Attawia,31.83,-7.31,2026-09-19,2,33.9,19.4,0.0,3,14.2,28.1,Hot,No Rain,Moderate,5.815,Very Low
+Al ’Attawia,31.83,-7.31,2026-09-20,3,36.2,22.3,0.3,13,17.0,32.4,Extreme Heat,Light,Moderate,18.265,Very Low
+Al ’Attawia,31.83,-7.31,2026-09-21,2,36.0,21.4,0.0,5,16.9,32.0,Extreme Heat,No Rain,Moderate,17.424999999999997,Very Low
+Al ’Attawia,31.83,-7.31,2026-09-22,1,35.0,20.1,0.0,5,13.6,24.8,Hot,No Rain,Low,12.025,Very Low
+Al ’Attawia,31.83,-7.31,2026-09-23,1,35.3,17.7,0.0,0,15.6,28.8,Extreme Heat,No Rain,Moderate,11.5,Very Low
+Tabount,30.9014,-6.9217,2026-09-17,80,31.4,19.3,1.0,30,17.9,31.3,Hot,Light,Moderate,25.05,Low
+Tabount,30.9014,-6.9217,2026-09-18,3,32.4,18.5,0.0,5,15.9,25.9,Hot,No Rain,Moderate,6.025,Very Low
+Tabount,30.9014,-6.9217,2026-09-19,3,32.1,21.0,0.0,5,16.2,30.2,Hot,No Rain,Moderate,11.425,Very Low
+Tabount,30.9014,-6.9217,2026-09-20,3,32.5,20.2,0.0,4,24.3,38.9,Hot,No Rain,Moderate,14.92,Very Low
+Tabount,30.9014,-6.9217,2026-09-21,3,32.5,20.8,0.3,10,16.2,25.2,Hot,Light,Moderate,6.55,Very Low
+Tabount,30.9014,-6.9217,2026-09-22,2,31.7,19.1,0.0,1,18.1,30.2,Hot,No Rain,Moderate,11.005,Very Low
+Tabount,30.9014,-6.9217,2026-09-23,2,32.6,17.2,0.0,5,4.9,11.9,Hot,No Rain,Low,6.025,Very Low
+Zaïo,34.9396,-2.7334,2026-09-17,3,27.7,19.3,0.0,0,14.3,31.0,Normal,No Rain,Moderate,6.4,Very Low
+Zaïo,34.9396,-2.7334,2026-09-18,45,27.7,19.4,0.0,0,20.7,42.8,Normal,No Rain,Moderate,15.0,Very Low
+Zaïo,34.9396,-2.7334,2026-09-19,3,27.6,20.5,0.0,0,26.2,61.6,Normal,No Rain,Strong,17.2,Very Low
+Zaïo,34.9396,-2.7334,2026-09-20,45,29.1,21.5,0.0,0,20.9,51.1,Normal,No Rain,Moderate,22.2,Low
+Zaïo,34.9396,-2.7334,2026-09-21,45,28.2,20.9,0.0,0,18.6,47.9,Normal,No Rain,Moderate,11.4,Very Low
+Zaïo,34.9396,-2.7334,2026-09-22,45,28.8,19.7,0.0,0,20.5,36.4,Normal,No Rain,Moderate,15.0,Very Low
+Zaïo,34.9396,-2.7334,2026-09-23,45,28.8,19.4,0.0,0,19.3,34.2,Normal,No Rain,Moderate,11.4,Very Low
+Aguelmous,33.1324,-5.8366,2026-09-17,3,29.6,15.1,0.0,0,16.9,34.2,Normal,No Rain,Moderate,6.4,Very Low
+Aguelmous,33.1324,-5.8366,2026-09-18,3,30.0,15.5,0.0,0,18.2,40.0,Normal,No Rain,Moderate,10.9,Very Low
+Aguelmous,33.1324,-5.8366,2026-09-19,3,32.1,17.3,0.0,10,16.6,35.6,Hot,No Rain,Moderate,11.95,Very Low
+Aguelmous,33.1324,-5.8366,2026-09-20,80,32.8,20.9,0.6000000000000001,10,15.8,49.7,Hot,Light,Moderate,22.95,Low
+Aguelmous,33.1324,-5.8366,2026-09-21,3,31.8,21.1,0.6000000000000001,10,19.1,39.6,Hot,Light,Moderate,11.95,Very Low
+Aguelmous,33.1324,-5.8366,2026-09-22,2,31.3,17.1,0.0,1,17.8,36.7,Hot,No Rain,Moderate,11.005,Very Low
+Aguelmous,33.1324,-5.8366,2026-09-23,2,32.9,17.2,0.0,3,20.6,42.8,Hot,No Rain,Moderate,14.815,Very Low
+Asilah,35.4667,-6.0333,2026-09-17,3,24.0,18.7,0.0,0,14.0,26.6,Normal,No Rain,Moderate,1.0,Very Low
+Asilah,35.4667,-6.0333,2026-09-18,3,27.8,16.5,0.0,0,22.9,41.4,Normal,No Rain,Moderate,10.0,Very Low
+Asilah,35.4667,-6.0333,2026-09-19,2,29.5,22.8,0.0,0,36.4,67.3,Normal,No Rain,Strong,17.2,Very Low
+Asilah,35.4667,-6.0333,2026-09-20,1,30.6,24.7,0.0,0,31.0,56.9,Hot,No Rain,Strong,21.7,Low
+Asilah,35.4667,-6.0333,2026-09-21,2,30.8,24.1,0.0,0,25.8,46.8,Hot,No Rain,Moderate,14.5,Very Low
+Asilah,35.4667,-6.0333,2026-09-22,2,34.4,23.1,0.0,0,15.5,29.9,Hot,No Rain,Moderate,5.5,Very Low
+Asilah,35.4667,-6.0333,2026-09-23,1,36.2,21.4,0.0,0,14.1,29.9,Extreme Heat,No Rain,Moderate,11.5,Very Low
+Imzouren,35.1464,-3.8506,2026-09-17,3,25.8,18.5,0.0,0,16.6,29.5,Normal,No Rain,Moderate,1.0,Very Low
+Imzouren,35.1464,-3.8506,2026-09-18,3,26.9,18.2,0.0,0,18.1,32.8,Normal,No Rain,Moderate,6.4,Very Low
+Imzouren,35.1464,-3.8506,2026-09-19,3,29.9,19.5,0.0,0,27.4,49.7,Normal,No Rain,Moderate,10.0,Very Low
+Imzouren,35.1464,-3.8506,2026-09-20,2,29.4,22.1,0.0,0,21.4,38.9,Normal,No Rain,Moderate,10.0,Very Low
+Imzouren,35.1464,-3.8506,2026-09-21,2,29.1,21.3,0.0,0,19.5,36.7,Normal,No Rain,Moderate,6.4,Very Low
+Imzouren,35.1464,-3.8506,2026-09-22,1,30.0,19.3,0.0,0,13.5,25.2,Normal,No Rain,Low,5.5,Very Low
+Imzouren,35.1464,-3.8506,2026-09-23,1,29.5,19.6,0.0,0,11.9,22.7,Normal,No Rain,Low,1.0,Very Low
+Mediouna,33.4556,-7.5208,2026-09-17,3,27.1,17.8,0.0,0,15.9,29.2,Normal,No Rain,Moderate,1.0,Very Low
+Mediouna,33.4556,-7.5208,2026-09-18,3,27.7,16.7,0.0,0,16.1,29.2,Normal,No Rain,Moderate,1.0,Very Low
+Mediouna,33.4556,-7.5208,2026-09-19,45,30.1,17.4,0.0,0,16.3,29.9,Hot,No Rain,Moderate,10.5,Very Low
+Mediouna,33.4556,-7.5208,2026-09-20,45,33.2,20.5,0.0,0,15.3,28.1,Hot,No Rain,Moderate,10.5,Very Low
+Mediouna,33.4556,-7.5208,2026-09-21,45,33.0,19.7,0.0,0,17.3,32.0,Hot,No Rain,Moderate,15.9,Very Low
+Mediouna,33.4556,-7.5208,2026-09-22,45,28.6,19.7,0.0,0,11.4,29.9,Normal,No Rain,Moderate,6.0,Very Low
+Mediouna,33.4556,-7.5208,2026-09-23,45,27.7,19.8,0.0,0,12.3,32.4,Normal,No Rain,Moderate,11.4,Very Low
+Demnat,31.7311,-7.0361,2026-09-17,3,26.0,14.5,0.0,0,13.7,27.4,Normal,No Rain,Moderate,4.0,Very Low
+Demnat,31.7311,-7.0361,2026-09-18,3,28.1,14.7,0.0,0,11.4,22.7,Normal,No Rain,Low,4.0,Very Low
+Demnat,31.7311,-7.0361,2026-09-19,2,31.5,17.9,0.0,3,13.2,27.0,Hot,No Rain,Moderate,5.815,Very Low
+Demnat,31.7311,-7.0361,2026-09-20,3,33.6,21.6,0.3,20,18.6,36.4,Hot,Light,Moderate,13.0,Very Low
+Demnat,31.7311,-7.0361,2026-09-21,2,33.2,20.7,0.0,11,18.4,36.0,Hot,No Rain,Moderate,12.055,Very Low
+Demnat,31.7311,-7.0361,2026-09-22,2,32.2,19.9,0.0,11,15.8,32.4,Hot,No Rain,Moderate,12.055,Very Low
+Demnat,31.7311,-7.0361,2026-09-23,0,32.7,16.5,0.0,0,16.6,33.5,Hot,No Rain,Moderate,9.9,Very Low
+Aïn Taoujdat,33.9333,-5.2167,2026-09-17,45,27.6,16.7,0.0,0,14.9,29.2,Normal,No Rain,Moderate,6.0,Very Low
+Aïn Taoujdat,33.9333,-5.2167,2026-09-18,3,29.9,16.3,0.0,0,15.9,30.6,Normal,No Rain,Moderate,6.4,Very Low
+Aïn Taoujdat,33.9333,-5.2167,2026-09-19,2,33.5,18.5,0.0,3,16.4,32.0,Hot,No Rain,Moderate,11.215,Very Low
+Aïn Taoujdat,33.9333,-5.2167,2026-09-20,2,35.6,20.8,0.0,0,15.5,30.6,Extreme Heat,No Rain,Moderate,16.9,Very Low
+Aïn Taoujdat,33.9333,-5.2167,2026-09-21,2,35.2,21.0,0.0,5,14.0,27.0,Extreme Heat,No Rain,Moderate,12.025,Very Low
+Aïn Taoujdat,33.9333,-5.2167,2026-09-22,0,34.8,20.0,0.0,1,15.8,29.5,Hot,No Rain,Moderate,4.605,Very Low
+Aïn Taoujdat,33.9333,-5.2167,2026-09-23,1,35.3,19.6,0.0,0,18.8,34.9,Extreme Heat,No Rain,Moderate,16.9,Very Low
+Sidi Smai’il,32.8167,-8.5,2026-09-17,3,26.8,18.4,0.0,0,17.4,31.0,Normal,No Rain,Moderate,6.4,Very Low
+Sidi Smai’il,32.8167,-8.5,2026-09-18,3,28.6,18.1,0.0,0,18.9,33.5,Normal,No Rain,Moderate,6.4,Very Low
+Sidi Smai’il,32.8167,-8.5,2026-09-19,3,30.7,17.3,0.0,0,16.5,29.2,Hot,No Rain,Moderate,5.5,Very Low
+Sidi Smai’il,32.8167,-8.5,2026-09-20,45,31.9,19.9,0.0,0,15.7,28.4,Hot,No Rain,Moderate,10.5,Very Low
+Sidi Smai’il,32.8167,-8.5,2026-09-21,45,33.1,19.1,0.0,0,16.9,30.2,Hot,No Rain,Moderate,15.9,Very Low
+Sidi Smai’il,32.8167,-8.5,2026-09-22,45,31.5,19.4,0.0,0,15.3,29.2,Hot,No Rain,Moderate,10.5,Very Low
+Sidi Smai’il,32.8167,-8.5,2026-09-23,45,31.1,19.5,0.0,0,17.8,34.2,Hot,No Rain,Moderate,15.9,Very Low
+Moulay Bousselham,34.8786,-6.2933,2026-09-17,3,24.6,18.1,0.0,0,12.0,20.2,Normal,No Rain,Low,1.0,Very Low
+Moulay Bousselham,34.8786,-6.2933,2026-09-18,45,24.6,15.0,0.0,0,20.8,34.6,Normal,No Rain,Moderate,15.0,Very Low
+Moulay Bousselham,34.8786,-6.2933,2026-09-19,45,29.2,18.0,0.0,0,14.8,25.9,Normal,No Rain,Moderate,6.0,Very Low
+Moulay Bousselham,34.8786,-6.2933,2026-09-20,1,33.1,22.1,0.0,0,15.5,28.4,Hot,No Rain,Moderate,5.5,Very Low
+Moulay Bousselham,34.8786,-6.2933,2026-09-21,1,30.3,20.8,0.0,0,16.9,29.9,Hot,No Rain,Moderate,5.5,Very Low
+Moulay Bousselham,34.8786,-6.2933,2026-09-22,45,30.7,19.8,0.0,0,17.7,33.1,Hot,No Rain,Moderate,15.9,Very Low
+Moulay Bousselham,34.8786,-6.2933,2026-09-23,45,30.4,18.7,0.0,0,16.4,29.9,Hot,No Rain,Moderate,10.5,Very Low
+Mechraa Bel Ksiri,34.56,-5.95,2026-09-17,3,28.3,18.3,0.0,0,14.8,27.7,Normal,No Rain,Moderate,1.0,Very Low
+Mechraa Bel Ksiri,34.56,-5.95,2026-09-18,3,31.2,16.0,0.0,0,18.7,35.6,Hot,No Rain,Moderate,10.9,Very Low
+Mechraa Bel Ksiri,34.56,-5.95,2026-09-19,45,36.6,18.0,0.0,0,15.9,28.4,Extreme Heat,No Rain,Moderate,16.5,Very Low
+Mechraa Bel Ksiri,34.56,-5.95,2026-09-20,2,38.5,25.2,0.0,0,21.8,40.7,Extreme Heat,No Rain,Moderate,20.5,Low
+Mechraa Bel Ksiri,34.56,-5.95,2026-09-21,1,37.4,22.6,0.0,0,15.0,30.6,Extreme Heat,No Rain,Moderate,16.9,Very Low
+Mechraa Bel Ksiri,34.56,-5.95,2026-09-22,45,35.1,20.4,0.0,0,15.9,30.2,Extreme Heat,No Rain,Moderate,21.9,Low
+Mechraa Bel Ksiri,34.56,-5.95,2026-09-23,45,36.2,18.6,0.0,0,15.6,31.3,Extreme Heat,No Rain,Moderate,21.9,Low
+Souk et Tnine Jorf el Mellah,34.4945,-5.5047,2026-09-17,3,29.3,19.4,0.0,0,13.9,25.9,Normal,No Rain,Low,1.0,Very Low
+Souk et Tnine Jorf el Mellah,34.4945,-5.5047,2026-09-18,45,32.4,16.5,0.0,0,12.3,22.3,Hot,No Rain,Low,10.5,Very Low
+Souk et Tnine Jorf el Mellah,34.4945,-5.5047,2026-09-19,1,37.1,20.1,0.0,0,22.4,44.3,Extreme Heat,No Rain,Moderate,20.5,Low
+Souk et Tnine Jorf el Mellah,34.4945,-5.5047,2026-09-20,2,38.2,25.2,0.0,0,20.0,38.2,Extreme Heat,No Rain,Moderate,20.5,Low
+Souk et Tnine Jorf el Mellah,34.4945,-5.5047,2026-09-21,1,37.5,24.5,0.0,3,16.1,30.6,Extreme Heat,No Rain,Moderate,17.215,Very Low
+Souk et Tnine Jorf el Mellah,34.4945,-5.5047,2026-09-22,3,36.8,23.1,0.0,0,14.1,24.8,Extreme Heat,No Rain,Low,11.5,Very Low
+Souk et Tnine Jorf el Mellah,34.4945,-5.5047,2026-09-23,1,38.0,20.0,0.0,0,10.9,19.1,Extreme Heat,No Rain,Low,11.5,Very Low
+Zeghanghane,35.1575,-3.0017,2026-09-17,3,27.2,19.4,0.0,0,15.3,30.6,Normal,No Rain,Moderate,6.4,Very Low
+Zeghanghane,35.1575,-3.0017,2026-09-18,45,26.4,20.3,0.0,0,20.9,40.3,Normal,No Rain,Moderate,15.0,Very Low
+Zeghanghane,35.1575,-3.0017,2026-09-19,3,26.0,21.8,0.2,8,28.5,56.5,Normal,Light,Strong,18.04,Very Low
+Zeghanghane,35.1575,-3.0017,2026-09-20,3,26.5,23.1,0.3,18,30.0,60.8,Normal,Light,Strong,19.09,Very Low
+Zeghanghane,35.1575,-3.0017,2026-09-21,3,25.9,22.1,0.6000000000000001,23,23.7,49.3,Normal,Light,Moderate,12.415,Very Low
+Zeghanghane,35.1575,-3.0017,2026-09-22,45,27.4,20.9,0.0,3,19.6,36.4,Normal,No Rain,Moderate,11.715,Very Low
+Zeghanghane,35.1575,-3.0017,2026-09-23,2,27.9,20.8,0.0,0,16.8,31.3,Normal,No Rain,Moderate,6.4,Very Low
+Oulad Barhil,30.6408,-8.475,2026-09-17,3,29.8,17.6,0.0,0,28.4,49.7,Normal,No Rain,Moderate,10.0,Very Low
+Oulad Barhil,30.6408,-8.475,2026-09-18,3,30.4,17.2,0.0,0,27.1,48.2,Hot,No Rain,Moderate,14.5,Very Low
+Oulad Barhil,30.6408,-8.475,2026-09-19,2,33.2,19.9,0.0,0,26.7,49.0,Hot,No Rain,Moderate,14.5,Very Low
+Oulad Barhil,30.6408,-8.475,2026-09-20,2,37.0,20.6,0.0,3,30.3,58.3,Extreme Heat,No Rain,Strong,28.015,Low
+Oulad Barhil,30.6408,-8.475,2026-09-21,2,38.2,21.5,0.0,3,29.8,54.4,Extreme Heat,No Rain,Strong,28.015,Low
+Oulad Barhil,30.6408,-8.475,2026-09-22,1,37.7,20.3,0.0,0,24.5,52.2,Extreme Heat,No Rain,Moderate,27.7,Low
+Oulad Barhil,30.6408,-8.475,2026-09-23,1,38.3,18.8,0.0,0,21.6,41.0,Extreme Heat,No Rain,Moderate,20.5,Low
+Bir Jdid,33.3737,-8.0002,2026-09-17,3,25.6,18.5,0.0,0,17.3,33.1,Normal,No Rain,Moderate,6.4,Very Low
+Bir Jdid,33.3737,-8.0002,2026-09-18,3,25.7,17.3,0.0,0,17.6,34.2,Normal,No Rain,Moderate,6.4,Very Low
+Bir Jdid,33.3737,-8.0002,2026-09-19,45,27.3,18.5,0.0,0,16.9,33.1,Normal,No Rain,Moderate,11.4,Very Low
+Bir Jdid,33.3737,-8.0002,2026-09-20,45,30.0,20.3,0.0,0,15.2,29.5,Normal,No Rain,Moderate,10.5,Very Low
+Bir Jdid,33.3737,-8.0002,2026-09-21,45,28.8,19.8,0.0,0,15.0,30.2,Normal,No Rain,Moderate,11.4,Very Low
+Bir Jdid,33.3737,-8.0002,2026-09-22,45,29.2,20.3,0.0,0,14.0,28.1,Normal,No Rain,Moderate,6.0,Very Low
+Bir Jdid,33.3737,-8.0002,2026-09-23,45,28.2,20.1,0.0,0,16.7,33.1,Normal,No Rain,Moderate,11.4,Very Low
+Bou Arfa,32.531,-1.9631,2026-09-17,3,31.2,17.0,0.0,5,20.6,31.7,Hot,No Rain,Moderate,15.025,Very Low
+Bou Arfa,32.531,-1.9631,2026-09-18,3,30.1,18.7,0.4,20,15.1,29.5,Hot,Light,Moderate,7.6,Very Low
+Bou Arfa,32.531,-1.9631,2026-09-19,80,27.4,19.5,1.1,50,23.7,52.9,Normal,Light,Moderate,33.45,Low
+Bou Arfa,32.531,-1.9631,2026-09-20,3,28.2,16.7,0.9,24,15.3,23.8,Normal,Light,Low,3.52,Very Low
+Bou Arfa,32.531,-1.9631,2026-09-21,95,22.6,17.2,10.5,43,16.7,42.1,Normal,Heavy,Moderate,42.16499999999999,Moderate
+Bou Arfa,32.531,-1.9631,2026-09-22,3,28.3,16.0,0.0,15,11.8,18.7,Normal,No Rain,Low,2.575,Very Low
+Bou Arfa,32.531,-1.9631,2026-09-23,2,29.5,16.7,0.0,13,15.0,24.1,Normal,No Rain,Low,2.365,Very Low
+Tahannawt,31.3514,-7.9508,2026-09-17,3,26.6,14.4,0.0,0,14.5,27.7,Normal,No Rain,Moderate,4.0,Very Low
+Tahannawt,31.3514,-7.9508,2026-09-18,2,28.1,14.7,0.0,0,13.2,25.9,Normal,No Rain,Low,4.0,Very Low
+Tahannawt,31.3514,-7.9508,2026-09-19,2,31.6,18.3,0.0,15,12.1,25.6,Hot,No Rain,Low,7.075,Very Low
+Tahannawt,31.3514,-7.9508,2026-09-20,3,33.7,21.4,0.3,28,14.0,32.0,Hot,Light,Moderate,13.84,Very Low
+Tahannawt,31.3514,-7.9508,2026-09-21,80,33.2,21.2,1.2,13,16.0,43.9,Hot,Light,Moderate,23.265,Low
+Tahannawt,31.3514,-7.9508,2026-09-22,0,33.1,19.3,0.0,9,15.5,27.7,Hot,No Rain,Moderate,5.445,Very Low
+Tahannawt,31.3514,-7.9508,2026-09-23,2,32.9,16.6,0.0,0,13.9,25.6,Hot,No Rain,Low,5.5,Very Low
+Arfoud,31.4361,-4.2328,2026-09-17,3,34.6,21.5,0.1,10,23.7,37.8,Hot,Light,Moderate,15.55,Very Low
+Arfoud,31.4361,-4.2328,2026-09-18,3,34.2,21.3,0.0,13,19.8,35.3,Hot,No Rain,Moderate,12.265,Very Low
+Arfoud,31.4361,-4.2328,2026-09-19,3,34.8,23.3,0.0,10,30.6,55.1,Hot,No Rain,Strong,22.75,Low
+Arfoud,31.4361,-4.2328,2026-09-20,80,32.5,21.6,0.6000000000000001,9,20.3,49.0,Hot,Light,Moderate,26.445,Low
+Arfoud,31.4361,-4.2328,2026-09-21,61,31.3,22.6,1.8,30,31.7,57.6,Hot,Light,Strong,33.849999999999994,Low
+Arfoud,31.4361,-4.2328,2026-09-22,3,32.2,19.6,0.0,13,7.0,13.7,Hot,No Rain,Low,6.865,Very Low
+Arfoud,31.4361,-4.2328,2026-09-23,2,33.5,21.6,0.0,7,5.6,10.8,Hot,No Rain,Low,6.235,Very Low
+Tahla,34.05,-4.42,2026-09-17,3,28.5,16.3,0.0,0,13.5,25.9,Normal,No Rain,Low,1.0,Very Low
+Tahla,34.05,-4.42,2026-09-18,2,31.2,16.0,0.0,0,13.7,26.3,Hot,No Rain,Low,5.5,Very Low
+Tahla,34.05,-4.42,2026-09-19,2,32.4,20.3,0.0,0,25.2,50.4,Hot,No Rain,Moderate,21.7,Low
+Tahla,34.05,-4.42,2026-09-20,2,33.9,21.7,0.0,0,20.0,45.7,Hot,No Rain,Moderate,14.5,Very Low
+Tahla,34.05,-4.42,2026-09-21,2,33.5,21.8,0.0,3,19.7,37.1,Hot,No Rain,Moderate,11.215,Very Low
+Tahla,34.05,-4.42,2026-09-22,1,33.6,21.1,0.0,0,11.8,22.0,Hot,No Rain,Low,5.5,Very Low
+Tahla,34.05,-4.42,2026-09-23,0,33.9,20.3,0.0,0,17.3,30.6,Hot,No Rain,Moderate,9.9,Very Low
+Missour,33.05,-3.9908,2026-09-17,3,31.0,16.8,0.0,25,24.9,39.6,Hot,No Rain,Moderate,17.125,Very Low
+Missour,33.05,-3.9908,2026-09-18,3,31.0,15.6,0.0,15,30.3,49.7,Hot,No Rain,Moderate,16.075,Very Low
+Missour,33.05,-3.9908,2026-09-19,81,30.8,17.6,8.8,48,22.7,42.1,Hot,Moderate,Moderate,38.44,Low
+Missour,33.05,-3.9908,2026-09-20,3,31.4,18.8,0.3,5,19.2,35.3,Hot,Light,Moderate,11.425,Very Low
+Missour,33.05,-3.9908,2026-09-21,80,28.2,18.8,2.1,28,20.7,37.4,Normal,Light,Moderate,23.94,Low
+Missour,33.05,-3.9908,2026-09-22,3,31.5,18.1,0.0,8,20.1,30.6,Hot,No Rain,Moderate,15.34,Very Low
+Missour,33.05,-3.9908,2026-09-23,3,32.5,18.5,0.0,0,22.6,34.9,Hot,No Rain,Moderate,14.5,Very Low
+Sidi Lmokhtar,31.57,-9.01,2026-09-17,3,28.6,17.8,0.0,0,21.4,35.6,Normal,No Rain,Moderate,10.0,Very Low
+Sidi Lmokhtar,31.57,-9.01,2026-09-18,2,31.0,17.1,0.0,0,19.4,32.4,Hot,No Rain,Moderate,10.9,Very Low
+Sidi Lmokhtar,31.57,-9.01,2026-09-19,2,33.5,18.2,0.0,0,16.4,28.1,Hot,No Rain,Moderate,5.5,Very Low
+Sidi Lmokhtar,31.57,-9.01,2026-09-20,2,34.3,22.1,0.0,0,18.8,31.3,Hot,No Rain,Moderate,10.9,Very Low
+Sidi Lmokhtar,31.57,-9.01,2026-09-21,1,35.8,22.2,0.0,0,20.0,33.1,Extreme Heat,No Rain,Moderate,20.5,Low
+Sidi Lmokhtar,31.57,-9.01,2026-09-22,0,35.1,18.3,0.0,3,21.0,36.4,Extreme Heat,No Rain,Moderate,19.815,Very Low
+Sidi Lmokhtar,31.57,-9.01,2026-09-23,0,34.0,17.9,0.0,3,18.7,36.0,Hot,No Rain,Moderate,10.215,Very Low
+Douar Toulal,33.8951,-5.6021,2026-09-17,45,28.1,15.7,0.0,0,14.3,33.1,Normal,No Rain,Moderate,11.4,Very Low
+Douar Toulal,33.8951,-5.6021,2026-09-18,3,29.5,15.9,0.0,0,14.8,35.6,Normal,No Rain,Moderate,6.4,Very Low
+Douar Toulal,33.8951,-5.6021,2026-09-19,3,34.5,18.9,0.0,3,11.6,27.0,Hot,No Rain,Low,5.815,Very Low
+Douar Toulal,33.8951,-5.6021,2026-09-20,2,36.1,22.7,0.0,3,13.4,31.7,Extreme Heat,No Rain,Moderate,17.215,Very Low
+Douar Toulal,33.8951,-5.6021,2026-09-21,2,35.6,21.2,0.0,3,14.8,34.2,Extreme Heat,No Rain,Moderate,17.215,Very Low
+Douar Toulal,33.8951,-5.6021,2026-09-22,1,34.4,19.6,0.0,0,17.1,32.4,Hot,No Rain,Moderate,10.9,Very Low
+Douar Toulal,33.8951,-5.6021,2026-09-23,1,35.6,20.0,0.0,0,17.9,34.9,Extreme Heat,No Rain,Moderate,16.9,Very Low
+Oulad Yaïch,32.4167,-6.3333,2026-09-17,2,32.1,17.8,0.0,0,13.3,23.8,Hot,No Rain,Low,5.5,Very Low
+Oulad Yaïch,32.4167,-6.3333,2026-09-18,3,33.7,18.6,0.0,0,9.5,17.3,Hot,No Rain,Low,5.5,Very Low
+Oulad Yaïch,32.4167,-6.3333,2026-09-19,3,37.3,21.2,0.0,0,7.6,14.0,Extreme Heat,No Rain,Low,11.5,Very Low
+Oulad Yaïch,32.4167,-6.3333,2026-09-20,3,38.7,24.8,0.0,2,14.4,29.2,Extreme Heat,No Rain,Moderate,11.71,Very Low
+Oulad Yaïch,32.4167,-6.3333,2026-09-21,3,37.6,23.6,0.3,3,13.4,29.2,Extreme Heat,Light,Moderate,11.815,Very Low
+Oulad Yaïch,32.4167,-6.3333,2026-09-22,2,36.2,24.0,0.0,2,18.3,34.2,Extreme Heat,No Rain,Moderate,17.11,Very Low
+Oulad Yaïch,32.4167,-6.3333,2026-09-23,1,36.8,24.4,0.0,3,16.6,31.3,Extreme Heat,No Rain,Moderate,17.215,Very Low
+Zawyat ech Cheïkh,32.6541,-5.9214,2026-09-17,3,30.7,15.0,0.0,0,12.3,23.0,Hot,No Rain,Low,5.5,Very Low
+Zawyat ech Cheïkh,32.6541,-5.9214,2026-09-18,3,32.0,16.2,0.0,0,10.7,19.4,Hot,No Rain,Low,5.5,Very Low
+Zawyat ech Cheïkh,32.6541,-5.9214,2026-09-19,3,35.4,19.0,0.0,0,13.4,24.8,Extreme Heat,No Rain,Low,11.5,Very Low
+Zawyat ech Cheïkh,32.6541,-5.9214,2026-09-20,2,36.8,21.6,0.0,5,14.3,36.0,Extreme Heat,No Rain,Moderate,17.424999999999997,Very Low
+Zawyat ech Cheïkh,32.6541,-5.9214,2026-09-21,3,35.0,19.5,0.6000000000000001,3,12.0,27.4,Hot,Light,Low,11.815,Very Low
+Zawyat ech Cheïkh,32.6541,-5.9214,2026-09-22,3,34.6,19.5,0.0,0,9.7,19.1,Hot,No Rain,Low,5.5,Very Low
+Zawyat ech Cheïkh,32.6541,-5.9214,2026-09-23,2,35.9,20.2,0.0,0,11.6,21.2,Extreme Heat,No Rain,Low,11.5,Very Low
+Imi-n-Tanout,31.177,-8.8504,2026-09-17,45,25.5,16.1,0.0,0,18.9,32.0,Normal,No Rain,Moderate,11.4,Very Low
+Imi-n-Tanout,31.177,-8.8504,2026-09-18,3,27.2,15.6,0.0,0,15.5,28.1,Normal,No Rain,Moderate,1.0,Very Low
+Imi-n-Tanout,31.177,-8.8504,2026-09-19,2,30.4,19.9,0.0,0,16.0,28.4,Hot,No Rain,Moderate,5.5,Very Low
+Imi-n-Tanout,31.177,-8.8504,2026-09-20,3,32.1,22.1,0.6000000000000001,28,14.1,30.2,Hot,Light,Moderate,13.84,Very Low
+Imi-n-Tanout,31.177,-8.8504,2026-09-21,2,33.5,23.2,0.6000000000000001,13,15.5,30.2,Hot,Light,Moderate,12.265,Very Low
+Imi-n-Tanout,31.177,-8.8504,2026-09-22,1,33.2,22.3,0.0,2,18.4,36.4,Hot,No Rain,Moderate,11.11,Very Low
+Imi-n-Tanout,31.177,-8.8504,2026-09-23,1,32.3,20.8,0.0,0,16.0,28.8,Hot,No Rain,Moderate,5.5,Very Low
+Sebt Gzoula,32.1219,-9.0889,2026-09-17,2,27.4,18.2,0.0,0,18.5,34.9,Normal,No Rain,Moderate,6.4,Very Low
+Sebt Gzoula,32.1219,-9.0889,2026-09-18,1,29.9,17.8,0.0,0,18.4,35.3,Normal,No Rain,Moderate,6.4,Very Low
+Sebt Gzoula,32.1219,-9.0889,2026-09-19,2,31.5,18.1,0.0,0,16.1,31.0,Hot,No Rain,Moderate,10.9,Very Low
+Sebt Gzoula,32.1219,-9.0889,2026-09-20,2,31.4,20.3,0.0,0,15.5,31.0,Hot,No Rain,Moderate,10.9,Very Low
+Sebt Gzoula,32.1219,-9.0889,2026-09-21,1,31.7,21.1,0.0,0,15.0,28.8,Hot,No Rain,Moderate,5.5,Very Low
+Sebt Gzoula,32.1219,-9.0889,2026-09-22,45,30.6,18.1,0.0,0,14.0,26.6,Hot,No Rain,Moderate,10.5,Very Low
+Sebt Gzoula,32.1219,-9.0889,2026-09-23,45,31.0,18.9,0.0,0,16.2,30.6,Hot,No Rain,Moderate,15.9,Very Low
+Tifariti,26.158,-10.567,2026-09-17,2,31.0,17.8,0.0,0,37.4,55.4,Hot,No Rain,Strong,21.7,Low
+Tifariti,26.158,-10.567,2026-09-18,3,29.4,16.2,0.0,0,35.4,54.4,Normal,No Rain,Strong,17.2,Very Low
+Tifariti,26.158,-10.567,2026-09-19,3,30.5,16.7,0.0,0,25.3,38.5,Hot,No Rain,Moderate,14.5,Very Low
+Tifariti,26.158,-10.567,2026-09-20,0,36.9,18.0,0.0,0,17.2,29.2,Extreme Heat,No Rain,Moderate,10.5,Very Low
+Tifariti,26.158,-10.567,2026-09-21,0,39.1,24.8,0.0,9,22.7,40.7,Extreme Heat,No Rain,Moderate,20.445,Low
+Tifariti,26.158,-10.567,2026-09-22,1,39.0,25.8,0.0,7,17.8,33.1,Extreme Heat,No Rain,Moderate,17.634999999999998,Very Low
+Tifariti,26.158,-10.567,2026-09-23,3,38.9,24.3,0.0,6,26.3,47.2,Extreme Heat,No Rain,Moderate,21.13,Low
