@@ -22,27 +22,100 @@ services:
     volumes:
       - postgres_airflow:/var/lib/postgresql/data
 
-  airflow:
-    image: apache/airflow:3.0.6
-    container_name: airflow
+  airflow-api:
+    build:
+      context: .
+      dockerfile: Dockerfile.airflow
+    image: meteo-airflow:3.0.6
+    container_name: airflow-api
     depends_on:
       - postgres_airflow
+    environment:
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres_airflow:5432/airflow
+      AIRFLOW__CORE__AUTH_MANAGER: airflow.providers.fab.auth_manager.fab_auth_manager.FabAuthManager
+      PYTHONPATH: /opt/airflow
+    command: api-server
     ports:
-      - "8081:8080"
+      - "8082:8080"
     volumes:
       - ./dags:/opt/airflow/dags
+      - ./extraction:/opt/airflow/extraction
+      - ./transformation:/opt/airflow/transformation
+      - ./load:/opt/airflow/load
+      - ./logs:/opt/airflow/logs
+      - ./plugins:/opt/airflow/plugins
+
+  airflow-scheduler:
+    build:
+      context: .
+      dockerfile: Dockerfile.airflow
+    image: meteo-airflow:3.0.6
+    container_name: airflow-scheduler
+    depends_on:
+      - postgres_airflow
+    environment:
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres_airflow:5432/airflow
+      PYTHONPATH: /opt/airflow
+    command: scheduler
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./extraction:/opt/airflow/extraction
+      - ./transformation:/opt/airflow/transformation
+      - ./load:/opt/airflow/load
+      - ./logs:/opt/airflow/logs
+      - ./plugins:/opt/airflow/plugins
+
+  airflow-dag-processor:
+    build:
+      context: .
+      dockerfile: Dockerfile.airflow
+    image: meteo-airflow:3.0.6
+    container_name: airflow-dag-processor
+    depends_on:
+      - postgres_airflow
+    environment:
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres_airflow:5432/airflow
+      PYTHONPATH: /opt/airflow
+    command: dag-processor
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./extraction:/opt/airflow/extraction
+      - ./transformation:/opt/airflow/transformation
+      - ./load:/opt/airflow/load
+      - ./logs:/opt/airflow/logs
+      - ./plugins:/opt/airflow/plugins
+
+  airflow-init:
+    build:
+      context: .
+      dockerfile: Dockerfile.airflow
+    image: meteo-airflow:3.0.6
+    container_name: airflow-init
+    depends_on:
+      - postgres_airflow
+    environment:
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres_airflow:5432/airflow
+      AIRFLOW__CORE__AUTH_MANAGER: airflow.providers.fab.auth_manager.fab_auth_manager.FabAuthManager
+      PYTHONPATH: /opt/airflow
+    command: >
+      bash -c "airflow db migrate && airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com || true"
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./extraction:/opt/airflow/extraction
+      - ./transformation:/opt/airflow/transformation
+      - ./load:/opt/airflow/load
       - ./logs:/opt/airflow/logs
       - ./plugins:/opt/airflow/plugins
 
   streamlit:
-    build: ./dashboard
-    container_name: streamlit
-    depends_on:
-      - postgres_data
-    environment:
-      DB_URL : postgresql://postgres:Root1234@postgres_data:5432/weather
-    ports:
-      - "8501:8501"
+      build: ./dashboard
+      container_name: streamlit
+      depends_on:
+        - postgres_data
+      environment:
+        DB_URL : postgresql://postgres:Root1234@postgres_data:5432/weather
+      ports:
+        - "8501:8501"
 
 volumes:
   postgres_data:
