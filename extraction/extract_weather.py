@@ -2,11 +2,11 @@ import pandas as pd
 import requests
 import json
 def extract_data():
-    df = pd.read_csv("./data/bronze/ma.csv")
+    df = pd.read_csv("/opt/airflow/data/bronze/ma.csv")
 
     url = "https://api.open-meteo.com/v1/forecast"
 
-    with open("./data/bronze/raw_data.jsonl","a") as file :
+    with open("/opt/airflow/data/bronze/raw_data.jsonl","a") as file :
         for row in df.itertuples(index=False) :
             params = {
                 "latitude": row.lat,

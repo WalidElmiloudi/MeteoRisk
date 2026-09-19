@@ -1,0 +1,62 @@
+[2026-09-19T11:34:29.496+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_risk_pipeline.extract_weather manual__2026-09-19T11:22:27.377684+00:00 [queued]>
+[2026-09-19T11:34:29.512+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_risk_pipeline.extract_weather manual__2026-09-19T11:22:27.377684+00:00 [queued]>
+[2026-09-19T11:34:29.513+0000] {taskinstance.py:2170} INFO - Starting attempt 3 of 4
+[2026-09-19T11:34:29.531+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): extract_weather> on 2026-09-19 11:22:27.377684+00:00
+[2026-09-19T11:34:29.539+0000] {standard_task_runner.py:60} INFO - Started process 140 to run task
+[2026-09-19T11:34:29.544+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'weather_risk_pipeline', 'extract_weather', 'manual__2026-09-19T11:22:27.377684+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/weather_pipeline_dag.py', '--cfg-path', '/tmp/tmpgqvd4ecq']
+[2026-09-19T11:34:29.548+0000] {standard_task_runner.py:88} INFO - Job 14: Subtask extract_weather
+[2026-09-19T11:34:29.664+0000] {task_command.py:423} INFO - Running <TaskInstance: weather_risk_pipeline.extract_weather manual__2026-09-19T11:22:27.377684+00:00 [running]> on host dcd2de9e29a9
+[2026-09-19T11:34:29.827+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='weather-project' AIRFLOW_CTX_DAG_ID='weather_risk_pipeline' AIRFLOW_CTX_TASK_ID='extract_weather' AIRFLOW_CTX_EXECUTION_DATE='2026-09-19T11:22:27.377684+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-09-19T11:22:27.377684+00:00'
+[2026-09-19T11:34:29.829+0000] {logging_mixin.py:188} INFO - Extracting weather data...
+[2026-09-19T11:34:54.962+0000] {local_task_job_runner.py:302} WARNING - State of this instance has been externally set to None. Terminating instance.
+[2026-09-19T11:34:54.966+0000] {process_utils.py:131} INFO - Sending 15 to group 140. PIDs of all processes in the group: [140]
+[2026-09-19T11:34:54.966+0000] {process_utils.py:86} INFO - Sending the signal 15 to group 140
+[2026-09-19T11:34:54.967+0000] {taskinstance.py:2450} ERROR - Received SIGTERM. Terminating subprocesses.
+[2026-09-19T11:34:54.993+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/weather_pipeline_dag.py", line 18, in extract_weather
+    extract_data()
+  File "/opt/airflow/extraction/extract_weather.py", line 28, in extract_data
+    response = requests.get(url,params=params,timeout=5)
+  File "/home/airflow/.local/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/home/airflow/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 791, in urlopen
+    response = self._make_request(
+  File "/home/airflow/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 468, in _make_request
+    self._validate_conn(conn)
+  File "/home/airflow/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1097, in _validate_conn
+    conn.connect()
+  File "/home/airflow/.local/lib/python3.10/site-packages/urllib3/connection.py", line 642, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+  File "/home/airflow/.local/lib/python3.10/site-packages/urllib3/connection.py", line 783, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+  File "/home/airflow/.local/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 471, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "/home/airflow/.local/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 515, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/local/lib/python3.10/ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/local/lib/python3.10/ssl.py", line 1104, in _create
+    self.do_handshake()
+  File "/usr/local/lib/python3.10/ssl.py", line 1375, in do_handshake
+    self._sslobj.do_handshake()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 2452, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2026-09-19T11:34:55.008+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=weather_risk_pipeline, task_id=extract_weather, execution_date=20260919T112227, start_date=20260919T113429, end_date=20260919T113455
+[2026-09-19T11:34:55.045+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 14 for task extract_weather (Task received SIGTERM signal; 140)
+[2026-09-19T11:34:55.100+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=140, status='terminated', exitcode=1, started='11:34:28') (140) terminated with exit code 1

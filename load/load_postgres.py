@@ -3,10 +3,10 @@ from dotenv import load_dotenv
 
 import datetime
 import pandas as pd
-from sqlalchemy import create_engine,Date,UniqueConstraint,text
+from sqlalchemy import create_engine,UniqueConstraint,text
+from sqlalchemy import Column, Integer, Float, String, Date
 from sqlalchemy.orm import declarative_base
-from sqlalchemy.orm import Mapped
-from sqlalchemy.orm import mapped_column
+
 
 def load_postgres():
     load_dotenv()
@@ -27,31 +27,36 @@ def load_postgres():
     class WeatherRisk(Base):
         __tablename__ = "weather_risk"
 
-        id : Mapped[int] = mapped_column(primary_key=True,autoincrement=True)
-        city : Mapped[str]
-        latitude : Mapped[float]
-        longitude : Mapped[float]
-        date : Mapped[datetime.date]
-        weather_code : Mapped[int]
-        temperature_max : Mapped[float]
-        temperature_min : Mapped[float]
-        precipitation_sum : Mapped[float]
-        precipitation_probability : Mapped[int]
-        wind_speed_max : Mapped[float]
-        wind_gusts_max : Mapped[float]
-        temperature_category : Mapped[str]
-        precipitation_category : Mapped[str]
-        wind_category : Mapped[str]
-        risk_score : Mapped[float]
-        risk_level : Mapped[str]
+        id = Column(Integer, primary_key=True, autoincrement=True)
+        city = Column(String)
+        latitude = Column(Float)
+        longitude = Column(Float)
+        date = Column(Date)
+        weather_code = Column(Integer)
 
-        __table_args__ =(
-            UniqueConstraint ("city","date",name="uq_city_date"),
+        temperature_max = Column(Float)
+        temperature_min = Column(Float)
+
+        precipitation_sum = Column(Float)
+        precipitation_probability = Column(Integer)
+
+        wind_speed_max = Column(Float)
+        wind_gusts_max = Column(Float)
+
+        temperature_category = Column(String)
+        precipitation_category = Column(String)
+        wind_category = Column(String)
+
+        risk_score = Column(Float)
+        risk_level = Column(String)
+
+        __table_args__ = (
+            UniqueConstraint("city", "date", name="uq_city_date"),
         )
 
     Base.metadata.create_all(engine)
 
-    df = pd.read_csv("./data/gold/feature_gold.csv")
+    df = pd.read_csv("/opt/airflow/data/gold/feature_gold.csv")
     df["date"] = pd.to_datetime(df["date"]).dt.date
     df.to_sql(
         name="temp_staging",

@@ -1,0 +1,54 @@
+[2026-09-19T11:35:03.516+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_risk_pipeline.extract_weather scheduled__2026-09-18T06:00:00+00:00 [queued]>
+[2026-09-19T11:35:03.544+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_risk_pipeline.extract_weather scheduled__2026-09-18T06:00:00+00:00 [queued]>
+[2026-09-19T11:35:03.544+0000] {taskinstance.py:2170} INFO - Starting attempt 4 of 7
+[2026-09-19T11:35:03.580+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): extract_weather> on 2026-09-18 06:00:00+00:00
+[2026-09-19T11:35:03.592+0000] {standard_task_runner.py:60} INFO - Started process 170 to run task
+[2026-09-19T11:35:03.598+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'weather_risk_pipeline', 'extract_weather', 'scheduled__2026-09-18T06:00:00+00:00', '--job-id', '16', '--raw', '--subdir', 'DAGS_FOLDER/weather_pipeline_dag.py', '--cfg-path', '/tmp/tmpba3n9m_j']
+[2026-09-19T11:35:03.601+0000] {standard_task_runner.py:88} INFO - Job 16: Subtask extract_weather
+[2026-09-19T11:35:03.730+0000] {task_command.py:423} INFO - Running <TaskInstance: weather_risk_pipeline.extract_weather scheduled__2026-09-18T06:00:00+00:00 [running]> on host dcd2de9e29a9
+[2026-09-19T11:35:03.918+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='weather-project' AIRFLOW_CTX_DAG_ID='weather_risk_pipeline' AIRFLOW_CTX_TASK_ID='extract_weather' AIRFLOW_CTX_EXECUTION_DATE='2026-09-18T06:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='4' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-09-18T06:00:00+00:00'
+[2026-09-19T11:35:03.920+0000] {logging_mixin.py:188} INFO - Extracting weather data...
+[2026-09-19T11:35:54.474+0000] {local_task_job_runner.py:302} WARNING - State of this instance has been externally set to None. Terminating instance.
+[2026-09-19T11:35:54.479+0000] {process_utils.py:131} INFO - Sending 15 to group 170. PIDs of all processes in the group: [170]
+[2026-09-19T11:35:54.480+0000] {process_utils.py:86} INFO - Sending the signal 15 to group 170
+[2026-09-19T11:35:54.519+0000] {taskinstance.py:2450} ERROR - Received SIGTERM. Terminating subprocesses.
+[2026-09-19T11:35:54.548+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/weather_pipeline_dag.py", line 18, in extract_weather
+    extract_data()
+  File "/opt/airflow/extraction/extract_weather.py", line 28, in extract_data
+    response = requests.get(url,params=params,timeout=5)
+  File "/home/airflow/.local/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/home/airflow/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 791, in urlopen
+    response = self._make_request(
+  File "/home/airflow/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 468, in _make_request
+    self._validate_conn(conn)
+  File "/home/airflow/.local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1097, in _validate_conn
+    conn.connect()
+  File "/home/airflow/.local/lib/python3.10/site-packages/urllib3/connection.py", line 642, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+  File "/home/airflow/.local/lib/python3.10/site-packages/urllib3/connection.py", line 783, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+  File "/home/airflow/.local/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 446, in ssl_wrap_socket
+    context.load_verify_locations(ca_certs, ca_cert_dir, ca_cert_data)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 2452, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2026-09-19T11:35:54.556+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=weather_risk_pipeline, task_id=extract_weather, execution_date=20260918T060000, start_date=20260919T113503, end_date=20260919T113554
+[2026-09-19T11:35:54.588+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 16 for task extract_weather (Task received SIGTERM signal; 170)
+[2026-09-19T11:35:54.614+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=170, status='terminated', exitcode=1, started='11:35:02') (170) terminated with exit code 1

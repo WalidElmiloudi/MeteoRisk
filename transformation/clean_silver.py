@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import json
 def clean_data():
-    df = pd.read_json("./data/bronze/raw_data.jsonl",lines=True)
+    df = pd.read_json("/opt/airflow/data/bronze/raw_data.jsonl",lines=True)
 
     rows = []
 
@@ -31,4 +31,4 @@ def clean_data():
 
     silver_df["date"] = pd.to_datetime(silver_df["date"],format="%Y-%m-%d")
 
-    silver_df.to_csv("./data/silver/clean_silver.csv",index=False)
+    silver_df.to_csv("/opt/airflow/data/silver/clean_silver.csv",index=False)

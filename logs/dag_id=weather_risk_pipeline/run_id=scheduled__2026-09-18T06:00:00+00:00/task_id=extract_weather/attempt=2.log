@@ -1,0 +1,37 @@
+[2026-09-19T11:27:36.773+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_risk_pipeline.extract_weather scheduled__2026-09-18T06:00:00+00:00 [queued]>
+[2026-09-19T11:27:36.787+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_risk_pipeline.extract_weather scheduled__2026-09-18T06:00:00+00:00 [queued]>
+[2026-09-19T11:27:36.788+0000] {taskinstance.py:2170} INFO - Starting attempt 2 of 4
+[2026-09-19T11:27:36.809+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): extract_weather> on 2026-09-18 06:00:00+00:00
+[2026-09-19T11:27:36.821+0000] {standard_task_runner.py:60} INFO - Started process 90 to run task
+[2026-09-19T11:27:36.826+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'weather_risk_pipeline', 'extract_weather', 'scheduled__2026-09-18T06:00:00+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/weather_pipeline_dag.py', '--cfg-path', '/tmp/tmp2orelu4k']
+[2026-09-19T11:27:36.828+0000] {standard_task_runner.py:88} INFO - Job 7: Subtask extract_weather
+[2026-09-19T11:27:36.914+0000] {task_command.py:423} INFO - Running <TaskInstance: weather_risk_pipeline.extract_weather scheduled__2026-09-18T06:00:00+00:00 [running]> on host fa430dd70403
+[2026-09-19T11:27:37.079+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='weather-project' AIRFLOW_CTX_DAG_ID='weather_risk_pipeline' AIRFLOW_CTX_TASK_ID='extract_weather' AIRFLOW_CTX_EXECUTION_DATE='2026-09-18T06:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-09-18T06:00:00+00:00'
+[2026-09-19T11:27:37.080+0000] {logging_mixin.py:188} INFO - Extracting weather data...
+[2026-09-19T11:27:37.083+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/weather_pipeline_dag.py", line 18, in extract_weather
+    extract_data()
+  File "/opt/airflow/extraction/extract_weather.py", line 5, in extract_data
+    df = pd.read_csv("/data/bronze/ma.csv")
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 948, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 611, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1448, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1705, in _make_engine
+    self.handles = get_handle(
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/io/common.py", line 863, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/data/bronze/ma.csv'
+[2026-09-19T11:27:37.104+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=weather_risk_pipeline, task_id=extract_weather, execution_date=20260918T060000, start_date=20260919T112736, end_date=20260919T112737
+[2026-09-19T11:27:37.125+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 7 for task extract_weather ([Errno 2] No such file or directory: '/data/bronze/ma.csv'; 90)
+[2026-09-19T11:27:37.157+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-09-19T11:27:37.211+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 def feature_gold():
-    df = pd.read_csv("./data/silver/clean_silver.csv")
+    df = pd.read_csv("/opt/airflow/data/silver/clean_silver.csv")
 
     df["temperature_category"] = pd.cut(df["temperature_max"],bins=[-float("inf"), 5, 15, 30, 35, float("inf")],labels=["Very Cold","Cold","Normal","Hot","Extreme Heat"])
     df["precipitation_category"] = pd.cut(df["precipitation_sum"],bins=[-float("inf"),0,2.5,10,20,float("inf")],labels=["No Rain","Light","Moderate","Heavy","Very Heavy"])
@@ -62,10 +62,10 @@ def feature_gold():
     df["risk_level"] = pd.cut(df["risk_score"],bins = [0,20,40,60,80,100],labels = ['Very Low','Low','Moderate','High','Critical'])
     df["risk_level"] = df["risk_level"].fillna('Very Low')
 
-    df.to_csv("./data/gold/feature_gold.csv",index=False)
-    df = pd.read_csv("./data/gold/feature_gold.csv")
+    df.to_csv("/opt/airflow/data/gold/feature_gold.csv",index=False)
+    df = pd.read_csv("/opt/airflow/data/gold/feature_gold.csv")
     df = df.drop_duplicates(
         subset=["city", "date"],
         keep="last"
     )
-    df.to_csv("./data/gold/feature_gold.csv",index=False)
+    df.to_csv("/opt/airflow/data/gold/feature_gold.csv",index=False)
