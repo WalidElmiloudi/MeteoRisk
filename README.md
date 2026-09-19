@@ -1,12 +1,6 @@
 # Weather Risk Data Engineering Pipeline
 
-[![Data Engineering](https://img.shields.io/badge/Architecture-Bronze%20--%3E%20Silver%20--%3E%20Gold-orange)](https://github.com)
-[![Orchestration](https://img.shields.io/badge/Orchestrator-Apache%20Airflow-017CEE?logo=apacheairflow&logoColor=white)](https://airflow.apache.org/)
-[![Database](https://img.shields.io/badge/Database-PostgreSQL-4169E1?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![Dashboard](https://img.shields.io/badge/Dashboard-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
-[![Containerization](https://img.shields.io/badge/Container-Docker%20Compose-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
-
-An end-to-end, automated data engineering pipeline designed to assess weather-related delivery risks for a logistics provider in Morocco. 
+An end-to-end, automated data engineering pipeline designed to assess weather-related delivery risks for a logistics provider in Morocco.
 
 The pipeline extracts multi-city forecasts from Open-Meteo, transforms raw data across a **Medallion Architecture (Bronze → Silver → Gold)**, computes a composite **Weather Risk Score (0–100)**, stores structured datasets in PostgreSQL, and serves interactive insights via a Streamlit dashboard—all orchestrated with Apache Airflow and fully containerized with Docker Compose.
 
@@ -14,7 +8,7 @@ The pipeline extracts multi-city forecasts from Open-Meteo, transforms raw data 
 
 ## 📌 Executive Summary & Business Context
 
-Logistics operations in Morocco face regional weather hazards—including flash floods, extreme heatwaves in inland zones, and high wind gusts along coastal routes. 
+Logistics operations in Morocco face regional weather hazards—including flash floods, extreme heatwaves in inland zones, and high wind gusts along coastal routes.
 
 This pipeline ingests daily weather forecasts across major Moroccan cities, standardizes the raw payloads, performs domain validation, and calculates a dynamic **Delivery Weather Risk Score**. Logistics managers can utilize the resulting metrics to proactively reroute drivers, adjust dispatch schedules, or issue safety warnings during high-risk weather events.
 
@@ -120,6 +114,7 @@ This pipeline ingests daily weather forecasts across major Moroccan cities, stan
 ## 🔄 Medallion Pipeline Architecture
 
 ### 1. Data Extraction & Bronze Layer
+
 * Retrieves geographic coordinates (latitude, longitude) for targeted Moroccan cities from `data/bronze/ma.csv`.
 * Queries Open-Meteo for 7-day forecast windows containing:
   * `weather_code`
@@ -129,6 +124,7 @@ This pipeline ingests daily weather forecasts across major Moroccan cities, stan
 * Stores raw payloads directly in `data/bronze/` as immutable historical records. Features error handling for API timeouts, HTTP failures, and malformed payloads.
 
 ### 2. Silver Layer (Cleaning & Quality Control)
+
 * Standardizes column nomenclature and parses explicit ISO date formats.
 * Implements rigorous data validation rules:
   * Flagging logical anomalies (e.g., $T_{\text{max}} < T_{\text{min}}$, $\text{precipitation} < 0$, $\text{probability} \notin [0, 100]$).
@@ -136,10 +132,14 @@ This pipeline ingests daily weather forecasts across major Moroccan cities, stan
 * Writes validated datasets to `data/silver/clean_silver.csv`.
 
 ### 3. Gold Layer & Risk Scoring Model
+
 Enriches data with categorical bins and computes a composite **Delivery Weather Risk Score** ranging from `0` to `100`.
 
 #### Weight Allocation
-$$\text{Risk Score} = 0.35(R_{\text{rain}}) + 0.30(R_{\text{wind}}) + 0.15(R_{\text{temp}}) + 0.20(R_{\text{condition}})$$
+
+$$
+\text{Risk Score} = 0.35(R_{\text{rain}}) + 0.30(R_{\text{wind}}) + 0.15(R_{\text{temp}}) + 0.20(R_{\text{condition}})
+$$
 
 Where each component score ($R$) is normalized to $[0, 100]$ based on operational thresholds:
 
@@ -149,13 +149,14 @@ Where each component score ($R$) is normalized to $[0, 100]$ based on operationa
 * **Condition Risk ($R_{\text{condition}}$):** Bins specific WMO weather codes (e.g., thunderstorms, dense fog).
 
 #### Risk Classifications
+
 | Score Range | Risk Level | Operational Guidance |
 | :--- | :--- | :--- |
 | **0 – 20** | Very Low | Normal delivery operations |
 | **21 – 40** | Low | Standard operational monitoring |
 | **41 – 60** | Moderate | Alert drivers; minor delivery delays expected |
 | **61 – 80** | High | Reroute vulnerable paths; restrict two-wheeler dispatch |
-| **81 – 100** | Very High | Halt high-risk transit routes; emergency protocols |
+| **81 – 100** | Very Very High | Halt high-risk transit routes; emergency protocols |
 
 ---
 
@@ -194,7 +195,9 @@ CREATE TABLE IF NOT EXISTS gold_weather_risks (
 ```
 
 ### Business Intelligence Queries (`load/queries.sql`)
+
 The repository includes ready-to-run SQL queries for regional analytics:
+
 * **Top Thermal Extremes:** Identifies cities exceeding high temperature thresholds.
 * **Precipitation Spikes:** Pinpoints zones with high rainfall volumes affecting road safety.
 * **Aggregate City Risk:** Ranks regions by average operational risk over the 7-day window.
@@ -219,6 +222,7 @@ The entire flow is managed by the DAG `weather_pipeline_dag`:
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 * [Docker Desktop](https://www.docker.com/products/docker-desktop/) (with Docker Compose enabled)
 * Git
 
@@ -271,6 +275,7 @@ The entire flow is managed by the DAG `weather_pipeline_dag`:
 ## 📊 Streamlit Dashboard Overview
 
 The Streamlit UI connects directly to PostgreSQL to provide logistics operators with:
+
 * **Interactive Filters:** Multi-select filtering by city, date ranges, and risk tiers (e.g., *High*, *Very High*).
 * **Geospatial & Risk Views:** Highlighting regional risk concentrations across Morocco.
 * **Alert Feed:** Listing high-risk delivery windows requiring driver mitigation.
