@@ -1,0 +1,710 @@
+# Weather Risk Data Engineering Pipeline
+
+## 📌 Overview
+
+This project implements an automated weather risk data pipeline for a Moroccan delivery company.
+
+The objective is to retrieve weather forecasts for Moroccan cities, transform the data through a **Bronze → Silver → Gold** architecture, calculate a **Weather Risk Score**, store the results in PostgreSQL, and provide an interactive Streamlit dashboard.
+
+The entire pipeline is orchestrated with **Apache Airflow** and containerized using **Docker Compose**.
+
+---
+
+## 🎯 Objectives
+
+The pipeline must:
+
+* Retrieve Moroccan cities and their coordinates.
+* Retrieve weather forecasts from Open-Meteo.
+* Store raw data in the Bronze layer.
+* Clean and validate data in the Silver layer.
+* Create business features in the Gold layer.
+* Calculate a Weather Risk Score from 0 to 100.
+* Load the final data into PostgreSQL.
+* Provide SQL queries for business analysis.
+* Visualize weather risks through Streamlit.
+* Automate the pipeline with Apache Airflow.
+* Run the project using Docker Compose.
+
+---
+
+## 🏗️ Architecture
+
+```text
+                     ┌─────────────────┐
+                     │   SimpleMaps    │
+                     │ Morocco Cities  │
+                     └────────┬────────┘
+                              │
+                              │ City + coordinates
+                              ▼
+                     ┌─────────────────┐
+                     │   Open-Meteo    │
+                     │   Weather API   │
+                     └────────┬────────┘
+                              │
+                              │ Raw forecast
+                              ▼
+                     ┌─────────────────┐
+                     │     BRONZE      │
+                     │   Raw data      │
+                     └────────┬────────┘
+                              │
+                              │ Cleaning
+                              ▼
+                     ┌─────────────────┐
+                     │     SILVER      │
+                     │  Cleaned data   │
+                     └────────┬────────┘
+                              │
+                              │ Feature engineering
+                              ▼
+                     ┌─────────────────┐
+                     │      GOLD       │
+                     │ Features + Risk │
+                     └────────┬────────┘
+                              │
+                              ▼
+                     ┌─────────────────┐
+                     │   PostgreSQL    │
+                     └────────┬────────┘
+                              │
+                              ▼
+                     ┌─────────────────┐
+                     │    Streamlit    │
+                     │    Dashboard    │
+                     └─────────────────┘
+
+                     Apache Airflow
+                  orchestrates the flow
+```
+
+---
+
+## 🧰 Technologies
+
+* **Python**
+* **Requests**
+* **Pandas**
+* **SQLAlchemy**
+* **PostgreSQL**
+* **Apache Airflow**
+* **Streamlit**
+* **Docker**
+* **Docker Compose**
+
+### Data Sources
+
+* **SimpleMaps** — Moroccan cities and geographic coordinates.
+* **Open-Meteo** — weather forecasts.
+
+---
+
+# 📁 Project Structure
+
+```text
+.
+├── dags
+│   └── weather_pipeline_dag.py
+│
+├── dashboard
+│   ├── app.py
+│   ├── Dockerfile
+│   └── requirements.txt
+│
+├── data
+│   ├── bronze
+│   │   ├── ma.csv
+│   │   ├── raw_data.json
+│   │   └── raw_data.jsonl
+│   │
+│   ├── silver
+│   │   └── clean_silver.csv
+│   │
+│   └── gold
+│       └── feature_gold.csv
+│
+├── extraction
+│   ├── extract_weather.py
+│   └── __init__.py
+│
+├── transformation
+│   ├── clean_silver.py
+│   ├── feature_gold.py
+│   └── __init__.py
+│
+├── load
+│   ├── load_postgres.py
+│   ├── queries.sql
+│   └── __init__.py
+│
+├── dags
+│   └── weather_pipeline_dag.py
+│
+├── dashboard
+│   ├── app.py
+│   ├── Dockerfile
+│   └── requirements.txt
+│
+├── docs
+│   └── dashboard_screenshots
+│
+├── Dockerfile
+├── Dockerfile.airflow
+├── docker-compose.yml
+├── requirements.txt
+├── requirements-airflow.txt
+├── README.md
+└── .env
+```
+
+---
+
+# 1. Data Extraction
+
+The extraction process retrieves weather forecasts for Moroccan cities.
+
+The city dataset provides:
+
+```text
+city
+latitude
+longitude
+```
+
+These coordinates are used to query Open-Meteo.
+
+### Open-Meteo variables
+
+The pipeline retrieves:
+
+```text
+weather_code
+temperature_2m_max
+temperature_2m_min
+precipitation_sum
+precipitation_probability_max
+wind_speed_10m_max
+wind_gusts_10m_max
+```
+
+The forecast date is also retrieved.
+
+The extraction code is located in:
+
+```text
+extraction/extract_weather.py
+```
+
+---
+
+# 2. Bronze Layer
+
+The Bronze layer contains the raw data retrieved from the sources.
+
+```text
+data/bronze/
+```
+
+Current files include:
+
+```text
+ma.csv
+raw_data.json
+raw_data.jsonl
+```
+
+The Bronze layer preserves the source data before transformation.
+
+The extraction process must handle:
+
+* API timeout errors
+* HTTP errors
+* Invalid API responses
+* Failed requests
+
+---
+
+# 3. Silver Layer
+
+The Silver layer contains cleaned and structured weather data.
+
+The transformation code is located in:
+
+```text
+transformation/clean_silver.py
+```
+
+The resulting dataset is stored in:
+
+```text
+data/silver/clean_silver.csv
+```
+
+### Expected Silver fields
+
+```text
+city
+latitude
+longitude
+date
+weather_code
+temperature_max
+temperature_min
+precipitation_sum
+precipitation_probability
+wind_speed_max
+wind_gusts_max
+```
+
+### Cleaning operations
+
+The Silver transformation performs:
+
+* Column standardization.
+* Date conversion.
+* Numeric type conversion.
+* Missing-value detection.
+* Duplicate detection.
+* Invalid-value detection.
+* Weather data validation.
+* City and forecast data association.
+
+Examples of invalid values include:
+
+```text
+temperature_max < temperature_min
+precipitation_sum < 0
+precipitation_probability > 100
+```
+
+The business key used to identify a forecast is:
+
+```text
+(city, date)
+```
+
+This prevents duplicate records when the pipeline is executed repeatedly.
+
+---
+
+# 4. Gold Layer
+
+The Gold layer contains data prepared for business analysis.
+
+The feature engineering code is located in:
+
+```text
+transformation/feature_gold.py
+```
+
+The resulting dataset is stored in:
+
+```text
+data/gold/feature_gold.csv
+```
+
+The Gold layer adds business-oriented features such as:
+
+```text
+temperature_category
+precipitation_category
+wind_category
+
+temperature_risk
+rain_risk
+wind_risk
+weather_condition_risk
+
+risk_score
+risk_level
+```
+
+---
+
+# 5. Weather Risk Calculation
+
+The Weather Risk Score ranges from:
+
+```text
+0 → 100
+```
+
+The score combines four components:
+
+```text
+Rain Risk
+Wind Risk
+Temperature Risk
+Weather Condition Risk
+```
+
+Each component is normalized to a value between `0` and `100`.
+
+The proposed calculation is:
+
+```text
+Risk Score =
+    0.35 × Rain Risk
+  + 0.30 × Wind Risk
+  + 0.15 × Temperature Risk
+  + 0.20 × Weather Condition Risk
+```
+
+### Risk levels
+
+```text
+0–20     Very Low
+21–40    Low
+41–60    Moderate
+61–80    High
+81–100   Very High
+```
+
+The thresholds and weights represent business assumptions used to translate weather conditions into delivery risk.
+
+---
+
+# 6. PostgreSQL
+
+The final Gold data is loaded into PostgreSQL.
+
+The PostgreSQL loading code is located in:
+
+```text
+load/load_postgres.py
+```
+
+SQL business queries are stored in:
+
+```text
+load/queries.sql
+```
+
+The database contains the weather forecasts and calculated risk information.
+
+The stored data includes:
+
+```text
+city
+latitude
+longitude
+date
+
+weather_code
+
+temperature_max
+temperature_min
+
+precipitation_sum
+precipitation_probability
+
+wind_speed_max
+wind_gusts_max
+
+temperature_category
+precipitation_category
+wind_category
+
+temperature_risk
+rain_risk
+wind_risk
+weather_condition_risk
+
+risk_score
+risk_level
+```
+
+Forecast records should not be duplicated between pipeline executions.
+
+If a forecast for the same city and date is updated, the existing record should be updated rather than duplicated.
+
+---
+
+# 7. SQL Business Queries
+
+The project includes business-oriented SQL queries in:
+
+```text
+load/queries.sql
+```
+
+The analysis includes queries such as:
+
+### Highest temperatures
+
+Find cities with the highest forecast temperatures.
+
+### Strongest precipitation
+
+Find cities and dates with the highest expected precipitation.
+
+### Highest average risk
+
+Calculate the average weather risk by city.
+
+### Highest-risk periods
+
+Find dates with the highest Weather Risk Score.
+
+### Maximum risk per city
+
+Find the highest-risk forecast period for every city.
+
+Additional analysis includes:
+
+* Number of monitored cities.
+* Maximum temperature.
+* Maximum precipitation.
+* Average risk by city.
+* Risk distribution.
+
+---
+
+# 8. Streamlit Dashboard
+
+The dashboard is located in:
+
+```text
+dashboard/
+```
+
+Main application:
+
+```text
+dashboard/app.py
+```
+
+The dashboard connects to PostgreSQL and allows users to analyze weather risks.
+
+### Filters
+
+The dashboard provides filters for:
+
+* City
+* Date
+* Period
+* Risk level
+
+### Dashboard analysis
+
+The dashboard answers questions such as:
+
+* Which cities have the highest temperatures?
+* Which cities have the strongest precipitation?
+* Which cities have the highest average risk?
+* What are the highest-risk periods?
+* What is the maximum risk for each city?
+* How is weather risk distributed across cities?
+
+Dashboard screenshots are stored in:
+
+```text
+docs/dashboard_screenshots/
+```
+
+---
+
+# 9. Apache Airflow
+
+Apache Airflow orchestrates the complete pipeline.
+
+The DAG is located in:
+
+```text
+dags/weather_pipeline_dag.py
+```
+
+The pipeline follows:
+
+```text
+Extract
+   ↓
+Clean / Transform
+   ↓
+Feature Engineering
+   ↓
+Load PostgreSQL
+```
+
+The main tasks are:
+
+```text
+extract_weather
+       ↓
+clean_weather
+       ↓
+feature_engineering
+       ↓
+load_postgres
+```
+
+Airflow is responsible for:
+
+* Task orchestration.
+* Task dependencies.
+* Automatic scheduling.
+* Retry handling.
+* Failure management.
+
+The pipeline is scheduled to run automatically.
+
+---
+
+# 10. Docker
+
+The complete project is containerized using Docker.
+
+The main Docker configuration is:
+
+```text
+docker-compose.yml
+```
+
+The project contains two Dockerfiles:
+
+```text
+Dockerfile
+Dockerfile.airflow
+```
+
+The Streamlit dashboard has its own Dockerfile:
+
+```text
+dashboard/Dockerfile
+```
+
+The Docker environment contains the main services required by the project:
+
+```text
+PostgreSQL
+Airflow
+Streamlit
+```
+
+---
+
+# 11. Running the Project
+
+Build the containers:
+
+```bash
+docker compose build
+```
+
+Start the project:
+
+```bash
+docker compose up -d
+```
+
+Check the running containers:
+
+```bash
+docker compose ps
+```
+
+View logs:
+
+```bash
+docker compose logs
+```
+
+View Airflow logs:
+
+```bash
+docker compose logs airflow
+```
+
+Stop the project:
+
+```bash
+docker compose down
+```
+
+---
+
+# 12. Pipeline Execution
+
+Once the Docker environment and Airflow are running, the complete pipeline follows:
+
+```text
+                    Open-Meteo
+                         │
+                         ▼
+                 ┌──────────────┐
+                 │    Extract   │
+                 └──────┬───────┘
+                        │
+                        ▼
+                 ┌──────────────┐
+                 │    Bronze    │
+                 └──────┬───────┘
+                        │
+                        ▼
+                 ┌──────────────┐
+                 │ Clean /      │
+                 │ Transform    │
+                 └──────┬───────┘
+                        │
+                        ▼
+                 ┌──────────────┐
+                 │    Silver    │
+                 └──────┬───────┘
+                        │
+                        ▼
+                 ┌──────────────┐
+                 │   Feature    │
+                 │ Engineering  │
+                 └──────┬───────┘
+                        │
+                        ▼
+                 ┌──────────────┐
+                 │     Gold     │
+                 └──────┬───────┘
+                        │
+                        ▼
+                 ┌──────────────┐
+                 │  PostgreSQL  │
+                 └──────┬───────┘
+                        │
+                        ▼
+                 ┌──────────────┐
+                 │  Streamlit   │
+                 │  Dashboard   │
+                 └──────────────┘
+
+                 ↑
+                 │
+              Airflow
+             orchestration
+```
+
+---
+
+## 📊 Final Result
+
+The completed system automatically retrieves weather forecasts, transforms the data through the **Bronze → Silver → Gold** pipeline, calculates delivery weather risks, stores the results in PostgreSQL, and exposes the information through an interactive dashboard.
+
+The final workflow is:
+
+```text
+Weather API
+     ↓
+Extraction
+     ↓
+Bronze
+     ↓
+Silver
+     ↓
+Gold
+     ↓
+Risk Score
+     ↓
+PostgreSQL
+     ↓
+Streamlit Dashboard
+
+          ↑
+       Airflow
+```
